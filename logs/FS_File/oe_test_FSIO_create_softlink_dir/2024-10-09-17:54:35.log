@@ -1,9 +1,0 @@
-Wed Oct  9 17:54:38 2024 - INFO  - Start environment preparation.
-Wed Oct  9 17:54:38 2024 - INFO  - End of environmental preparation!
-Wed Oct  9 17:54:38 2024 - INFO  - Start to run test.
-Wed Oct  9 17:54:38 2024 - ERROR - The sort link directory has some errors.
-Wed Oct  9 17:54:38 2024 - ERROR - oe_test_FSIO_create_softlink_dir.sh line 40
-Wed Oct  9 17:54:39 2024 - INFO  - End to run test.
-Wed Oct  9 17:54:39 2024 - ERROR - failed to execute the case.
-Wed Oct  9 17:54:39 2024 - INFO  - Start to restore the test environment.
-Wed Oct  9 17:54:39 2024 - INFO  - End to restore the test environment.

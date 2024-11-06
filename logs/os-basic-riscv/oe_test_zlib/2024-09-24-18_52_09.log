@@ -1,9 +1,0 @@
-Tue Sep 24 18:52:11 2024 - INFO  - Start environmental preparation.
-Tue Sep 24 18:52:25 2024 - INFO  - End of environmental preparation!
-Tue Sep 24 18:52:26 2024 - INFO  - Start to run test.
-Src string:hello world! aaaaa bbbbb ccccc ddddd 中文测试 yes
-UnCompressed String:hello world! aaaaa bbbbb ccccc ddddd 中文测试 yes
-Tue Sep 24 18:52:26 2024 - INFO  - End to run test.
-Tue Sep 24 18:52:26 2024 - INFO  - succeed to execute the case.
-Tue Sep 24 18:52:26 2024 - INFO  - start environment cleanup.
-Tue Sep 24 18:52:30 2024 - INFO  - Finish environment cleanup!

@@ -1,9 +1,0 @@
-Tue Sep 24 18:49:14 2024 - INFO  - Start to pre test.
-Tue Sep 24 18:49:15 2024 - INFO  - Start to pre test.
-Tue Sep 24 18:49:15 2024 - INFO  - Start executing testcase.
-7:devices:/user.slice,6:pids:/user.slice/user-0.slice/session-244.scope,5:freezer:/user.slice,4:memory:/example,3:blkio:/user.slice,2:cpu,cpuacct:/user.slice/user-0.slice/session-244.scope,1:name=systemd:/user.slice/user-0.slice/session-244.scope
-Tue Sep 24 18:49:15 2024 - INFO  - End of testcase execution.
-Tue Sep 24 18:49:15 2024 - INFO  - succeed to execute the case.
-Tue Sep 24 18:49:16 2024 - INFO  - start environment cleanup.
-oe_test_kernel_cgroup.sh: line 45: 1046537 Killed                  sh testcgroup.sh
-Tue Sep 24 18:49:16 2024 - INFO  - Finish environment cleanup.

@@ -1,11 +1,0 @@
-Wed Sep 25 15:06:44 2024 - INFO  - Start to prepare the test environment.
-Wed Sep 25 15:06:48 2024 - INFO  - pkgs:(powertop) is already installed
-Wed Sep 25 15:06:49 2024 - INFO  - End to prepare the test environment.
-Wed Sep 25 15:06:49 2024 - INFO  - Start to run test.
-[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[39;49m(B[m[H[2J(B[0;7mPowerTOP 2.15    (B[m Overview (B[0;7m  Idle stats   Frequency stats   Device stats   Tunab[1;80H(B[m[24d(B[0;7m<ESC> Exit | <TAB> / <Shift + TAB> Navigate | [33b[?7l [?7h[24;47H(B[m[H[2J(B[0;7mPowerTOP 2.15    (B[m Overview (B[0;7m  Idle stats   Frequency stats   Device stats   Tunab[3;1H(B[mSummary: nan wakeups/second,  nan GPU ops/seconds, nan VFS ops/sec and -0.0% CPU[5;17HUsage[29GEvents/s    Category[56GDescription[6;15H0.0 pkts/s[6;41HDevice[6;56Hnic:gre0[7;15H0.0%[7;41HDevice[7;56HUSB device: xHCI Host Con[8;15H0.0%[8;41HDevice[8;56HUSB device: USB Receiver[9;15H0.0%[9;41HDevice[9;56HUSB device: USB2.0 Hub[10;15H0.0%[10;41HDevice[10;56HUSB device: USB3.1 Hub[11;15H0.0%[11;41HDevice[11;56HUSB device: xHCI Host Con[12;15H0.0%[12;41HDevice[12;56HUSB device: USB2.0 Hub[13;15H0.0%[13;41HDevice[13;56HAudio codec hwC0D0: ATI[14;15H0.0 pkts/s[14;41HDevice[14;56Hnic:gretap0[15;14H30.1 pkts/s[15;41HDevice[15;56HNetwork interface: enP3p1[16;15H0.0 pkts/s[16;41HDevice[16;56Hnic:docker0[17;15H0.0 pkts/s[17;41HDevice[17;56Hnic:erspan0[18;13H100.0%[18;41HDevice[18;56HPCI Device: Device 1e30:2[19;13H100.0%[19;41HDevice[19;56Hruntime-4c0[7b.pcie[20;15H0.0 pkts/s[20;41HDevice[20;56HNetwork interface: enP2p1[21;15H0.0 pkts/s[21;41HDevice[21;56HNetwork interface: enP2p1[22;13H100.0%[22;41HDevice[22;56HPCI Device: ASMedia Techn[24;1H(B[0;7m<ESC> Exit | <TAB> / <Shift + TAB> Navigate | [33b[?7l [?7h[24;47H(B[m[1;80H[24;47H
-Wed Sep 25 15:06:51 2024 - INFO  - End to run test.
-/root/Shea/mugen-riscv/libs/locallibs/common_lib_python.sh: line 19: 2189639 Killed                  nohup powertop > nohup.out 2>&1
-Wed Sep 25 15:06:51 2024 - INFO  - succeed to execute the case.
-Wed Sep 25 15:06:52 2024 - INFO  - Start to restore the test environment.
-Wed Sep 25 15:06:52 2024 - WARN  - no thing to do.
-Wed Sep 25 15:06:52 2024 - INFO  - End to restore the test environment.

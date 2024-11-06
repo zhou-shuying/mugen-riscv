@@ -1,11 +1,0 @@
-Tue Sep 24 18:33:31 2024 - INFO  - Start to prepare the test environment.
-Tue Sep 24 18:33:35 2024 - INFO  - pkgs:(powertop) is already installed
-Tue Sep 24 18:33:36 2024 - INFO  - End to prepare the test environment.
-Tue Sep 24 18:33:36 2024 - INFO  - Start to run test.
-[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[39;49m(B[m[H[2J(B[0;7mPowerTOP 2.15    (B[m Overview (B[0;7m  Idle stats   Frequency stats   Device stats   Tunab[1;80H(B[m[24d(B[0;7m<ESC> Exit | <TAB> / <Shift + TAB> Navigate | [33b[?7l [?7h[24;47H(B[m[H[2J(B[0;7mPowerTOP 2.15    (B[m Overview (B[0;7m  Idle stats   Frequency stats   Device stats   Tunab[3;1H(B[mSummary: nan wakeups/second,  nan GPU ops/seconds, nan VFS ops/sec and -0.0% CPU[5;17HUsage[29GEvents/s    Category[56GDescription[6;13H100.0%[6;41HDevice[6;56HPCI Device: ASMedia Techn[7;15H0.0%[7;41HDevice[7;56HUSB device: USB Receiver[8;15H0.0%[8;41HDevice[8;56HUSB device: USB2.0 Hub[9;15H0.0%[9;41HDevice[9;56HUSB device: USB3.1 Hub[10;15H0.0%[10;41HDevice[10;56HUSB device: xHCI Host Con[11;15H0.0%[11;41HDevice[11;56HUSB device: USB2.0 Hub[12;15H0.0%[12;41HDevice[12;56HAudio codec hwC0D0: ATI[13;15H9.0 pkts/s[13;41HDevice[13;56HNetwork interface: enP3p1[14;15H0.0 pkts/s[14;41HDevice[14;56HNetwork interface: enP3p2[15;15H0.0 pkts/s[15;41HDevice[15;56HNetwork interface: enP2p1[16;15H0.0%[16;41HDevice[16;56HPCI Device: ASMedia Techn[17;13H100.0%[17;41HDevice[17;56HPCI Device: ASMedia Techn[18;15H0.0%[18;41HDevice[18;56HUSB device: xHCI Host Con[19;13H100.0%[19;41HDevice[19;56HPCI Device: Shenzhen Long[20;15H0.0%[20;41HDevice[20;56HPCI Device: Device 1e30:2[21;13H100.0%[21;41HDevice[21;56HPCI Device: ASMedia Techn[22;13H100.0%[22;41HDevice[22;56HPCI Device: Device 1e30:2[24;1H(B[0;7m<ESC> Exit | <TAB> / <Shift + TAB> Navigate | [33b[?7l [?7h[24;47H(B[m[1;80H[24;47H
-Tue Sep 24 18:33:38 2024 - INFO  - End to run test.
-/root/Shea/mugen-riscv/libs/locallibs/common_lib_python.sh: line 19: 1034970 Killed                  nohup powertop > nohup.out 2>&1
-Tue Sep 24 18:33:38 2024 - INFO  - succeed to execute the case.
-Tue Sep 24 18:33:39 2024 - INFO  - Start to restore the test environment.
-Tue Sep 24 18:33:39 2024 - WARN  - no thing to do.
-Tue Sep 24 18:33:39 2024 - INFO  - End to restore the test environment.

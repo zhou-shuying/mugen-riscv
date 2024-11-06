@@ -1,9 +1,0 @@
-Wed Sep 25 14:33:44 2024 - INFO  - Start to run test.
-Linux test 6.1.61-4.oe2309.riscv64 #1 SMP Thu Dec 28 18:01:00 UTC 2023 riscv64 riscv64 riscv64 GNU/Linux
-riscv64
-test
-6.1.61-4.oe2309.riscv64
-Usage: uname [OPTION]...
-Wed Sep 25 14:33:44 2024 - INFO  - End to run test.
-Wed Sep 25 14:33:45 2024 - INFO  - succeed to execute the case.
-Wed Sep 25 14:33:45 2024 - INFO  - oe_test_uname.sh post_test

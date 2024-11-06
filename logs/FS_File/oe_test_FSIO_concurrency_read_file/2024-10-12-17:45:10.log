@@ -1,8 +1,0 @@
-Sat Oct 12 17:45:12 2024 - INFO  - Start environment preparation.
-Sat Oct 12 17:45:13 2024 - INFO  - End of environmental preparation!
-Sat Oct 12 17:45:13 2024 - INFO  - Start to run test.
-Exectue 200 cmd for times: 115
-Sat Oct 12 17:47:08 2024 - INFO  - End to run test.
-Sat Oct 12 17:47:08 2024 - INFO  - succeed to execute the case.
-Sat Oct 12 17:47:08 2024 - INFO  - Start to restore the test environment.
-Sat Oct 12 17:47:09 2024 - INFO  - End to restore the test environment.

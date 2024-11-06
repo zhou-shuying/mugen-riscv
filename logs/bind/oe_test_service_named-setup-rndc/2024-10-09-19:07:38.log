@@ -1,8 +1,0 @@
-Wed Oct  9 19:07:40 2024 - INFO  - Start environmental preparation.
-Wed Oct  9 19:08:07 2024 - INFO  - End of environmental preparation!
-Wed Oct  9 19:08:07 2024 - INFO  - Start testing...
-Wed Oct  9 19:08:07 2024 - INFO  - The unit files have no installation config,This means they are not meant to be enabled using systemctl.
-Wed Oct  9 19:08:07 2024 - INFO  - Finish test!
-Wed Oct  9 19:08:07 2024 - INFO  - succeed to execute the case.
-Wed Oct  9 19:08:08 2024 - INFO  - start environment cleanup.
-Wed Oct  9 19:08:15 2024 - INFO  - Finish environment cleanup!

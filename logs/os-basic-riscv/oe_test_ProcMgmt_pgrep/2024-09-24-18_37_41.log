@@ -1,6 +1,0 @@
-Tue Sep 24 18:37:43 2024 - INFO  - Start to run test.
-1686 ssh-agent
-1012183 sshd
-Tue Sep 24 18:37:44 2024 - INFO  - End to run test.
-Tue Sep 24 18:37:44 2024 - INFO  - succeed to execute the case.
-Tue Sep 24 18:37:44 2024 - INFO  - oe_test_ProcMgmt_pgrep.sh post_test

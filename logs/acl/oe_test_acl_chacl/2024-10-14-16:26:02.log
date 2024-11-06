@@ -1,9 +1,0 @@
-Mon Oct 14 16:26:04 2024 - INFO  - Start to prepare the test environment.
-Mon Oct 14 16:26:08 2024 - INFO  - pkgs:(acl) is already installed
-Mon Oct 14 16:26:09 2024 - INFO  - End to prepare the test environment.
-Mon Oct 14 16:26:09 2024 - INFO  - Start to run test.
-Mon Oct 14 16:26:09 2024 - INFO  - End to run test.
-Mon Oct 14 16:26:09 2024 - INFO  - succeed to execute the case.
-Mon Oct 14 16:26:10 2024 - INFO  - Start to restore the test environment.
-Mon Oct 14 16:26:10 2024 - WARN  - no thing to do.
-Mon Oct 14 16:26:10 2024 - INFO  - End to restore the test environment.

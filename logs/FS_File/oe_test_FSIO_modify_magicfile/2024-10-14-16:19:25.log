@@ -1,8 +1,0 @@
-Mon Oct 14 16:19:28 2024 - INFO  - Start environment preparation.
-Mon Oct 14 16:19:28 2024 - INFO  - End of environmental preparation!
-Mon Oct 14 16:19:28 2024 - INFO  - Start to run test.
-./testFile.c: TESTC, ASCII text
-Mon Oct 14 16:19:28 2024 - INFO  - End to run test.
-Mon Oct 14 16:19:28 2024 - INFO  - succeed to execute the case.
-Mon Oct 14 16:19:29 2024 - INFO  - Start to restore the test environment.
-Mon Oct 14 16:19:29 2024 - INFO  - End to restore the test environment.

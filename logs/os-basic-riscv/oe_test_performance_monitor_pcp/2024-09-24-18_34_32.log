@@ -1,9 +1,0 @@
-Tue Sep 24 18:34:34 2024 - INFO  - Start to prepare the test environment.
-Tue Sep 24 18:34:53 2024 - INFO  - End to prepare the test environment.
-Tue Sep 24 18:34:54 2024 - INFO  - Start to run test.
-     Active: active (running) since Tue 2024-09-24 18:34:55 CST; 43ms ago
-     pmcd: Version 5.3.7-2, 9 agents
-Tue Sep 24 18:34:55 2024 - INFO  - End to run test.
-Tue Sep 24 18:34:55 2024 - INFO  - succeed to execute the case.
-Tue Sep 24 18:34:56 2024 - INFO  - Start to restore the test environment.
-Tue Sep 24 18:35:06 2024 - INFO  - End to restore the test environment.

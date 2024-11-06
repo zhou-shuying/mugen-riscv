@@ -1,8 +1,0 @@
-Tue Sep 24 18:50:37 2024 - INFO  - Start to prepare the test environment.
-Tue Sep 24 18:50:52 2024 - INFO  - End to prepare the test environment.
-Tue Sep 24 18:50:52 2024 - INFO  - Start to run test.
-/usr/share/man/man1/ls.1.gz
-Tue Sep 24 18:50:52 2024 - INFO  - End to run test.
-Tue Sep 24 18:50:53 2024 - INFO  - succeed to execute the case.
-Tue Sep 24 18:50:53 2024 - INFO  - Start to restore the test environment.
-Tue Sep 24 18:50:57 2024 - INFO  - End to restore the test environment.

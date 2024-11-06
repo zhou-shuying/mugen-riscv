@@ -1,9 +1,0 @@
-Wed Sep 25 15:15:45 2024 - INFO  - Start to prepare the test environment.
-Wed Sep 25 15:16:03 2024 - INFO  - End to prepare the test environment.
-Wed Sep 25 15:16:03 2024 - INFO  - Start to run test.
-     Active: active (running) since Wed 2024-09-25 15:16:03 CST; 366ms ago
-   polling server every 8 s
-Wed Sep 25 15:16:07 2024 - INFO  - End to run test.
-Wed Sep 25 15:16:07 2024 - INFO  - succeed to execute the case.
-Wed Sep 25 15:16:07 2024 - INFO  - Start to restore the test environment.
-Wed Sep 25 15:16:14 2024 - INFO  - End to restore the test environment.

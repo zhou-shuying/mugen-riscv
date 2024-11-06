@@ -1,8 +1,0 @@
-Mon Oct 14 17:05:58 2024 - INFO  - Start environmental preparation.
-Mon Oct 14 17:06:14 2024 - INFO  - End of environmental preparation!
-Mon Oct 14 17:06:14 2024 - INFO  - Start testing...
-#define YYDEBUG 1
-Mon Oct 14 17:06:14 2024 - INFO  - Finish test!
-Mon Oct 14 17:06:14 2024 - INFO  - succeed to execute the case.
-Mon Oct 14 17:06:14 2024 - INFO  - start environment cleanup.
-Mon Oct 14 17:06:20 2024 - INFO  - Finish environment cleanup!

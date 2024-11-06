@@ -1,8 +1,0 @@
-Wed Sep 25 15:25:10 2024 - INFO  - Start to prepare the test environment.
-Wed Sep 25 15:25:11 2024 - INFO  - End to prepare the test environment.
-Wed Sep 25 15:25:11 2024 - INFO  - Start to run test.
-testgroup:x:1005:
-Usage: groupdel [options] GROUP
-Wed Sep 25 15:25:11 2024 - INFO  - End to run test.
-Wed Sep 25 15:25:11 2024 - INFO  - succeed to execute the case.
-Wed Sep 25 15:25:11 2024 - INFO  - oe_test_groupdel.sh post_test
