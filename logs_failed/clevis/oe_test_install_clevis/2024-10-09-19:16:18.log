@@ -1,0 +1,23 @@
+Wed Oct  9 19:16:21 2024 - INFO  - Start environmental preparation.
+ls: cannot access '/etc/systemd/system/tangd.socket.d': No such file or directory
+Warning: ALREADY_ENABLED: '8009:tcp' already in 'public'
+success
+success
+Wed Oct  9 19:16:48 2024 - INFO  - End of environmental preparation!
+Wed Oct  9 19:16:49 2024 - INFO  - Start executing testcase.
+Created symlink /etc/systemd/system/multi-user.target.wants/tangd.socket → /usr/lib/systemd/system/tangd.socket.
+Listen=[::]:8009 (Stream)
+AkPCYgTKbYu7LM2uz_tlo49fQg9H9JwjhMmq0QFySfQ  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   618  100   618    0     0  11289      0 --:--:-- --:--:-- --:--:-- 11444
+Key derivation key not available!
+Wed Oct  9 19:16:57 2024 - ERROR - Failed to encrypt file
+Wed Oct  9 19:16:57 2024 - ERROR - oe_test_install_clevis.sh line 67
+Wed Oct  9 19:16:58 2024 - ERROR - Failed to decrypt file
+Wed Oct  9 19:16:58 2024 - ERROR - oe_test_install_clevis.sh line 70
+Wed Oct  9 19:16:59 2024 - INFO  - Finish testcase execution.
+Wed Oct  9 19:16:59 2024 - ERROR - failed to execute the case.
+Wed Oct  9 19:16:59 2024 - INFO  - start environment cleanup.
+oe_test_install_clevis.sh: line 79: /usr/bin/firewall-cmd: No such file or directory
+oe_test_install_clevis.sh: line 80: /usr/bin/firewall-cmd: No such file or directory
+Wed Oct  9 19:17:09 2024 - INFO  - Finish environment cleanup!

@@ -1,0 +1,23 @@
+Sat Oct 12 19:26:35 2024 - INFO  - Start to prepare the test environment.
+Sat Oct 12 19:26:35 2024 - INFO  - Finish preparing the test environment.
+Sat Oct 12 19:26:35 2024 - INFO  - Start to run test.
+Sat Oct 12 19:26:35 2024 - INFO  - Test: cracklib-check
+Sat Oct 12 19:26:36 2024 - INFO  - cracklib: Test a very simple password
+Sat Oct 12 19:26:36 2024 - INFO  - cracklib: Test a simple/dictionary password
+Sat Oct 12 19:26:36 2024 - INFO  - cracklib: Testing simplistic password
+Sat Oct 12 19:26:36 2024 - INFO  - cracklib: Testing a complicated password
+Sat Oct 12 19:26:36 2024 - INFO  - Test: cracklib-format
+Sat Oct 12 19:26:36 2024 - INFO  - Test: mkdict
+Sat Oct 12 19:26:37 2024 - INFO  - Test: cracklib-packer
+7 7
+Sat Oct 12 19:26:37 2024 - INFO  - Test: packer
+7 7
+Sat Oct 12 19:26:37 2024 - INFO  - Test: cracklib-unpacker
+Sat Oct 12 19:26:37 2024 - INFO  - Test: create-cracklib-dict
+1 1
+1916949 1916949
+7 7
+Sat Oct 12 19:26:57 2024 - INFO  - End of the test.
+Sat Oct 12 19:26:57 2024 - INFO  - succeed to execute the case.
+Sat Oct 12 19:26:57 2024 - INFO  - Start to restore the test environment.
+Sat Oct 12 19:26:57 2024 - INFO  - Finish restoring the test environment.

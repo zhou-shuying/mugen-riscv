@@ -1,0 +1,14 @@
+Wed Sep 25 15:00:12 2024 - INFO  - Start to prepare the test environment.
+Wed Sep 25 15:00:17 2024 - INFO  - pkgs:(mariadb-server) is already installed
+     Active: active (running) since Wed 2024-09-25 14:59:46 CST; 30s ago
+Wed Sep 25 15:00:17 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 15:00:17 2024 - INFO  - Start to run test.
+Job for mariadb.service failed because the control process exited with error code.
+See "systemctl status mariadb.service" and "journalctl -xeu mariadb.service" for details.
+Wed Sep 25 15:00:22 2024 - ERROR - oe_test_server_mariadb_backup.sh line 41
+Sep 25 15:00:22 openeuler-riscv64 mariadb-prepare-db-dir[2178425]: Make sure the /var/lib/mysql is empty before running mariadb-prepare-db-dir.
+Wed Sep 25 15:00:23 2024 - INFO  - End to run test.
+Wed Sep 25 15:00:23 2024 - ERROR - failed to execute the case.
+Wed Sep 25 15:00:23 2024 - INFO  - Start to restore the test environment.
+Wed Sep 25 15:00:23 2024 - WARN  - no thing to do.
+Wed Sep 25 15:00:23 2024 - INFO  - End to restore the test environment.

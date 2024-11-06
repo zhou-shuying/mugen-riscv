@@ -1,0 +1,14 @@
+Mon Oct 14 16:25:56 2024 - INFO  - Start environmental preparation.
+Mon Oct 14 16:25:56 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 16:25:56 2024 - INFO  - Start executing testcase.
+New password: Retype new password: Changing password for user example1.
+passwd: all authentication tokens updated successfully.
+New password: Retype new password: Changing password for user example2.
+passwd: all authentication tokens updated successfully.
+test
+setfacl: /home/test1: Operation not permitted
+-bash: line 1: /home/test1: Permission denied
+Mon Oct 14 16:25:59 2024 - INFO  - Finish testcase execution.
+Mon Oct 14 16:26:00 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 16:26:00 2024 - INFO  - start environment cleanup.
+Mon Oct 14 16:26:00 2024 - INFO  - Finish environment cleanup!

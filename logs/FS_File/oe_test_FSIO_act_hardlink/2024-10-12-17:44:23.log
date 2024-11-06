@@ -1,0 +1,11 @@
+Sat Oct 12 17:44:26 2024 - INFO  - Start environment preparation.
+Sat Oct 12 17:44:26 2024 - INFO  - End of environmental preparation!
+Sat Oct 12 17:44:26 2024 - INFO  - Start to run test.
+test file
+hard
+source
+source
+Sat Oct 12 17:44:26 2024 - INFO  - End to run test.
+Sat Oct 12 17:44:27 2024 - INFO  - succeed to execute the case.
+Sat Oct 12 17:44:27 2024 - INFO  - Start to restore the test environment.
+Sat Oct 12 17:44:27 2024 - INFO  - End to restore the test environment.

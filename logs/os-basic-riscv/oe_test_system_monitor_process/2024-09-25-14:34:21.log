@@ -1,0 +1,2880 @@
+Wed Sep 25 14:34:23 2024 - INFO  - Start to run test.
+4851832 21244 gaussdb         /opt/opengauss_multinode/bi 12.1
+968768 183156 pt_main_thread  python3 ../benchmark/run.py  0.0
+921652 2144150 pt_main_thread python3 run.py Super_SloMo   207
+40160 2103503 tuned           /usr/bin/python3 -Es /usr/s  1.7
+34868 2149971 isula           isula stop volume volume1 v  100
+23796 2099375 NetworkManager  /usr/sbin/NetworkManager --  0.0
+13948       1 systemd         /sbin/init                   1.5
+13404 2149235 python3         python3 mugen_riscv.py -l .  0.3
+12100 1751819 freshclam       freshclam -d -p pid_log      0.0
+11748 2150549 python3         python3 /root/Shea/mugen-ri  8.9
+11716 2148877 python3         python3 /root/Shea/mugen/li  0.3
+11256  183154 perf            perf stat --sync -e duratio  0.0
+11232  981132 sshd            sshd: root [priv]            0.0
+11072  633077 sshd            sshd: root [priv]            0.0
+11040 2132012 sshd            sshd: root [priv]            0.0
+11032    2238 sshd            sshd: root [priv]            0.0
+11024 1943979 sshd            sshd: root [priv]            0.0
+10924    4589 sshd            sshd: root [priv]            0.0
+10920    2236 sshd            sshd: root [priv]            0.0
+10900 2101384 systemd-journal /usr/lib/systemd/systemd-jo  0.1
+10872 2102483 polkitd         /usr/lib/polkit-1/polkitd -  0.0
+10864    4591 sshd            sshd: root [priv]            0.0
+10424 2102470 systemd         /usr/lib/systemd/systemd --  0.0
+ 9876 1945581 sshd            sshd: root [priv]            0.0
+ 8288 2114175 systemd-udevd   /usr/lib/systemd/systemd-ud  0.0
+ 8196 2119287 rsyslogd        /usr/sbin/rsyslogd -n -i/va  0.0
+ 8168 2103497 sshd            sshd: /usr/sbin/sshd -D [li  0.0
+ 7508 2102582 systemd-logind  /usr/lib/systemd/systemd-lo  0.0
+ 6860  981136 sshd            sshd: root@pts/4             0.0
+ 6804    4593 sshd            sshd: root@pts/1             0.0
+ 6792 2102471 (sd-pam)        (sd-pam)                     0.0
+ 6784  633081 sshd            sshd: root@pts/3             0.0
+ 6684 1944009 sshd            sshd: root@pts/5             0.0
+ 6672    2240 sshd            sshd: root@pts/0             0.1
+ 6596 1945598 sshd            sshd: root@notty             0.0
+ 6580 2150248 systemd-timedat /usr/lib/systemd/systemd-ti  1.5
+ 6576 2132022 sshd            sshd: root@pts/6             0.0
+ 6572 2150496 sudo            sudo bash mugen.sh -f os-ba  0.7
+ 6552 2102478 pipewire        /usr/bin/pipewire            0.0
+ 6436    2287 sshd            sshd: root@notty             0.0
+ 6300    4646 sshd            sshd: root@notty             0.0
+ 5736 2103454 auditd          /sbin/auditd                 0.0
+ 5596 1808495 clamav-milter   clamav-milter -c /etc/mail/  0.0
+ 5456    2241 bash            -bash                        0.0
+ 5420    4594 bash            -bash                        0.0
+ 5416    8141 bash            /bin/bash                    0.0
+ 5392 1944010 bash            -bash                        0.0
+ 5388  633082 bash            -bash                        0.0
+ 5360  981137 bash            -bash                        0.0
+ 5108 2103493 smartd          /usr/sbin/smartd -n -q neve  0.0
+ 4996 2103453 rpcbind         /usr/bin/rpcbind -r -w -f    0.0
+ 4984 2132023 bash            -bash                        0.0
+ 4844 2099385 dbus-daemon     /usr/bin/dbus-daemon --syst  0.1
+ 4640 2099396 gssproxy        /usr/sbin/gssproxy -D        0.0
+ 4272 2150573 ps              ps -eo rsz,pid,comm,args,pc 1300
+ 4232  639038 bash            bash mugen.sh -a -x          0.0
+ 3572 2102479 dbus-daemon     /usr/bin/dbus-daemon --sess  0.0
+ 3548 2150499 bash            bash mugen.sh -f os-basic-r  1.6
+ 3360 2148884 bash            bash -x oe_test_iSulad_reso  0.0
+ 3212 2150550 bash            bash oe_test_system_monitor  0.6
+ 3176 2150484 chronyd         /usr/sbin/chronyd            0.0
+ 3108 2146449 bash            bash -c while true; do slee  0.9
+ 3020 2150495 sh              sh -c -- sudo bash mugen.sh  0.0
+ 2536 2103563 crond           /usr/sbin/crond -n           0.0
+ 2500 2103482 irqbalance      /usr/sbin/irqbalance --hint  0.0
+ 2496 2150498 sudo            sudo bash mugen.sh -f os-ba  0.0
+ 2400 2118367 alsactl         /usr/sbin/alsactl -s -n 19   0.0
+ 2360 1945736 sftp-server     /usr/libexec/openssh/sftp-s  0.0
+ 2120    8140 screen          SCREEN -S torch_test         0.0
+ 1852    2292 sftp-server     /usr/libexec/openssh/sftp-s  0.0
+ 1848    4647 sftp-server     /usr/libexec/openssh/sftp-s  0.0
+ 1808 2103532 atd             /usr/sbin/atd -f             0.0
+ 1776 2150574 sort            sort -nrk1                   0.0
+ 1764 1858069 tmon            tmon -d                      0.0
+ 1644 2103485 lsmd            /usr/bin/lsmd -d             0.0
+  724 2141448 agetty          /sbin/agetty -o -p -- \u --  0.0
+  696 2150497 tee             tee -a exec.log              0.0
+  692 2150568 sleep           sleep 1                      0.0
+  660    1133 bpfilter_umh    bpfilter_umh                 0.0
+  RSZ     PID COMMAND         COMMAND                     %CPU
+    0 2150482 kworker/40:2-cg [kworker/40:2-cgroup_destro  0.0
+    0 2150481 kworker/40:1-cg [kworker/40:1-cgroup_pidlis  0.0
+    0 2150468 kworker/24:0    [kworker/24:0]               0.0
+    0 2150438 kworker/u132:3  [kworker/u132:3]             0.0
+    0 2150402 kworker/4:0     [kworker/4:0]                0.0
+    0 2150377 kworker/38:1-mm [kworker/38:1-mm_percpu_wq]  0.1
+    0 2150376 kworker/52:2    [kworker/52:2]               0.0
+    0 2150313 kworker/12:2-mm [kworker/12:2-mm_percpu_wq]  0.0
+    0 2150312 kworker/15:2-mm [kworker/15:2-mm_percpu_wq]  0.0
+    0 2150303 kworker/37:2-mm [kworker/37:2-mm_percpu_wq]  0.0
+    0 2150283 kworker/44:0-ev [kworker/44:0-events]        0.0
+    0 2150278 kworker/22:0    [kworker/22:0]               0.0
+    0 2150249 kworker/30:2-rc [kworker/30:2-rcu_par_gp]    0.0
+    0 2150059 kworker/7:2-mm_ [kworker/7:2-mm_percpu_wq]   0.0
+    0 2150044 kworker/u132:0  [kworker/u132:0]             0.0
+    0 2148995 kworker/32:3    [kworker/32:3]               0.0
+    0 2148994 kworker/32:1-rc [kworker/32:1-rcu_par_gp]    0.0
+    0 2148875 kworker/61:3    [kworker/61:3]               0.0
+    0 2148874 kworker/61:1-cg [kworker/61:1-cgroup_pidlis  0.0
+    0 2148722 kworker/35:0-ev [kworker/35:0-events_long]   0.0
+    0 2148205 kworker/63:1-cg [kworker/63:1-cgroup_destro  0.0
+    0 2148204 kworker/63:0-cg [kworker/63:0-cgroup_pidlis  0.0
+    0 2146979 kworker/4:2-mm_ [kworker/4:2-mm_percpu_wq]   0.0
+    0 2141449 kworker/63:2-mm [kworker/63:2-mm_percpu_wq]  0.0
+    0 2141231 kworker/u131:2- [kworker/u131:2-events_unbo  0.0
+    0 2141175 kworker/u130:1- [kworker/u130:1-writeback]   0.0
+    0 2141049 kworker/9:2-eve [kworker/9:2-events]         0.0
+    0 2141048 kworker/32:0-rc [kworker/32:0-rcu_gp]        0.0
+    0 2140499 kworker/u129:1- [kworker/u129:1-events_unbo  0.0
+    0 2139487 kworker/47:2    [kworker/47:2]               0.0
+    0 2139427 kworker/60:3-ev [kworker/60:3-events]        0.0
+    0 2139362 kworker/62:2-cg [kworker/62:2-cgroup_destro  0.0
+    0 2139201 kworker/46:1-mm [kworker/46:1-mm_percpu_wq]  0.0
+    0 2132783 kworker/45:3-mm [kworker/45:3-mm_percpu_wq]  0.0
+    0 2132581 kworker/44:1-cg [kworker/44:1-cgroup_pidlis  0.0
+    0 2132578 kworker/40:0-cg [kworker/40:0-cgroup_destro  0.0
+    0 2132351 kworker/u128:1- [kworker/u128:1-gid-cache-w  0.0
+    0 2132350 kworker/35:2-rc [kworker/35:2-rcu_par_gp]    0.0
+    0 2132349 kworker/34:1-ev [kworker/34:1-events]        0.0
+    0 2132339 kworker/u129:0- [kworker/u129:0-events_unbo  0.0
+    0 2132029 kworker/7:1-rcu [kworker/7:1-rcu_par_gp]     0.0
+    0 2132024 kworker/u131:1- [kworker/u131:1-events_unbo  0.0
+    0 2126681 kworker/42:0    [kworker/42:0]               0.0
+    0 2126291 kworker/13:0-mm [kworker/13:0-mm_percpu_wq]  0.0
+    0 2126131 kworker/57:3    [kworker/57:3]               0.0
+    0 2126095 kworker/57:0-mm [kworker/57:0-mm_percpu_wq]  0.0
+    0 2126056 kworker/56:1-ev [kworker/56:1-events]        0.0
+    0 2126054 kworker/60:0-ev [kworker/60:0-events]        0.0
+    0 2125909 kworker/45:2-cg [kworker/45:2-cgroup_pidlis  0.0
+    0 2125432 kworker/41:3-cg [kworker/41:3-cgroup_pidlis  0.0
+    0 2125108 kworker/24:3-rc [kworker/24:3-rcu_par_gp]    0.0
+    0 2125062 kworker/61:2-cg [kworker/61:2-cgroup_destro  0.0
+    0 2124782 kworker/63:3-cg [kworker/63:3-cgroup_pidlis  0.0
+    0 2124779 kworker/33:0-mm [kworker/33:0-mm_percpu_wq]  0.0
+    0 2124077 kworker/41:0-mm [kworker/41:0-mm_percpu_wq]  0.0
+    0 2123920 kworker/15:1-rc [kworker/15:1-rcu_par_gp]    0.0
+    0 2123835 kworker/50:0-mm [kworker/50:0-mm_percpu_wq]  0.0
+    0 2123808 kworker/26:0-mm [kworker/26:0-mm_percpu_wq]  0.0
+    0 2123759 kworker/46:0-rc [kworker/46:0-rcu_gp]        0.0
+    0 2123708 kworker/55:1-mm [kworker/55:1-mm_percpu_wq]  0.0
+    0 2123644 kworker/61:0-mm [kworker/61:0-mm_percpu_wq]  0.0
+    0 2123643 kworker/54:1-mm [kworker/54:1-mm_percpu_wq]  0.0
+    0 2123553 kworker/62:0-mm [kworker/62:0-mm_percpu_wq]  0.0
+    0 2123520 kworker/52:1-mm [kworker/52:1-mm_percpu_wq]  0.0
+    0 2123505 kworker/u132:2- [kworker/u132:2-events_unbo  0.0
+    0 2123327 kworker/59:2    [kworker/59:2]               0.0
+    0 2123053 kworker/59:1-mm [kworker/59:1-mm_percpu_wq]  0.0
+    0 2122247 kworker/30:1-mm [kworker/30:1-mm_percpu_wq]  0.0
+    0 2122167 kworker/29:2-mm [kworker/29:2-mm_percpu_wq]  0.0
+    0 2122136 kworker/9:1-mm_ [kworker/9:1-mm_percpu_wq]   0.0
+    0 2122113 kworker/24:1-mm [kworker/24:1-mm_percpu_wq]  0.0
+    0 2121875 kworker/28:1-mm [kworker/28:1-mm_percpu_wq]  0.0
+    0 2121813 kworker/6:3     [kworker/6:3]                0.0
+    0 2121796 kworker/19:2-mm [kworker/19:2-mm_percpu_wq]  0.0
+    0 2121737 kworker/10:0-mm [kworker/10:0-mm_percpu_wq]  0.0
+    0 2121697 kworker/11:2-mm [kworker/11:2-mm_percpu_wq]  0.0
+    0 2121077 kworker/6:0-eve [kworker/6:0-events]         0.0
+    0 2120675 kworker/1:1-mm_ [kworker/1:1-mm_percpu_wq]   0.0
+    0 2120494 kworker/43:3-mm [kworker/43:3-mm_percpu_wq]  0.0
+    0 2119792 kworker/42:3-mm [kworker/42:3-mm_percpu_wq]  0.0
+    0 2119284 kworker/49:0-mm [kworker/49:0-mm_percpu_wq]  0.0
+    0 2119155 kworker/12:1-rc [kworker/12:1-rcu_par_gp]    0.0
+    0 2118676 kworker/58:0-mm [kworker/58:0-mm_percpu_wq]  0.0
+    0 2118381 kworker/44:7-cg [kworker/44:7-cgroup_pidlis  0.0
+    0 2118276 kworker/u130:0- [kworker/u130:0-events_unbo  0.0
+    0 2118274 kworker/38:0-rc [kworker/38:0-rcu_par_gp]    0.0
+    0 2118256 kworker/47:0-mm [kworker/47:0-mm_percpu_wq]  0.0
+    0 2118248 kworker/35:1-rc [kworker/35:1-rcu_gp]        0.0
+    0 2117227 kworker/55:2-rc [kworker/55:2-rcu_par_gp]    0.0
+    0 2117117 kworker/14:2-mm [kworker/14:2-mm_percpu_wq]  0.0
+    0 2116906 kworker/12:0-rc [kworker/12:0-rcu_gp]        0.0
+    0 2116822 kworker/52:0-rc [kworker/52:0-rcu_par_gp]    0.0
+    0 2116793 kworker/33:2-rc [kworker/33:2-rcu_gp]        0.0
+    0 2115936 kworker/26:1-rc [kworker/26:1-rcu_gp]        0.0
+    0 2115913 kworker/27:1-mm [kworker/27:1-mm_percpu_wq]  0.0
+    0 2114174 cfg80211        [cfg80211]                   0.0
+    0 2112980 kworker/58:2-cg [kworker/58:2-cgroup_pidlis  0.0
+    0 2112303 kworker/31:1-mm [kworker/31:1-mm_percpu_wq]  0.0
+    0 2112002 kworker/39:1-mm [kworker/39:1-mm_percpu_wq]  0.0
+    0 2110663 kworker/30:0-rc [kworker/30:0-rcu_par_gp]    0.0
+    0 2110551 kworker/5:2-mm_ [kworker/5:2-mm_percpu_wq]   0.0
+    0 2107685 kworker/22:2-ev [kworker/22:2-events]        0.0
+    0 2107367 kworker/2:1-rcu [kworker/2:1-rcu_gp]         0.0
+    0 2106596 kworker/48:1-rc [kworker/48:1-rcu_par_gp]    0.0
+    0 2106593 kworker/50:1-rc [kworker/50:1-rcu_par_gp]    0.0
+    0 2106485 kworker/16:3-mm [kworker/16:3-mm_percpu_wq]  0.0
+    0 2105723 kworker/2:0-mm_ [kworker/2:0-mm_percpu_wq]   0.0
+    0 2105548 kworker/18:3    [kworker/18:3]               0.0
+    0 2105307 kworker/17:2-mm [kworker/17:2-mm_percpu_wq]  0.0
+    0 2105147 kworker/21:2-cg [kworker/21:2-cgroup_pidlis  0.0
+    0 2104912 kworker/20:2-mm [kworker/20:2-mm_percpu_wq]  0.0
+    0 2104492 kworker/7:0-rcu [kworker/7:0-rcu_par_gp]     0.0
+    0 2103656 kworker/40:8-mm [kworker/40:8-mm_percpu_wq]  0.0
+    0 2103472 kworker/31:0-rc [kworker/31:0-rcu_gp]        0.0
+    0 2103184 kworker/10:2-rc [kworker/10:2-rcu_gp]        0.0
+    0 2103075 kworker/8:2-mm_ [kworker/8:2-mm_percpu_wq]   0.0
+    0 2103072 kworker/11:1-rc [kworker/11:1-rcu_par_gp]    0.0
+    0 2103023 kworker/56:0-rc [kworker/56:0-rcu_gp]        0.0
+    0 2102538 kworker/36:0-mm [kworker/36:0-mm_percpu_wq]  0.0
+    0 2101528 kworker/29:1-rc [kworker/29:1-rcu_gp]        0.0
+    0 2100724 kworker/25:2-mm [kworker/25:2-mm_percpu_wq]  0.0
+    0 2099791 kworker/5:1-rcu [kworker/5:1-rcu_gp]         0.0
+    0 2099732 kworker/28:0-rc [kworker/28:0-rcu_gp]        0.0
+    0 2099405 kworker/14:0-rc [kworker/14:0-rcu_par_gp]    0.0
+    0 2099248 kworker/0:1     [kworker/0:1]                0.0
+    0 2099069 kworker/8:1-rcu [kworker/8:1-rcu_gp]         0.0
+    0 2098875 kworker/39:2-rc [kworker/39:2-rcu_gp]        0.0
+    0 2095357 kworker/43:1-cg [kworker/43:1-cgroup_destro  0.0
+    0 2095246 kworker/22:3-rc [kworker/22:3-rcu_par_gp]    0.0
+    0 2094426 kworker/u132:1- [kworker/u132:1-events_unbo  0.0
+    0 2094236 kworker/36:2-mm [kworker/36:2-mm_percpu_wq]  0.0
+    0 2093603 kworker/32:2-ev [kworker/32:2-events_freeza  0.0
+    0 2093569 kworker/49:1-rc [kworker/49:1-rcu_gp]        0.0
+    0 2092663 kworker/48:3-mm [kworker/48:3-mm_percpu_wq]  0.0
+    0 2092393 kworker/53:3-mm [kworker/53:3-mm_percpu_wq]  0.0
+    0 2091605 kworker/38:2-rc [kworker/38:2-rcu_gp]        0.0
+    0 2091422 kworker/37:1-rc [kworker/37:1-rcu_gp]        0.0
+    0 2088731 kworker/0:0-eve [kworker/0:0-events]         0.0
+    0 2088446 kworker/53:0-cg [kworker/53:0-cgroup_destro  0.0
+    0 2087436 kworker/15:0-rc [kworker/15:0-rcu_par_gp]    0.0
+    0 2087212 kworker/25:0-rc [kworker/25:0-rcu_gp]        0.0
+    0 2086965 kworker/13:2-rc [kworker/13:2-rcu_gp]        0.0
+    0 2086930 kworker/21:9-mm [kworker/21:9-mm_percpu_wq]  0.0
+    0 2081940 kworker/54:0-rc [kworker/54:0-rcu_gp]        0.0
+    0 2077838 kworker/51:3-rc [kworker/51:3-rcu_par_gp]    0.0
+    0 2077486 kworker/51:2-mm [kworker/51:2-mm_percpu_wq]  0.0
+    0 2076873 kworker/34:0-rc [kworker/34:0-rcu_gp]        0.0
+    0 2073940 kworker/1:0-rcu [kworker/1:0-rcu_gp]         0.0
+    0 2070491 kworker/3:3-rcu [kworker/3:3-rcu_gp]         0.0
+    0 2065601 kworker/3:1-mm_ [kworker/3:1-mm_percpu_wq]   0.0
+    0 2063170 kworker/37:0-rc [kworker/37:0-rcu_par_gp]    0.0
+    0 2063137 kworker/16:2-cg [kworker/16:2-cgroup_destro  0.0
+    0 2058612 kworker/23:0-mm [kworker/23:0-mm_percpu_wq]  0.0
+    0 2055247 kworker/19:1-rc [kworker/19:1-rcu_gp]        0.0
+    0 2052818 kworker/18:1-mm [kworker/18:1-mm_percpu_wq]  0.0
+    0 2051685 kworker/20:1-cg [kworker/20:1-cgroup_pidlis  0.0
+    0 2048999 kworker/u128:0- [kworker/u128:0-ixgbe]       0.0
+    0 1971600 kworker/27:0-rc [kworker/27:0-rcu_par_gp]    0.0
+    0 1951184 kworker/23:2-rc [kworker/23:2-rcu_gp]        0.0
+    0 1940646 kworker/17:1-rc [kworker/17:1-rcu_gp]        0.0
+    0 1869078 xcopy_wq        [xcopy_wq]                   0.0
+    0 1869077 target_submissi [target_submissi]            0.0
+    0 1869076 target_completi [target_completi]            0.0
+    0 1867855 nvme_fc_wq      [nvme_fc_wq]                 0.0
+    0 1864045 fc_rport_eq     [fc_rport_eq]                0.0
+    0 1864044 fc_exch_workque [fc_exch_workque]            0.0
+    0 1863735 iscsi_conn_clea [iscsi_conn_clea]            0.0
+    0 1714265 nfsiod          [nfsiod]                     0.0
+    0 1711921 rdma_cm         [rdma_cm]                    0.0
+    0 1711919 ib_nl_sa_wq     [ib_nl_sa_wq]                0.0
+    0 1711918 ib_mcast        [ib_mcast]                   0.0
+    0 1711917 ib-comp-unb-wq  [ib-comp-unb-wq]             0.0
+    0 1711916 ib-comp-wq      [ib-comp-wq]                 0.0
+    0 1658151 kworker/4:1-mm_ [kworker/4:1-mm_percpu_wq]   0.0
+    0  977227 uas             [uas]                        0.0
+    0  224217 kworker/32:1H   [kworker/32:1H]              0.0
+    0  146836 kworker/3:2H-kb [kworker/3:2H-kblockd]       0.0
+    0  133130 kworker/37:2H   [kworker/37:2H]              0.0
+    0  125393 kworker/42:0H   [kworker/42:0H]              0.0
+    0   19291 kworker/63:0H   [kworker/63:0H]              0.0
+    0   12366 kworker/57:2H   [kworker/57:2H]              0.0
+    0   12086 kworker/59:2H-k [kworker/59:2H-kblockd]      0.0
+    0   12085 kworker/63:2H-k [kworker/63:2H-kblockd]      0.0
+    0    1860 kworker/27:1H-k [kworker/27:1H-kblockd]      0.0
+    0    1147 kworker/25:1H-k [kworker/25:1H-kblockd]      0.0
+    0    1091 card0-crtc3     [card0-crtc3]                0.0
+    0    1090 card0-crtc2     [card0-crtc2]                0.0
+    0    1089 card0-crtc1     [card0-crtc1]                0.0
+    0    1088 card0-crtc0     [card0-crtc0]                0.0
+    0    1024 kworker/43:1H-k [kworker/43:1H-kblockd]      0.0
+    0     941 xprtiod         [xprtiod]                    0.0
+    0     940 rpciod          [rpciod]                     0.0
+    0     930 kworker/17:1H-k [kworker/17:1H-kblockd]      0.0
+    0     905 kworker/26:1H-k [kworker/26:1H-kblockd]      0.0
+    0     893 kworker/49:1H-k [kworker/49:1H-kblockd]      0.0
+    0     870 ixgbe           [ixgbe]                      0.0
+    0     865 scsi_tmf_4      [scsi_tmf_4]                 0.0
+    0     864 scsi_eh_4       [scsi_eh_4]                  0.0
+    0     863 scsi_tmf_3      [scsi_tmf_3]                 0.0
+    0     862 scsi_eh_3       [scsi_eh_3]                  0.0
+    0     861 scsi_tmf_2      [scsi_tmf_2]                 0.0
+    0     860 scsi_eh_2       [scsi_eh_2]                  0.0
+    0     859 scsi_tmf_1      [scsi_tmf_1]                 0.0
+    0     858 scsi_eh_1       [scsi_eh_1]                  0.0
+    0     856 scsi_tmf_0      [scsi_tmf_0]                 0.0
+    0     855 scsi_eh_0       [scsi_eh_0]                  0.0
+    0     851 spi1            [spi1]                       0.0
+    0     836 spi0            [spi0]                       0.0
+    0     835 kworker/45:1H-k [kworker/45:1H-kblockd]      0.0
+    0     828 kworker/34:1H-k [kworker/34:1H-kblockd]      0.0
+    0     823 kworker/57:1H-k [kworker/57:1H-kblockd]      0.0
+    0     816 kworker/42:1H-k [kworker/42:1H-kblockd]      0.0
+    0     814 kworker/50:1H-k [kworker/50:1H-kblockd]      0.0
+    0     808 kworker/35:1H-k [kworker/35:1H-kblockd]      0.0
+    0     807 kworker/41:1H-k [kworker/41:1H-kblockd]      0.0
+    0     806 kworker/37:1H-k [kworker/37:1H-kblockd]      0.0
+    0     804 kworker/28:1H-k [kworker/28:1H-kblockd]      0.0
+    0     787 kworker/62:1H-k [kworker/62:1H-kblockd]      0.0
+    0     784 kworker/39:1H-k [kworker/39:1H-kblockd]      0.0
+    0     782 kworker/22:1H-k [kworker/22:1H-kblockd]      0.0
+    0     777 kworker/38:1H-k [kworker/38:1H-kblockd]      0.0
+    0     769 kworker/12:1H-k [kworker/12:1H-kblockd]      0.0
+    0     768 kworker/47:1H-k [kworker/47:1H-kblockd]      0.0
+    0     767 kworker/55:1H-k [kworker/55:1H-kblockd]      0.0
+    0     766 kworker/15:1H-k [kworker/15:1H-kblockd]      0.0
+    0     765 kworker/56:1H-k [kworker/56:1H-kblockd]      0.0
+    0     764 kworker/11:1H-k [kworker/11:1H-kblockd]      0.0
+    0     763 kworker/48:1H-k [kworker/48:1H-kblockd]      0.0
+    0     762 kworker/54:1H-k [kworker/54:1H-kblockd]      0.0
+    0     761 kworker/14:1H-k [kworker/14:1H-kblockd]      0.0
+    0     760 kworker/44:1H-k [kworker/44:1H-kblockd]      0.0
+    0     759 kworker/61:1H-k [kworker/61:1H-kblockd]      0.0
+    0     753 kworker/53:1H-k [kworker/53:1H-kblockd]      0.0
+    0     739 kworker/36:1H-k [kworker/36:1H-kblockd]      0.0
+    0     732 kworker/52:1H-k [kworker/52:1H-kblockd]      0.0
+    0     728 kworker/30:1H-k [kworker/30:1H-kblockd]      0.0
+    0     720 kworker/29:1H-k [kworker/29:1H-kblockd]      0.0
+    0     718 kworker/7:1H-kb [kworker/7:1H-kblockd]       0.0
+    0     717 kworker/10:1H-k [kworker/10:1H-kblockd]      0.0
+    0     692 kworker/13:1H-k [kworker/13:1H-kblockd]      0.0
+    0     689 kworker/60:1H-k [kworker/60:1H-kblockd]      0.0
+    0     679 kworker/9:1H-kb [kworker/9:1H-kblockd]       0.0
+    0     669 kworker/59:1H-r [kworker/59:1H-radeon-crtc]  0.0
+    0     664 kworker/58:1H-k [kworker/58:1H-kblockd]      0.0
+    0     663 kworker/6:1H-kb [kworker/6:1H-kblockd]       0.0
+    0     655 kworker/21:1H-k [kworker/21:1H-kblockd]      0.0
+    0     652 kworker/46:1H-k [kworker/46:1H-kblockd]      0.0
+    0     650 kworker/20:1H-k [kworker/20:1H-kblockd]      0.0
+    0     644 kworker/19:1H-k [kworker/19:1H-kblockd]      0.0
+    0     639 kworker/8:1H-kb [kworker/8:1H-kblockd]       0.0
+    0     631 kworker/1:1H-kb [kworker/1:1H-kblockd]       0.0
+    0     629 kworker/23:1H-k [kworker/23:1H-kblockd]      0.0
+    0     622 kworker/40:1H-k [kworker/40:1H-kblockd]      0.0
+    0     621 kworker/24:1H-k [kworker/24:1H-kblockd]      0.0
+    0     620 kworker/51:1H-k [kworker/51:1H-kblockd]      0.0
+    0     619 kworker/31:1H-k [kworker/31:1H-kblockd]      0.0
+    0     611 kworker/33:1H-k [kworker/33:1H-kblockd]      0.0
+    0     604 kworker/2:1H-kb [kworker/2:1H-kblockd]       0.0
+    0     601 kworker/18:1H-k [kworker/18:1H-kblockd]      0.0
+    0     597 ext4-rsv-conver [ext4-rsv-conver]            0.0
+    0     596 jbd2/nvme0n1p3- [jbd2/nvme0n1p3-8]           0.0
+    0     595 kworker/5:1H-kb [kworker/5:1H-kblockd]       0.0
+    0     594 charger_manager [charger_manager]            0.0
+    0     497 zswap-shrink    [zswap-shrink]               0.0
+    0     480 kstrp           [kstrp]                      0.0
+    0     475 ipv6_addrconf   [ipv6_addrconf]              0.0
+    0     474 kworker/4:1H-kb [kworker/4:1H-kblockd]       0.0
+    0     473 mld             [mld]                        0.0
+    0     472 irq/52-mmc1     [irq/52-mmc1]                0.0
+    0     471 sdhci           [sdhci]                      0.0
+    0     470 kworker/16:1H-k [kworker/16:1H-kblockd]      0.0
+    0     468 irq/50-nvme0q1  [irq/50-nvme0q1]             0.0
+    0     467 irq/50-nvme0q0  [irq/50-nvme0q0]             0.0
+    0     462 irq/51-mmc0     [irq/51-mmc0]                0.0
+    0     461 sdhci           [sdhci]                      0.0
+    0     460 kworker/u137:0  [kworker/u137:0]             0.0
+    0     459 kworker/u136:0  [kworker/u136:0]             0.0
+    0     458 kworker/u135:0  [kworker/u135:0]             0.0
+    0     457 kworker/u134:0  [kworker/u134:0]             0.0
+    0     456 kworker/u133:0  [kworker/u133:0]             0.0
+    0     454 nvme-delete-wq  [nvme-delete-wq]             0.0
+    0     453 nvme-reset-wq   [nvme-reset-wq]              0.0
+    0     452 nvme-wq         [nvme-wq]                    0.0
+    0     442 kthrotld        [kthrotld]                   0.0
+    0     436 ecryptfs-kthrea [ecryptfs-kthread]           0.0
+    0     435 kswapd3         [kswapd3]                    0.0
+    0     434 kswapd2         [kswapd2]                    0.0
+    0     433 kswapd1         [kswapd1]                    0.0
+    0     432 kswapd0         [kswapd0]                    0.0
+    0     431 kworker/0:1H-kb [kworker/0:1H-kblockd]       0.0
+    0     428 watchdogd       [watchdogd]                  0.0
+    0     427 devfreq_wq      [devfreq_wq]                 0.0
+    0     426 edac-poller     [edac-poller]                0.0
+    0     425 md              [md]                         0.0
+    0     424 ata_sff         [ata_sff]                    0.0
+    0     423 tpm_dev_wq      [tpm_dev_wq]                 0.0
+    0     422 blkcg_punt_bio  [blkcg_punt_bio]             0.0
+    0     421 kblockd         [kblockd]                    0.0
+    0     420 kintegrityd     [kintegrityd]                0.0
+    0     419 cryptd          [cryptd]                     0.0
+    0     418 pdecrypt_serial [pdecrypt_serial]            0.0
+    0     417 pencrypt_serial [pencrypt_serial]            0.0
+    0     416 khugepaged      [khugepaged]                 0.0
+    0     415 ksmd            [ksmd]                       0.0
+    0     414 kcompactd3      [kcompactd3]                 0.0
+    0     413 kcompactd2      [kcompactd2]                 0.0
+    0     412 kcompactd1      [kcompactd1]                 0.0
+    0     411 kcompactd0      [kcompactd0]                 0.0
+    0     410 writeback       [writeback]                  0.0
+    0     409 oom_reaper      [oom_reaper]                 0.0
+    0     407 khungtaskd      [khungtaskd]                 0.0
+    0     404 kauditd         [kauditd]                    0.0
+    0     402 inet_frag_wq    [inet_frag_wq]               0.0
+    0     401 kdevtmpfs       [kdevtmpfs]                  0.0
+    0     398 ksoftirqd/63    [ksoftirqd/63]               0.0
+    0     397 migration/63    [migration/63]               0.0
+    0     396 idle_inject/63  [idle_inject/63]             0.0
+    0     395 cpuhp/63        [cpuhp/63]                   0.0
+    0     394 kworker/62:0H-e [kworker/62:0H-events_highp  0.0
+    0     392 ksoftirqd/62    [ksoftirqd/62]               0.0
+    0     391 migration/62    [migration/62]               0.0
+    0     390 idle_inject/62  [idle_inject/62]             0.0
+    0     389 cpuhp/62        [cpuhp/62]                   0.0
+    0     388 kworker/61:0H-e [kworker/61:0H-events_highp  0.0
+    0     386 ksoftirqd/61    [ksoftirqd/61]               0.0
+    0     385 migration/61    [migration/61]               0.0
+    0     384 idle_inject/61  [idle_inject/61]             0.0
+    0     383 cpuhp/61        [cpuhp/61]                   0.0
+    0     382 kworker/60:0H-e [kworker/60:0H-events_highp  0.0
+    0     380 ksoftirqd/60    [ksoftirqd/60]               0.0
+    0     379 migration/60    [migration/60]               0.0
+    0     378 idle_inject/60  [idle_inject/60]             0.0
+    0     377 cpuhp/60        [cpuhp/60]                   0.0
+    0     374 ksoftirqd/59    [ksoftirqd/59]               0.0
+    0     373 migration/59    [migration/59]               0.0
+    0     372 idle_inject/59  [idle_inject/59]             0.0
+    0     371 cpuhp/59        [cpuhp/59]                   0.0
+    0     370 kworker/58:0H-k [kworker/58:0H-kblockd]      0.0
+    0     368 ksoftirqd/58    [ksoftirqd/58]               0.0
+    0     367 migration/58    [migration/58]               0.0
+    0     366 idle_inject/58  [idle_inject/58]             0.0
+    0     365 cpuhp/58        [cpuhp/58]                   0.0
+    0     362 ksoftirqd/57    [ksoftirqd/57]               0.0
+    0     361 migration/57    [migration/57]               0.0
+    0     360 idle_inject/57  [idle_inject/57]             0.0
+    0     359 cpuhp/57        [cpuhp/57]                   0.0
+    0     358 kworker/56:0H-e [kworker/56:0H-events_highp  0.0
+    0     356 ksoftirqd/56    [ksoftirqd/56]               0.0
+    0     355 migration/56    [migration/56]               0.0
+    0     354 idle_inject/56  [idle_inject/56]             0.0
+    0     353 cpuhp/56        [cpuhp/56]                   0.0
+    0     352 kworker/55:0H-e [kworker/55:0H-events_highp  0.0
+    0     350 ksoftirqd/55    [ksoftirqd/55]               0.0
+    0     349 migration/55    [migration/55]               0.0
+    0     348 idle_inject/55  [idle_inject/55]             0.0
+    0     347 cpuhp/55        [cpuhp/55]                   0.0
+    0     346 kworker/54:0H-e [kworker/54:0H-events_highp  0.0
+    0     344 ksoftirqd/54    [ksoftirqd/54]               0.0
+    0     343 migration/54    [migration/54]               0.0
+    0     342 idle_inject/54  [idle_inject/54]             0.0
+    0     341 cpuhp/54        [cpuhp/54]                   0.0
+    0     340 kworker/53:0H-e [kworker/53:0H-events_highp  0.0
+    0     338 ksoftirqd/53    [ksoftirqd/53]               0.0
+    0     337 migration/53    [migration/53]               0.0
+    0     336 idle_inject/53  [idle_inject/53]             0.0
+    0     335 cpuhp/53        [cpuhp/53]                   0.0
+    0     334 kworker/52:0H-e [kworker/52:0H-events_highp  0.0
+    0     332 ksoftirqd/52    [ksoftirqd/52]               0.0
+    0     331 migration/52    [migration/52]               0.0
+    0     330 idle_inject/52  [idle_inject/52]             0.0
+    0     329 cpuhp/52        [cpuhp/52]                   0.0
+    0     328 kworker/51:0H-e [kworker/51:0H-events_highp  0.0
+    0     326 ksoftirqd/51    [ksoftirqd/51]               0.0
+    0     325 migration/51    [migration/51]               0.0
+    0     324 idle_inject/51  [idle_inject/51]             0.0
+    0     323 cpuhp/51        [cpuhp/51]                   0.0
+    0     322 kworker/50:0H-e [kworker/50:0H-events_highp  0.0
+    0     320 ksoftirqd/50    [ksoftirqd/50]               0.0
+    0     319 migration/50    [migration/50]               0.0
+    0     318 idle_inject/50  [idle_inject/50]             0.0
+    0     317 cpuhp/50        [cpuhp/50]                   0.0
+    0     316 kworker/49:0H-e [kworker/49:0H-events_highp  0.0
+    0     314 ksoftirqd/49    [ksoftirqd/49]               0.0
+    0     313 migration/49    [migration/49]               0.0
+    0     312 idle_inject/49  [idle_inject/49]             0.0
+    0     311 cpuhp/49        [cpuhp/49]                   0.0
+    0     310 kworker/48:0H-e [kworker/48:0H-events_highp  0.0
+    0     308 ksoftirqd/48    [ksoftirqd/48]               0.0
+    0     307 migration/48    [migration/48]               0.0
+    0     306 idle_inject/48  [idle_inject/48]             0.0
+    0     305 cpuhp/48        [cpuhp/48]                   0.0
+    0     304 kworker/47:0H-e [kworker/47:0H-events_highp  0.0
+    0     302 ksoftirqd/47    [ksoftirqd/47]               0.0
+    0     301 migration/47    [migration/47]               0.0
+    0     300 idle_inject/47  [idle_inject/47]             0.0
+    0     299 cpuhp/47        [cpuhp/47]                   0.0
+    0     298 kworker/46:0H-e [kworker/46:0H-events_highp  0.0
+    0     296 ksoftirqd/46    [ksoftirqd/46]               0.0
+    0     295 migration/46    [migration/46]               0.0
+    0     294 idle_inject/46  [idle_inject/46]             0.0
+    0     293 cpuhp/46        [cpuhp/46]                   0.0
+    0     292 kworker/45:0H-e [kworker/45:0H-events_highp  0.0
+    0     290 ksoftirqd/45    [ksoftirqd/45]               0.0
+    0     289 migration/45    [migration/45]               0.0
+    0     288 idle_inject/45  [idle_inject/45]             0.0
+    0     287 cpuhp/45        [cpuhp/45]                   0.0
+    0     286 kworker/44:0H-e [kworker/44:0H-events_highp  0.0
+    0     284 ksoftirqd/44    [ksoftirqd/44]               0.0
+    0     283 migration/44    [migration/44]               0.0
+    0     282 idle_inject/44  [idle_inject/44]             0.0
+    0     281 cpuhp/44        [cpuhp/44]                   0.0
+    0     280 kworker/43:0H-e [kworker/43:0H-events_highp  0.0
+    0     278 ksoftirqd/43    [ksoftirqd/43]               0.0
+    0     277 migration/43    [migration/43]               0.0
+    0     276 idle_inject/43  [idle_inject/43]             0.0
+    0     275 cpuhp/43        [cpuhp/43]                   0.0
+    0     272 ksoftirqd/42    [ksoftirqd/42]               0.0
+    0     271 migration/42    [migration/42]               0.0
+    0     270 idle_inject/42  [idle_inject/42]             0.0
+    0     269 cpuhp/42        [cpuhp/42]                   0.0
+    0     268 kworker/41:0H-e [kworker/41:0H-events_highp  0.0
+    0     266 ksoftirqd/41    [ksoftirqd/41]               0.0
+    0     265 migration/41    [migration/41]               0.0
+    0     264 idle_inject/41  [idle_inject/41]             0.0
+    0     263 cpuhp/41        [cpuhp/41]                   0.0
+    0     261 kworker/40:0H-e [kworker/40:0H-events_highp  0.0
+    0     259 ksoftirqd/40    [ksoftirqd/40]               0.0
+    0     258 migration/40    [migration/40]               0.0
+    0     257 idle_inject/40  [idle_inject/40]             0.0
+    0     256 cpuhp/40        [cpuhp/40]                   0.0
+    0     255 kworker/39:0H-e [kworker/39:0H-events_highp  0.0
+    0     253 ksoftirqd/39    [ksoftirqd/39]               0.0
+    0     252 migration/39    [migration/39]               0.0
+    0     251 idle_inject/39  [idle_inject/39]             0.0
+    0     250 cpuhp/39        [cpuhp/39]                   0.0
+    0     249 kworker/38:0H-e [kworker/38:0H-events_highp  0.0
+    0     247 ksoftirqd/38    [ksoftirqd/38]               0.0
+    0     246 migration/38    [migration/38]               0.0
+    0     245 idle_inject/38  [idle_inject/38]             0.0
+    0     244 cpuhp/38        [cpuhp/38]                   0.0
+    0     241 ksoftirqd/37    [ksoftirqd/37]               0.0
+    0     240 migration/37    [migration/37]               0.0
+    0     239 idle_inject/37  [idle_inject/37]             0.0
+    0     238 cpuhp/37        [cpuhp/37]                   0.0
+    0     237 kworker/36:0H-e [kworker/36:0H-events_highp  0.0
+    0     235 ksoftirqd/36    [ksoftirqd/36]               0.0
+    0     234 migration/36    [migration/36]               0.0
+    0     233 idle_inject/36  [idle_inject/36]             0.0
+    0     232 cpuhp/36        [cpuhp/36]                   0.0
+    0     231 kworker/35:0H-e [kworker/35:0H-events_highp  0.0
+    0     229 ksoftirqd/35    [ksoftirqd/35]               0.0
+    0     228 migration/35    [migration/35]               0.0
+    0     227 idle_inject/35  [idle_inject/35]             0.0
+    0     226 cpuhp/35        [cpuhp/35]                   0.0
+    0     225 kworker/34:0H-e [kworker/34:0H-events_highp  0.0
+    0     223 ksoftirqd/34    [ksoftirqd/34]               0.0
+    0     222 migration/34    [migration/34]               0.0
+    0     221 idle_inject/34  [idle_inject/34]             0.0
+    0     220 cpuhp/34        [cpuhp/34]                   0.0
+    0     219 kworker/33:0H-k [kworker/33:0H-kblockd]      0.0
+    0     217 ksoftirqd/33    [ksoftirqd/33]               0.0
+    0     216 migration/33    [migration/33]               0.0
+    0     215 idle_inject/33  [idle_inject/33]             0.0
+    0     214 cpuhp/33        [cpuhp/33]                   0.0
+    0     212 kworker/32:0H-k [kworker/32:0H-kblockd]      0.0
+    0     210 ksoftirqd/32    [ksoftirqd/32]               0.0
+    0     209 migration/32    [migration/32]               0.0
+    0     208 idle_inject/32  [idle_inject/32]             0.0
+    0     207 cpuhp/32        [cpuhp/32]                   0.0
+    0     206 kworker/31:0H-k [kworker/31:0H-kblockd]      0.0
+    0     204 ksoftirqd/31    [ksoftirqd/31]               0.0
+    0     203 migration/31    [migration/31]               0.0
+    0     202 idle_inject/31  [idle_inject/31]             0.0
+    0     201 cpuhp/31        [cpuhp/31]                   0.0
+    0     200 kworker/30:0H-e [kworker/30:0H-events_highp  0.0
+    0     198 ksoftirqd/30    [ksoftirqd/30]               0.0
+    0     197 migration/30    [migration/30]               0.0
+    0     196 idle_inject/30  [idle_inject/30]             0.0
+    0     195 cpuhp/30        [cpuhp/30]                   0.0
+    0     194 kworker/29:0H-e [kworker/29:0H-events_highp  0.0
+    0     192 ksoftirqd/29    [ksoftirqd/29]               0.0
+    0     191 migration/29    [migration/29]               0.0
+    0     190 idle_inject/29  [idle_inject/29]             0.0
+    0     189 cpuhp/29        [cpuhp/29]                   0.0
+    0     188 kworker/28:0H-e [kworker/28:0H-events_highp  0.0
+    0     186 ksoftirqd/28    [ksoftirqd/28]               0.0
+    0     185 migration/28    [migration/28]               0.0
+    0     184 idle_inject/28  [idle_inject/28]             0.0
+    0     183 cpuhp/28        [cpuhp/28]                   0.0
+    0     182 kworker/27:0H-k [kworker/27:0H-kblockd]      0.0
+    0     180 ksoftirqd/27    [ksoftirqd/27]               0.0
+    0     179 migration/27    [migration/27]               0.0
+    0     178 idle_inject/27  [idle_inject/27]             0.0
+    0     177 cpuhp/27        [cpuhp/27]                   0.0
+    0     176 kworker/26:0H-e [kworker/26:0H-events_highp  0.0
+    0     174 ksoftirqd/26    [ksoftirqd/26]               0.0
+    0     173 migration/26    [migration/26]               0.0
+    0     172 idle_inject/26  [idle_inject/26]             0.0
+    0     171 cpuhp/26        [cpuhp/26]                   0.0
+    0     170 kworker/25:0H-k [kworker/25:0H-kblockd]      0.0
+    0     168 ksoftirqd/25    [ksoftirqd/25]               0.0
+    0     167 migration/25    [migration/25]               0.0
+    0     166 idle_inject/25  [idle_inject/25]             0.0
+    0     165 cpuhp/25        [cpuhp/25]                   0.0
+    0     164 kworker/24:0H-k [kworker/24:0H-kblockd]      0.0
+    0     162 ksoftirqd/24    [ksoftirqd/24]               0.0
+    0     161 migration/24    [migration/24]               0.0
+    0     160 idle_inject/24  [idle_inject/24]             0.0
+    0     159 cpuhp/24        [cpuhp/24]                   0.0
+    0     158 kworker/23:0H-e [kworker/23:0H-events_highp  0.0
+    0     156 ksoftirqd/23    [ksoftirqd/23]               0.0
+    0     155 migration/23    [migration/23]               0.0
+    0     154 idle_inject/23  [idle_inject/23]             0.0
+    0     153 cpuhp/23        [cpuhp/23]                   0.0
+    0     152 kworker/22:0H-e [kworker/22:0H-events_highp  0.0
+    0     150 ksoftirqd/22    [ksoftirqd/22]               0.0
+    0     149 migration/22    [migration/22]               0.0
+    0     148 idle_inject/22  [idle_inject/22]             0.0
+    0     147 cpuhp/22        [cpuhp/22]                   0.0
+    0     146 kworker/21:0H-e [kworker/21:0H-events_highp  0.0
+    0     144 ksoftirqd/21    [ksoftirqd/21]               0.0
+    0     143 migration/21    [migration/21]               0.0
+    0     142 idle_inject/21  [idle_inject/21]             0.0
+    0     141 cpuhp/21        [cpuhp/21]                   0.0
+    0     140 kworker/20:0H-e [kworker/20:0H-events_highp  0.0
+    0     138 ksoftirqd/20    [ksoftirqd/20]               0.0
+    0     137 migration/20    [migration/20]               0.0
+    0     136 idle_inject/20  [idle_inject/20]             0.0
+    0     135 cpuhp/20        [cpuhp/20]                   0.0
+    0     134 kworker/19:0H-e [kworker/19:0H-events_highp  0.0
+    0     132 ksoftirqd/19    [ksoftirqd/19]               0.0
+    0     131 migration/19    [migration/19]               0.0
+    0     130 idle_inject/19  [idle_inject/19]             0.0
+    0     129 cpuhp/19        [cpuhp/19]                   0.0
+    0     128 kworker/18:0H-k [kworker/18:0H-kblockd]      0.0
+    0     126 ksoftirqd/18    [ksoftirqd/18]               0.0
+    0     125 migration/18    [migration/18]               0.0
+    0     124 idle_inject/18  [idle_inject/18]             0.0
+    0     123 cpuhp/18        [cpuhp/18]                   0.0
+    0     122 kworker/17:0H-e [kworker/17:0H-events_highp  0.0
+    0     120 ksoftirqd/17    [ksoftirqd/17]               0.0
+    0     119 migration/17    [migration/17]               0.0
+    0     118 idle_inject/17  [idle_inject/17]             0.0
+    0     117 cpuhp/17        [cpuhp/17]                   0.0
+    0     116 kworker/16:0H-k [kworker/16:0H-kblockd]      0.0
+    0     114 ksoftirqd/16    [ksoftirqd/16]               0.0
+    0     113 migration/16    [migration/16]               0.0
+    0     112 idle_inject/16  [idle_inject/16]             0.0
+    0     111 cpuhp/16        [cpuhp/16]                   0.0
+    0     110 kworker/15:0H-e [kworker/15:0H-events_highp  0.0
+    0     108 ksoftirqd/15    [ksoftirqd/15]               0.0
+    0     107 migration/15    [migration/15]               0.0
+    0     106 idle_inject/15  [idle_inject/15]             0.0
+    0     105 cpuhp/15        [cpuhp/15]                   0.0
+    0     104 kworker/14:0H-e [kworker/14:0H-events_highp  0.0
+    0     102 ksoftirqd/14    [ksoftirqd/14]               0.0
+    0     101 migration/14    [migration/14]               0.0
+    0     100 idle_inject/14  [idle_inject/14]             0.0
+    0      99 cpuhp/14        [cpuhp/14]                   0.0
+    0      98 kworker/13:0H-e [kworker/13:0H-events_highp  0.0
+    0      96 ksoftirqd/13    [ksoftirqd/13]               0.0
+    0      95 migration/13    [migration/13]               0.0
+    0      94 idle_inject/13  [idle_inject/13]             0.0
+    0      93 cpuhp/13        [cpuhp/13]                   0.0
+    0      92 kworker/12:0H-e [kworker/12:0H-events_highp  0.0
+    0      90 ksoftirqd/12    [ksoftirqd/12]               0.0
+    0      89 migration/12    [migration/12]               0.0
+    0      88 idle_inject/12  [idle_inject/12]             0.0
+    0      87 cpuhp/12        [cpuhp/12]                   0.0
+    0      86 kworker/11:0H-e [kworker/11:0H-events_highp  0.0
+    0      84 ksoftirqd/11    [ksoftirqd/11]               0.0
+    0      83 migration/11    [migration/11]               0.0
+    0      82 idle_inject/11  [idle_inject/11]             0.0
+    0      81 cpuhp/11        [cpuhp/11]                   0.0
+    0      80 kworker/10:0H-e [kworker/10:0H-events_highp  0.0
+    0      78 ksoftirqd/10    [ksoftirqd/10]               0.0
+    0      77 migration/10    [migration/10]               0.0
+    0      76 idle_inject/10  [idle_inject/10]             0.0
+    0      75 cpuhp/10        [cpuhp/10]                   0.0
+    0      74 kworker/9:0H-ev [kworker/9:0H-events_highpr  0.0
+    0      72 ksoftirqd/9     [ksoftirqd/9]                0.0
+    0      71 migration/9     [migration/9]                0.0
+    0      70 idle_inject/9   [idle_inject/9]              0.0
+    0      69 cpuhp/9         [cpuhp/9]                    0.0
+    0      67 kworker/8:0H-ev [kworker/8:0H-events_highpr  0.0
+    0      65 ksoftirqd/8     [ksoftirqd/8]                0.0
+    0      64 migration/8     [migration/8]                0.0
+    0      63 idle_inject/8   [idle_inject/8]              0.0
+    0      62 cpuhp/8         [cpuhp/8]                    0.0
+    0      61 kworker/7:0H-ev [kworker/7:0H-events_highpr  0.0
+    0      59 ksoftirqd/7     [ksoftirqd/7]                0.0
+    0      58 migration/7     [migration/7]                0.0
+    0      57 idle_inject/7   [idle_inject/7]              0.0
+    0      56 cpuhp/7         [cpuhp/7]                    0.0
+    0      55 kworker/6:0H-ev [kworker/6:0H-events_highpr  0.0
+    0      53 ksoftirqd/6     [ksoftirqd/6]                0.0
+    0      52 migration/6     [migration/6]                0.0
+    0      51 idle_inject/6   [idle_inject/6]              0.0
+    0      50 cpuhp/6         [cpuhp/6]                    0.0
+    0      49 kworker/5:0H-kb [kworker/5:0H-kblockd]       0.0
+    0      47 ksoftirqd/5     [ksoftirqd/5]                0.0
+    0      46 migration/5     [migration/5]                0.0
+    0      45 idle_inject/5   [idle_inject/5]              0.0
+    0      44 cpuhp/5         [cpuhp/5]                    0.0
+    0      43 kworker/4:0H-ev [kworker/4:0H-events_highpr  0.0
+    0      41 ksoftirqd/4     [ksoftirqd/4]                0.0
+    0      40 migration/4     [migration/4]                0.0
+    0      39 idle_inject/4   [idle_inject/4]              0.0
+    0      38 cpuhp/4         [cpuhp/4]                    0.0
+    0      37 kworker/3:0H-kb [kworker/3:0H-kblockd]       0.0
+    0      35 ksoftirqd/3     [ksoftirqd/3]                0.0
+    0      34 migration/3     [migration/3]                0.0
+    0      33 idle_inject/3   [idle_inject/3]              0.0
+    0      32 cpuhp/3         [cpuhp/3]                    0.0
+    0      31 kworker/2:0H-kb [kworker/2:0H-kblockd]       0.0
+    0      29 ksoftirqd/2     [ksoftirqd/2]                0.0
+    0      28 migration/2     [migration/2]                0.0
+    0      27 idle_inject/2   [idle_inject/2]              0.0
+    0      26 cpuhp/2         [cpuhp/2]                    0.0
+    0      25 kworker/1:0H-ev [kworker/1:0H-events_highpr  0.0
+    0      23 ksoftirqd/1     [ksoftirqd/1]                0.0
+    0      22 migration/1     [migration/1]                0.0
+    0      21 idle_inject/1   [idle_inject/1]              0.0
+    0      20 cpuhp/1         [cpuhp/1]                    0.0
+    0      19 cpuhp/0         [cpuhp/0]                    0.0
+    0      17 idle_inject/0   [idle_inject/0]              0.0
+    0      16 migration/0     [migration/0]                0.0
+    0      15 rcu_sched       [rcu_sched]                  0.1
+    0      14 ksoftirqd/0     [ksoftirqd/0]                0.0
+    0      13 rcu_tasks_trace [rcu_tasks_trace_kthread]    0.0
+    0      12 rcu_tasks_rude_ [rcu_tasks_rude_kthread]     0.0
+    0      11 mm_percpu_wq    [mm_percpu_wq]               0.0
+    0       8 kworker/0:0H-ev [kworker/0:0H-events_highpr  0.0
+    0       6 netns           [netns]                      0.0
+    0       5 slub_flushwq    [slub_flushwq]               0.0
+    0       4 rcu_par_gp      [rcu_par_gp]                 0.0
+    0       3 rcu_gp          [rcu_gp]                     0.0
+    0       2 kthreadd        [kthreadd]                   0.0
+1200 2150575 ps              ps -eo pcpu,pid,comm,args
+12.1   21244 gaussdb         /opt/opengauss_multinode/bin/gaussdb -D /opt/data/master -M primary
+%CPU     PID COMMAND         COMMAND
+ 8.2 2150549 python3         python3 /root/Shea/mugen-riscv/libs/locallibs/sleep_wait.py --time 30m --cmd bash oe_test_system_monitor_process.sh --mode 1
+ 207 2144150 pt_main_thread  python3 run.py Super_SloMo -d cpu -t eval
+ 100 2149971 isula           isula stop volume volume1 volume2
+ 1.7 2103503 tuned           /usr/bin/python3 -Es /usr/sbin/tuned -l -P
+ 1.5 2150499 bash            bash mugen.sh -f os-basic-riscv -r oe_test_system_monitor_process
+ 1.5 2150248 systemd-timedat /usr/lib/systemd/systemd-timedated
+ 1.5       1 systemd         /sbin/init
+ 0.9 2146449 bash            bash -c while true; do sleep 1;head -v -n 8 /proc/meminfo; head -v -n 2 /proc/stat /proc/version /proc/uptime /proc/loadavg /proc/sys/fs/file-nr /proc/sys/kernel/hostname; tail -v -n 32 /proc/net/dev;echo '==> /proc/df <==';df -l;echo '==> /proc/who <==';who;echo '==> /proc/end <==';echo '##Moba##'; done
+ 0.7 2150496 sudo            sudo bash mugen.sh -f os-basic-riscv -r oe_test_system_monitor_process
+ 0.5 2150550 bash            bash oe_test_system_monitor_process.sh
+ 0.3 2149235 python3         python3 mugen_riscv.py -l ./lists/list_riscv -g
+ 0.3 2148877 python3         python3 /root/Shea/mugen/libs/locallibs/sleep_wait.py --time 30m --cmd bash -x oe_test_iSulad_resource_mapping.sh --mode 1
+ 0.1 2150377 kworker/38:1-mm [kworker/38:1-mm_percpu_wq]
+ 0.1 2101384 systemd-journal /usr/lib/systemd/systemd-journald
+ 0.1 2099385 dbus-daemon     /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.1    2240 sshd            sshd: root@pts/0
+ 0.1      15 rcu_sched       [rcu_sched]
+ 0.0 2150576 sort            sort -rk1
+ 0.0 2150568 sleep           sleep 1
+ 0.0 2150498 sudo            sudo bash mugen.sh -f os-basic-riscv -r oe_test_system_monitor_process
+ 0.0 2150497 tee             tee -a exec.log
+ 0.0 2150495 sh              sh -c -- sudo bash mugen.sh -f os-basic-riscv -r oe_test_system_monitor_process 2>&1 | tee -a exec.log
+ 0.0 2150484 chronyd         /usr/sbin/chronyd
+ 0.0 2150482 kworker/40:2-cg [kworker/40:2-cgroup_destroy]
+ 0.0 2150481 kworker/40:1-cg [kworker/40:1-cgroup_pidlist_destroy]
+ 0.0 2150468 kworker/24:0    [kworker/24:0]
+ 0.0 2150438 kworker/u132:3  [kworker/u132:3]
+ 0.0 2150402 kworker/4:0     [kworker/4:0]
+ 0.0 2150376 kworker/52:2    [kworker/52:2]
+ 0.0 2150313 kworker/12:2-mm [kworker/12:2-mm_percpu_wq]
+ 0.0 2150312 kworker/15:2-mm [kworker/15:2-mm_percpu_wq]
+ 0.0 2150303 kworker/37:2-mm [kworker/37:2-mm_percpu_wq]
+ 0.0 2150283 kworker/44:0-ev [kworker/44:0-events]
+ 0.0 2150278 kworker/22:0    [kworker/22:0]
+ 0.0 2150249 kworker/30:2-rc [kworker/30:2-rcu_par_gp]
+ 0.0 2150059 kworker/7:2-mm_ [kworker/7:2-mm_percpu_wq]
+ 0.0 2150044 kworker/u132:0  [kworker/u132:0]
+ 0.0 2148995 kworker/32:3    [kworker/32:3]
+ 0.0 2148994 kworker/32:1-rc [kworker/32:1-rcu_par_gp]
+ 0.0 2148884 bash            bash -x oe_test_iSulad_resource_mapping.sh
+ 0.0 2148875 kworker/61:3    [kworker/61:3]
+ 0.0 2148874 kworker/61:1-cg [kworker/61:1-cgroup_pidlist_destroy]
+ 0.0 2148722 kworker/35:0-ev [kworker/35:0-events_long]
+ 0.0 2148205 kworker/63:1-cg [kworker/63:1-cgroup_destroy]
+ 0.0 2148204 kworker/63:0-cg [kworker/63:0-cgroup_pidlist_destroy]
+ 0.0 2146979 kworker/4:2-mm_ [kworker/4:2-mm_percpu_wq]
+ 0.0 2141449 kworker/63:2-mm [kworker/63:2-mm_percpu_wq]
+ 0.0 2141448 agetty          /sbin/agetty -o -p -- \u --noclear - linux
+ 0.0 2141231 kworker/u131:2- [kworker/u131:2-events_unbound]
+ 0.0 2141175 kworker/u130:1- [kworker/u130:1-writeback]
+ 0.0 2141049 kworker/9:2-eve [kworker/9:2-events]
+ 0.0 2141048 kworker/32:0-rc [kworker/32:0-rcu_gp]
+ 0.0 2140499 kworker/u129:1- [kworker/u129:1-events_unbound]
+ 0.0 2139487 kworker/47:2    [kworker/47:2]
+ 0.0 2139427 kworker/60:3-ev [kworker/60:3-events]
+ 0.0 2139362 kworker/62:2-cg [kworker/62:2-cgroup_destroy]
+ 0.0 2139201 kworker/46:1-mm [kworker/46:1-mm_percpu_wq]
+ 0.0 2132783 kworker/45:3-mm [kworker/45:3-mm_percpu_wq]
+ 0.0 2132581 kworker/44:1-cg [kworker/44:1-cgroup_pidlist_destroy]
+ 0.0 2132578 kworker/40:0-cg [kworker/40:0-cgroup_destroy]
+ 0.0 2132351 kworker/u128:1- [kworker/u128:1-gid-cache-wq]
+ 0.0 2132350 kworker/35:2-rc [kworker/35:2-rcu_par_gp]
+ 0.0 2132349 kworker/34:1-ev [kworker/34:1-events]
+ 0.0 2132339 kworker/u129:0- [kworker/u129:0-events_unbound]
+ 0.0 2132029 kworker/7:1-rcu [kworker/7:1-rcu_par_gp]
+ 0.0 2132024 kworker/u131:1- [kworker/u131:1-events_unbound]
+ 0.0 2132023 bash            -bash
+ 0.0 2132022 sshd            sshd: root@pts/6
+ 0.0 2132012 sshd            sshd: root [priv]
+ 0.0 2126681 kworker/42:0    [kworker/42:0]
+ 0.0 2126291 kworker/13:0-mm [kworker/13:0-mm_percpu_wq]
+ 0.0 2126131 kworker/57:3    [kworker/57:3]
+ 0.0 2126095 kworker/57:0-mm [kworker/57:0-mm_percpu_wq]
+ 0.0 2126056 kworker/56:1-ev [kworker/56:1-events]
+ 0.0 2126054 kworker/60:0-ev [kworker/60:0-events]
+ 0.0 2125909 kworker/45:2-cg [kworker/45:2-cgroup_pidlist_destroy]
+ 0.0 2125432 kworker/41:3-cg [kworker/41:3-cgroup_pidlist_destroy]
+ 0.0 2125108 kworker/24:3-rc [kworker/24:3-rcu_par_gp]
+ 0.0 2125062 kworker/61:2-cg [kworker/61:2-cgroup_destroy]
+ 0.0 2124782 kworker/63:3-cg [kworker/63:3-cgroup_pidlist_destroy]
+ 0.0 2124779 kworker/33:0-mm [kworker/33:0-mm_percpu_wq]
+ 0.0 2124077 kworker/41:0-mm [kworker/41:0-mm_percpu_wq]
+ 0.0 2123920 kworker/15:1-rc [kworker/15:1-rcu_par_gp]
+ 0.0 2123835 kworker/50:0-mm [kworker/50:0-mm_percpu_wq]
+ 0.0 2123808 kworker/26:0-mm [kworker/26:0-mm_percpu_wq]
+ 0.0 2123759 kworker/46:0-rc [kworker/46:0-rcu_gp]
+ 0.0 2123708 kworker/55:1-mm [kworker/55:1-mm_percpu_wq]
+ 0.0 2123644 kworker/61:0-mm [kworker/61:0-mm_percpu_wq]
+ 0.0 2123643 kworker/54:1-mm [kworker/54:1-mm_percpu_wq]
+ 0.0 2123553 kworker/62:0-mm [kworker/62:0-mm_percpu_wq]
+ 0.0 2123520 kworker/52:1-mm [kworker/52:1-mm_percpu_wq]
+ 0.0 2123505 kworker/u132:2- [kworker/u132:2-events_unbound]
+ 0.0 2123327 kworker/59:2    [kworker/59:2]
+ 0.0 2123053 kworker/59:1-mm [kworker/59:1-mm_percpu_wq]
+ 0.0 2122247 kworker/30:1-mm [kworker/30:1-mm_percpu_wq]
+ 0.0 2122167 kworker/29:2-mm [kworker/29:2-mm_percpu_wq]
+ 0.0 2122136 kworker/9:1-mm_ [kworker/9:1-mm_percpu_wq]
+ 0.0 2122113 kworker/24:1-mm [kworker/24:1-mm_percpu_wq]
+ 0.0 2121875 kworker/28:1-mm [kworker/28:1-mm_percpu_wq]
+ 0.0 2121813 kworker/6:3     [kworker/6:3]
+ 0.0 2121796 kworker/19:2-mm [kworker/19:2-mm_percpu_wq]
+ 0.0 2121737 kworker/10:0-mm [kworker/10:0-mm_percpu_wq]
+ 0.0 2121697 kworker/11:2-mm [kworker/11:2-mm_percpu_wq]
+ 0.0 2121077 kworker/6:0-eve [kworker/6:0-events]
+ 0.0 2120675 kworker/1:1-mm_ [kworker/1:1-mm_percpu_wq]
+ 0.0 2120494 kworker/43:3-mm [kworker/43:3-mm_percpu_wq]
+ 0.0 2119792 kworker/42:3-mm [kworker/42:3-mm_percpu_wq]
+ 0.0 2119287 rsyslogd        /usr/sbin/rsyslogd -n -i/var/run/rsyslogd.pid
+ 0.0 2119284 kworker/49:0-mm [kworker/49:0-mm_percpu_wq]
+ 0.0 2119155 kworker/12:1-rc [kworker/12:1-rcu_par_gp]
+ 0.0 2118676 kworker/58:0-mm [kworker/58:0-mm_percpu_wq]
+ 0.0 2118381 kworker/44:7-cg [kworker/44:7-cgroup_pidlist_destroy]
+ 0.0 2118367 alsactl         /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+ 0.0 2118276 kworker/u130:0- [kworker/u130:0-events_unbound]
+ 0.0 2118274 kworker/38:0-rc [kworker/38:0-rcu_par_gp]
+ 0.0 2118256 kworker/47:0-mm [kworker/47:0-mm_percpu_wq]
+ 0.0 2118248 kworker/35:1-rc [kworker/35:1-rcu_gp]
+ 0.0 2117227 kworker/55:2-rc [kworker/55:2-rcu_par_gp]
+ 0.0 2117117 kworker/14:2-mm [kworker/14:2-mm_percpu_wq]
+ 0.0 2116906 kworker/12:0-rc [kworker/12:0-rcu_gp]
+ 0.0 2116822 kworker/52:0-rc [kworker/52:0-rcu_par_gp]
+ 0.0 2116793 kworker/33:2-rc [kworker/33:2-rcu_gp]
+ 0.0 2115936 kworker/26:1-rc [kworker/26:1-rcu_gp]
+ 0.0 2115913 kworker/27:1-mm [kworker/27:1-mm_percpu_wq]
+ 0.0 2114175 systemd-udevd   /usr/lib/systemd/systemd-udevd
+ 0.0 2114174 cfg80211        [cfg80211]
+ 0.0 2112980 kworker/58:2-cg [kworker/58:2-cgroup_pidlist_destroy]
+ 0.0 2112303 kworker/31:1-mm [kworker/31:1-mm_percpu_wq]
+ 0.0 2112002 kworker/39:1-mm [kworker/39:1-mm_percpu_wq]
+ 0.0 2110663 kworker/30:0-rc [kworker/30:0-rcu_par_gp]
+ 0.0 2110551 kworker/5:2-mm_ [kworker/5:2-mm_percpu_wq]
+ 0.0 2107685 kworker/22:2-ev [kworker/22:2-events]
+ 0.0 2107367 kworker/2:1-rcu [kworker/2:1-rcu_gp]
+ 0.0 2106596 kworker/48:1-rc [kworker/48:1-rcu_par_gp]
+ 0.0 2106593 kworker/50:1-rc [kworker/50:1-rcu_par_gp]
+ 0.0 2106485 kworker/16:3-mm [kworker/16:3-mm_percpu_wq]
+ 0.0 2105723 kworker/2:0-mm_ [kworker/2:0-mm_percpu_wq]
+ 0.0 2105548 kworker/18:3    [kworker/18:3]
+ 0.0 2105307 kworker/17:2-mm [kworker/17:2-mm_percpu_wq]
+ 0.0 2105147 kworker/21:2-cg [kworker/21:2-cgroup_pidlist_destroy]
+ 0.0 2104912 kworker/20:2-mm [kworker/20:2-mm_percpu_wq]
+ 0.0 2104492 kworker/7:0-rcu [kworker/7:0-rcu_par_gp]
+ 0.0 2103656 kworker/40:8-mm [kworker/40:8-mm_percpu_wq]
+ 0.0 2103563 crond           /usr/sbin/crond -n
+ 0.0 2103532 atd             /usr/sbin/atd -f
+ 0.0 2103497 sshd            sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+ 0.0 2103493 smartd          /usr/sbin/smartd -n -q never
+ 0.0 2103485 lsmd            /usr/bin/lsmd -d
+ 0.0 2103482 irqbalance      /usr/sbin/irqbalance --hintpolicy=subset --pid=/var/run/irqbalance.pid
+ 0.0 2103472 kworker/31:0-rc [kworker/31:0-rcu_gp]
+ 0.0 2103454 auditd          /sbin/auditd
+ 0.0 2103453 rpcbind         /usr/bin/rpcbind -r -w -f
+ 0.0 2103184 kworker/10:2-rc [kworker/10:2-rcu_gp]
+ 0.0 2103075 kworker/8:2-mm_ [kworker/8:2-mm_percpu_wq]
+ 0.0 2103072 kworker/11:1-rc [kworker/11:1-rcu_par_gp]
+ 0.0 2103023 kworker/56:0-rc [kworker/56:0-rcu_gp]
+ 0.0 2102582 systemd-logind  /usr/lib/systemd/systemd-logind
+ 0.0 2102538 kworker/36:0-mm [kworker/36:0-mm_percpu_wq]
+ 0.0 2102483 polkitd         /usr/lib/polkit-1/polkitd --no-debug
+ 0.0 2102479 dbus-daemon     /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.0 2102478 pipewire        /usr/bin/pipewire
+ 0.0 2102471 (sd-pam)        (sd-pam)
+ 0.0 2102470 systemd         /usr/lib/systemd/systemd --user
+ 0.0 2101528 kworker/29:1-rc [kworker/29:1-rcu_gp]
+ 0.0 2100724 kworker/25:2-mm [kworker/25:2-mm_percpu_wq]
+ 0.0 2099791 kworker/5:1-rcu [kworker/5:1-rcu_gp]
+ 0.0 2099732 kworker/28:0-rc [kworker/28:0-rcu_gp]
+ 0.0 2099405 kworker/14:0-rc [kworker/14:0-rcu_par_gp]
+ 0.0 2099396 gssproxy        /usr/sbin/gssproxy -D
+ 0.0 2099375 NetworkManager  /usr/sbin/NetworkManager --no-daemon
+ 0.0 2099248 kworker/0:1     [kworker/0:1]
+ 0.0 2099069 kworker/8:1-rcu [kworker/8:1-rcu_gp]
+ 0.0 2098875 kworker/39:2-rc [kworker/39:2-rcu_gp]
+ 0.0 2095357 kworker/43:1-cg [kworker/43:1-cgroup_destroy]
+ 0.0 2095246 kworker/22:3-rc [kworker/22:3-rcu_par_gp]
+ 0.0 2094426 kworker/u132:1- [kworker/u132:1-events_unbound]
+ 0.0 2094236 kworker/36:2-mm [kworker/36:2-mm_percpu_wq]
+ 0.0 2093603 kworker/32:2-mm [kworker/32:2-mm_percpu_wq]
+ 0.0 2093569 kworker/49:1-rc [kworker/49:1-rcu_gp]
+ 0.0 2092663 kworker/48:3-mm [kworker/48:3-mm_percpu_wq]
+ 0.0 2092393 kworker/53:3-mm [kworker/53:3-mm_percpu_wq]
+ 0.0 2091605 kworker/38:2-rc [kworker/38:2-rcu_gp]
+ 0.0 2091422 kworker/37:1-rc [kworker/37:1-rcu_gp]
+ 0.0 2088731 kworker/0:0-eve [kworker/0:0-events]
+ 0.0 2088446 kworker/53:0-cg [kworker/53:0-cgroup_destroy]
+ 0.0 2087436 kworker/15:0-rc [kworker/15:0-rcu_par_gp]
+ 0.0 2087212 kworker/25:0-rc [kworker/25:0-rcu_gp]
+ 0.0 2086965 kworker/13:2-rc [kworker/13:2-rcu_gp]
+ 0.0 2086930 kworker/21:9-mm [kworker/21:9-mm_percpu_wq]
+ 0.0 2081940 kworker/54:0-rc [kworker/54:0-rcu_gp]
+ 0.0 2077838 kworker/51:3-rc [kworker/51:3-rcu_par_gp]
+ 0.0 2077486 kworker/51:2-mm [kworker/51:2-mm_percpu_wq]
+ 0.0 2076873 kworker/34:0-rc [kworker/34:0-rcu_gp]
+ 0.0 2073940 kworker/1:0-rcu [kworker/1:0-rcu_gp]
+ 0.0 2070491 kworker/3:3-rcu [kworker/3:3-rcu_gp]
+ 0.0 2065601 kworker/3:1-mm_ [kworker/3:1-mm_percpu_wq]
+ 0.0 2063170 kworker/37:0-rc [kworker/37:0-rcu_par_gp]
+ 0.0 2063137 kworker/16:2-cg [kworker/16:2-cgroup_destroy]
+ 0.0 2058612 kworker/23:0-mm [kworker/23:0-mm_percpu_wq]
+ 0.0 2055247 kworker/19:1-rc [kworker/19:1-rcu_gp]
+ 0.0 2052818 kworker/18:1-mm [kworker/18:1-mm_percpu_wq]
+ 0.0 2051685 kworker/20:1-cg [kworker/20:1-cgroup_pidlist_destroy]
+ 0.0 2048999 kworker/u128:0- [kworker/u128:0-ixgbe]
+ 0.0 1971600 kworker/27:0-rc [kworker/27:0-rcu_par_gp]
+ 0.0 1951184 kworker/23:2-rc [kworker/23:2-rcu_gp]
+ 0.0 1945736 sftp-server     /usr/libexec/openssh/sftp-server -l INFO -f AUTH
+ 0.0 1945598 sshd            sshd: root@notty
+ 0.0 1945581 sshd            sshd: root [priv]
+ 0.0 1944010 bash            -bash
+ 0.0 1944009 sshd            sshd: root@pts/5
+ 0.0 1943979 sshd            sshd: root [priv]
+ 0.0 1940646 kworker/17:1-rc [kworker/17:1-rcu_gp]
+ 0.0 1869078 xcopy_wq        [xcopy_wq]
+ 0.0 1869077 target_submissi [target_submissi]
+ 0.0 1869076 target_completi [target_completi]
+ 0.0 1867855 nvme_fc_wq      [nvme_fc_wq]
+ 0.0 1864045 fc_rport_eq     [fc_rport_eq]
+ 0.0 1864044 fc_exch_workque [fc_exch_workque]
+ 0.0 1863735 iscsi_conn_clea [iscsi_conn_clea]
+ 0.0 1858069 tmon            tmon -d
+ 0.0 1808495 clamav-milter   clamav-milter -c /etc/mail/clamav-milter.conf
+ 0.0 1751819 freshclam       freshclam -d -p pid_log
+ 0.0 1714265 nfsiod          [nfsiod]
+ 0.0 1711921 rdma_cm         [rdma_cm]
+ 0.0 1711919 ib_nl_sa_wq     [ib_nl_sa_wq]
+ 0.0 1711918 ib_mcast        [ib_mcast]
+ 0.0 1711917 ib-comp-unb-wq  [ib-comp-unb-wq]
+ 0.0 1711916 ib-comp-wq      [ib-comp-wq]
+ 0.0 1658151 kworker/4:1-eve [kworker/4:1-events_freezable_power_]
+ 0.0  981137 bash            -bash
+ 0.0  981136 sshd            sshd: root@pts/4
+ 0.0  981132 sshd            sshd: root [priv]
+ 0.0  977227 uas             [uas]
+ 0.0  639038 bash            bash mugen.sh -a -x
+ 0.0  633082 bash            -bash
+ 0.0  633081 sshd            sshd: root@pts/3
+ 0.0  633077 sshd            sshd: root [priv]
+ 0.0  224217 kworker/32:1H   [kworker/32:1H]
+ 0.0  183156 pt_main_thread  python3 ../benchmark/run.py Super_SloMo -d cpu -t eval
+ 0.0  183154 perf            perf stat --sync -e duration_time,task-clock,cycles,instructions,cache-references,cache-misses,branches,branch-misses,L1-dcache-loads,L1-dcache-load-misses,LLC-load-misses,LLC-loads -r 1 -o performance.txt python3 ../benchmark/run.py Super_SloMo -d cpu -t eval
+ 0.0  146836 kworker/3:2H-kb [kworker/3:2H-kblockd]
+ 0.0  133130 kworker/37:2H   [kworker/37:2H]
+ 0.0  125393 kworker/42:0H   [kworker/42:0H]
+ 0.0   19291 kworker/63:0H   [kworker/63:0H]
+ 0.0   12366 kworker/57:2H   [kworker/57:2H]
+ 0.0   12086 kworker/59:2H-k [kworker/59:2H-kblockd]
+ 0.0   12085 kworker/63:2H-k [kworker/63:2H-kblockd]
+ 0.0    8141 bash            /bin/bash
+ 0.0    8140 screen          SCREEN -S torch_test
+ 0.0    4647 sftp-server     /usr/libexec/openssh/sftp-server -l INFO -f AUTH
+ 0.0    4646 sshd            sshd: root@notty
+ 0.0    4594 bash            -bash
+ 0.0    4593 sshd            sshd: root@pts/1
+ 0.0    4591 sshd            sshd: root [priv]
+ 0.0    4589 sshd            sshd: root [priv]
+ 0.0    2292 sftp-server     /usr/libexec/openssh/sftp-server -l INFO -f AUTH
+ 0.0    2287 sshd            sshd: root@notty
+ 0.0    2241 bash            -bash
+ 0.0    2238 sshd            sshd: root [priv]
+ 0.0    2236 sshd            sshd: root [priv]
+ 0.0    1860 kworker/27:1H-k [kworker/27:1H-kblockd]
+ 0.0    1147 kworker/25:1H-k [kworker/25:1H-kblockd]
+ 0.0    1133 bpfilter_umh    bpfilter_umh
+ 0.0    1091 card0-crtc3     [card0-crtc3]
+ 0.0    1090 card0-crtc2     [card0-crtc2]
+ 0.0    1089 card0-crtc1     [card0-crtc1]
+ 0.0    1088 card0-crtc0     [card0-crtc0]
+ 0.0    1024 kworker/43:1H-k [kworker/43:1H-kblockd]
+ 0.0     941 xprtiod         [xprtiod]
+ 0.0     940 rpciod          [rpciod]
+ 0.0     930 kworker/17:1H-k [kworker/17:1H-kblockd]
+ 0.0     905 kworker/26:1H-k [kworker/26:1H-kblockd]
+ 0.0     893 kworker/49:1H-k [kworker/49:1H-kblockd]
+ 0.0     870 ixgbe           [ixgbe]
+ 0.0     865 scsi_tmf_4      [scsi_tmf_4]
+ 0.0     864 scsi_eh_4       [scsi_eh_4]
+ 0.0     863 scsi_tmf_3      [scsi_tmf_3]
+ 0.0     862 scsi_eh_3       [scsi_eh_3]
+ 0.0     861 scsi_tmf_2      [scsi_tmf_2]
+ 0.0     860 scsi_eh_2       [scsi_eh_2]
+ 0.0     859 scsi_tmf_1      [scsi_tmf_1]
+ 0.0     858 scsi_eh_1       [scsi_eh_1]
+ 0.0     856 scsi_tmf_0      [scsi_tmf_0]
+ 0.0     855 scsi_eh_0       [scsi_eh_0]
+ 0.0     851 spi1            [spi1]
+ 0.0     836 spi0            [spi0]
+ 0.0     835 kworker/45:1H-k [kworker/45:1H-kblockd]
+ 0.0     828 kworker/34:1H-k [kworker/34:1H-kblockd]
+ 0.0     823 kworker/57:1H-k [kworker/57:1H-kblockd]
+ 0.0     816 kworker/42:1H-k [kworker/42:1H-kblockd]
+ 0.0     814 kworker/50:1H-k [kworker/50:1H-kblockd]
+ 0.0     808 kworker/35:1H-k [kworker/35:1H-kblockd]
+ 0.0     807 kworker/41:1H-k [kworker/41:1H-kblockd]
+ 0.0     806 kworker/37:1H-k [kworker/37:1H-kblockd]
+ 0.0     804 kworker/28:1H-k [kworker/28:1H-kblockd]
+ 0.0     787 kworker/62:1H-k [kworker/62:1H-kblockd]
+ 0.0     784 kworker/39:1H-k [kworker/39:1H-kblockd]
+ 0.0     782 kworker/22:1H-k [kworker/22:1H-kblockd]
+ 0.0     777 kworker/38:1H-k [kworker/38:1H-kblockd]
+ 0.0     769 kworker/12:1H-k [kworker/12:1H-kblockd]
+ 0.0     768 kworker/47:1H-k [kworker/47:1H-kblockd]
+ 0.0     767 kworker/55:1H-k [kworker/55:1H-kblockd]
+ 0.0     766 kworker/15:1H-k [kworker/15:1H-kblockd]
+ 0.0     765 kworker/56:1H-k [kworker/56:1H-kblockd]
+ 0.0     764 kworker/11:1H-k [kworker/11:1H-kblockd]
+ 0.0     763 kworker/48:1H-k [kworker/48:1H-kblockd]
+ 0.0     762 kworker/54:1H-k [kworker/54:1H-kblockd]
+ 0.0     761 kworker/14:1H-k [kworker/14:1H-kblockd]
+ 0.0     760 kworker/44:1H-k [kworker/44:1H-kblockd]
+ 0.0     759 kworker/61:1H-k [kworker/61:1H-kblockd]
+ 0.0     753 kworker/53:1H-k [kworker/53:1H-kblockd]
+ 0.0     739 kworker/36:1H-k [kworker/36:1H-kblockd]
+ 0.0     732 kworker/52:1H-k [kworker/52:1H-kblockd]
+ 0.0     728 kworker/30:1H-k [kworker/30:1H-kblockd]
+ 0.0     720 kworker/29:1H-k [kworker/29:1H-kblockd]
+ 0.0     718 kworker/7:1H-kb [kworker/7:1H-kblockd]
+ 0.0     717 kworker/10:1H-k [kworker/10:1H-kblockd]
+ 0.0     692 kworker/13:1H-k [kworker/13:1H-kblockd]
+ 0.0     689 kworker/60:1H-k [kworker/60:1H-kblockd]
+ 0.0     679 kworker/9:1H-kb [kworker/9:1H-kblockd]
+ 0.0     669 kworker/59:1H-r [kworker/59:1H-radeon-crtc]
+ 0.0     664 kworker/58:1H-k [kworker/58:1H-kblockd]
+ 0.0     663 kworker/6:1H-kb [kworker/6:1H-kblockd]
+ 0.0     655 kworker/21:1H-k [kworker/21:1H-kblockd]
+ 0.0     652 kworker/46:1H-k [kworker/46:1H-kblockd]
+ 0.0     650 kworker/20:1H-k [kworker/20:1H-kblockd]
+ 0.0     644 kworker/19:1H-k [kworker/19:1H-kblockd]
+ 0.0     639 kworker/8:1H-kb [kworker/8:1H-kblockd]
+ 0.0     631 kworker/1:1H-kb [kworker/1:1H-kblockd]
+ 0.0     629 kworker/23:1H-k [kworker/23:1H-kblockd]
+ 0.0     622 kworker/40:1H-k [kworker/40:1H-kblockd]
+ 0.0     621 kworker/24:1H-k [kworker/24:1H-kblockd]
+ 0.0     620 kworker/51:1H-k [kworker/51:1H-kblockd]
+ 0.0     619 kworker/31:1H-k [kworker/31:1H-kblockd]
+ 0.0     611 kworker/33:1H-k [kworker/33:1H-kblockd]
+ 0.0     604 kworker/2:1H-kb [kworker/2:1H-kblockd]
+ 0.0     601 kworker/18:1H-k [kworker/18:1H-kblockd]
+ 0.0     597 ext4-rsv-conver [ext4-rsv-conver]
+ 0.0     596 jbd2/nvme0n1p3- [jbd2/nvme0n1p3-8]
+ 0.0     595 kworker/5:1H-kb [kworker/5:1H-kblockd]
+ 0.0     594 charger_manager [charger_manager]
+ 0.0     497 zswap-shrink    [zswap-shrink]
+ 0.0     480 kstrp           [kstrp]
+ 0.0     475 ipv6_addrconf   [ipv6_addrconf]
+ 0.0     474 kworker/4:1H-kb [kworker/4:1H-kblockd]
+ 0.0     473 mld             [mld]
+ 0.0     472 irq/52-mmc1     [irq/52-mmc1]
+ 0.0     471 sdhci           [sdhci]
+ 0.0     470 kworker/16:1H-k [kworker/16:1H-kblockd]
+ 0.0     468 irq/50-nvme0q1  [irq/50-nvme0q1]
+ 0.0     467 irq/50-nvme0q0  [irq/50-nvme0q0]
+ 0.0     462 irq/51-mmc0     [irq/51-mmc0]
+ 0.0     461 sdhci           [sdhci]
+ 0.0     460 kworker/u137:0  [kworker/u137:0]
+ 0.0     459 kworker/u136:0  [kworker/u136:0]
+ 0.0     458 kworker/u135:0  [kworker/u135:0]
+ 0.0     457 kworker/u134:0  [kworker/u134:0]
+ 0.0     456 kworker/u133:0  [kworker/u133:0]
+ 0.0     454 nvme-delete-wq  [nvme-delete-wq]
+ 0.0     453 nvme-reset-wq   [nvme-reset-wq]
+ 0.0     452 nvme-wq         [nvme-wq]
+ 0.0     442 kthrotld        [kthrotld]
+ 0.0     436 ecryptfs-kthrea [ecryptfs-kthread]
+ 0.0     435 kswapd3         [kswapd3]
+ 0.0     434 kswapd2         [kswapd2]
+ 0.0     433 kswapd1         [kswapd1]
+ 0.0     432 kswapd0         [kswapd0]
+ 0.0     431 kworker/0:1H-kb [kworker/0:1H-kblockd]
+ 0.0     428 watchdogd       [watchdogd]
+ 0.0     427 devfreq_wq      [devfreq_wq]
+ 0.0     426 edac-poller     [edac-poller]
+ 0.0     425 md              [md]
+ 0.0     424 ata_sff         [ata_sff]
+ 0.0     423 tpm_dev_wq      [tpm_dev_wq]
+ 0.0     422 blkcg_punt_bio  [blkcg_punt_bio]
+ 0.0     421 kblockd         [kblockd]
+ 0.0     420 kintegrityd     [kintegrityd]
+ 0.0     419 cryptd          [cryptd]
+ 0.0     418 pdecrypt_serial [pdecrypt_serial]
+ 0.0     417 pencrypt_serial [pencrypt_serial]
+ 0.0     416 khugepaged      [khugepaged]
+ 0.0     415 ksmd            [ksmd]
+ 0.0     414 kcompactd3      [kcompactd3]
+ 0.0     413 kcompactd2      [kcompactd2]
+ 0.0     412 kcompactd1      [kcompactd1]
+ 0.0     411 kcompactd0      [kcompactd0]
+ 0.0     410 writeback       [writeback]
+ 0.0     409 oom_reaper      [oom_reaper]
+ 0.0     407 khungtaskd      [khungtaskd]
+ 0.0     404 kauditd         [kauditd]
+ 0.0     402 inet_frag_wq    [inet_frag_wq]
+ 0.0     401 kdevtmpfs       [kdevtmpfs]
+ 0.0     398 ksoftirqd/63    [ksoftirqd/63]
+ 0.0     397 migration/63    [migration/63]
+ 0.0     396 idle_inject/63  [idle_inject/63]
+ 0.0     395 cpuhp/63        [cpuhp/63]
+ 0.0     394 kworker/62:0H-e [kworker/62:0H-events_highpri]
+ 0.0     392 ksoftirqd/62    [ksoftirqd/62]
+ 0.0     391 migration/62    [migration/62]
+ 0.0     390 idle_inject/62  [idle_inject/62]
+ 0.0     389 cpuhp/62        [cpuhp/62]
+ 0.0     388 kworker/61:0H-e [kworker/61:0H-events_highpri]
+ 0.0     386 ksoftirqd/61    [ksoftirqd/61]
+ 0.0     385 migration/61    [migration/61]
+ 0.0     384 idle_inject/61  [idle_inject/61]
+ 0.0     383 cpuhp/61        [cpuhp/61]
+ 0.0     382 kworker/60:0H-e [kworker/60:0H-events_highpri]
+ 0.0     380 ksoftirqd/60    [ksoftirqd/60]
+ 0.0     379 migration/60    [migration/60]
+ 0.0     378 idle_inject/60  [idle_inject/60]
+ 0.0     377 cpuhp/60        [cpuhp/60]
+ 0.0     374 ksoftirqd/59    [ksoftirqd/59]
+ 0.0     373 migration/59    [migration/59]
+ 0.0     372 idle_inject/59  [idle_inject/59]
+ 0.0     371 cpuhp/59        [cpuhp/59]
+ 0.0     370 kworker/58:0H-k [kworker/58:0H-kblockd]
+ 0.0     368 ksoftirqd/58    [ksoftirqd/58]
+ 0.0     367 migration/58    [migration/58]
+ 0.0     366 idle_inject/58  [idle_inject/58]
+ 0.0     365 cpuhp/58        [cpuhp/58]
+ 0.0     362 ksoftirqd/57    [ksoftirqd/57]
+ 0.0     361 migration/57    [migration/57]
+ 0.0     360 idle_inject/57  [idle_inject/57]
+ 0.0     359 cpuhp/57        [cpuhp/57]
+ 0.0     358 kworker/56:0H-e [kworker/56:0H-events_highpri]
+ 0.0     356 ksoftirqd/56    [ksoftirqd/56]
+ 0.0     355 migration/56    [migration/56]
+ 0.0     354 idle_inject/56  [idle_inject/56]
+ 0.0     353 cpuhp/56        [cpuhp/56]
+ 0.0     352 kworker/55:0H-e [kworker/55:0H-events_highpri]
+ 0.0     350 ksoftirqd/55    [ksoftirqd/55]
+ 0.0     349 migration/55    [migration/55]
+ 0.0     348 idle_inject/55  [idle_inject/55]
+ 0.0     347 cpuhp/55        [cpuhp/55]
+ 0.0     346 kworker/54:0H-e [kworker/54:0H-events_highpri]
+ 0.0     344 ksoftirqd/54    [ksoftirqd/54]
+ 0.0     343 migration/54    [migration/54]
+ 0.0     342 idle_inject/54  [idle_inject/54]
+ 0.0     341 cpuhp/54        [cpuhp/54]
+ 0.0     340 kworker/53:0H-e [kworker/53:0H-events_highpri]
+ 0.0     338 ksoftirqd/53    [ksoftirqd/53]
+ 0.0     337 migration/53    [migration/53]
+ 0.0     336 idle_inject/53  [idle_inject/53]
+ 0.0     335 cpuhp/53        [cpuhp/53]
+ 0.0     334 kworker/52:0H-e [kworker/52:0H-events_highpri]
+ 0.0     332 ksoftirqd/52    [ksoftirqd/52]
+ 0.0     331 migration/52    [migration/52]
+ 0.0     330 idle_inject/52  [idle_inject/52]
+ 0.0     329 cpuhp/52        [cpuhp/52]
+ 0.0     328 kworker/51:0H-e [kworker/51:0H-events_highpri]
+ 0.0     326 ksoftirqd/51    [ksoftirqd/51]
+ 0.0     325 migration/51    [migration/51]
+ 0.0     324 idle_inject/51  [idle_inject/51]
+ 0.0     323 cpuhp/51        [cpuhp/51]
+ 0.0     322 kworker/50:0H-e [kworker/50:0H-events_highpri]
+ 0.0     320 ksoftirqd/50    [ksoftirqd/50]
+ 0.0     319 migration/50    [migration/50]
+ 0.0     318 idle_inject/50  [idle_inject/50]
+ 0.0     317 cpuhp/50        [cpuhp/50]
+ 0.0     316 kworker/49:0H-e [kworker/49:0H-events_highpri]
+ 0.0     314 ksoftirqd/49    [ksoftirqd/49]
+ 0.0     313 migration/49    [migration/49]
+ 0.0     312 idle_inject/49  [idle_inject/49]
+ 0.0     311 cpuhp/49        [cpuhp/49]
+ 0.0     310 kworker/48:0H-e [kworker/48:0H-events_highpri]
+ 0.0     308 ksoftirqd/48    [ksoftirqd/48]
+ 0.0     307 migration/48    [migration/48]
+ 0.0     306 idle_inject/48  [idle_inject/48]
+ 0.0     305 cpuhp/48        [cpuhp/48]
+ 0.0     304 kworker/47:0H-e [kworker/47:0H-events_highpri]
+ 0.0     302 ksoftirqd/47    [ksoftirqd/47]
+ 0.0     301 migration/47    [migration/47]
+ 0.0     300 idle_inject/47  [idle_inject/47]
+ 0.0     299 cpuhp/47        [cpuhp/47]
+ 0.0     298 kworker/46:0H-e [kworker/46:0H-events_highpri]
+ 0.0     296 ksoftirqd/46    [ksoftirqd/46]
+ 0.0     295 migration/46    [migration/46]
+ 0.0     294 idle_inject/46  [idle_inject/46]
+ 0.0     293 cpuhp/46        [cpuhp/46]
+ 0.0     292 kworker/45:0H-e [kworker/45:0H-events_highpri]
+ 0.0     290 ksoftirqd/45    [ksoftirqd/45]
+ 0.0     289 migration/45    [migration/45]
+ 0.0     288 idle_inject/45  [idle_inject/45]
+ 0.0     287 cpuhp/45        [cpuhp/45]
+ 0.0     286 kworker/44:0H-e [kworker/44:0H-events_highpri]
+ 0.0     284 ksoftirqd/44    [ksoftirqd/44]
+ 0.0     283 migration/44    [migration/44]
+ 0.0     282 idle_inject/44  [idle_inject/44]
+ 0.0     281 cpuhp/44        [cpuhp/44]
+ 0.0     280 kworker/43:0H-e [kworker/43:0H-events_highpri]
+ 0.0     278 ksoftirqd/43    [ksoftirqd/43]
+ 0.0     277 migration/43    [migration/43]
+ 0.0     276 idle_inject/43  [idle_inject/43]
+ 0.0     275 cpuhp/43        [cpuhp/43]
+ 0.0     272 ksoftirqd/42    [ksoftirqd/42]
+ 0.0     271 migration/42    [migration/42]
+ 0.0     270 idle_inject/42  [idle_inject/42]
+ 0.0     269 cpuhp/42        [cpuhp/42]
+ 0.0     268 kworker/41:0H-e [kworker/41:0H-events_highpri]
+ 0.0     266 ksoftirqd/41    [ksoftirqd/41]
+ 0.0     265 migration/41    [migration/41]
+ 0.0     264 idle_inject/41  [idle_inject/41]
+ 0.0     263 cpuhp/41        [cpuhp/41]
+ 0.0     261 kworker/40:0H-e [kworker/40:0H-events_highpri]
+ 0.0     259 ksoftirqd/40    [ksoftirqd/40]
+ 0.0     258 migration/40    [migration/40]
+ 0.0     257 idle_inject/40  [idle_inject/40]
+ 0.0     256 cpuhp/40        [cpuhp/40]
+ 0.0     255 kworker/39:0H-e [kworker/39:0H-events_highpri]
+ 0.0     253 ksoftirqd/39    [ksoftirqd/39]
+ 0.0     252 migration/39    [migration/39]
+ 0.0     251 idle_inject/39  [idle_inject/39]
+ 0.0     250 cpuhp/39        [cpuhp/39]
+ 0.0     249 kworker/38:0H-e [kworker/38:0H-events_highpri]
+ 0.0     247 ksoftirqd/38    [ksoftirqd/38]
+ 0.0     246 migration/38    [migration/38]
+ 0.0     245 idle_inject/38  [idle_inject/38]
+ 0.0     244 cpuhp/38        [cpuhp/38]
+ 0.0     241 ksoftirqd/37    [ksoftirqd/37]
+ 0.0     240 migration/37    [migration/37]
+ 0.0     239 idle_inject/37  [idle_inject/37]
+ 0.0     238 cpuhp/37        [cpuhp/37]
+ 0.0     237 kworker/36:0H-e [kworker/36:0H-events_highpri]
+ 0.0     235 ksoftirqd/36    [ksoftirqd/36]
+ 0.0     234 migration/36    [migration/36]
+ 0.0     233 idle_inject/36  [idle_inject/36]
+ 0.0     232 cpuhp/36        [cpuhp/36]
+ 0.0     231 kworker/35:0H-e [kworker/35:0H-events_highpri]
+ 0.0     229 ksoftirqd/35    [ksoftirqd/35]
+ 0.0     228 migration/35    [migration/35]
+ 0.0     227 idle_inject/35  [idle_inject/35]
+ 0.0     226 cpuhp/35        [cpuhp/35]
+ 0.0     225 kworker/34:0H-e [kworker/34:0H-events_highpri]
+ 0.0     223 ksoftirqd/34    [ksoftirqd/34]
+ 0.0     222 migration/34    [migration/34]
+ 0.0     221 idle_inject/34  [idle_inject/34]
+ 0.0     220 cpuhp/34        [cpuhp/34]
+ 0.0     219 kworker/33:0H-k [kworker/33:0H-kblockd]
+ 0.0     217 ksoftirqd/33    [ksoftirqd/33]
+ 0.0     216 migration/33    [migration/33]
+ 0.0     215 idle_inject/33  [idle_inject/33]
+ 0.0     214 cpuhp/33        [cpuhp/33]
+ 0.0     212 kworker/32:0H-k [kworker/32:0H-kblockd]
+ 0.0     210 ksoftirqd/32    [ksoftirqd/32]
+ 0.0     209 migration/32    [migration/32]
+ 0.0     208 idle_inject/32  [idle_inject/32]
+ 0.0     207 cpuhp/32        [cpuhp/32]
+ 0.0     206 kworker/31:0H-k [kworker/31:0H-kblockd]
+ 0.0     204 ksoftirqd/31    [ksoftirqd/31]
+ 0.0     203 migration/31    [migration/31]
+ 0.0     202 idle_inject/31  [idle_inject/31]
+ 0.0     201 cpuhp/31        [cpuhp/31]
+ 0.0     200 kworker/30:0H-e [kworker/30:0H-events_highpri]
+ 0.0     198 ksoftirqd/30    [ksoftirqd/30]
+ 0.0     197 migration/30    [migration/30]
+ 0.0     196 idle_inject/30  [idle_inject/30]
+ 0.0     195 cpuhp/30        [cpuhp/30]
+ 0.0     194 kworker/29:0H-e [kworker/29:0H-events_highpri]
+ 0.0     192 ksoftirqd/29    [ksoftirqd/29]
+ 0.0     191 migration/29    [migration/29]
+ 0.0     190 idle_inject/29  [idle_inject/29]
+ 0.0     189 cpuhp/29        [cpuhp/29]
+ 0.0     188 kworker/28:0H-e [kworker/28:0H-events_highpri]
+ 0.0     186 ksoftirqd/28    [ksoftirqd/28]
+ 0.0     185 migration/28    [migration/28]
+ 0.0     184 idle_inject/28  [idle_inject/28]
+ 0.0     183 cpuhp/28        [cpuhp/28]
+ 0.0     182 kworker/27:0H-k [kworker/27:0H-kblockd]
+ 0.0     180 ksoftirqd/27    [ksoftirqd/27]
+ 0.0     179 migration/27    [migration/27]
+ 0.0     178 idle_inject/27  [idle_inject/27]
+ 0.0     177 cpuhp/27        [cpuhp/27]
+ 0.0     176 kworker/26:0H-e [kworker/26:0H-events_highpri]
+ 0.0     174 ksoftirqd/26    [ksoftirqd/26]
+ 0.0     173 migration/26    [migration/26]
+ 0.0     172 idle_inject/26  [idle_inject/26]
+ 0.0     171 cpuhp/26        [cpuhp/26]
+ 0.0     170 kworker/25:0H-k [kworker/25:0H-kblockd]
+ 0.0     168 ksoftirqd/25    [ksoftirqd/25]
+ 0.0     167 migration/25    [migration/25]
+ 0.0     166 idle_inject/25  [idle_inject/25]
+ 0.0     165 cpuhp/25        [cpuhp/25]
+ 0.0     164 kworker/24:0H-k [kworker/24:0H-kblockd]
+ 0.0     162 ksoftirqd/24    [ksoftirqd/24]
+ 0.0     161 migration/24    [migration/24]
+ 0.0     160 idle_inject/24  [idle_inject/24]
+ 0.0     159 cpuhp/24        [cpuhp/24]
+ 0.0     158 kworker/23:0H-e [kworker/23:0H-events_highpri]
+ 0.0     156 ksoftirqd/23    [ksoftirqd/23]
+ 0.0     155 migration/23    [migration/23]
+ 0.0     154 idle_inject/23  [idle_inject/23]
+ 0.0     153 cpuhp/23        [cpuhp/23]
+ 0.0     152 kworker/22:0H-e [kworker/22:0H-events_highpri]
+ 0.0     150 ksoftirqd/22    [ksoftirqd/22]
+ 0.0     149 migration/22    [migration/22]
+ 0.0     148 idle_inject/22  [idle_inject/22]
+ 0.0     147 cpuhp/22        [cpuhp/22]
+ 0.0     146 kworker/21:0H-e [kworker/21:0H-events_highpri]
+ 0.0     144 ksoftirqd/21    [ksoftirqd/21]
+ 0.0     143 migration/21    [migration/21]
+ 0.0     142 idle_inject/21  [idle_inject/21]
+ 0.0     141 cpuhp/21        [cpuhp/21]
+ 0.0     140 kworker/20:0H-e [kworker/20:0H-events_highpri]
+ 0.0     138 ksoftirqd/20    [ksoftirqd/20]
+ 0.0     137 migration/20    [migration/20]
+ 0.0     136 idle_inject/20  [idle_inject/20]
+ 0.0     135 cpuhp/20        [cpuhp/20]
+ 0.0     134 kworker/19:0H-e [kworker/19:0H-events_highpri]
+ 0.0     132 ksoftirqd/19    [ksoftirqd/19]
+ 0.0     131 migration/19    [migration/19]
+ 0.0     130 idle_inject/19  [idle_inject/19]
+ 0.0     129 cpuhp/19        [cpuhp/19]
+ 0.0     128 kworker/18:0H-k [kworker/18:0H-kblockd]
+ 0.0     126 ksoftirqd/18    [ksoftirqd/18]
+ 0.0     125 migration/18    [migration/18]
+ 0.0     124 idle_inject/18  [idle_inject/18]
+ 0.0     123 cpuhp/18        [cpuhp/18]
+ 0.0     122 kworker/17:0H-e [kworker/17:0H-events_highpri]
+ 0.0     120 ksoftirqd/17    [ksoftirqd/17]
+ 0.0     119 migration/17    [migration/17]
+ 0.0     118 idle_inject/17  [idle_inject/17]
+ 0.0     117 cpuhp/17        [cpuhp/17]
+ 0.0     116 kworker/16:0H-k [kworker/16:0H-kblockd]
+ 0.0     114 ksoftirqd/16    [ksoftirqd/16]
+ 0.0     113 migration/16    [migration/16]
+ 0.0     112 idle_inject/16  [idle_inject/16]
+ 0.0     111 cpuhp/16        [cpuhp/16]
+ 0.0     110 kworker/15:0H-e [kworker/15:0H-events_highpri]
+ 0.0     108 ksoftirqd/15    [ksoftirqd/15]
+ 0.0     107 migration/15    [migration/15]
+ 0.0     106 idle_inject/15  [idle_inject/15]
+ 0.0     105 cpuhp/15        [cpuhp/15]
+ 0.0     104 kworker/14:0H-e [kworker/14:0H-events_highpri]
+ 0.0     102 ksoftirqd/14    [ksoftirqd/14]
+ 0.0     101 migration/14    [migration/14]
+ 0.0     100 idle_inject/14  [idle_inject/14]
+ 0.0      99 cpuhp/14        [cpuhp/14]
+ 0.0      98 kworker/13:0H-e [kworker/13:0H-events_highpri]
+ 0.0      96 ksoftirqd/13    [ksoftirqd/13]
+ 0.0      95 migration/13    [migration/13]
+ 0.0      94 idle_inject/13  [idle_inject/13]
+ 0.0      93 cpuhp/13        [cpuhp/13]
+ 0.0      92 kworker/12:0H-e [kworker/12:0H-events_highpri]
+ 0.0      90 ksoftirqd/12    [ksoftirqd/12]
+ 0.0      89 migration/12    [migration/12]
+ 0.0      88 idle_inject/12  [idle_inject/12]
+ 0.0      87 cpuhp/12        [cpuhp/12]
+ 0.0      86 kworker/11:0H-e [kworker/11:0H-events_highpri]
+ 0.0      84 ksoftirqd/11    [ksoftirqd/11]
+ 0.0      83 migration/11    [migration/11]
+ 0.0      82 idle_inject/11  [idle_inject/11]
+ 0.0      81 cpuhp/11        [cpuhp/11]
+ 0.0      80 kworker/10:0H-e [kworker/10:0H-events_highpri]
+ 0.0      78 ksoftirqd/10    [ksoftirqd/10]
+ 0.0      77 migration/10    [migration/10]
+ 0.0      76 idle_inject/10  [idle_inject/10]
+ 0.0      75 cpuhp/10        [cpuhp/10]
+ 0.0      74 kworker/9:0H-ev [kworker/9:0H-events_highpri]
+ 0.0      72 ksoftirqd/9     [ksoftirqd/9]
+ 0.0      71 migration/9     [migration/9]
+ 0.0      70 idle_inject/9   [idle_inject/9]
+ 0.0      69 cpuhp/9         [cpuhp/9]
+ 0.0      67 kworker/8:0H-ev [kworker/8:0H-events_highpri]
+ 0.0      65 ksoftirqd/8     [ksoftirqd/8]
+ 0.0      64 migration/8     [migration/8]
+ 0.0      63 idle_inject/8   [idle_inject/8]
+ 0.0      62 cpuhp/8         [cpuhp/8]
+ 0.0      61 kworker/7:0H-ev [kworker/7:0H-events_highpri]
+ 0.0      59 ksoftirqd/7     [ksoftirqd/7]
+ 0.0      58 migration/7     [migration/7]
+ 0.0      57 idle_inject/7   [idle_inject/7]
+ 0.0      56 cpuhp/7         [cpuhp/7]
+ 0.0      55 kworker/6:0H-ev [kworker/6:0H-events_highpri]
+ 0.0      53 ksoftirqd/6     [ksoftirqd/6]
+ 0.0      52 migration/6     [migration/6]
+ 0.0      51 idle_inject/6   [idle_inject/6]
+ 0.0      50 cpuhp/6         [cpuhp/6]
+ 0.0      49 kworker/5:0H-kb [kworker/5:0H-kblockd]
+ 0.0      47 ksoftirqd/5     [ksoftirqd/5]
+ 0.0      46 migration/5     [migration/5]
+ 0.0      45 idle_inject/5   [idle_inject/5]
+ 0.0      44 cpuhp/5         [cpuhp/5]
+ 0.0      43 kworker/4:0H-ev [kworker/4:0H-events_highpri]
+ 0.0      41 ksoftirqd/4     [ksoftirqd/4]
+ 0.0      40 migration/4     [migration/4]
+ 0.0      39 idle_inject/4   [idle_inject/4]
+ 0.0      38 cpuhp/4         [cpuhp/4]
+ 0.0      37 kworker/3:0H-kb [kworker/3:0H-kblockd]
+ 0.0      35 ksoftirqd/3     [ksoftirqd/3]
+ 0.0      34 migration/3     [migration/3]
+ 0.0      33 idle_inject/3   [idle_inject/3]
+ 0.0      32 cpuhp/3         [cpuhp/3]
+ 0.0      31 kworker/2:0H-kb [kworker/2:0H-kblockd]
+ 0.0      29 ksoftirqd/2     [ksoftirqd/2]
+ 0.0      28 migration/2     [migration/2]
+ 0.0      27 idle_inject/2   [idle_inject/2]
+ 0.0      26 cpuhp/2         [cpuhp/2]
+ 0.0      25 kworker/1:0H-ev [kworker/1:0H-events_highpri]
+ 0.0      23 ksoftirqd/1     [ksoftirqd/1]
+ 0.0      22 migration/1     [migration/1]
+ 0.0      21 idle_inject/1   [idle_inject/1]
+ 0.0      20 cpuhp/1         [cpuhp/1]
+ 0.0      19 cpuhp/0         [cpuhp/0]
+ 0.0      17 idle_inject/0   [idle_inject/0]
+ 0.0      16 migration/0     [migration/0]
+ 0.0      14 ksoftirqd/0     [ksoftirqd/0]
+ 0.0      13 rcu_tasks_trace [rcu_tasks_trace_kthread]
+ 0.0      12 rcu_tasks_rude_ [rcu_tasks_rude_kthread]
+ 0.0      11 mm_percpu_wq    [mm_percpu_wq]
+ 0.0       8 kworker/0:0H-ev [kworker/0:0H-events_highpri]
+ 0.0       6 netns           [netns]
+ 0.0       5 slub_flushwq    [slub_flushwq]
+ 0.0       4 rcu_par_gp      [rcu_par_gp]
+ 0.0       3 rcu_gp          [rcu_gp]
+ 0.0       2 kthreadd        [kthreadd]
+%MEM     PID COMMAND         COMMAND
+ 3.6   21244 gaussdb         /opt/opengauss_multinode/bin/gaussdb -D /opt/data/master -M primary
+ 0.7  183156 pt_main_thread  python3 ../benchmark/run.py Super_SloMo -d cpu -t eval
+ 0.6 2144150 pt_main_thread  python3 run.py Super_SloMo -d cpu -t eval
+ 0.0 2150578 sort            sort -rk1
+ 0.0 2150577 ps              ps -eo pmem,pid,comm,args
+ 0.0 2150568 sleep           sleep 1
+ 0.0 2150550 bash            bash oe_test_system_monitor_process.sh
+ 0.0 2150549 python3         python3 /root/Shea/mugen-riscv/libs/locallibs/sleep_wait.py --time 30m --cmd bash oe_test_system_monitor_process.sh --mode 1
+ 0.0 2150499 bash            bash mugen.sh -f os-basic-riscv -r oe_test_system_monitor_process
+ 0.0 2150498 sudo            sudo bash mugen.sh -f os-basic-riscv -r oe_test_system_monitor_process
+ 0.0 2150497 tee             tee -a exec.log
+ 0.0 2150496 sudo            sudo bash mugen.sh -f os-basic-riscv -r oe_test_system_monitor_process
+ 0.0 2150495 sh              sh -c -- sudo bash mugen.sh -f os-basic-riscv -r oe_test_system_monitor_process 2>&1 | tee -a exec.log
+ 0.0 2150484 chronyd         /usr/sbin/chronyd
+ 0.0 2150482 kworker/40:2-cg [kworker/40:2-cgroup_destroy]
+ 0.0 2150481 kworker/40:1-cg [kworker/40:1-cgroup_pidlist_destroy]
+ 0.0 2150468 kworker/24:0    [kworker/24:0]
+ 0.0 2150438 kworker/u132:3  [kworker/u132:3]
+ 0.0 2150402 kworker/4:0     [kworker/4:0]
+ 0.0 2150377 kworker/38:1-mm [kworker/38:1-mm_percpu_wq]
+ 0.0 2150376 kworker/52:2    [kworker/52:2]
+ 0.0 2150313 kworker/12:2-mm [kworker/12:2-mm_percpu_wq]
+ 0.0 2150312 kworker/15:2-mm [kworker/15:2-mm_percpu_wq]
+ 0.0 2150303 kworker/37:2-mm [kworker/37:2-mm_percpu_wq]
+ 0.0 2150283 kworker/44:0-ev [kworker/44:0-events]
+ 0.0 2150278 kworker/22:0    [kworker/22:0]
+ 0.0 2150249 kworker/30:2-rc [kworker/30:2-rcu_par_gp]
+ 0.0 2150248 systemd-timedat /usr/lib/systemd/systemd-timedated
+ 0.0 2150059 kworker/7:2-mm_ [kworker/7:2-mm_percpu_wq]
+ 0.0 2150044 kworker/u132:0  [kworker/u132:0]
+ 0.0 2149971 isula           isula stop volume volume1 volume2
+ 0.0 2149235 python3         python3 mugen_riscv.py -l ./lists/list_riscv -g
+ 0.0 2148995 kworker/32:3    [kworker/32:3]
+ 0.0 2148994 kworker/32:1-rc [kworker/32:1-rcu_par_gp]
+ 0.0 2148884 bash            bash -x oe_test_iSulad_resource_mapping.sh
+ 0.0 2148877 python3         python3 /root/Shea/mugen/libs/locallibs/sleep_wait.py --time 30m --cmd bash -x oe_test_iSulad_resource_mapping.sh --mode 1
+ 0.0 2148875 kworker/61:3    [kworker/61:3]
+ 0.0 2148874 kworker/61:1-cg [kworker/61:1-cgroup_pidlist_destroy]
+ 0.0 2148722 kworker/35:0-ev [kworker/35:0-events_long]
+ 0.0 2148205 kworker/63:1-cg [kworker/63:1-cgroup_destroy]
+ 0.0 2148204 kworker/63:0-cg [kworker/63:0-cgroup_pidlist_destroy]
+ 0.0 2146979 kworker/4:2-mm_ [kworker/4:2-mm_percpu_wq]
+ 0.0 2146449 bash            bash -c while true; do sleep 1;head -v -n 8 /proc/meminfo; head -v -n 2 /proc/stat /proc/version /proc/uptime /proc/loadavg /proc/sys/fs/file-nr /proc/sys/kernel/hostname; tail -v -n 32 /proc/net/dev;echo '==> /proc/df <==';df -l;echo '==> /proc/who <==';who;echo '==> /proc/end <==';echo '##Moba##'; done
+ 0.0 2141449 kworker/63:2-mm [kworker/63:2-mm_percpu_wq]
+ 0.0 2141448 agetty          /sbin/agetty -o -p -- \u --noclear - linux
+ 0.0 2141231 kworker/u131:2- [kworker/u131:2-events_unbound]
+ 0.0 2141175 kworker/u130:1- [kworker/u130:1-writeback]
+ 0.0 2141049 kworker/9:2-eve [kworker/9:2-events]
+ 0.0 2141048 kworker/32:0-rc [kworker/32:0-rcu_gp]
+ 0.0 2140499 kworker/u129:1- [kworker/u129:1-events_unbound]
+ 0.0 2139487 kworker/47:2    [kworker/47:2]
+ 0.0 2139427 kworker/60:3-ev [kworker/60:3-events]
+ 0.0 2139362 kworker/62:2-cg [kworker/62:2-cgroup_destroy]
+ 0.0 2139201 kworker/46:1-mm [kworker/46:1-mm_percpu_wq]
+ 0.0 2132783 kworker/45:3-mm [kworker/45:3-mm_percpu_wq]
+ 0.0 2132581 kworker/44:1-cg [kworker/44:1-cgroup_pidlist_destroy]
+ 0.0 2132578 kworker/40:0-cg [kworker/40:0-cgroup_destroy]
+ 0.0 2132351 kworker/u128:1- [kworker/u128:1-gid-cache-wq]
+ 0.0 2132350 kworker/35:2-rc [kworker/35:2-rcu_par_gp]
+ 0.0 2132349 kworker/34:1-ev [kworker/34:1-events]
+ 0.0 2132339 kworker/u129:0- [kworker/u129:0-events_unbound]
+ 0.0 2132029 kworker/7:1-rcu [kworker/7:1-rcu_par_gp]
+ 0.0 2132024 kworker/u131:1- [kworker/u131:1-events_unbound]
+ 0.0 2132023 bash            -bash
+ 0.0 2132022 sshd            sshd: root@pts/6
+ 0.0 2132012 sshd            sshd: root [priv]
+ 0.0 2126681 kworker/42:0    [kworker/42:0]
+ 0.0 2126291 kworker/13:0-mm [kworker/13:0-mm_percpu_wq]
+ 0.0 2126131 kworker/57:3    [kworker/57:3]
+ 0.0 2126095 kworker/57:0-mm [kworker/57:0-mm_percpu_wq]
+ 0.0 2126056 kworker/56:1-ev [kworker/56:1-events]
+ 0.0 2126054 kworker/60:0-ev [kworker/60:0-events]
+ 0.0 2125909 kworker/45:2-cg [kworker/45:2-cgroup_pidlist_destroy]
+ 0.0 2125432 kworker/41:3-cg [kworker/41:3-cgroup_pidlist_destroy]
+ 0.0 2125108 kworker/24:3-rc [kworker/24:3-rcu_par_gp]
+ 0.0 2125062 kworker/61:2-cg [kworker/61:2-cgroup_destroy]
+ 0.0 2124782 kworker/63:3-cg [kworker/63:3-cgroup_pidlist_destroy]
+ 0.0 2124779 kworker/33:0-mm [kworker/33:0-mm_percpu_wq]
+ 0.0 2124077 kworker/41:0-mm [kworker/41:0-mm_percpu_wq]
+ 0.0 2123920 kworker/15:1-rc [kworker/15:1-rcu_par_gp]
+ 0.0 2123835 kworker/50:0-mm [kworker/50:0-mm_percpu_wq]
+ 0.0 2123808 kworker/26:0-mm [kworker/26:0-mm_percpu_wq]
+ 0.0 2123759 kworker/46:0-rc [kworker/46:0-rcu_gp]
+ 0.0 2123708 kworker/55:1-mm [kworker/55:1-mm_percpu_wq]
+ 0.0 2123644 kworker/61:0-mm [kworker/61:0-mm_percpu_wq]
+ 0.0 2123643 kworker/54:1-mm [kworker/54:1-mm_percpu_wq]
+ 0.0 2123553 kworker/62:0-mm [kworker/62:0-mm_percpu_wq]
+ 0.0 2123520 kworker/52:1-mm [kworker/52:1-mm_percpu_wq]
+ 0.0 2123505 kworker/u132:2- [kworker/u132:2-events_unbound]
+ 0.0 2123327 kworker/59:2    [kworker/59:2]
+ 0.0 2123053 kworker/59:1-mm [kworker/59:1-mm_percpu_wq]
+ 0.0 2122247 kworker/30:1-mm [kworker/30:1-mm_percpu_wq]
+ 0.0 2122167 kworker/29:2-mm [kworker/29:2-mm_percpu_wq]
+ 0.0 2122136 kworker/9:1-mm_ [kworker/9:1-mm_percpu_wq]
+ 0.0 2122113 kworker/24:1-mm [kworker/24:1-mm_percpu_wq]
+ 0.0 2121875 kworker/28:1-mm [kworker/28:1-mm_percpu_wq]
+ 0.0 2121813 kworker/6:3     [kworker/6:3]
+ 0.0 2121796 kworker/19:2-mm [kworker/19:2-mm_percpu_wq]
+ 0.0 2121737 kworker/10:0-mm [kworker/10:0-mm_percpu_wq]
+ 0.0 2121697 kworker/11:2-mm [kworker/11:2-mm_percpu_wq]
+ 0.0 2121077 kworker/6:0-eve [kworker/6:0-events]
+ 0.0 2120675 kworker/1:1-mm_ [kworker/1:1-mm_percpu_wq]
+ 0.0 2120494 kworker/43:3-mm [kworker/43:3-mm_percpu_wq]
+ 0.0 2119792 kworker/42:3-mm [kworker/42:3-mm_percpu_wq]
+ 0.0 2119287 rsyslogd        /usr/sbin/rsyslogd -n -i/var/run/rsyslogd.pid
+ 0.0 2119284 kworker/49:0-mm [kworker/49:0-mm_percpu_wq]
+ 0.0 2119155 kworker/12:1-rc [kworker/12:1-rcu_par_gp]
+ 0.0 2118676 kworker/58:0-mm [kworker/58:0-mm_percpu_wq]
+ 0.0 2118381 kworker/44:7-cg [kworker/44:7-cgroup_pidlist_destroy]
+ 0.0 2118367 alsactl         /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+ 0.0 2118276 kworker/u130:0- [kworker/u130:0-events_unbound]
+ 0.0 2118274 kworker/38:0-rc [kworker/38:0-rcu_par_gp]
+ 0.0 2118256 kworker/47:0-mm [kworker/47:0-mm_percpu_wq]
+ 0.0 2118248 kworker/35:1-rc [kworker/35:1-rcu_gp]
+ 0.0 2117227 kworker/55:2-rc [kworker/55:2-rcu_par_gp]
+ 0.0 2117117 kworker/14:2-mm [kworker/14:2-mm_percpu_wq]
+ 0.0 2116906 kworker/12:0-rc [kworker/12:0-rcu_gp]
+ 0.0 2116822 kworker/52:0-rc [kworker/52:0-rcu_par_gp]
+ 0.0 2116793 kworker/33:2-rc [kworker/33:2-rcu_gp]
+ 0.0 2115936 kworker/26:1-rc [kworker/26:1-rcu_gp]
+ 0.0 2115913 kworker/27:1-mm [kworker/27:1-mm_percpu_wq]
+ 0.0 2114175 systemd-udevd   /usr/lib/systemd/systemd-udevd
+ 0.0 2114174 cfg80211        [cfg80211]
+ 0.0 2112980 kworker/58:2-cg [kworker/58:2-cgroup_pidlist_destroy]
+ 0.0 2112303 kworker/31:1-mm [kworker/31:1-mm_percpu_wq]
+ 0.0 2112002 kworker/39:1-mm [kworker/39:1-mm_percpu_wq]
+ 0.0 2110663 kworker/30:0-rc [kworker/30:0-rcu_par_gp]
+ 0.0 2110551 kworker/5:2-mm_ [kworker/5:2-mm_percpu_wq]
+ 0.0 2107685 kworker/22:2-ev [kworker/22:2-events]
+ 0.0 2107367 kworker/2:1-rcu [kworker/2:1-rcu_gp]
+ 0.0 2106596 kworker/48:1-rc [kworker/48:1-rcu_par_gp]
+ 0.0 2106593 kworker/50:1-rc [kworker/50:1-rcu_par_gp]
+ 0.0 2106485 kworker/16:3-mm [kworker/16:3-mm_percpu_wq]
+ 0.0 2105723 kworker/2:0-mm_ [kworker/2:0-mm_percpu_wq]
+ 0.0 2105548 kworker/18:3    [kworker/18:3]
+ 0.0 2105307 kworker/17:2-mm [kworker/17:2-mm_percpu_wq]
+ 0.0 2105147 kworker/21:2-cg [kworker/21:2-cgroup_pidlist_destroy]
+ 0.0 2104912 kworker/20:2-mm [kworker/20:2-mm_percpu_wq]
+ 0.0 2104492 kworker/7:0-rcu [kworker/7:0-rcu_par_gp]
+ 0.0 2103656 kworker/40:8-mm [kworker/40:8-mm_percpu_wq]
+ 0.0 2103563 crond           /usr/sbin/crond -n
+ 0.0 2103532 atd             /usr/sbin/atd -f
+ 0.0 2103503 tuned           /usr/bin/python3 -Es /usr/sbin/tuned -l -P
+ 0.0 2103497 sshd            sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+ 0.0 2103493 smartd          /usr/sbin/smartd -n -q never
+ 0.0 2103485 lsmd            /usr/bin/lsmd -d
+ 0.0 2103482 irqbalance      /usr/sbin/irqbalance --hintpolicy=subset --pid=/var/run/irqbalance.pid
+ 0.0 2103472 kworker/31:0-rc [kworker/31:0-rcu_gp]
+ 0.0 2103454 auditd          /sbin/auditd
+ 0.0 2103453 rpcbind         /usr/bin/rpcbind -r -w -f
+ 0.0 2103184 kworker/10:2-rc [kworker/10:2-rcu_gp]
+ 0.0 2103075 kworker/8:2-mm_ [kworker/8:2-mm_percpu_wq]
+ 0.0 2103072 kworker/11:1-rc [kworker/11:1-rcu_par_gp]
+ 0.0 2103023 kworker/56:0-rc [kworker/56:0-rcu_gp]
+ 0.0 2102582 systemd-logind  /usr/lib/systemd/systemd-logind
+ 0.0 2102538 kworker/36:0-mm [kworker/36:0-mm_percpu_wq]
+ 0.0 2102483 polkitd         /usr/lib/polkit-1/polkitd --no-debug
+ 0.0 2102479 dbus-daemon     /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.0 2102478 pipewire        /usr/bin/pipewire
+ 0.0 2102471 (sd-pam)        (sd-pam)
+ 0.0 2102470 systemd         /usr/lib/systemd/systemd --user
+ 0.0 2101528 kworker/29:1-rc [kworker/29:1-rcu_gp]
+ 0.0 2101384 systemd-journal /usr/lib/systemd/systemd-journald
+ 0.0 2100724 kworker/25:2-mm [kworker/25:2-mm_percpu_wq]
+ 0.0 2099791 kworker/5:1-rcu [kworker/5:1-rcu_gp]
+ 0.0 2099732 kworker/28:0-rc [kworker/28:0-rcu_gp]
+ 0.0 2099405 kworker/14:0-rc [kworker/14:0-rcu_par_gp]
+ 0.0 2099396 gssproxy        /usr/sbin/gssproxy -D
+ 0.0 2099385 dbus-daemon     /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.0 2099375 NetworkManager  /usr/sbin/NetworkManager --no-daemon
+ 0.0 2099248 kworker/0:1     [kworker/0:1]
+ 0.0 2099069 kworker/8:1-rcu [kworker/8:1-rcu_gp]
+ 0.0 2098875 kworker/39:2-rc [kworker/39:2-rcu_gp]
+ 0.0 2095357 kworker/43:1-cg [kworker/43:1-cgroup_destroy]
+ 0.0 2095246 kworker/22:3-rc [kworker/22:3-rcu_par_gp]
+ 0.0 2094426 kworker/u132:1- [kworker/u132:1-events_unbound]
+ 0.0 2094236 kworker/36:2-mm [kworker/36:2-mm_percpu_wq]
+ 0.0 2093603 kworker/32:2-ev [kworker/32:2-events]
+ 0.0 2093569 kworker/49:1-rc [kworker/49:1-rcu_gp]
+ 0.0 2092663 kworker/48:3-mm [kworker/48:3-mm_percpu_wq]
+ 0.0 2092393 kworker/53:3-mm [kworker/53:3-mm_percpu_wq]
+ 0.0 2091605 kworker/38:2-rc [kworker/38:2-rcu_gp]
+ 0.0 2091422 kworker/37:1-rc [kworker/37:1-rcu_gp]
+ 0.0 2088731 kworker/0:0-eve [kworker/0:0-events]
+ 0.0 2088446 kworker/53:0-cg [kworker/53:0-cgroup_destroy]
+ 0.0 2087436 kworker/15:0-rc [kworker/15:0-rcu_par_gp]
+ 0.0 2087212 kworker/25:0-rc [kworker/25:0-rcu_gp]
+ 0.0 2086965 kworker/13:2-rc [kworker/13:2-rcu_gp]
+ 0.0 2086930 kworker/21:9-mm [kworker/21:9-mm_percpu_wq]
+ 0.0 2081940 kworker/54:0-rc [kworker/54:0-rcu_gp]
+ 0.0 2077838 kworker/51:3-rc [kworker/51:3-rcu_par_gp]
+ 0.0 2077486 kworker/51:2-mm [kworker/51:2-mm_percpu_wq]
+ 0.0 2076873 kworker/34:0-rc [kworker/34:0-rcu_gp]
+ 0.0 2073940 kworker/1:0-rcu [kworker/1:0-rcu_gp]
+ 0.0 2070491 kworker/3:3-rcu [kworker/3:3-rcu_gp]
+ 0.0 2065601 kworker/3:1-mm_ [kworker/3:1-mm_percpu_wq]
+ 0.0 2063170 kworker/37:0-rc [kworker/37:0-rcu_par_gp]
+ 0.0 2063137 kworker/16:2-cg [kworker/16:2-cgroup_destroy]
+ 0.0 2058612 kworker/23:0-mm [kworker/23:0-mm_percpu_wq]
+ 0.0 2055247 kworker/19:1-rc [kworker/19:1-rcu_gp]
+ 0.0 2052818 kworker/18:1-mm [kworker/18:1-mm_percpu_wq]
+ 0.0 2051685 kworker/20:1-cg [kworker/20:1-cgroup_pidlist_destroy]
+ 0.0 2048999 kworker/u128:0- [kworker/u128:0-ixgbe]
+ 0.0 1971600 kworker/27:0-rc [kworker/27:0-rcu_par_gp]
+ 0.0 1951184 kworker/23:2-rc [kworker/23:2-rcu_gp]
+ 0.0 1945736 sftp-server     /usr/libexec/openssh/sftp-server -l INFO -f AUTH
+ 0.0 1945598 sshd            sshd: root@notty
+ 0.0 1945581 sshd            sshd: root [priv]
+ 0.0 1944010 bash            -bash
+ 0.0 1944009 sshd            sshd: root@pts/5
+ 0.0 1943979 sshd            sshd: root [priv]
+ 0.0 1940646 kworker/17:1-rc [kworker/17:1-rcu_gp]
+ 0.0 1869078 xcopy_wq        [xcopy_wq]
+ 0.0 1869077 target_submissi [target_submissi]
+ 0.0 1869076 target_completi [target_completi]
+ 0.0 1867855 nvme_fc_wq      [nvme_fc_wq]
+ 0.0 1864045 fc_rport_eq     [fc_rport_eq]
+ 0.0 1864044 fc_exch_workque [fc_exch_workque]
+ 0.0 1863735 iscsi_conn_clea [iscsi_conn_clea]
+ 0.0 1858069 tmon            tmon -d
+ 0.0 1808495 clamav-milter   clamav-milter -c /etc/mail/clamav-milter.conf
+ 0.0 1751819 freshclam       freshclam -d -p pid_log
+ 0.0 1714265 nfsiod          [nfsiod]
+ 0.0 1711921 rdma_cm         [rdma_cm]
+ 0.0 1711919 ib_nl_sa_wq     [ib_nl_sa_wq]
+ 0.0 1711918 ib_mcast        [ib_mcast]
+ 0.0 1711917 ib-comp-unb-wq  [ib-comp-unb-wq]
+ 0.0 1711916 ib-comp-wq      [ib-comp-wq]
+ 0.0 1658151 kworker/4:1-eve [kworker/4:1-events_freezable_power_]
+ 0.0  981137 bash            -bash
+ 0.0  981136 sshd            sshd: root@pts/4
+ 0.0  981132 sshd            sshd: root [priv]
+ 0.0  977227 uas             [uas]
+ 0.0  639038 bash            bash mugen.sh -a -x
+ 0.0  633082 bash            -bash
+ 0.0  633081 sshd            sshd: root@pts/3
+ 0.0  633077 sshd            sshd: root [priv]
+ 0.0  224217 kworker/32:1H   [kworker/32:1H]
+ 0.0  183154 perf            perf stat --sync -e duration_time,task-clock,cycles,instructions,cache-references,cache-misses,branches,branch-misses,L1-dcache-loads,L1-dcache-load-misses,LLC-load-misses,LLC-loads -r 1 -o performance.txt python3 ../benchmark/run.py Super_SloMo -d cpu -t eval
+ 0.0  146836 kworker/3:2H-kb [kworker/3:2H-kblockd]
+ 0.0  133130 kworker/37:2H   [kworker/37:2H]
+ 0.0  125393 kworker/42:0H   [kworker/42:0H]
+ 0.0   19291 kworker/63:0H   [kworker/63:0H]
+ 0.0   12366 kworker/57:2H   [kworker/57:2H]
+ 0.0   12086 kworker/59:2H-k [kworker/59:2H-kblockd]
+ 0.0   12085 kworker/63:2H-k [kworker/63:2H-kblockd]
+ 0.0    8141 bash            /bin/bash
+ 0.0    8140 screen          SCREEN -S torch_test
+ 0.0    4647 sftp-server     /usr/libexec/openssh/sftp-server -l INFO -f AUTH
+ 0.0    4646 sshd            sshd: root@notty
+ 0.0    4594 bash            -bash
+ 0.0    4593 sshd            sshd: root@pts/1
+ 0.0    4591 sshd            sshd: root [priv]
+ 0.0    4589 sshd            sshd: root [priv]
+ 0.0    2292 sftp-server     /usr/libexec/openssh/sftp-server -l INFO -f AUTH
+ 0.0    2287 sshd            sshd: root@notty
+ 0.0    2241 bash            -bash
+ 0.0    2240 sshd            sshd: root@pts/0
+ 0.0    2238 sshd            sshd: root [priv]
+ 0.0    2236 sshd            sshd: root [priv]
+ 0.0    1860 kworker/27:1H-k [kworker/27:1H-kblockd]
+ 0.0    1147 kworker/25:1H-k [kworker/25:1H-kblockd]
+ 0.0    1133 bpfilter_umh    bpfilter_umh
+ 0.0    1091 card0-crtc3     [card0-crtc3]
+ 0.0    1090 card0-crtc2     [card0-crtc2]
+ 0.0    1089 card0-crtc1     [card0-crtc1]
+ 0.0    1088 card0-crtc0     [card0-crtc0]
+ 0.0    1024 kworker/43:1H-k [kworker/43:1H-kblockd]
+ 0.0     941 xprtiod         [xprtiod]
+ 0.0     940 rpciod          [rpciod]
+ 0.0     930 kworker/17:1H-k [kworker/17:1H-kblockd]
+ 0.0     905 kworker/26:1H-k [kworker/26:1H-kblockd]
+ 0.0     893 kworker/49:1H-k [kworker/49:1H-kblockd]
+ 0.0     870 ixgbe           [ixgbe]
+ 0.0     865 scsi_tmf_4      [scsi_tmf_4]
+ 0.0     864 scsi_eh_4       [scsi_eh_4]
+ 0.0     863 scsi_tmf_3      [scsi_tmf_3]
+ 0.0     862 scsi_eh_3       [scsi_eh_3]
+ 0.0     861 scsi_tmf_2      [scsi_tmf_2]
+ 0.0     860 scsi_eh_2       [scsi_eh_2]
+ 0.0     859 scsi_tmf_1      [scsi_tmf_1]
+ 0.0     858 scsi_eh_1       [scsi_eh_1]
+ 0.0     856 scsi_tmf_0      [scsi_tmf_0]
+ 0.0     855 scsi_eh_0       [scsi_eh_0]
+ 0.0     851 spi1            [spi1]
+ 0.0     836 spi0            [spi0]
+ 0.0     835 kworker/45:1H-k [kworker/45:1H-kblockd]
+ 0.0     828 kworker/34:1H-k [kworker/34:1H-kblockd]
+ 0.0     823 kworker/57:1H-k [kworker/57:1H-kblockd]
+ 0.0     816 kworker/42:1H-k [kworker/42:1H-kblockd]
+ 0.0     814 kworker/50:1H-k [kworker/50:1H-kblockd]
+ 0.0     808 kworker/35:1H-k [kworker/35:1H-kblockd]
+ 0.0     807 kworker/41:1H-k [kworker/41:1H-kblockd]
+ 0.0     806 kworker/37:1H-k [kworker/37:1H-kblockd]
+ 0.0     804 kworker/28:1H-k [kworker/28:1H-kblockd]
+ 0.0     787 kworker/62:1H-k [kworker/62:1H-kblockd]
+ 0.0     784 kworker/39:1H-k [kworker/39:1H-kblockd]
+ 0.0     782 kworker/22:1H-k [kworker/22:1H-kblockd]
+ 0.0     777 kworker/38:1H-k [kworker/38:1H-kblockd]
+ 0.0     769 kworker/12:1H-k [kworker/12:1H-kblockd]
+ 0.0     768 kworker/47:1H-k [kworker/47:1H-kblockd]
+ 0.0     767 kworker/55:1H-k [kworker/55:1H-kblockd]
+ 0.0     766 kworker/15:1H-k [kworker/15:1H-kblockd]
+ 0.0     765 kworker/56:1H-k [kworker/56:1H-kblockd]
+ 0.0     764 kworker/11:1H-k [kworker/11:1H-kblockd]
+ 0.0     763 kworker/48:1H-k [kworker/48:1H-kblockd]
+ 0.0     762 kworker/54:1H-k [kworker/54:1H-kblockd]
+ 0.0     761 kworker/14:1H-k [kworker/14:1H-kblockd]
+ 0.0     760 kworker/44:1H-k [kworker/44:1H-kblockd]
+ 0.0     759 kworker/61:1H-k [kworker/61:1H-kblockd]
+ 0.0     753 kworker/53:1H-k [kworker/53:1H-kblockd]
+ 0.0     739 kworker/36:1H-k [kworker/36:1H-kblockd]
+ 0.0     732 kworker/52:1H-k [kworker/52:1H-kblockd]
+ 0.0     728 kworker/30:1H-k [kworker/30:1H-kblockd]
+ 0.0     720 kworker/29:1H-k [kworker/29:1H-kblockd]
+ 0.0     718 kworker/7:1H-kb [kworker/7:1H-kblockd]
+ 0.0     717 kworker/10:1H-k [kworker/10:1H-kblockd]
+ 0.0     692 kworker/13:1H-k [kworker/13:1H-kblockd]
+ 0.0     689 kworker/60:1H-k [kworker/60:1H-kblockd]
+ 0.0     679 kworker/9:1H-kb [kworker/9:1H-kblockd]
+ 0.0     669 kworker/59:1H-r [kworker/59:1H-radeon-crtc]
+ 0.0     664 kworker/58:1H-k [kworker/58:1H-kblockd]
+ 0.0     663 kworker/6:1H-kb [kworker/6:1H-kblockd]
+ 0.0     655 kworker/21:1H-k [kworker/21:1H-kblockd]
+ 0.0     652 kworker/46:1H-k [kworker/46:1H-kblockd]
+ 0.0     650 kworker/20:1H-k [kworker/20:1H-kblockd]
+ 0.0     644 kworker/19:1H-k [kworker/19:1H-kblockd]
+ 0.0     639 kworker/8:1H-kb [kworker/8:1H-kblockd]
+ 0.0     631 kworker/1:1H-kb [kworker/1:1H-kblockd]
+ 0.0     629 kworker/23:1H-k [kworker/23:1H-kblockd]
+ 0.0     622 kworker/40:1H-k [kworker/40:1H-kblockd]
+ 0.0     621 kworker/24:1H-k [kworker/24:1H-kblockd]
+ 0.0     620 kworker/51:1H-k [kworker/51:1H-kblockd]
+ 0.0     619 kworker/31:1H-k [kworker/31:1H-kblockd]
+ 0.0     611 kworker/33:1H-k [kworker/33:1H-kblockd]
+ 0.0     604 kworker/2:1H-kb [kworker/2:1H-kblockd]
+ 0.0     601 kworker/18:1H-k [kworker/18:1H-kblockd]
+ 0.0     597 ext4-rsv-conver [ext4-rsv-conver]
+ 0.0     596 jbd2/nvme0n1p3- [jbd2/nvme0n1p3-8]
+ 0.0     595 kworker/5:1H-kb [kworker/5:1H-kblockd]
+ 0.0     594 charger_manager [charger_manager]
+ 0.0     497 zswap-shrink    [zswap-shrink]
+ 0.0     480 kstrp           [kstrp]
+ 0.0     475 ipv6_addrconf   [ipv6_addrconf]
+ 0.0     474 kworker/4:1H-kb [kworker/4:1H-kblockd]
+ 0.0     473 mld             [mld]
+ 0.0     472 irq/52-mmc1     [irq/52-mmc1]
+ 0.0     471 sdhci           [sdhci]
+ 0.0     470 kworker/16:1H-k [kworker/16:1H-kblockd]
+ 0.0     468 irq/50-nvme0q1  [irq/50-nvme0q1]
+ 0.0     467 irq/50-nvme0q0  [irq/50-nvme0q0]
+ 0.0     462 irq/51-mmc0     [irq/51-mmc0]
+ 0.0     461 sdhci           [sdhci]
+ 0.0     460 kworker/u137:0  [kworker/u137:0]
+ 0.0     459 kworker/u136:0  [kworker/u136:0]
+ 0.0     458 kworker/u135:0  [kworker/u135:0]
+ 0.0     457 kworker/u134:0  [kworker/u134:0]
+ 0.0     456 kworker/u133:0  [kworker/u133:0]
+ 0.0     454 nvme-delete-wq  [nvme-delete-wq]
+ 0.0     453 nvme-reset-wq   [nvme-reset-wq]
+ 0.0     452 nvme-wq         [nvme-wq]
+ 0.0     442 kthrotld        [kthrotld]
+ 0.0     436 ecryptfs-kthrea [ecryptfs-kthread]
+ 0.0     435 kswapd3         [kswapd3]
+ 0.0     434 kswapd2         [kswapd2]
+ 0.0     433 kswapd1         [kswapd1]
+ 0.0     432 kswapd0         [kswapd0]
+ 0.0     431 kworker/0:1H-kb [kworker/0:1H-kblockd]
+ 0.0     428 watchdogd       [watchdogd]
+ 0.0     427 devfreq_wq      [devfreq_wq]
+ 0.0     426 edac-poller     [edac-poller]
+ 0.0     425 md              [md]
+ 0.0     424 ata_sff         [ata_sff]
+ 0.0     423 tpm_dev_wq      [tpm_dev_wq]
+ 0.0     422 blkcg_punt_bio  [blkcg_punt_bio]
+ 0.0     421 kblockd         [kblockd]
+ 0.0     420 kintegrityd     [kintegrityd]
+ 0.0     419 cryptd          [cryptd]
+ 0.0     418 pdecrypt_serial [pdecrypt_serial]
+ 0.0     417 pencrypt_serial [pencrypt_serial]
+ 0.0     416 khugepaged      [khugepaged]
+ 0.0     415 ksmd            [ksmd]
+ 0.0     414 kcompactd3      [kcompactd3]
+ 0.0     413 kcompactd2      [kcompactd2]
+ 0.0     412 kcompactd1      [kcompactd1]
+ 0.0     411 kcompactd0      [kcompactd0]
+ 0.0     410 writeback       [writeback]
+ 0.0     409 oom_reaper      [oom_reaper]
+ 0.0     407 khungtaskd      [khungtaskd]
+ 0.0     404 kauditd         [kauditd]
+ 0.0     402 inet_frag_wq    [inet_frag_wq]
+ 0.0     401 kdevtmpfs       [kdevtmpfs]
+ 0.0     398 ksoftirqd/63    [ksoftirqd/63]
+ 0.0     397 migration/63    [migration/63]
+ 0.0     396 idle_inject/63  [idle_inject/63]
+ 0.0     395 cpuhp/63        [cpuhp/63]
+ 0.0     394 kworker/62:0H-e [kworker/62:0H-events_highpri]
+ 0.0     392 ksoftirqd/62    [ksoftirqd/62]
+ 0.0     391 migration/62    [migration/62]
+ 0.0     390 idle_inject/62  [idle_inject/62]
+ 0.0     389 cpuhp/62        [cpuhp/62]
+ 0.0     388 kworker/61:0H-e [kworker/61:0H-events_highpri]
+ 0.0     386 ksoftirqd/61    [ksoftirqd/61]
+ 0.0     385 migration/61    [migration/61]
+ 0.0     384 idle_inject/61  [idle_inject/61]
+ 0.0     383 cpuhp/61        [cpuhp/61]
+ 0.0     382 kworker/60:0H-e [kworker/60:0H-events_highpri]
+ 0.0     380 ksoftirqd/60    [ksoftirqd/60]
+ 0.0     379 migration/60    [migration/60]
+ 0.0     378 idle_inject/60  [idle_inject/60]
+ 0.0     377 cpuhp/60        [cpuhp/60]
+ 0.0     374 ksoftirqd/59    [ksoftirqd/59]
+ 0.0     373 migration/59    [migration/59]
+ 0.0     372 idle_inject/59  [idle_inject/59]
+ 0.0     371 cpuhp/59        [cpuhp/59]
+ 0.0     370 kworker/58:0H-k [kworker/58:0H-kblockd]
+ 0.0     368 ksoftirqd/58    [ksoftirqd/58]
+ 0.0     367 migration/58    [migration/58]
+ 0.0     366 idle_inject/58  [idle_inject/58]
+ 0.0     365 cpuhp/58        [cpuhp/58]
+ 0.0     362 ksoftirqd/57    [ksoftirqd/57]
+ 0.0     361 migration/57    [migration/57]
+ 0.0     360 idle_inject/57  [idle_inject/57]
+ 0.0     359 cpuhp/57        [cpuhp/57]
+ 0.0     358 kworker/56:0H-e [kworker/56:0H-events_highpri]
+ 0.0     356 ksoftirqd/56    [ksoftirqd/56]
+ 0.0     355 migration/56    [migration/56]
+ 0.0     354 idle_inject/56  [idle_inject/56]
+ 0.0     353 cpuhp/56        [cpuhp/56]
+ 0.0     352 kworker/55:0H-e [kworker/55:0H-events_highpri]
+ 0.0     350 ksoftirqd/55    [ksoftirqd/55]
+ 0.0     349 migration/55    [migration/55]
+ 0.0     348 idle_inject/55  [idle_inject/55]
+ 0.0     347 cpuhp/55        [cpuhp/55]
+ 0.0     346 kworker/54:0H-e [kworker/54:0H-events_highpri]
+ 0.0     344 ksoftirqd/54    [ksoftirqd/54]
+ 0.0     343 migration/54    [migration/54]
+ 0.0     342 idle_inject/54  [idle_inject/54]
+ 0.0     341 cpuhp/54        [cpuhp/54]
+ 0.0     340 kworker/53:0H-e [kworker/53:0H-events_highpri]
+ 0.0     338 ksoftirqd/53    [ksoftirqd/53]
+ 0.0     337 migration/53    [migration/53]
+ 0.0     336 idle_inject/53  [idle_inject/53]
+ 0.0     335 cpuhp/53        [cpuhp/53]
+ 0.0     334 kworker/52:0H-e [kworker/52:0H-events_highpri]
+ 0.0     332 ksoftirqd/52    [ksoftirqd/52]
+ 0.0     331 migration/52    [migration/52]
+ 0.0     330 idle_inject/52  [idle_inject/52]
+ 0.0     329 cpuhp/52        [cpuhp/52]
+ 0.0     328 kworker/51:0H-e [kworker/51:0H-events_highpri]
+ 0.0     326 ksoftirqd/51    [ksoftirqd/51]
+ 0.0     325 migration/51    [migration/51]
+ 0.0     324 idle_inject/51  [idle_inject/51]
+ 0.0     323 cpuhp/51        [cpuhp/51]
+ 0.0     322 kworker/50:0H-e [kworker/50:0H-events_highpri]
+ 0.0     320 ksoftirqd/50    [ksoftirqd/50]
+ 0.0     319 migration/50    [migration/50]
+ 0.0     318 idle_inject/50  [idle_inject/50]
+ 0.0     317 cpuhp/50        [cpuhp/50]
+ 0.0     316 kworker/49:0H-e [kworker/49:0H-events_highpri]
+ 0.0     314 ksoftirqd/49    [ksoftirqd/49]
+ 0.0     313 migration/49    [migration/49]
+ 0.0     312 idle_inject/49  [idle_inject/49]
+ 0.0     311 cpuhp/49        [cpuhp/49]
+ 0.0     310 kworker/48:0H-e [kworker/48:0H-events_highpri]
+ 0.0     308 ksoftirqd/48    [ksoftirqd/48]
+ 0.0     307 migration/48    [migration/48]
+ 0.0     306 idle_inject/48  [idle_inject/48]
+ 0.0     305 cpuhp/48        [cpuhp/48]
+ 0.0     304 kworker/47:0H-e [kworker/47:0H-events_highpri]
+ 0.0     302 ksoftirqd/47    [ksoftirqd/47]
+ 0.0     301 migration/47    [migration/47]
+ 0.0     300 idle_inject/47  [idle_inject/47]
+ 0.0     299 cpuhp/47        [cpuhp/47]
+ 0.0     298 kworker/46:0H-e [kworker/46:0H-events_highpri]
+ 0.0     296 ksoftirqd/46    [ksoftirqd/46]
+ 0.0     295 migration/46    [migration/46]
+ 0.0     294 idle_inject/46  [idle_inject/46]
+ 0.0     293 cpuhp/46        [cpuhp/46]
+ 0.0     292 kworker/45:0H-e [kworker/45:0H-events_highpri]
+ 0.0     290 ksoftirqd/45    [ksoftirqd/45]
+ 0.0     289 migration/45    [migration/45]
+ 0.0     288 idle_inject/45  [idle_inject/45]
+ 0.0     287 cpuhp/45        [cpuhp/45]
+ 0.0     286 kworker/44:0H-e [kworker/44:0H-events_highpri]
+ 0.0     284 ksoftirqd/44    [ksoftirqd/44]
+ 0.0     283 migration/44    [migration/44]
+ 0.0     282 idle_inject/44  [idle_inject/44]
+ 0.0     281 cpuhp/44        [cpuhp/44]
+ 0.0     280 kworker/43:0H-e [kworker/43:0H-events_highpri]
+ 0.0     278 ksoftirqd/43    [ksoftirqd/43]
+ 0.0     277 migration/43    [migration/43]
+ 0.0     276 idle_inject/43  [idle_inject/43]
+ 0.0     275 cpuhp/43        [cpuhp/43]
+ 0.0     272 ksoftirqd/42    [ksoftirqd/42]
+ 0.0     271 migration/42    [migration/42]
+ 0.0     270 idle_inject/42  [idle_inject/42]
+ 0.0     269 cpuhp/42        [cpuhp/42]
+ 0.0     268 kworker/41:0H-e [kworker/41:0H-events_highpri]
+ 0.0     266 ksoftirqd/41    [ksoftirqd/41]
+ 0.0     265 migration/41    [migration/41]
+ 0.0     264 idle_inject/41  [idle_inject/41]
+ 0.0     263 cpuhp/41        [cpuhp/41]
+ 0.0     261 kworker/40:0H-e [kworker/40:0H-events_highpri]
+ 0.0     259 ksoftirqd/40    [ksoftirqd/40]
+ 0.0     258 migration/40    [migration/40]
+ 0.0     257 idle_inject/40  [idle_inject/40]
+ 0.0     256 cpuhp/40        [cpuhp/40]
+ 0.0     255 kworker/39:0H-e [kworker/39:0H-events_highpri]
+ 0.0     253 ksoftirqd/39    [ksoftirqd/39]
+ 0.0     252 migration/39    [migration/39]
+ 0.0     251 idle_inject/39  [idle_inject/39]
+ 0.0     250 cpuhp/39        [cpuhp/39]
+ 0.0     249 kworker/38:0H-e [kworker/38:0H-events_highpri]
+ 0.0     247 ksoftirqd/38    [ksoftirqd/38]
+ 0.0     246 migration/38    [migration/38]
+ 0.0     245 idle_inject/38  [idle_inject/38]
+ 0.0     244 cpuhp/38        [cpuhp/38]
+ 0.0     241 ksoftirqd/37    [ksoftirqd/37]
+ 0.0     240 migration/37    [migration/37]
+ 0.0     239 idle_inject/37  [idle_inject/37]
+ 0.0     238 cpuhp/37        [cpuhp/37]
+ 0.0     237 kworker/36:0H-e [kworker/36:0H-events_highpri]
+ 0.0     235 ksoftirqd/36    [ksoftirqd/36]
+ 0.0     234 migration/36    [migration/36]
+ 0.0     233 idle_inject/36  [idle_inject/36]
+ 0.0     232 cpuhp/36        [cpuhp/36]
+ 0.0     231 kworker/35:0H-e [kworker/35:0H-events_highpri]
+ 0.0     229 ksoftirqd/35    [ksoftirqd/35]
+ 0.0     228 migration/35    [migration/35]
+ 0.0     227 idle_inject/35  [idle_inject/35]
+ 0.0     226 cpuhp/35        [cpuhp/35]
+ 0.0     225 kworker/34:0H-e [kworker/34:0H-events_highpri]
+ 0.0     223 ksoftirqd/34    [ksoftirqd/34]
+ 0.0     222 migration/34    [migration/34]
+ 0.0     221 idle_inject/34  [idle_inject/34]
+ 0.0     220 cpuhp/34        [cpuhp/34]
+ 0.0     219 kworker/33:0H-k [kworker/33:0H-kblockd]
+ 0.0     217 ksoftirqd/33    [ksoftirqd/33]
+ 0.0     216 migration/33    [migration/33]
+ 0.0     215 idle_inject/33  [idle_inject/33]
+ 0.0     214 cpuhp/33        [cpuhp/33]
+ 0.0     212 kworker/32:0H-k [kworker/32:0H-kblockd]
+ 0.0     210 ksoftirqd/32    [ksoftirqd/32]
+ 0.0     209 migration/32    [migration/32]
+ 0.0     208 idle_inject/32  [idle_inject/32]
+ 0.0     207 cpuhp/32        [cpuhp/32]
+ 0.0     206 kworker/31:0H-k [kworker/31:0H-kblockd]
+ 0.0     204 ksoftirqd/31    [ksoftirqd/31]
+ 0.0     203 migration/31    [migration/31]
+ 0.0     202 idle_inject/31  [idle_inject/31]
+ 0.0     201 cpuhp/31        [cpuhp/31]
+ 0.0     200 kworker/30:0H-e [kworker/30:0H-events_highpri]
+ 0.0     198 ksoftirqd/30    [ksoftirqd/30]
+ 0.0     197 migration/30    [migration/30]
+ 0.0     196 idle_inject/30  [idle_inject/30]
+ 0.0     195 cpuhp/30        [cpuhp/30]
+ 0.0     194 kworker/29:0H-e [kworker/29:0H-events_highpri]
+ 0.0     192 ksoftirqd/29    [ksoftirqd/29]
+ 0.0     191 migration/29    [migration/29]
+ 0.0     190 idle_inject/29  [idle_inject/29]
+ 0.0     189 cpuhp/29        [cpuhp/29]
+ 0.0     188 kworker/28:0H-e [kworker/28:0H-events_highpri]
+ 0.0     186 ksoftirqd/28    [ksoftirqd/28]
+ 0.0     185 migration/28    [migration/28]
+ 0.0     184 idle_inject/28  [idle_inject/28]
+ 0.0     183 cpuhp/28        [cpuhp/28]
+ 0.0     182 kworker/27:0H-k [kworker/27:0H-kblockd]
+ 0.0     180 ksoftirqd/27    [ksoftirqd/27]
+ 0.0     179 migration/27    [migration/27]
+ 0.0     178 idle_inject/27  [idle_inject/27]
+ 0.0     177 cpuhp/27        [cpuhp/27]
+ 0.0     176 kworker/26:0H-e [kworker/26:0H-events_highpri]
+ 0.0     174 ksoftirqd/26    [ksoftirqd/26]
+ 0.0     173 migration/26    [migration/26]
+ 0.0     172 idle_inject/26  [idle_inject/26]
+ 0.0     171 cpuhp/26        [cpuhp/26]
+ 0.0     170 kworker/25:0H-k [kworker/25:0H-kblockd]
+ 0.0     168 ksoftirqd/25    [ksoftirqd/25]
+ 0.0     167 migration/25    [migration/25]
+ 0.0     166 idle_inject/25  [idle_inject/25]
+ 0.0     165 cpuhp/25        [cpuhp/25]
+ 0.0     164 kworker/24:0H-k [kworker/24:0H-kblockd]
+ 0.0     162 ksoftirqd/24    [ksoftirqd/24]
+ 0.0     161 migration/24    [migration/24]
+ 0.0     160 idle_inject/24  [idle_inject/24]
+ 0.0     159 cpuhp/24        [cpuhp/24]
+ 0.0     158 kworker/23:0H-e [kworker/23:0H-events_highpri]
+ 0.0     156 ksoftirqd/23    [ksoftirqd/23]
+ 0.0     155 migration/23    [migration/23]
+ 0.0     154 idle_inject/23  [idle_inject/23]
+ 0.0     153 cpuhp/23        [cpuhp/23]
+ 0.0     152 kworker/22:0H-e [kworker/22:0H-events_highpri]
+ 0.0     150 ksoftirqd/22    [ksoftirqd/22]
+ 0.0     149 migration/22    [migration/22]
+ 0.0     148 idle_inject/22  [idle_inject/22]
+ 0.0     147 cpuhp/22        [cpuhp/22]
+ 0.0     146 kworker/21:0H-e [kworker/21:0H-events_highpri]
+ 0.0     144 ksoftirqd/21    [ksoftirqd/21]
+ 0.0     143 migration/21    [migration/21]
+ 0.0     142 idle_inject/21  [idle_inject/21]
+ 0.0     141 cpuhp/21        [cpuhp/21]
+ 0.0     140 kworker/20:0H-e [kworker/20:0H-events_highpri]
+ 0.0     138 ksoftirqd/20    [ksoftirqd/20]
+ 0.0     137 migration/20    [migration/20]
+ 0.0     136 idle_inject/20  [idle_inject/20]
+ 0.0     135 cpuhp/20        [cpuhp/20]
+ 0.0     134 kworker/19:0H-e [kworker/19:0H-events_highpri]
+ 0.0     132 ksoftirqd/19    [ksoftirqd/19]
+ 0.0     131 migration/19    [migration/19]
+ 0.0     130 idle_inject/19  [idle_inject/19]
+ 0.0     129 cpuhp/19        [cpuhp/19]
+ 0.0     128 kworker/18:0H-k [kworker/18:0H-kblockd]
+ 0.0     126 ksoftirqd/18    [ksoftirqd/18]
+ 0.0     125 migration/18    [migration/18]
+ 0.0     124 idle_inject/18  [idle_inject/18]
+ 0.0     123 cpuhp/18        [cpuhp/18]
+ 0.0     122 kworker/17:0H-e [kworker/17:0H-events_highpri]
+ 0.0     120 ksoftirqd/17    [ksoftirqd/17]
+ 0.0     119 migration/17    [migration/17]
+ 0.0     118 idle_inject/17  [idle_inject/17]
+ 0.0     117 cpuhp/17        [cpuhp/17]
+ 0.0     116 kworker/16:0H-k [kworker/16:0H-kblockd]
+ 0.0     114 ksoftirqd/16    [ksoftirqd/16]
+ 0.0     113 migration/16    [migration/16]
+ 0.0     112 idle_inject/16  [idle_inject/16]
+ 0.0     111 cpuhp/16        [cpuhp/16]
+ 0.0     110 kworker/15:0H-e [kworker/15:0H-events_highpri]
+ 0.0     108 ksoftirqd/15    [ksoftirqd/15]
+ 0.0     107 migration/15    [migration/15]
+ 0.0     106 idle_inject/15  [idle_inject/15]
+ 0.0     105 cpuhp/15        [cpuhp/15]
+ 0.0     104 kworker/14:0H-e [kworker/14:0H-events_highpri]
+ 0.0     102 ksoftirqd/14    [ksoftirqd/14]
+ 0.0     101 migration/14    [migration/14]
+ 0.0     100 idle_inject/14  [idle_inject/14]
+ 0.0      99 cpuhp/14        [cpuhp/14]
+ 0.0      98 kworker/13:0H-e [kworker/13:0H-events_highpri]
+ 0.0      96 ksoftirqd/13    [ksoftirqd/13]
+ 0.0      95 migration/13    [migration/13]
+ 0.0      94 idle_inject/13  [idle_inject/13]
+ 0.0      93 cpuhp/13        [cpuhp/13]
+ 0.0      92 kworker/12:0H-e [kworker/12:0H-events_highpri]
+ 0.0      90 ksoftirqd/12    [ksoftirqd/12]
+ 0.0      89 migration/12    [migration/12]
+ 0.0      88 idle_inject/12  [idle_inject/12]
+ 0.0      87 cpuhp/12        [cpuhp/12]
+ 0.0      86 kworker/11:0H-e [kworker/11:0H-events_highpri]
+ 0.0      84 ksoftirqd/11    [ksoftirqd/11]
+ 0.0      83 migration/11    [migration/11]
+ 0.0      82 idle_inject/11  [idle_inject/11]
+ 0.0      81 cpuhp/11        [cpuhp/11]
+ 0.0      80 kworker/10:0H-e [kworker/10:0H-events_highpri]
+ 0.0      78 ksoftirqd/10    [ksoftirqd/10]
+ 0.0      77 migration/10    [migration/10]
+ 0.0      76 idle_inject/10  [idle_inject/10]
+ 0.0      75 cpuhp/10        [cpuhp/10]
+ 0.0      74 kworker/9:0H-ev [kworker/9:0H-events_highpri]
+ 0.0      72 ksoftirqd/9     [ksoftirqd/9]
+ 0.0      71 migration/9     [migration/9]
+ 0.0      70 idle_inject/9   [idle_inject/9]
+ 0.0      69 cpuhp/9         [cpuhp/9]
+ 0.0      67 kworker/8:0H-ev [kworker/8:0H-events_highpri]
+ 0.0      65 ksoftirqd/8     [ksoftirqd/8]
+ 0.0      64 migration/8     [migration/8]
+ 0.0      63 idle_inject/8   [idle_inject/8]
+ 0.0      62 cpuhp/8         [cpuhp/8]
+ 0.0      61 kworker/7:0H-ev [kworker/7:0H-events_highpri]
+ 0.0      59 ksoftirqd/7     [ksoftirqd/7]
+ 0.0      58 migration/7     [migration/7]
+ 0.0      57 idle_inject/7   [idle_inject/7]
+ 0.0      56 cpuhp/7         [cpuhp/7]
+ 0.0      55 kworker/6:0H-ev [kworker/6:0H-events_highpri]
+ 0.0      53 ksoftirqd/6     [ksoftirqd/6]
+ 0.0      52 migration/6     [migration/6]
+ 0.0      51 idle_inject/6   [idle_inject/6]
+ 0.0      50 cpuhp/6         [cpuhp/6]
+ 0.0      49 kworker/5:0H-kb [kworker/5:0H-kblockd]
+ 0.0      47 ksoftirqd/5     [ksoftirqd/5]
+ 0.0      46 migration/5     [migration/5]
+ 0.0      45 idle_inject/5   [idle_inject/5]
+ 0.0      44 cpuhp/5         [cpuhp/5]
+ 0.0      43 kworker/4:0H-ev [kworker/4:0H-events_highpri]
+ 0.0      41 ksoftirqd/4     [ksoftirqd/4]
+ 0.0      40 migration/4     [migration/4]
+ 0.0      39 idle_inject/4   [idle_inject/4]
+ 0.0      38 cpuhp/4         [cpuhp/4]
+ 0.0      37 kworker/3:0H-kb [kworker/3:0H-kblockd]
+ 0.0      35 ksoftirqd/3     [ksoftirqd/3]
+ 0.0      34 migration/3     [migration/3]
+ 0.0      33 idle_inject/3   [idle_inject/3]
+ 0.0      32 cpuhp/3         [cpuhp/3]
+ 0.0      31 kworker/2:0H-kb [kworker/2:0H-kblockd]
+ 0.0      29 ksoftirqd/2     [ksoftirqd/2]
+ 0.0      28 migration/2     [migration/2]
+ 0.0      27 idle_inject/2   [idle_inject/2]
+ 0.0      26 cpuhp/2         [cpuhp/2]
+ 0.0      25 kworker/1:0H-ev [kworker/1:0H-events_highpri]
+ 0.0      23 ksoftirqd/1     [ksoftirqd/1]
+ 0.0      22 migration/1     [migration/1]
+ 0.0      21 idle_inject/1   [idle_inject/1]
+ 0.0      20 cpuhp/1         [cpuhp/1]
+ 0.0      19 cpuhp/0         [cpuhp/0]
+ 0.0      17 idle_inject/0   [idle_inject/0]
+ 0.0      16 migration/0     [migration/0]
+ 0.0      15 rcu_sched       [rcu_sched]
+ 0.0      14 ksoftirqd/0     [ksoftirqd/0]
+ 0.0      13 rcu_tasks_trace [rcu_tasks_trace_kthread]
+ 0.0      12 rcu_tasks_rude_ [rcu_tasks_rude_kthread]
+ 0.0      11 mm_percpu_wq    [mm_percpu_wq]
+ 0.0       8 kworker/0:0H-ev [kworker/0:0H-events_highpri]
+ 0.0       6 netns           [netns]
+ 0.0       5 slub_flushwq    [slub_flushwq]
+ 0.0       4 rcu_par_gp      [rcu_par_gp]
+ 0.0       3 rcu_gp          [rcu_gp]
+ 0.0       2 kthreadd        [kthreadd]
+ 0.0       1 systemd         /sbin/init
+STAT     PID COMMAND         COMMAND                     %CPU
+Ss         1 systemd         /sbin/init                   1.5
+S          2 kthreadd        [kthreadd]                   0.0
+I<         3 rcu_gp          [rcu_gp]                     0.0
+I<         4 rcu_par_gp      [rcu_par_gp]                 0.0
+I<         5 slub_flushwq    [slub_flushwq]               0.0
+I<         6 netns           [netns]                      0.0
+I<         8 kworker/0:0H-ev [kworker/0:0H-events_highpr  0.0
+I<        11 mm_percpu_wq    [mm_percpu_wq]               0.0
+I         12 rcu_tasks_rude_ [rcu_tasks_rude_kthread]     0.0
+I         13 rcu_tasks_trace [rcu_tasks_trace_kthread]    0.0
+S         14 ksoftirqd/0     [ksoftirqd/0]                0.0
+I         15 rcu_sched       [rcu_sched]                  0.1
+S         16 migration/0     [migration/0]                0.0
+S         17 idle_inject/0   [idle_inject/0]              0.0
+S         19 cpuhp/0         [cpuhp/0]                    0.0
+S         20 cpuhp/1         [cpuhp/1]                    0.0
+S         21 idle_inject/1   [idle_inject/1]              0.0
+S         22 migration/1     [migration/1]                0.0
+S         23 ksoftirqd/1     [ksoftirqd/1]                0.0
+I<        25 kworker/1:0H-ev [kworker/1:0H-events_highpr  0.0
+S         26 cpuhp/2         [cpuhp/2]                    0.0
+S         27 idle_inject/2   [idle_inject/2]              0.0
+S         28 migration/2     [migration/2]                0.0
+S         29 ksoftirqd/2     [ksoftirqd/2]                0.0
+I<        31 kworker/2:0H-kb [kworker/2:0H-kblockd]       0.0
+S         32 cpuhp/3         [cpuhp/3]                    0.0
+S         33 idle_inject/3   [idle_inject/3]              0.0
+S         34 migration/3     [migration/3]                0.0
+S         35 ksoftirqd/3     [ksoftirqd/3]                0.0
+I<        37 kworker/3:0H-kb [kworker/3:0H-kblockd]       0.0
+S         38 cpuhp/4         [cpuhp/4]                    0.0
+S         39 idle_inject/4   [idle_inject/4]              0.0
+S         40 migration/4     [migration/4]                0.0
+S         41 ksoftirqd/4     [ksoftirqd/4]                0.0
+I<        43 kworker/4:0H-ev [kworker/4:0H-events_highpr  0.0
+S         44 cpuhp/5         [cpuhp/5]                    0.0
+S         45 idle_inject/5   [idle_inject/5]              0.0
+S         46 migration/5     [migration/5]                0.0
+S         47 ksoftirqd/5     [ksoftirqd/5]                0.0
+I<        49 kworker/5:0H-kb [kworker/5:0H-kblockd]       0.0
+S         50 cpuhp/6         [cpuhp/6]                    0.0
+S         51 idle_inject/6   [idle_inject/6]              0.0
+S         52 migration/6     [migration/6]                0.0
+S         53 ksoftirqd/6     [ksoftirqd/6]                0.0
+I<        55 kworker/6:0H-ev [kworker/6:0H-events_highpr  0.0
+S         56 cpuhp/7         [cpuhp/7]                    0.0
+S         57 idle_inject/7   [idle_inject/7]              0.0
+S         58 migration/7     [migration/7]                0.0
+S         59 ksoftirqd/7     [ksoftirqd/7]                0.0
+I<        61 kworker/7:0H-ev [kworker/7:0H-events_highpr  0.0
+S         62 cpuhp/8         [cpuhp/8]                    0.0
+S         63 idle_inject/8   [idle_inject/8]              0.0
+S         64 migration/8     [migration/8]                0.0
+S         65 ksoftirqd/8     [ksoftirqd/8]                0.0
+I<        67 kworker/8:0H-ev [kworker/8:0H-events_highpr  0.0
+S         69 cpuhp/9         [cpuhp/9]                    0.0
+S         70 idle_inject/9   [idle_inject/9]              0.0
+S         71 migration/9     [migration/9]                0.0
+S         72 ksoftirqd/9     [ksoftirqd/9]                0.0
+I<        74 kworker/9:0H-ev [kworker/9:0H-events_highpr  0.0
+S         75 cpuhp/10        [cpuhp/10]                   0.0
+S         76 idle_inject/10  [idle_inject/10]             0.0
+S         77 migration/10    [migration/10]               0.0
+S         78 ksoftirqd/10    [ksoftirqd/10]               0.0
+I<        80 kworker/10:0H-e [kworker/10:0H-events_highp  0.0
+S         81 cpuhp/11        [cpuhp/11]                   0.0
+S         82 idle_inject/11  [idle_inject/11]             0.0
+S         83 migration/11    [migration/11]               0.0
+S         84 ksoftirqd/11    [ksoftirqd/11]               0.0
+I<        86 kworker/11:0H-e [kworker/11:0H-events_highp  0.0
+S         87 cpuhp/12        [cpuhp/12]                   0.0
+S         88 idle_inject/12  [idle_inject/12]             0.0
+S         89 migration/12    [migration/12]               0.0
+S         90 ksoftirqd/12    [ksoftirqd/12]               0.0
+I<        92 kworker/12:0H-e [kworker/12:0H-events_highp  0.0
+S         93 cpuhp/13        [cpuhp/13]                   0.0
+S         94 idle_inject/13  [idle_inject/13]             0.0
+S         95 migration/13    [migration/13]               0.0
+S         96 ksoftirqd/13    [ksoftirqd/13]               0.0
+I<        98 kworker/13:0H-e [kworker/13:0H-events_highp  0.0
+S         99 cpuhp/14        [cpuhp/14]                   0.0
+S        100 idle_inject/14  [idle_inject/14]             0.0
+S        101 migration/14    [migration/14]               0.0
+S        102 ksoftirqd/14    [ksoftirqd/14]               0.0
+I<       104 kworker/14:0H-e [kworker/14:0H-events_highp  0.0
+S        105 cpuhp/15        [cpuhp/15]                   0.0
+S        106 idle_inject/15  [idle_inject/15]             0.0
+S        107 migration/15    [migration/15]               0.0
+S        108 ksoftirqd/15    [ksoftirqd/15]               0.0
+I<       110 kworker/15:0H-e [kworker/15:0H-events_highp  0.0
+S        111 cpuhp/16        [cpuhp/16]                   0.0
+S        112 idle_inject/16  [idle_inject/16]             0.0
+S        113 migration/16    [migration/16]               0.0
+S        114 ksoftirqd/16    [ksoftirqd/16]               0.0
+I<       116 kworker/16:0H-k [kworker/16:0H-kblockd]      0.0
+S        117 cpuhp/17        [cpuhp/17]                   0.0
+S        118 idle_inject/17  [idle_inject/17]             0.0
+S        119 migration/17    [migration/17]               0.0
+S        120 ksoftirqd/17    [ksoftirqd/17]               0.0
+I<       122 kworker/17:0H-e [kworker/17:0H-events_highp  0.0
+S        123 cpuhp/18        [cpuhp/18]                   0.0
+S        124 idle_inject/18  [idle_inject/18]             0.0
+S        125 migration/18    [migration/18]               0.0
+S        126 ksoftirqd/18    [ksoftirqd/18]               0.0
+I<       128 kworker/18:0H-k [kworker/18:0H-kblockd]      0.0
+S        129 cpuhp/19        [cpuhp/19]                   0.0
+S        130 idle_inject/19  [idle_inject/19]             0.0
+S        131 migration/19    [migration/19]               0.0
+S        132 ksoftirqd/19    [ksoftirqd/19]               0.0
+I<       134 kworker/19:0H-e [kworker/19:0H-events_highp  0.0
+S        135 cpuhp/20        [cpuhp/20]                   0.0
+S        136 idle_inject/20  [idle_inject/20]             0.0
+S        137 migration/20    [migration/20]               0.0
+S        138 ksoftirqd/20    [ksoftirqd/20]               0.0
+I<       140 kworker/20:0H-e [kworker/20:0H-events_highp  0.0
+S        141 cpuhp/21        [cpuhp/21]                   0.0
+S        142 idle_inject/21  [idle_inject/21]             0.0
+S        143 migration/21    [migration/21]               0.0
+S        144 ksoftirqd/21    [ksoftirqd/21]               0.0
+I<       146 kworker/21:0H-e [kworker/21:0H-events_highp  0.0
+S        147 cpuhp/22        [cpuhp/22]                   0.0
+S        148 idle_inject/22  [idle_inject/22]             0.0
+S        149 migration/22    [migration/22]               0.0
+S        150 ksoftirqd/22    [ksoftirqd/22]               0.0
+I<       152 kworker/22:0H-e [kworker/22:0H-events_highp  0.0
+S        153 cpuhp/23        [cpuhp/23]                   0.0
+S        154 idle_inject/23  [idle_inject/23]             0.0
+S        155 migration/23    [migration/23]               0.0
+S        156 ksoftirqd/23    [ksoftirqd/23]               0.0
+I<       158 kworker/23:0H-e [kworker/23:0H-events_highp  0.0
+S        159 cpuhp/24        [cpuhp/24]                   0.0
+S        160 idle_inject/24  [idle_inject/24]             0.0
+S        161 migration/24    [migration/24]               0.0
+S        162 ksoftirqd/24    [ksoftirqd/24]               0.0
+I<       164 kworker/24:0H-k [kworker/24:0H-kblockd]      0.0
+S        165 cpuhp/25        [cpuhp/25]                   0.0
+S        166 idle_inject/25  [idle_inject/25]             0.0
+S        167 migration/25    [migration/25]               0.0
+S        168 ksoftirqd/25    [ksoftirqd/25]               0.0
+I<       170 kworker/25:0H-k [kworker/25:0H-kblockd]      0.0
+S        171 cpuhp/26        [cpuhp/26]                   0.0
+S        172 idle_inject/26  [idle_inject/26]             0.0
+S        173 migration/26    [migration/26]               0.0
+S        174 ksoftirqd/26    [ksoftirqd/26]               0.0
+I<       176 kworker/26:0H-e [kworker/26:0H-events_highp  0.0
+S        177 cpuhp/27        [cpuhp/27]                   0.0
+S        178 idle_inject/27  [idle_inject/27]             0.0
+S        179 migration/27    [migration/27]               0.0
+S        180 ksoftirqd/27    [ksoftirqd/27]               0.0
+I<       182 kworker/27:0H-k [kworker/27:0H-kblockd]      0.0
+S        183 cpuhp/28        [cpuhp/28]                   0.0
+S        184 idle_inject/28  [idle_inject/28]             0.0
+S        185 migration/28    [migration/28]               0.0
+S        186 ksoftirqd/28    [ksoftirqd/28]               0.0
+I<       188 kworker/28:0H-e [kworker/28:0H-events_highp  0.0
+S        189 cpuhp/29        [cpuhp/29]                   0.0
+S        190 idle_inject/29  [idle_inject/29]             0.0
+S        191 migration/29    [migration/29]               0.0
+S        192 ksoftirqd/29    [ksoftirqd/29]               0.0
+I<       194 kworker/29:0H-e [kworker/29:0H-events_highp  0.0
+S        195 cpuhp/30        [cpuhp/30]                   0.0
+S        196 idle_inject/30  [idle_inject/30]             0.0
+S        197 migration/30    [migration/30]               0.0
+S        198 ksoftirqd/30    [ksoftirqd/30]               0.0
+I<       200 kworker/30:0H-e [kworker/30:0H-events_highp  0.0
+S        201 cpuhp/31        [cpuhp/31]                   0.0
+S        202 idle_inject/31  [idle_inject/31]             0.0
+S        203 migration/31    [migration/31]               0.0
+S        204 ksoftirqd/31    [ksoftirqd/31]               0.0
+I<       206 kworker/31:0H-k [kworker/31:0H-kblockd]      0.0
+S        207 cpuhp/32        [cpuhp/32]                   0.0
+S        208 idle_inject/32  [idle_inject/32]             0.0
+S        209 migration/32    [migration/32]               0.0
+S        210 ksoftirqd/32    [ksoftirqd/32]               0.0
+I<       212 kworker/32:0H-k [kworker/32:0H-kblockd]      0.0
+S        214 cpuhp/33        [cpuhp/33]                   0.0
+S        215 idle_inject/33  [idle_inject/33]             0.0
+S        216 migration/33    [migration/33]               0.0
+S        217 ksoftirqd/33    [ksoftirqd/33]               0.0
+I<       219 kworker/33:0H-k [kworker/33:0H-kblockd]      0.0
+S        220 cpuhp/34        [cpuhp/34]                   0.0
+S        221 idle_inject/34  [idle_inject/34]             0.0
+S        222 migration/34    [migration/34]               0.0
+S        223 ksoftirqd/34    [ksoftirqd/34]               0.0
+I<       225 kworker/34:0H-e [kworker/34:0H-events_highp  0.0
+S        226 cpuhp/35        [cpuhp/35]                   0.0
+S        227 idle_inject/35  [idle_inject/35]             0.0
+S        228 migration/35    [migration/35]               0.0
+S        229 ksoftirqd/35    [ksoftirqd/35]               0.0
+I<       231 kworker/35:0H-e [kworker/35:0H-events_highp  0.0
+S        232 cpuhp/36        [cpuhp/36]                   0.0
+S        233 idle_inject/36  [idle_inject/36]             0.0
+S        234 migration/36    [migration/36]               0.0
+S        235 ksoftirqd/36    [ksoftirqd/36]               0.0
+I<       237 kworker/36:0H-e [kworker/36:0H-events_highp  0.0
+S        238 cpuhp/37        [cpuhp/37]                   0.0
+S        239 idle_inject/37  [idle_inject/37]             0.0
+S        240 migration/37    [migration/37]               0.0
+S        241 ksoftirqd/37    [ksoftirqd/37]               0.0
+S        244 cpuhp/38        [cpuhp/38]                   0.0
+S        245 idle_inject/38  [idle_inject/38]             0.0
+S        246 migration/38    [migration/38]               0.0
+S        247 ksoftirqd/38    [ksoftirqd/38]               0.0
+I<       249 kworker/38:0H-e [kworker/38:0H-events_highp  0.0
+S        250 cpuhp/39        [cpuhp/39]                   0.0
+S        251 idle_inject/39  [idle_inject/39]             0.0
+S        252 migration/39    [migration/39]               0.0
+S        253 ksoftirqd/39    [ksoftirqd/39]               0.0
+I<       255 kworker/39:0H-e [kworker/39:0H-events_highp  0.0
+S        256 cpuhp/40        [cpuhp/40]                   0.0
+S        257 idle_inject/40  [idle_inject/40]             0.0
+S        258 migration/40    [migration/40]               0.0
+S        259 ksoftirqd/40    [ksoftirqd/40]               0.0
+I<       261 kworker/40:0H-e [kworker/40:0H-events_highp  0.0
+S        263 cpuhp/41        [cpuhp/41]                   0.0
+S        264 idle_inject/41  [idle_inject/41]             0.0
+S        265 migration/41    [migration/41]               0.0
+S        266 ksoftirqd/41    [ksoftirqd/41]               0.0
+I<       268 kworker/41:0H-e [kworker/41:0H-events_highp  0.0
+S        269 cpuhp/42        [cpuhp/42]                   0.0
+S        270 idle_inject/42  [idle_inject/42]             0.0
+S        271 migration/42    [migration/42]               0.0
+S        272 ksoftirqd/42    [ksoftirqd/42]               0.0
+S        275 cpuhp/43        [cpuhp/43]                   0.0
+S        276 idle_inject/43  [idle_inject/43]             0.0
+S        277 migration/43    [migration/43]               0.0
+S        278 ksoftirqd/43    [ksoftirqd/43]               0.0
+I<       280 kworker/43:0H-e [kworker/43:0H-events_highp  0.0
+S        281 cpuhp/44        [cpuhp/44]                   0.0
+S        282 idle_inject/44  [idle_inject/44]             0.0
+S        283 migration/44    [migration/44]               0.0
+S        284 ksoftirqd/44    [ksoftirqd/44]               0.0
+I<       286 kworker/44:0H-e [kworker/44:0H-events_highp  0.0
+S        287 cpuhp/45        [cpuhp/45]                   0.0
+S        288 idle_inject/45  [idle_inject/45]             0.0
+S        289 migration/45    [migration/45]               0.0
+S        290 ksoftirqd/45    [ksoftirqd/45]               0.0
+I<       292 kworker/45:0H-e [kworker/45:0H-events_highp  0.0
+S        293 cpuhp/46        [cpuhp/46]                   0.0
+S        294 idle_inject/46  [idle_inject/46]             0.0
+S        295 migration/46    [migration/46]               0.0
+S        296 ksoftirqd/46    [ksoftirqd/46]               0.0
+I<       298 kworker/46:0H-e [kworker/46:0H-events_highp  0.0
+S        299 cpuhp/47        [cpuhp/47]                   0.0
+S        300 idle_inject/47  [idle_inject/47]             0.0
+S        301 migration/47    [migration/47]               0.0
+S        302 ksoftirqd/47    [ksoftirqd/47]               0.0
+I<       304 kworker/47:0H-e [kworker/47:0H-events_highp  0.0
+S        305 cpuhp/48        [cpuhp/48]                   0.0
+S        306 idle_inject/48  [idle_inject/48]             0.0
+S        307 migration/48    [migration/48]               0.0
+S        308 ksoftirqd/48    [ksoftirqd/48]               0.0
+I<       310 kworker/48:0H-e [kworker/48:0H-events_highp  0.0
+S        311 cpuhp/49        [cpuhp/49]                   0.0
+S        312 idle_inject/49  [idle_inject/49]             0.0
+S        313 migration/49    [migration/49]               0.0
+S        314 ksoftirqd/49    [ksoftirqd/49]               0.0
+I<       316 kworker/49:0H-e [kworker/49:0H-events_highp  0.0
+S        317 cpuhp/50        [cpuhp/50]                   0.0
+S        318 idle_inject/50  [idle_inject/50]             0.0
+S        319 migration/50    [migration/50]               0.0
+S        320 ksoftirqd/50    [ksoftirqd/50]               0.0
+I<       322 kworker/50:0H-e [kworker/50:0H-events_highp  0.0
+S        323 cpuhp/51        [cpuhp/51]                   0.0
+S        324 idle_inject/51  [idle_inject/51]             0.0
+S        325 migration/51    [migration/51]               0.0
+S        326 ksoftirqd/51    [ksoftirqd/51]               0.0
+I<       328 kworker/51:0H-e [kworker/51:0H-events_highp  0.0
+S        329 cpuhp/52        [cpuhp/52]                   0.0
+S        330 idle_inject/52  [idle_inject/52]             0.0
+S        331 migration/52    [migration/52]               0.0
+S        332 ksoftirqd/52    [ksoftirqd/52]               0.0
+I<       334 kworker/52:0H-e [kworker/52:0H-events_highp  0.0
+S        335 cpuhp/53        [cpuhp/53]                   0.0
+S        336 idle_inject/53  [idle_inject/53]             0.0
+S        337 migration/53    [migration/53]               0.0
+S        338 ksoftirqd/53    [ksoftirqd/53]               0.0
+I<       340 kworker/53:0H-e [kworker/53:0H-events_highp  0.0
+S        341 cpuhp/54        [cpuhp/54]                   0.0
+S        342 idle_inject/54  [idle_inject/54]             0.0
+S        343 migration/54    [migration/54]               0.0
+S        344 ksoftirqd/54    [ksoftirqd/54]               0.0
+I<       346 kworker/54:0H-e [kworker/54:0H-events_highp  0.0
+S        347 cpuhp/55        [cpuhp/55]                   0.0
+S        348 idle_inject/55  [idle_inject/55]             0.0
+S        349 migration/55    [migration/55]               0.0
+S        350 ksoftirqd/55    [ksoftirqd/55]               0.0
+I<       352 kworker/55:0H-e [kworker/55:0H-events_highp  0.0
+S        353 cpuhp/56        [cpuhp/56]                   0.0
+S        354 idle_inject/56  [idle_inject/56]             0.0
+S        355 migration/56    [migration/56]               0.0
+S        356 ksoftirqd/56    [ksoftirqd/56]               0.0
+I<       358 kworker/56:0H-e [kworker/56:0H-events_highp  0.0
+S        359 cpuhp/57        [cpuhp/57]                   0.0
+S        360 idle_inject/57  [idle_inject/57]             0.0
+S        361 migration/57    [migration/57]               0.0
+S        362 ksoftirqd/57    [ksoftirqd/57]               0.0
+S        365 cpuhp/58        [cpuhp/58]                   0.0
+S        366 idle_inject/58  [idle_inject/58]             0.0
+S        367 migration/58    [migration/58]               0.0
+S        368 ksoftirqd/58    [ksoftirqd/58]               0.0
+I<       370 kworker/58:0H-k [kworker/58:0H-kblockd]      0.0
+S        371 cpuhp/59        [cpuhp/59]                   0.0
+S        372 idle_inject/59  [idle_inject/59]             0.0
+S        373 migration/59    [migration/59]               0.0
+S        374 ksoftirqd/59    [ksoftirqd/59]               0.0
+S        377 cpuhp/60        [cpuhp/60]                   0.0
+S        378 idle_inject/60  [idle_inject/60]             0.0
+S        379 migration/60    [migration/60]               0.0
+S        380 ksoftirqd/60    [ksoftirqd/60]               0.0
+I<       382 kworker/60:0H-e [kworker/60:0H-events_highp  0.0
+S        383 cpuhp/61        [cpuhp/61]                   0.0
+S        384 idle_inject/61  [idle_inject/61]             0.0
+S        385 migration/61    [migration/61]               0.0
+S        386 ksoftirqd/61    [ksoftirqd/61]               0.0
+I<       388 kworker/61:0H-e [kworker/61:0H-events_highp  0.0
+S        389 cpuhp/62        [cpuhp/62]                   0.0
+S        390 idle_inject/62  [idle_inject/62]             0.0
+S        391 migration/62    [migration/62]               0.0
+S        392 ksoftirqd/62    [ksoftirqd/62]               0.0
+I<       394 kworker/62:0H-e [kworker/62:0H-events_highp  0.0
+S        395 cpuhp/63        [cpuhp/63]                   0.0
+S        396 idle_inject/63  [idle_inject/63]             0.0
+S        397 migration/63    [migration/63]               0.0
+S        398 ksoftirqd/63    [ksoftirqd/63]               0.0
+S        401 kdevtmpfs       [kdevtmpfs]                  0.0
+I<       402 inet_frag_wq    [inet_frag_wq]               0.0
+S        404 kauditd         [kauditd]                    0.0
+S        407 khungtaskd      [khungtaskd]                 0.0
+S        409 oom_reaper      [oom_reaper]                 0.0
+I<       410 writeback       [writeback]                  0.0
+S        411 kcompactd0      [kcompactd0]                 0.0
+S        412 kcompactd1      [kcompactd1]                 0.0
+S        413 kcompactd2      [kcompactd2]                 0.0
+S        414 kcompactd3      [kcompactd3]                 0.0
+SN       415 ksmd            [ksmd]                       0.0
+SN       416 khugepaged      [khugepaged]                 0.0
+I<       417 pencrypt_serial [pencrypt_serial]            0.0
+I<       418 pdecrypt_serial [pdecrypt_serial]            0.0
+I<       419 cryptd          [cryptd]                     0.0
+I<       420 kintegrityd     [kintegrityd]                0.0
+I<       421 kblockd         [kblockd]                    0.0
+I<       422 blkcg_punt_bio  [blkcg_punt_bio]             0.0
+I<       423 tpm_dev_wq      [tpm_dev_wq]                 0.0
+I<       424 ata_sff         [ata_sff]                    0.0
+I<       425 md              [md]                         0.0
+I<       426 edac-poller     [edac-poller]                0.0
+I<       427 devfreq_wq      [devfreq_wq]                 0.0
+S        428 watchdogd       [watchdogd]                  0.0
+I<       431 kworker/0:1H-kb [kworker/0:1H-kblockd]       0.0
+S        432 kswapd0         [kswapd0]                    0.0
+S        433 kswapd1         [kswapd1]                    0.0
+S        434 kswapd2         [kswapd2]                    0.0
+S        435 kswapd3         [kswapd3]                    0.0
+S        436 ecryptfs-kthrea [ecryptfs-kthread]           0.0
+I<       442 kthrotld        [kthrotld]                   0.0
+I<       452 nvme-wq         [nvme-wq]                    0.0
+I<       453 nvme-reset-wq   [nvme-reset-wq]              0.0
+I<       454 nvme-delete-wq  [nvme-delete-wq]             0.0
+I<       456 kworker/u133:0  [kworker/u133:0]             0.0
+I<       457 kworker/u134:0  [kworker/u134:0]             0.0
+I<       458 kworker/u135:0  [kworker/u135:0]             0.0
+I<       459 kworker/u136:0  [kworker/u136:0]             0.0
+I<       460 kworker/u137:0  [kworker/u137:0]             0.0
+I<       461 sdhci           [sdhci]                      0.0
+S        462 irq/51-mmc0     [irq/51-mmc0]                0.0
+S        467 irq/50-nvme0q0  [irq/50-nvme0q0]             0.0
+S        468 irq/50-nvme0q1  [irq/50-nvme0q1]             0.0
+I<       470 kworker/16:1H-k [kworker/16:1H-kblockd]      0.0
+I<       471 sdhci           [sdhci]                      0.0
+S        472 irq/52-mmc1     [irq/52-mmc1]                0.0
+I<       473 mld             [mld]                        0.0
+I<       474 kworker/4:1H-kb [kworker/4:1H-kblockd]       0.0
+I<       475 ipv6_addrconf   [ipv6_addrconf]              0.0
+I<       480 kstrp           [kstrp]                      0.0
+I<       497 zswap-shrink    [zswap-shrink]               0.0
+I<       594 charger_manager [charger_manager]            0.0
+I<       595 kworker/5:1H-kb [kworker/5:1H-kblockd]       0.0
+S        596 jbd2/nvme0n1p3- [jbd2/nvme0n1p3-8]           0.0
+I<       597 ext4-rsv-conver [ext4-rsv-conver]            0.0
+I<       601 kworker/18:1H-k [kworker/18:1H-kblockd]      0.0
+I<       604 kworker/2:1H-kb [kworker/2:1H-kblockd]       0.0
+I<       611 kworker/33:1H-k [kworker/33:1H-kblockd]      0.0
+I<       619 kworker/31:1H-k [kworker/31:1H-kblockd]      0.0
+I<       620 kworker/51:1H-k [kworker/51:1H-kblockd]      0.0
+I<       621 kworker/24:1H-k [kworker/24:1H-kblockd]      0.0
+I<       622 kworker/40:1H-k [kworker/40:1H-kblockd]      0.0
+I<       629 kworker/23:1H-k [kworker/23:1H-kblockd]      0.0
+I<       631 kworker/1:1H-kb [kworker/1:1H-kblockd]       0.0
+I<       639 kworker/8:1H-kb [kworker/8:1H-kblockd]       0.0
+I<       644 kworker/19:1H-k [kworker/19:1H-kblockd]      0.0
+I<       650 kworker/20:1H-k [kworker/20:1H-kblockd]      0.0
+I<       652 kworker/46:1H-k [kworker/46:1H-kblockd]      0.0
+I<       655 kworker/21:1H-k [kworker/21:1H-kblockd]      0.0
+I<       663 kworker/6:1H-kb [kworker/6:1H-kblockd]       0.0
+I<       664 kworker/58:1H-k [kworker/58:1H-kblockd]      0.0
+I<       669 kworker/59:1H-r [kworker/59:1H-radeon-crtc]  0.0
+I<       679 kworker/9:1H-kb [kworker/9:1H-kblockd]       0.0
+I<       689 kworker/60:1H-k [kworker/60:1H-kblockd]      0.0
+I<       692 kworker/13:1H-k [kworker/13:1H-kblockd]      0.0
+I<       717 kworker/10:1H-k [kworker/10:1H-kblockd]      0.0
+I<       718 kworker/7:1H-kb [kworker/7:1H-kblockd]       0.0
+I<       720 kworker/29:1H-k [kworker/29:1H-kblockd]      0.0
+I<       728 kworker/30:1H-k [kworker/30:1H-kblockd]      0.0
+I<       732 kworker/52:1H-k [kworker/52:1H-kblockd]      0.0
+I<       739 kworker/36:1H-k [kworker/36:1H-kblockd]      0.0
+I<       753 kworker/53:1H-k [kworker/53:1H-kblockd]      0.0
+I<       759 kworker/61:1H-k [kworker/61:1H-kblockd]      0.0
+I<       760 kworker/44:1H-k [kworker/44:1H-kblockd]      0.0
+I<       761 kworker/14:1H-k [kworker/14:1H-kblockd]      0.0
+I<       762 kworker/54:1H-k [kworker/54:1H-kblockd]      0.0
+I<       763 kworker/48:1H-k [kworker/48:1H-kblockd]      0.0
+I<       764 kworker/11:1H-k [kworker/11:1H-kblockd]      0.0
+I<       765 kworker/56:1H-k [kworker/56:1H-kblockd]      0.0
+I<       766 kworker/15:1H-k [kworker/15:1H-kblockd]      0.0
+I<       767 kworker/55:1H-k [kworker/55:1H-kblockd]      0.0
+I<       768 kworker/47:1H-k [kworker/47:1H-kblockd]      0.0
+I<       769 kworker/12:1H-k [kworker/12:1H-kblockd]      0.0
+I<       777 kworker/38:1H-k [kworker/38:1H-kblockd]      0.0
+I<       782 kworker/22:1H-k [kworker/22:1H-kblockd]      0.0
+I<       784 kworker/39:1H-k [kworker/39:1H-kblockd]      0.0
+I<       787 kworker/62:1H-k [kworker/62:1H-kblockd]      0.0
+I<       804 kworker/28:1H-k [kworker/28:1H-kblockd]      0.0
+I<       806 kworker/37:1H-k [kworker/37:1H-kblockd]      0.0
+I<       807 kworker/41:1H-k [kworker/41:1H-kblockd]      0.0
+I<       808 kworker/35:1H-k [kworker/35:1H-kblockd]      0.0
+I<       814 kworker/50:1H-k [kworker/50:1H-kblockd]      0.0
+I<       816 kworker/42:1H-k [kworker/42:1H-kblockd]      0.0
+I<       823 kworker/57:1H-k [kworker/57:1H-kblockd]      0.0
+I<       828 kworker/34:1H-k [kworker/34:1H-kblockd]      0.0
+I<       835 kworker/45:1H-k [kworker/45:1H-kblockd]      0.0
+S        836 spi0            [spi0]                       0.0
+S        851 spi1            [spi1]                       0.0
+S        855 scsi_eh_0       [scsi_eh_0]                  0.0
+I<       856 scsi_tmf_0      [scsi_tmf_0]                 0.0
+S        858 scsi_eh_1       [scsi_eh_1]                  0.0
+I<       859 scsi_tmf_1      [scsi_tmf_1]                 0.0
+S        860 scsi_eh_2       [scsi_eh_2]                  0.0
+I<       861 scsi_tmf_2      [scsi_tmf_2]                 0.0
+S        862 scsi_eh_3       [scsi_eh_3]                  0.0
+I<       863 scsi_tmf_3      [scsi_tmf_3]                 0.0
+S        864 scsi_eh_4       [scsi_eh_4]                  0.0
+I<       865 scsi_tmf_4      [scsi_tmf_4]                 0.0
+I<       870 ixgbe           [ixgbe]                      0.0
+I<       893 kworker/49:1H-k [kworker/49:1H-kblockd]      0.0
+I<       905 kworker/26:1H-k [kworker/26:1H-kblockd]      0.0
+I<       930 kworker/17:1H-k [kworker/17:1H-kblockd]      0.0
+I<       940 rpciod          [rpciod]                     0.0
+I<       941 xprtiod         [xprtiod]                    0.0
+I<      1024 kworker/43:1H-k [kworker/43:1H-kblockd]      0.0
+S       1088 card0-crtc0     [card0-crtc0]                0.0
+S       1089 card0-crtc1     [card0-crtc1]                0.0
+S       1090 card0-crtc2     [card0-crtc2]                0.0
+S       1091 card0-crtc3     [card0-crtc3]                0.0
+S       1133 bpfilter_umh    bpfilter_umh                 0.0
+I<      1147 kworker/25:1H-k [kworker/25:1H-kblockd]      0.0
+I<      1860 kworker/27:1H-k [kworker/27:1H-kblockd]      0.0
+Ss      2236 sshd            sshd: root [priv]            0.0
+Ss      2238 sshd            sshd: root [priv]            0.0
+S       2240 sshd            sshd: root@pts/0             0.1
+Ss+     2241 bash            -bash                        0.0
+S       2287 sshd            sshd: root@notty             0.0
+Ss      2292 sftp-server     /usr/libexec/openssh/sftp-s  0.0
+Ss      4589 sshd            sshd: root [priv]            0.0
+Ss      4591 sshd            sshd: root [priv]            0.0
+S       4593 sshd            sshd: root@pts/1             0.0
+Ss      4594 bash            -bash                        0.0
+S       4646 sshd            sshd: root@notty             0.0
+Ss      4647 sftp-server     /usr/libexec/openssh/sftp-s  0.0
+Ss      8140 screen          SCREEN -S torch_test         0.0
+Ss+     8141 bash            /bin/bash                    0.0
+I<     12085 kworker/63:2H-k [kworker/63:2H-kblockd]      0.0
+I<     12086 kworker/59:2H-k [kworker/59:2H-kblockd]      0.0
+I<     12366 kworker/57:2H   [kworker/57:2H]              0.0
+I<     19291 kworker/63:0H   [kworker/63:0H]              0.0
+Ssl    21244 gaussdb         /opt/opengauss_multinode/bi 12.1
+I<    125393 kworker/42:0H   [kworker/42:0H]              0.0
+I<    133130 kworker/37:2H   [kworker/37:2H]              0.0
+I<    146836 kworker/3:2H-kb [kworker/3:2H-kblockd]       0.0
+S     183154 perf            perf stat --sync -e duratio  0.0
+Sl    183156 pt_main_thread  python3 ../benchmark/run.py  0.0
+I<    224217 kworker/32:1H   [kworker/32:1H]              0.0
+Ss    633077 sshd            sshd: root [priv]            0.0
+S     633081 sshd            sshd: root@pts/3             0.0
+Ss    633082 bash            -bash                        0.0
+S+    639038 bash            bash mugen.sh -a -x          0.0
+I<    977227 uas             [uas]                        0.0
+Ss    981132 sshd            sshd: root [priv]            0.0
+S     981136 sshd            sshd: root@pts/4             0.0
+Ss    981137 bash            -bash                        0.0
+I    1658151 kworker/4:1-eve [kworker/4:1-events_freezab  0.0
+I<   1711916 ib-comp-wq      [ib-comp-wq]                 0.0
+I<   1711917 ib-comp-unb-wq  [ib-comp-unb-wq]             0.0
+I<   1711918 ib_mcast        [ib_mcast]                   0.0
+I<   1711919 ib_nl_sa_wq     [ib_nl_sa_wq]                0.0
+I<   1711921 rdma_cm         [rdma_cm]                    0.0
+I<   1714265 nfsiod          [nfsiod]                     0.0
+Ss   1751819 freshclam       freshclam -d -p pid_log      0.0
+Ssl  1808495 clamav-milter   clamav-milter -c /etc/mail/  0.0
+Ss   1858069 tmon            tmon -d                      0.0
+I<   1863735 iscsi_conn_clea [iscsi_conn_clea]            0.0
+I<   1864044 fc_exch_workque [fc_exch_workque]            0.0
+I<   1864045 fc_rport_eq     [fc_rport_eq]                0.0
+I<   1867855 nvme_fc_wq      [nvme_fc_wq]                 0.0
+I<   1869076 target_completi [target_completi]            0.0
+I<   1869077 target_submissi [target_submissi]            0.0
+I<   1869078 xcopy_wq        [xcopy_wq]                   0.0
+I    1940646 kworker/17:1-rc [kworker/17:1-rcu_gp]        0.0
+Ss   1943979 sshd            sshd: root [priv]            0.0
+S    1944009 sshd            sshd: root@pts/5             0.0
+Ss+  1944010 bash            -bash                        0.0
+Ss   1945581 sshd            sshd: root [priv]            0.0
+S    1945598 sshd            sshd: root@notty             0.0
+Ss   1945736 sftp-server     /usr/libexec/openssh/sftp-s  0.0
+I    1951184 kworker/23:2-rc [kworker/23:2-rcu_gp]        0.0
+I    1971600 kworker/27:0-rc [kworker/27:0-rcu_par_gp]    0.0
+I    2048999 kworker/u128:0- [kworker/u128:0-ixgbe]       0.0
+I    2051685 kworker/20:1-cg [kworker/20:1-cgroup_pidlis  0.0
+I    2052818 kworker/18:1-mm [kworker/18:1-mm_percpu_wq]  0.0
+I    2055247 kworker/19:1-rc [kworker/19:1-rcu_gp]        0.0
+I    2058612 kworker/23:0-mm [kworker/23:0-mm_percpu_wq]  0.0
+I    2063137 kworker/16:2-cg [kworker/16:2-cgroup_destro  0.0
+I    2063170 kworker/37:0-rc [kworker/37:0-rcu_par_gp]    0.0
+I    2065601 kworker/3:1-mm_ [kworker/3:1-mm_percpu_wq]   0.0
+I    2070491 kworker/3:3-rcu [kworker/3:3-rcu_gp]         0.0
+I    2073940 kworker/1:0-rcu [kworker/1:0-rcu_gp]         0.0
+I    2076873 kworker/34:0-rc [kworker/34:0-rcu_gp]        0.0
+I    2077486 kworker/51:2-mm [kworker/51:2-mm_percpu_wq]  0.0
+I    2077838 kworker/51:3-rc [kworker/51:3-rcu_par_gp]    0.0
+I    2081940 kworker/54:0-rc [kworker/54:0-rcu_gp]        0.0
+I    2086930 kworker/21:9-mm [kworker/21:9-mm_percpu_wq]  0.0
+I    2086965 kworker/13:2-rc [kworker/13:2-rcu_gp]        0.0
+I    2087212 kworker/25:0-rc [kworker/25:0-rcu_gp]        0.0
+I    2087436 kworker/15:0-rc [kworker/15:0-rcu_par_gp]    0.0
+I    2088446 kworker/53:0-cg [kworker/53:0-cgroup_destro  0.0
+I    2088731 kworker/0:0-eve [kworker/0:0-events]         0.0
+I    2091422 kworker/37:1-rc [kworker/37:1-rcu_gp]        0.0
+I    2091605 kworker/38:2-rc [kworker/38:2-rcu_gp]        0.0
+I    2092393 kworker/53:3-mm [kworker/53:3-mm_percpu_wq]  0.0
+I    2092663 kworker/48:3-mm [kworker/48:3-mm_percpu_wq]  0.0
+I    2093569 kworker/49:1-rc [kworker/49:1-rcu_gp]        0.0
+I    2093603 kworker/32:2-ev [kworker/32:2-events_freeza  0.0
+I    2094236 kworker/36:2-mm [kworker/36:2-mm_percpu_wq]  0.0
+I    2094426 kworker/u132:1- [kworker/u132:1-events_unbo  0.0
+I    2095246 kworker/22:3-rc [kworker/22:3-rcu_par_gp]    0.0
+I    2095357 kworker/43:1-cg [kworker/43:1-cgroup_destro  0.0
+I    2098875 kworker/39:2-rc [kworker/39:2-rcu_gp]        0.0
+I    2099069 kworker/8:1-rcu [kworker/8:1-rcu_gp]         0.0
+I    2099248 kworker/0:1     [kworker/0:1]                0.0
+Ssl  2099375 NetworkManager  /usr/sbin/NetworkManager --  0.0
+Ss   2099385 dbus-daemon     /usr/bin/dbus-daemon --syst  0.1
+Ssl  2099396 gssproxy        /usr/sbin/gssproxy -D        0.0
+I    2099405 kworker/14:0-rc [kworker/14:0-rcu_par_gp]    0.0
+I    2099732 kworker/28:0-rc [kworker/28:0-rcu_gp]        0.0
+I    2099791 kworker/5:1-rcu [kworker/5:1-rcu_gp]         0.0
+I    2100724 kworker/25:2-mm [kworker/25:2-mm_percpu_wq]  0.0
+Ss   2101384 systemd-journal /usr/lib/systemd/systemd-jo  0.1
+I    2101528 kworker/29:1-rc [kworker/29:1-rcu_gp]        0.0
+Ss   2102470 systemd         /usr/lib/systemd/systemd --  0.0
+S    2102471 (sd-pam)        (sd-pam)                     0.0
+S<sl 2102478 pipewire        /usr/bin/pipewire            0.0
+Ss   2102479 dbus-daemon     /usr/bin/dbus-daemon --sess  0.0
+Ssl  2102483 polkitd         /usr/lib/polkit-1/polkitd -  0.0
+I    2102538 kworker/36:0-mm [kworker/36:0-mm_percpu_wq]  0.0
+Ss   2102582 systemd-logind  /usr/lib/systemd/systemd-lo  0.0
+I    2103023 kworker/56:0-rc [kworker/56:0-rcu_gp]        0.0
+I    2103072 kworker/11:1-rc [kworker/11:1-rcu_par_gp]    0.0
+I    2103075 kworker/8:2-mm_ [kworker/8:2-mm_percpu_wq]   0.0
+I    2103184 kworker/10:2-rc [kworker/10:2-rcu_gp]        0.0
+Ss   2103453 rpcbind         /usr/bin/rpcbind -r -w -f    0.0
+S<sl 2103454 auditd          /sbin/auditd                 0.0
+I    2103472 kworker/31:0-rc [kworker/31:0-rcu_gp]        0.0
+Ssl  2103482 irqbalance      /usr/sbin/irqbalance --hint  0.0
+Ss   2103485 lsmd            /usr/bin/lsmd -d             0.0
+Ss   2103493 smartd          /usr/sbin/smartd -n -q neve  0.0
+Ss   2103497 sshd            sshd: /usr/sbin/sshd -D [li  0.0
+Ssl  2103503 tuned           /usr/bin/python3 -Es /usr/s  1.7
+Ss   2103532 atd             /usr/sbin/atd -f             0.0
+Ss   2103563 crond           /usr/sbin/crond -n           0.0
+I    2103656 kworker/40:8-mm [kworker/40:8-mm_percpu_wq]  0.0
+I    2104492 kworker/7:0-rcu [kworker/7:0-rcu_par_gp]     0.0
+I    2104912 kworker/20:2-mm [kworker/20:2-mm_percpu_wq]  0.0
+I    2105147 kworker/21:2-cg [kworker/21:2-cgroup_pidlis  0.0
+I    2105307 kworker/17:2-mm [kworker/17:2-mm_percpu_wq]  0.0
+I    2105548 kworker/18:3    [kworker/18:3]               0.0
+I    2105723 kworker/2:0-mm_ [kworker/2:0-mm_percpu_wq]   0.0
+I    2106485 kworker/16:3-mm [kworker/16:3-mm_percpu_wq]  0.0
+I    2106593 kworker/50:1-rc [kworker/50:1-rcu_par_gp]    0.0
+I    2106596 kworker/48:1-rc [kworker/48:1-rcu_par_gp]    0.0
+I    2107367 kworker/2:1-rcu [kworker/2:1-rcu_gp]         0.0
+I    2107685 kworker/22:2-ev [kworker/22:2-events]        0.0
+I    2110551 kworker/5:2-mm_ [kworker/5:2-mm_percpu_wq]   0.0
+I    2110663 kworker/30:0-rc [kworker/30:0-rcu_par_gp]    0.0
+I    2112002 kworker/39:1-mm [kworker/39:1-mm_percpu_wq]  0.0
+I    2112303 kworker/31:1-mm [kworker/31:1-mm_percpu_wq]  0.0
+I    2112980 kworker/58:2-cg [kworker/58:2-cgroup_pidlis  0.0
+I<   2114174 cfg80211        [cfg80211]                   0.0
+Ss   2114175 systemd-udevd   /usr/lib/systemd/systemd-ud  0.0
+I    2115913 kworker/27:1-mm [kworker/27:1-mm_percpu_wq]  0.0
+I    2115936 kworker/26:1-rc [kworker/26:1-rcu_gp]        0.0
+I    2116793 kworker/33:2-rc [kworker/33:2-rcu_gp]        0.0
+I    2116822 kworker/52:0-rc [kworker/52:0-rcu_par_gp]    0.0
+I    2116906 kworker/12:0-rc [kworker/12:0-rcu_gp]        0.0
+I    2117117 kworker/14:2-mm [kworker/14:2-mm_percpu_wq]  0.0
+I    2117227 kworker/55:2-rc [kworker/55:2-rcu_par_gp]    0.0
+I    2118248 kworker/35:1-rc [kworker/35:1-rcu_gp]        0.0
+I    2118256 kworker/47:0-mm [kworker/47:0-mm_percpu_wq]  0.0
+I    2118274 kworker/38:0-rc [kworker/38:0-rcu_par_gp]    0.0
+I    2118276 kworker/u130:0- [kworker/u130:0-events_unbo  0.0
+SNs  2118367 alsactl         /usr/sbin/alsactl -s -n 19   0.0
+I    2118381 kworker/44:7-cg [kworker/44:7-cgroup_pidlis  0.0
+I    2118676 kworker/58:0-mm [kworker/58:0-mm_percpu_wq]  0.0
+I    2119155 kworker/12:1-rc [kworker/12:1-rcu_par_gp]    0.0
+I    2119284 kworker/49:0-mm [kworker/49:0-mm_percpu_wq]  0.0
+Ssl  2119287 rsyslogd        /usr/sbin/rsyslogd -n -i/va  0.0
+I    2119792 kworker/42:3-mm [kworker/42:3-mm_percpu_wq]  0.0
+I    2120494 kworker/43:3-mm [kworker/43:3-mm_percpu_wq]  0.0
+I    2120675 kworker/1:1-mm_ [kworker/1:1-mm_percpu_wq]   0.0
+I    2121077 kworker/6:0-eve [kworker/6:0-events]         0.0
+I    2121697 kworker/11:2-mm [kworker/11:2-mm_percpu_wq]  0.0
+I    2121737 kworker/10:0-mm [kworker/10:0-mm_percpu_wq]  0.0
+I    2121796 kworker/19:2-mm [kworker/19:2-mm_percpu_wq]  0.0
+I    2121813 kworker/6:3     [kworker/6:3]                0.0
+I    2121875 kworker/28:1-mm [kworker/28:1-mm_percpu_wq]  0.0
+I    2122113 kworker/24:1-mm [kworker/24:1-mm_percpu_wq]  0.0
+I    2122136 kworker/9:1-mm_ [kworker/9:1-mm_percpu_wq]   0.0
+I    2122167 kworker/29:2-mm [kworker/29:2-mm_percpu_wq]  0.0
+I    2122247 kworker/30:1-mm [kworker/30:1-mm_percpu_wq]  0.0
+I    2123053 kworker/59:1-mm [kworker/59:1-mm_percpu_wq]  0.0
+I    2123327 kworker/59:2    [kworker/59:2]               0.0
+I    2123505 kworker/u132:2- [kworker/u132:2-events_unbo  0.0
+I    2123520 kworker/52:1-mm [kworker/52:1-mm_percpu_wq]  0.0
+I    2123553 kworker/62:0-mm [kworker/62:0-mm_percpu_wq]  0.0
+I    2123643 kworker/54:1-mm [kworker/54:1-mm_percpu_wq]  0.0
+I    2123644 kworker/61:0-mm [kworker/61:0-mm_percpu_wq]  0.0
+I    2123708 kworker/55:1-mm [kworker/55:1-mm_percpu_wq]  0.0
+I    2123759 kworker/46:0-rc [kworker/46:0-rcu_gp]        0.0
+I    2123808 kworker/26:0-mm [kworker/26:0-mm_percpu_wq]  0.0
+I    2123835 kworker/50:0-mm [kworker/50:0-mm_percpu_wq]  0.0
+I    2123920 kworker/15:1-rc [kworker/15:1-rcu_par_gp]    0.0
+I    2124077 kworker/41:0-mm [kworker/41:0-mm_percpu_wq]  0.0
+I    2124779 kworker/33:0-mm [kworker/33:0-mm_percpu_wq]  0.0
+I    2124782 kworker/63:3-cg [kworker/63:3-cgroup_pidlis  0.0
+I    2125062 kworker/61:2-cg [kworker/61:2-cgroup_destro  0.0
+I    2125108 kworker/24:3-rc [kworker/24:3-rcu_par_gp]    0.0
+I    2125432 kworker/41:3-cg [kworker/41:3-cgroup_pidlis  0.0
+I    2125909 kworker/45:2-cg [kworker/45:2-cgroup_pidlis  0.0
+I    2126054 kworker/60:0-ev [kworker/60:0-events]        0.0
+I    2126056 kworker/56:1-ev [kworker/56:1-events]        0.0
+I    2126095 kworker/57:0-mm [kworker/57:0-mm_percpu_wq]  0.0
+I    2126131 kworker/57:3    [kworker/57:3]               0.0
+I    2126291 kworker/13:0-mm [kworker/13:0-mm_percpu_wq]  0.0
+I    2126681 kworker/42:0    [kworker/42:0]               0.0
+Ss   2132012 sshd            sshd: root [priv]            0.0
+S    2132022 sshd            sshd: root@pts/6             0.0
+Ss+  2132023 bash            -bash                        0.0
+I    2132024 kworker/u131:1- [kworker/u131:1-events_unbo  0.0
+I    2132029 kworker/7:1-rcu [kworker/7:1-rcu_par_gp]     0.0
+I    2132339 kworker/u129:0- [kworker/u129:0-events_unbo  0.0
+I    2132349 kworker/34:1-ev [kworker/34:1-events]        0.0
+I    2132350 kworker/35:2-rc [kworker/35:2-rcu_par_gp]    0.0
+I    2132351 kworker/u128:1- [kworker/u128:1-gid-cache-w  0.0
+I    2132578 kworker/40:0-cg [kworker/40:0-cgroup_destro  0.0
+I    2132581 kworker/44:1-cg [kworker/44:1-cgroup_pidlis  0.0
+I    2132783 kworker/45:3-mm [kworker/45:3-mm_percpu_wq]  0.0
+I    2139201 kworker/46:1-mm [kworker/46:1-mm_percpu_wq]  0.0
+I    2139362 kworker/62:2-cg [kworker/62:2-cgroup_destro  0.0
+I    2139427 kworker/60:3-ev [kworker/60:3-events]        0.0
+I    2139487 kworker/47:2    [kworker/47:2]               0.0
+I    2140499 kworker/u129:1- [kworker/u129:1-events_unbo  0.0
+I    2141048 kworker/32:0-rc [kworker/32:0-rcu_gp]        0.0
+I    2141049 kworker/9:2-eve [kworker/9:2-events]         0.0
+I    2141175 kworker/u130:1- [kworker/u130:1-writeback]   0.0
+I    2141231 kworker/u131:2- [kworker/u131:2-events_unbo  0.0
+Ss+  2141448 agetty          /sbin/agetty -o -p -- \u --  0.0
+I    2141449 kworker/63:2-mm [kworker/63:2-mm_percpu_wq]  0.0
+Rl+  2144150 pt_main_thread  python3 run.py Super_SloMo   207
+Ss   2146449 bash            bash -c while true; do slee  0.9
+I    2146979 kworker/4:2-mm_ [kworker/4:2-mm_percpu_wq]   0.0
+I    2148204 kworker/63:0-cg [kworker/63:0-cgroup_pidlis  0.0
+I    2148205 kworker/63:1-cg [kworker/63:1-cgroup_destro  0.0
+I    2148722 kworker/35:0-ev [kworker/35:0-events_long]   0.0
+I    2148874 kworker/61:1-cg [kworker/61:1-cgroup_pidlis  0.0
+I    2148875 kworker/61:3    [kworker/61:3]               0.0
+S+   2148877 python3         python3 /root/Shea/mugen/li  0.3
+S+   2148884 bash            bash -x oe_test_iSulad_reso  0.0
+I    2148994 kworker/32:1-rc [kworker/32:1-rcu_par_gp]    0.0
+I    2148995 kworker/32:3    [kworker/32:3]               0.0
+S+   2149235 python3         python3 mugen_riscv.py -l .  0.3
+Rl+  2149971 isula           isula stop volume volume1 v  100
+I    2150044 kworker/u132:0  [kworker/u132:0]             0.0
+I    2150059 kworker/7:2-mm_ [kworker/7:2-mm_percpu_wq]   0.0
+Ss   2150248 systemd-timedat /usr/lib/systemd/systemd-ti  1.5
+I    2150249 kworker/30:2-rc [kworker/30:2-rcu_par_gp]    0.0
+I    2150278 kworker/22:0    [kworker/22:0]               0.0
+I    2150283 kworker/44:0-ev [kworker/44:0-events]        0.0
+I    2150303 kworker/37:2-mm [kworker/37:2-mm_percpu_wq]  0.0
+I    2150312 kworker/15:2-mm [kworker/15:2-mm_percpu_wq]  0.0
+I    2150313 kworker/12:2-mm [kworker/12:2-mm_percpu_wq]  0.0
+I    2150376 kworker/52:2    [kworker/52:2]               0.0
+I    2150377 kworker/38:1-mm [kworker/38:1-mm_percpu_wq]  0.1
+I    2150402 kworker/4:0     [kworker/4:0]                0.0
+I    2150438 kworker/u132:3  [kworker/u132:3]             0.0
+I    2150468 kworker/24:0    [kworker/24:0]               0.0
+I    2150481 kworker/40:1-cg [kworker/40:1-cgroup_pidlis  0.0
+I    2150482 kworker/40:2-cg [kworker/40:2-cgroup_destro  0.0
+S    2150484 chronyd         /usr/sbin/chronyd            0.0
+S+   2150495 sh              sh -c -- sudo bash mugen.sh  0.0
+S+   2150496 sudo            sudo bash mugen.sh -f os-ba  0.6
+S+   2150497 tee             tee -a exec.log              0.0
+Ss+  2150498 sudo            sudo bash mugen.sh -f os-ba  0.0
+S    2150499 bash            bash mugen.sh -f os-basic-r  1.3
+S    2150549 python3         python3 /root/Shea/mugen-ri  7.2
+S    2150550 bash            bash oe_test_system_monitor  0.9
+S    2150568 sleep           sleep 1                      0.0
+R    2150579 ps              ps -eo stat,pid,comm,args,p 1200
+
+------ Shared Memory Segments --------
+key        shmid      owner      perms      bytes      nattch     status      
+0x0052e2c1 32802      omm        600        3445049672 1                       
+
+Wed Sep 25 14:34:23 2024 - INFO  - End to run test.
+Wed Sep 25 14:34:24 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 14:34:24 2024 - INFO  - oe_test_system_monitor_process.sh post_test

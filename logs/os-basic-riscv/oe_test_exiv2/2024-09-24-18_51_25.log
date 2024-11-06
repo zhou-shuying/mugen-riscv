@@ -1,0 +1,13 @@
+Tue Sep 24 18:51:27 2024 - INFO  - Start environmental preparation.
+Tue Sep 24 18:51:42 2024 - INFO  - End of environmental preparation!
+Tue Sep 24 18:51:42 2024 - INFO  - Start to run test.
+Exif.Image.Artist                            Ascii       9  gaochong
+Exif.Image.ExifTag                           Long        1  2132
+Exif.Image.XPAuthor                          Byte       18  gaochong
+Xmp.dc.creator                               XmpSeq      1  gaochong
+Xmp.xmpMM.InstanceID                         XmpText    41  uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b
+Iptc.Application2.Credit                     String      9  Mr. Smith
+Tue Sep 24 18:51:43 2024 - INFO  - End to run test.
+Tue Sep 24 18:51:43 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:51:43 2024 - INFO  - start environment cleanup.
+Tue Sep 24 18:51:47 2024 - INFO  - Finish environment cleanup!

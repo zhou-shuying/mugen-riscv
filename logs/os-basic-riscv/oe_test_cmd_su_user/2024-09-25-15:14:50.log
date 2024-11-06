@@ -1,0 +1,19 @@
+Wed Sep 25 15:14:51 2024 - INFO  - Start to prepare the test environment.
+testuser:x:1003:1005::/home/testuser:/bin/bash
+groupdel: group 'testuser' does not exist
+Wed Sep 25 15:14:52 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 15:14:52 2024 - INFO  - Start to run test.
+Changing password for user testuser.
+passwd: all authentication tokens updated successfully.
+testuser
+root
+Chant
+Desktop
+Downloads
+Shea
+mugen
+Usage:
+Wed Sep 25 15:14:55 2024 - INFO  - End to run test.
+Wed Sep 25 15:14:56 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:14:56 2024 - INFO  - Start to restore the test environment.
+Wed Sep 25 15:14:56 2024 - INFO  - End to restore the test environment.

@@ -1,0 +1,78 @@
+Tue Sep 24 18:21:47 2024 - INFO  - Start to prepare the test environment.
+     Active: active (running) since Tue 2024-09-24 18:22:56 CST; 31ms ago
+Tue Sep 24 18:22:56 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:22:57 2024 - INFO  - Start to run test.
+spawn mysql -u root -p
+Enter password: 
+(B[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \g.
+show databases;
+(B[m(B[0;1mYour MariaDB connection id is 4
+Server version: 10.5.22-MariaDB MariaDB Server
+
+(B[m(B[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+use mysql;
+(B[m(B[0;1mType 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+(B[mMariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
++--------------------+
+(B[0;1m3 rows in set (0.001 sec)
+(B[m(B[0;1m
+(B[mMariaDB [(none)]> use mysql;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+(B[0;1mDatabase changed
+(B[mMariaDB [mysql]> show tables;
++---------------------------+
+| Tables_in_mysql           |
++---------------------------+
+| column_stats              |
+| columns_priv              |
+| db                        |
+| event                     |
+| func                      |
+| general_log               |
+| global_priv               |
+| gtid_slave_pos            |
+| help_category             |
+| help_keyword              |
+| help_relation             |
+| help_topic                |
+| index_stats               |
+| innodb_index_stats        |
+| innodb_table_stats        |
+| plugin                    |
+| proc                      |
+| procs_priv                |
+| proxies_priv              |
+| roles_mapping             |
+| servers                   |
+| slow_log                  |
+| table_stats               |
+| tables_priv               |
+| time_zone                 |
+| time_zone_leap_second     |
+| time_zone_name            |
+| time_zone_transition      |
+| time_zone_transition_type |
+| transaction_registry      |
+| user                      |
++---------------------------+
+(B[0;1m31 rows in set (0.001 sec)
+(B[m(B[0;1m
+(B[mMariaDB [mysql]> exit
+(B[0;1mBye
+(B[mspawn mysqldump -u root -p mysql event -r /home/event1.sql
+Enter password: 
+/home/event1.sql
+Tue Sep 24 18:22:57 2024 - INFO  - End to run test.
+Tue Sep 24 18:22:57 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:22:57 2024 - INFO  - Start to restore the test environment.
+Tue Sep 24 18:23:34 2024 - INFO  - End to restore the test environment.

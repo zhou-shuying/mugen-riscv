@@ -1,0 +1,10 @@
+Wed Sep 25 15:10:55 2024 - INFO  - Start to prepare the test environment.
+Wed Sep 25 15:10:56 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 15:10:56 2024 - INFO  - Start to run test.
+oe_test_ProcMgmt_ps.sh: line 32: 2195123 Killed                  ./mypstest
+UID          PID    PPID  C STIME TTY          TIME CMD
+Usage:
+Wed Sep 25 15:10:56 2024 - INFO  - End to run test.
+Wed Sep 25 15:10:57 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:10:57 2024 - INFO  - Start to restore the test environment.
+Wed Sep 25 15:10:57 2024 - INFO  - End to restore the test environment.

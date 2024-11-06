@@ -1,0 +1,67 @@
+Tue Sep 24 18:28:06 2024 - INFO  - Start to prepare the test environment.
+Tue Sep 24 18:28:23 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:28:24 2024 - INFO  - Start to run test.
+Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
+     Active: active (running) since Tue 2024-09-24 18:28:25 CST; 7s ago
+     Active: inactive (dead) since Tue 2024-09-24 18:28:33 CST; 34ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/httpd.service".
+disabled
+     Active: active (running) since Tue 2024-09-24 18:28:35 CST; 7s ago
+Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
+     Active: active (running) since Tue 2024-09-24 18:28:35 CST; 15s ago
+     Active: inactive (dead) since Tue 2024-09-24 18:28:52 CST; 34ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/httpd.service".
+disabled
+     Active: active (running) since Tue 2024-09-24 18:28:53 CST; 7s ago
+Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
+     Active: active (running) since Tue 2024-09-24 18:28:53 CST; 15s ago
+     Active: inactive (dead) since Tue 2024-09-24 18:29:10 CST; 34ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/httpd.service".
+disabled
+     Active: active (running) since Tue 2024-09-24 18:29:11 CST; 7s ago
+Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
+     Active: active (running) since Tue 2024-09-24 18:29:11 CST; 15s ago
+     Active: inactive (dead) since Tue 2024-09-24 18:29:28 CST; 34ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/httpd.service".
+disabled
+     Active: active (running) since Tue 2024-09-24 18:29:30 CST; 7s ago
+Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
+     Active: active (running) since Tue 2024-09-24 18:29:30 CST; 15s ago
+     Active: inactive (dead) since Tue 2024-09-24 18:29:46 CST; 36ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/httpd.service".
+disabled
+     Active: active (running) since Tue 2024-09-24 18:29:48 CST; 7s ago
+Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
+     Active: active (running) since Tue 2024-09-24 18:29:48 CST; 15s ago
+     Active: inactive (dead) since Tue 2024-09-24 18:30:05 CST; 35ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/httpd.service".
+disabled
+     Active: active (running) since Tue 2024-09-24 18:30:06 CST; 7s ago
+Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
+     Active: active (running) since Tue 2024-09-24 18:30:06 CST; 15s ago
+     Active: inactive (dead) since Tue 2024-09-24 18:30:23 CST; 36ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/httpd.service".
+disabled
+     Active: active (running) since Tue 2024-09-24 18:30:24 CST; 7s ago
+Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
+     Active: active (running) since Tue 2024-09-24 18:30:24 CST; 15s ago
+     Active: inactive (dead) since Tue 2024-09-24 18:30:41 CST; 35ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/httpd.service".
+disabled
+     Active: active (running) since Tue 2024-09-24 18:30:43 CST; 7s ago
+Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
+     Active: active (running) since Tue 2024-09-24 18:30:43 CST; 15s ago
+     Active: inactive (dead) since Tue 2024-09-24 18:30:59 CST; 38ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/httpd.service".
+disabled
+     Active: active (running) since Tue 2024-09-24 18:31:01 CST; 7s ago
+Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
+     Active: active (running) since Tue 2024-09-24 18:31:01 CST; 15s ago
+     Active: inactive (dead) since Tue 2024-09-24 18:31:18 CST; 35ms ago
+Removed "/etc/systemd/system/multi-user.target.wants/httpd.service".
+disabled
+     Active: active (running) since Tue 2024-09-24 18:31:19 CST; 7s ago
+Tue Sep 24 18:31:27 2024 - INFO  - End to run test.
+Tue Sep 24 18:31:27 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:31:27 2024 - INFO  - Start to restore the test environment.
+Tue Sep 24 18:31:34 2024 - INFO  - End to restore the test environment.

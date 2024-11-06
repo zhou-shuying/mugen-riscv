@@ -1,0 +1,20 @@
+Mon Oct 14 16:43:41 2024 - INFO  - Start to run test.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+No rules
+-w /opt -p wa -k opt_changes
+----
+time->Mon Oct 14 16:43:44 2024
+type=PROCTITLE msg=audit(1728895424.104:1497): proctitle=6D6B646972002D70002F6F70742F746573742F
+type=PATH msg=audit(1728895424.104:1497): item=4 name=(null) inode=7373707 dev=103:03 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728895424.104:1497): item=3 name=(null) inode=393218 dev=103:03 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728895424.104:1497): item=2 name=(null) nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728895424.104:1497): item=1 name=(null) inode=393218 dev=103:03 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728895424.104:1497): item=0 name="/opt" inode=393218 dev=103:03 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728895424.104:1497): cwd="/opt"
+type=SYSCALL msg=audit(1728895424.104:1497): arch=c00000f3 syscall=34 success=yes exit=0 a0=ffffffffffffff9c a1=3ffec255bc a2=1ff a3=0 items=5 ppid=182921 pid=183007 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts4 ses=16 comm="mkdir" exe="/usr/bin/mkdir" subj=unconfined key="opt_changes"
+Mon Oct 14 16:43:45 2024 - INFO  - End to run test.
+Mon Oct 14 16:43:45 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 16:43:45 2024 - INFO  - Start to restore the test environment.
+No rules
+Mon Oct 14 16:43:46 2024 - INFO  - End to restore the test environment.

@@ -1,0 +1,221 @@
+Tue Sep 24 18:12:35 2024 - INFO  - Start to prepare the test environment.
+     Active: active (running) since Tue 2024-09-24 18:13:44 CST; 31ms ago
+Tue Sep 24 18:13:45 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:13:45 2024 - INFO  - Start to run test.
+[00] 2024-09-24 18:13:45 Connecting to server host: localhost, user: root, password: set, port: not set, socket: not set
+[00] 2024-09-24 18:13:45 Using server version 10.5.22-MariaDB
+mariabackup based on MariaDB server 10.5.22-MariaDB Linux (riscv64)
+[00] 2024-09-24 18:13:45 uses posix_fadvise().
+[00] 2024-09-24 18:13:45 cd to /var/lib/mysql/
+[00] 2024-09-24 18:13:45 open files limit requested 0, set to 1024
+[00] 2024-09-24 18:13:45 mariabackup: using the following InnoDB configuration:
+[00] 2024-09-24 18:13:45 innodb_data_home_dir = 
+[00] 2024-09-24 18:13:45 innodb_data_file_path = ibdata1:12M:autoextend
+[00] 2024-09-24 18:13:45 innodb_log_group_home_dir = ./
+[00] 2024-09-24 18:13:45 InnoDB: Using Linux native AIO
+2024-09-24 18:13:45 0 [Note] InnoDB: Number of pools: 1
+[00] 2024-09-24 18:13:45 mariabackup: Generating a list of tablespaces
+[01] 2024-09-24 18:13:45 Copying ./mysql/innodb_table_stats.ibd to /home/backup/mysql/innodb_table_stats.ibd
+[01] 2024-09-24 18:13:45         ...done
+[01] 2024-09-24 18:13:45 Copying ./mysql/gtid_slave_pos.ibd to /home/backup/mysql/gtid_slave_pos.ibd
+[01] 2024-09-24 18:13:45         ...done
+[01] 2024-09-24 18:13:45 Copying ./mysql/innodb_index_stats.ibd to /home/backup/mysql/innodb_index_stats.ibd
+[01] 2024-09-24 18:13:45         ...done
+[01] 2024-09-24 18:13:45 Copying ./mysql/transaction_registry.ibd to /home/backup/mysql/transaction_registry.ibd
+[01] 2024-09-24 18:13:45         ...done
+[01] 2024-09-24 18:13:45 Copying ibdata1 to /home/backup/ibdata1
+[01] 2024-09-24 18:13:46         ...done
+[00] 2024-09-24 18:13:46 Acquiring BACKUP LOCKS...
+[00] 2024-09-24 18:13:46 Starting to backup non-InnoDB tables and files
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone_leap_second.MAD to /home/backup/mysql/time_zone_leap_second.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone_transition_type.MAI to /home/backup/mysql/time_zone_transition_type.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/index_stats.MAD to /home/backup/mysql/index_stats.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone_name.frm to /home/backup/mysql/time_zone_name.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/global_priv.MAD to /home/backup/mysql/global_priv.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/columns_priv.MAI to /home/backup/mysql/columns_priv.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/slow_log.frm to /home/backup/mysql/slow_log.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/proxies_priv.frm to /home/backup/mysql/proxies_priv.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/help_topic.MAD to /home/backup/mysql/help_topic.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone_transition.MAD to /home/backup/mysql/time_zone_transition.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/tables_priv.MAI to /home/backup/mysql/tables_priv.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/slow_log.CSM to /home/backup/mysql/slow_log.CSM
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/global_priv.frm to /home/backup/mysql/global_priv.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/help_category.frm to /home/backup/mysql/help_category.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/help_relation.MAI to /home/backup/mysql/help_relation.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/help_topic.frm to /home/backup/mysql/help_topic.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/innodb_table_stats.frm to /home/backup/mysql/innodb_table_stats.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone_transition_type.frm to /home/backup/mysql/time_zone_transition_type.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/columns_priv.frm to /home/backup/mysql/columns_priv.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/user.frm to /home/backup/mysql/user.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/help_topic.MAI to /home/backup/mysql/help_topic.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/help_category.MAD to /home/backup/mysql/help_category.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/index_stats.frm to /home/backup/mysql/index_stats.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/procs_priv.frm to /home/backup/mysql/procs_priv.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone_leap_second.frm to /home/backup/mysql/time_zone_leap_second.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/column_stats.MAI to /home/backup/mysql/column_stats.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/func.MAI to /home/backup/mysql/func.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone.MAD to /home/backup/mysql/time_zone.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/event.frm to /home/backup/mysql/event.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/transaction_registry.frm to /home/backup/mysql/transaction_registry.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/help_category.MAI to /home/backup/mysql/help_category.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/roles_mapping.MAD to /home/backup/mysql/roles_mapping.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/servers.MAD to /home/backup/mysql/servers.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/servers.frm to /home/backup/mysql/servers.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/func.MAD to /home/backup/mysql/func.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/help_keyword.frm to /home/backup/mysql/help_keyword.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/db.opt to /home/backup/mysql/db.opt
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/index_stats.MAI to /home/backup/mysql/index_stats.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/db.frm to /home/backup/mysql/db.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/proc.frm to /home/backup/mysql/proc.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone_name.MAD to /home/backup/mysql/time_zone_name.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/gtid_slave_pos.frm to /home/backup/mysql/gtid_slave_pos.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/procs_priv.MAD to /home/backup/mysql/procs_priv.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/procs_priv.MAI to /home/backup/mysql/procs_priv.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/slow_log.CSV to /home/backup/mysql/slow_log.CSV
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/proc.MAD to /home/backup/mysql/proc.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone_transition_type.MAD to /home/backup/mysql/time_zone_transition_type.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/tables_priv.frm to /home/backup/mysql/tables_priv.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/help_relation.MAD to /home/backup/mysql/help_relation.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/general_log.CSV to /home/backup/mysql/general_log.CSV
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/db.MAI to /home/backup/mysql/db.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/tables_priv.MAD to /home/backup/mysql/tables_priv.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/plugin.MAD to /home/backup/mysql/plugin.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/proxies_priv.MAD to /home/backup/mysql/proxies_priv.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/roles_mapping.frm to /home/backup/mysql/roles_mapping.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/columns_priv.MAD to /home/backup/mysql/columns_priv.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/event.MAD to /home/backup/mysql/event.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/proxies_priv.MAI to /home/backup/mysql/proxies_priv.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/help_relation.frm to /home/backup/mysql/help_relation.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/plugin.MAI to /home/backup/mysql/plugin.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/table_stats.MAD to /home/backup/mysql/table_stats.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/general_log.frm to /home/backup/mysql/general_log.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/help_keyword.MAI to /home/backup/mysql/help_keyword.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/func.frm to /home/backup/mysql/func.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/proc.MAI to /home/backup/mysql/proc.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/servers.MAI to /home/backup/mysql/servers.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/plugin.frm to /home/backup/mysql/plugin.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/column_stats.MAD to /home/backup/mysql/column_stats.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/column_stats.frm to /home/backup/mysql/column_stats.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/roles_mapping.MAI to /home/backup/mysql/roles_mapping.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/table_stats.frm to /home/backup/mysql/table_stats.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/help_keyword.MAD to /home/backup/mysql/help_keyword.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/innodb_index_stats.frm to /home/backup/mysql/innodb_index_stats.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/general_log.CSM to /home/backup/mysql/general_log.CSM
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone_transition.MAI to /home/backup/mysql/time_zone_transition.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone.MAI to /home/backup/mysql/time_zone.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone_transition.frm to /home/backup/mysql/time_zone_transition.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/table_stats.MAI to /home/backup/mysql/table_stats.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/global_priv.MAI to /home/backup/mysql/global_priv.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone_name.MAI to /home/backup/mysql/time_zone_name.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone_leap_second.MAI to /home/backup/mysql/time_zone_leap_second.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/db.MAD to /home/backup/mysql/db.MAD
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/event.MAI to /home/backup/mysql/event.MAI
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./mysql/time_zone.frm to /home/backup/mysql/time_zone.frm
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying ./performance_schema/db.opt to /home/backup/performance_schema/db.opt
+[01] 2024-09-24 18:13:46         ...done
+[00] 2024-09-24 18:13:46 Finished backing up non-InnoDB tables and files
+[01] 2024-09-24 18:13:46 Copying /var/lib/mysql//aria_log.00000001 to /home/backup/aria_log.00000001
+[01] 2024-09-24 18:13:46         ...done
+[01] 2024-09-24 18:13:46 Copying /var/lib/mysql//aria_log_control to /home/backup/aria_log_control
+[01] 2024-09-24 18:13:46         ...done
+[00] 2024-09-24 18:13:46 Waiting for log copy thread to read lsn 45091
+[00] 2024-09-24 18:13:47 Executing FLUSH NO_WRITE_TO_BINLOG ENGINE LOGS...
+[00] 2024-09-24 18:13:47 mariabackup: The latest check point (for incremental): '45079'
+mariabackup: Stopping log copying thread.
+[00] 2024-09-24 18:13:48 Executing BACKUP STAGE END
+[00] 2024-09-24 18:13:48 All tables unlocked
+[00] 2024-09-24 18:13:48 Backup created in directory '/home/backup/'
+[00] 2024-09-24 18:13:48 Writing backup-my.cnf
+[00] 2024-09-24 18:13:48         ...done
+[00] 2024-09-24 18:13:48 Writing xtrabackup_info
+[00] 2024-09-24 18:13:48         ...done
+[00] 2024-09-24 18:13:48 Redo log (from LSN 45079 to 45091) was copied.
+[00] 2024-09-24 18:13:48 completed OK!
+Tue Sep 24 18:13:48 2024 - INFO  - End to run test.
+Tue Sep 24 18:13:48 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:13:48 2024 - INFO  - Start to restore the test environment.
+Tue Sep 24 18:14:25 2024 - INFO  - End to restore the test environment.

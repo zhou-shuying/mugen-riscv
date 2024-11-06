@@ -1,0 +1,11 @@
+Sat Oct 12 17:44:10 2024 - INFO  - Start to prepare the database config.
+Changing password for user normal20241012174410.
+passwd: all authentication tokens updated successfully.
+Sat Oct 12 17:44:10 2024 - INFO  - Finish to prepare the database config.
+Sat Oct 12 17:44:10 2024 - INFO  - Start to run test.
+alias add='touch'
+alias add='mv'
+Sat Oct 12 17:44:12 2024 - INFO  - End to run test.
+Sat Oct 12 17:44:12 2024 - INFO  - succeed to execute the case.
+Sat Oct 12 17:44:12 2024 - INFO  - Start to restore the test environment.
+Sat Oct 12 17:44:13 2024 - INFO  - End to restore the test environment.

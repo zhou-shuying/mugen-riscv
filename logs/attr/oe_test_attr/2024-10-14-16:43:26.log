@@ -1,0 +1,13 @@
+Mon Oct 14 16:43:29 2024 - INFO  - Start to prepare the test environment.
+Mon Oct 14 16:43:29 2024 - INFO  - End to prepare the test environment.
+Mon Oct 14 16:43:29 2024 - INFO  - Start to run test.
+top
+top
+Attribute "oe" has a 3 byte value for test
+# file: test
+user.oe="extra"
+
+Mon Oct 14 16:43:29 2024 - INFO  - End to run test.
+Mon Oct 14 16:43:29 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 16:43:30 2024 - INFO  - Start to restore the test environment.
+Mon Oct 14 16:43:30 2024 - INFO  - End to restore the test environment.

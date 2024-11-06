@@ -1,0 +1,11 @@
+Wed Sep 25 15:06:55 2024 - INFO  - Start to prepare the test environment.
+Wed Sep 25 15:06:59 2024 - INFO  - pkgs:(powertop) is already installed
+Wed Sep 25 15:06:59 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 15:07:00 2024 - INFO  - Start to run test.
+modprobe cpufreq_stats failed
+oe_test_power_powertop_calibrate.sh: line 27: 2189954 Killed                  nohup powertop --calibrate > nohup.out 2>&1
+Wed Sep 25 15:07:02 2024 - INFO  - End to run test.
+Wed Sep 25 15:07:02 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:07:03 2024 - INFO  - Start to restore the test environment.
+Wed Sep 25 15:07:03 2024 - WARN  - no thing to do.
+Wed Sep 25 15:07:03 2024 - INFO  - End to restore the test environment.

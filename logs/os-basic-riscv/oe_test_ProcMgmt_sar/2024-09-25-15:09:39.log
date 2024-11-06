@@ -1,0 +1,14 @@
+Wed Sep 25 15:09:40 2024 - INFO  - Start to prepare the test environment.
+Wed Sep 25 15:10:00 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 15:10:00 2024 - INFO  - Start to run test.
+     Active: active (exited) since Wed 2024-09-25 15:10:01 CST; 35ms ago
+Linux 6.1.61-4.oe2309.riscv64 (openeuler-riscv64) 	09/25/24 	_riscv64_	(64 CPU)
+15:10:01     LINUX RESTART	(64 CPU)
+15:10:01        CPU     %user     %nice   %system   %iowait    %steal     %idle
+15:10:16    kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+15:10:31          tps      rtps      wtps      dtps   bread/s   bwrtn/s   bdscd/s
+Usage: sar [ options ] [ <interval> [ <count> ] ]
+Wed Sep 25 15:10:46 2024 - INFO  - End to run test.
+Wed Sep 25 15:10:46 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:10:46 2024 - INFO  - Start to restore the test environment.
+Wed Sep 25 15:10:52 2024 - INFO  - End to restore the test environment.

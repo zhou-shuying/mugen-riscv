@@ -1,0 +1,20 @@
+Mon Oct 14 16:43:59 2024 - INFO  - Start to prepare the test environment.
+Mon Oct 14 16:43:59 2024 - INFO  - End to prepare the environment
+Mon Oct 14 16:43:59 2024 - INFO  - Start to run test.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+No rules
+Error detecting machine type
+Mon Oct 14 16:44:02 2024 - ERROR - add rule failed
+Mon Oct 14 16:44:02 2024 - ERROR - oe_test_audit_monitor_do_command.sh line 35
+Mon Oct 14 16:44:02 2024 - ERROR - grep failed
+Mon Oct 14 16:44:02 2024 - ERROR - oe_test_audit_monitor_do_command.sh line 37
+/home/Jevons
+<no matches>
+Mon Oct 14 16:44:03 2024 - ERROR - ausearch failed
+Mon Oct 14 16:44:03 2024 - ERROR - oe_test_audit_monitor_do_command.sh line 43
+Mon Oct 14 16:44:04 2024 - INFO  - End to run test.
+Mon Oct 14 16:44:04 2024 - ERROR - failed to execute the case.
+oe_test_audit_monitor_do_command.sh: line 48: fOG_INFO: command not found
+No rules
+Mon Oct 14 16:44:04 2024 - INFO  - End to restore the test environment.

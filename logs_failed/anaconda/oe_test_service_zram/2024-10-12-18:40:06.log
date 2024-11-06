@@ -1,0 +1,34 @@
+Sat Oct 12 18:40:09 2024 - INFO  - Start environmental preparation.
+sed: can't read /usr/libexec/anaconda/zramswapon: No such file or directory
+Failed to start zram.service: Unit zram.service not found.
+Sat Oct 12 18:40:42 2024 - INFO  - End of environmental preparation!
+Sat Oct 12 18:40:42 2024 - INFO  - Start testing...
+Failed to restart zram.service: Unit zram.service not found.
+Sat Oct 12 18:40:42 2024 - ERROR - zram.service restart failed
+Sat Oct 12 18:40:42 2024 - ERROR - ../common/common_lib.sh line 34
+Unit zram.service could not be found.
+Sat Oct 12 18:40:47 2024 - ERROR - zram.service restart failed
+Sat Oct 12 18:40:48 2024 - ERROR - ../common/common_lib.sh line 37
+Failed to stop zram.service: Unit zram.service not loaded.
+Sat Oct 12 18:40:48 2024 - ERROR - zram.service stop failed
+Sat Oct 12 18:40:48 2024 - ERROR - ../common/common_lib.sh line 39
+Unit zram.service could not be found.
+Sat Oct 12 18:40:53 2024 - ERROR - zram.service stop failed
+Sat Oct 12 18:40:54 2024 - ERROR - ../common/common_lib.sh line 42
+Failed to start zram.service: Unit zram.service not found.
+Sat Oct 12 18:40:54 2024 - ERROR - zram.service start failed
+Sat Oct 12 18:40:54 2024 - ERROR - ../common/common_lib.sh line 44
+Unit zram.service could not be found.
+Sat Oct 12 18:40:59 2024 - ERROR - zram.service start failed
+Sat Oct 12 18:41:00 2024 - ERROR - ../common/common_lib.sh line 47
+Sat Oct 12 18:41:00 2024 - INFO  - Unit is indirect, ignoring.
+Failed to start zram.service: Unit zram.service not found.
+Sat Oct 12 18:41:00 2024 - ERROR - Job type reload is not applicable for unit zram.service
+Sat Oct 12 18:41:00 2024 - ERROR - ../common/common_lib.sh line 91
+Unit zram.service could not be found.
+Unit zram.service could not be found.
+Sat Oct 12 18:41:00 2024 - INFO  - Finish test!
+Sat Oct 12 18:41:01 2024 - ERROR - failed to execute the case.
+Sat Oct 12 18:41:01 2024 - INFO  - start environment cleanup.
+sed: can't read /usr/libexec/anaconda/zramswapon: No such file or directory
+Sat Oct 12 18:41:15 2024 - INFO  - Finish environment cleanup!

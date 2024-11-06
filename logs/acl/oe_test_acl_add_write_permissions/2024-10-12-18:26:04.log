@@ -1,0 +1,22 @@
+Sat Oct 12 18:26:07 2024 - INFO  - Start environmental preparation.
+0022
+Sat Oct 12 18:26:07 2024 - INFO  - End of environmental preparation!
+Sat Oct 12 18:26:07 2024 - INFO  - Start executing testcase.
+New password: Retype new password: Changing password for user example.
+passwd: all authentication tokens updated successfully.
+grep: warning: stray \ before -
+grep: warning: stray \ before -
+grep: warning: stray \ before -
+grep: warning: stray \ before -
+grep: warning: stray \ before -
+-rw-r--r-- 1 root root 0 Oct 12 18:26 /tmp/my_pwd
+getfacl: Removing leading '/' from absolute path names
+grep: warning: stray \ before -
+grep: warning: stray \ before -
+grep: warning: stray \ before -
+grep: warning: stray \ before -
+-rw-rw-r--+ 1 root root 0 Oct 12 18:26 /tmp/my_pwd
+Sat Oct 12 18:26:08 2024 - INFO  - Finish testcase execution.
+Sat Oct 12 18:26:08 2024 - INFO  - succeed to execute the case.
+Sat Oct 12 18:26:09 2024 - INFO  - start environment cleanup.
+Sat Oct 12 18:26:09 2024 - INFO  - Finish environment cleanup!

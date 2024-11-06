@@ -1,0 +1,15 @@
+Wed Oct  9 18:37:13 2024 - INFO  - Start environmental preparation.
+Wed Oct  9 18:37:35 2024 - INFO  - End of environmental preparation!
+Wed Oct  9 18:37:35 2024 - INFO  - Start to run test.
+     Active: active (listening) since Wed 2024-10-09 18:37:35 CST; 5s ago
+     Active: inactive (dead)
+     Active: active (listening) since Wed 2024-10-09 18:37:46 CST; 5s ago
+/etc/systemd/system/sockets.target.wants/amanda-udp.socket
+Removed "/etc/systemd/system/sockets.target.wants/amanda-udp.socket".
+find: ‘/etc/systemd/system/sockets.target.wants/amanda-udp.socket’: No such file or directory
+Failed to reload amanda-udp.socket: Job type reload is not applicable for unit amanda-udp.socket.
+     Active: active (listening) since Wed 2024-10-09 18:37:46 CST; 7s ago
+Wed Oct  9 18:37:53 2024 - INFO  - End of the test.
+Wed Oct  9 18:37:54 2024 - INFO  - succeed to execute the case.
+Wed Oct  9 18:37:54 2024 - INFO  - start environment cleanup.
+Wed Oct  9 18:38:01 2024 - INFO  - Finish environment cleanup!

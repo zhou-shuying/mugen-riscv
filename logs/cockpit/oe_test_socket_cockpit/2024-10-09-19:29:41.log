@@ -1,0 +1,38 @@
+Wed Oct  9 19:29:44 2024 - INFO  - Start environmental preparation.
+Wed Oct  9 19:29:56 2024 - INFO  - End of environmental preparation!
+Wed Oct  9 19:29:57 2024 - INFO  - Start to run test.
+Failed to restart cockpit.socket: Unit cockpit.socket not found.
+Wed Oct  9 19:29:57 2024 - ERROR - cockpit.socket restart failed
+Wed Oct  9 19:29:57 2024 - ERROR - ../common/common_lib.sh line 34
+Unit cockpit.socket could not be found.
+Wed Oct  9 19:30:02 2024 - ERROR - cockpit.socket restart failed
+Wed Oct  9 19:30:02 2024 - ERROR - ../common/common_lib.sh line 37
+Failed to stop cockpit.socket: Unit cockpit.socket not loaded.
+Wed Oct  9 19:30:03 2024 - ERROR - cockpit.socket stop failed
+Wed Oct  9 19:30:03 2024 - ERROR - ../common/common_lib.sh line 39
+Unit cockpit.socket could not be found.
+Wed Oct  9 19:30:08 2024 - ERROR - cockpit.socket stop failed
+Wed Oct  9 19:30:08 2024 - ERROR - ../common/common_lib.sh line 42
+Failed to start cockpit.socket: Unit cockpit.socket not found.
+Wed Oct  9 19:30:08 2024 - ERROR - cockpit.socket start failed
+Wed Oct  9 19:30:09 2024 - ERROR - ../common/common_lib.sh line 44
+Unit cockpit.socket could not be found.
+Wed Oct  9 19:30:14 2024 - ERROR - cockpit.socket start failed
+Wed Oct  9 19:30:14 2024 - ERROR - ../common/common_lib.sh line 47
+Wed Oct  9 19:30:14 2024 - INFO  - Unit is indirect, ignoring.
+Failed to start cockpit.socket: Unit cockpit.socket not found.
+Wed Oct  9 19:30:15 2024 - ERROR - oe_test_socket_cockpit.sh line 33
+Unit cockpit.socket could not be found.
+Wed Oct  9 19:30:15 2024 - ERROR - oe_test_socket_cockpit.sh line 35
+Wed Oct  9 19:30:15 2024 - INFO  - End of the test.
+Wed Oct  9 19:30:15 2024 - ERROR - failed to execute the case.
+Wed Oct  9 19:30:15 2024 - INFO  - start environment cleanup.
+Traceback (most recent call last):
+  File "/root/Shea/mugen-riscv/libs/locallibs/rpm_manage.py", line 181, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Shea/mugen-riscv/libs/locallibs/rpm_manage.py", line 152, in rpm_remove
+    with open(tmpfile, "r") as f:
+         ^^^^^^^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: "Last metadata expiration check: 3:23:31 ago on Wed Oct  9 16:06:24 2024.\nError: \n Problem: cannot install the best candidate for the job\n  - nothing provides kexec-tools needed by cockpit-285-2.oe2309.riscv64 from OS\n(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)"
+Wed Oct  9 19:30:16 2024 - INFO  - Finish environment cleanup!

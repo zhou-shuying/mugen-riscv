@@ -1,0 +1,13 @@
+Wed Sep 25 15:16:17 2024 - INFO  - Start to prepare the test environment.
+Wed Sep 25 15:16:21 2024 - INFO  - pkgs:(chrony) is already installed
+Wed Sep 25 15:16:22 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 15:16:22 2024 - INFO  - Start to run test.
+     Active: active (running) since Wed 2024-09-25 15:16:22 CST; 35ms ago
+enabled
+MS Name/IP address         Stratum Poll Reach LastRx Last sample               
+     Active: inactive (dead) since Wed 2024-09-25 15:16:22 CST; 34ms ago
+Wed Sep 25 15:16:22 2024 - INFO  - End to run test.
+Wed Sep 25 15:16:22 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:16:23 2024 - INFO  - Start to restore the test environment.
+Wed Sep 25 15:16:23 2024 - WARN  - no thing to do.
+Wed Sep 25 15:16:23 2024 - INFO  - End to restore the test environment.

@@ -1,0 +1,32 @@
+Tue Sep 24 18:33:11 2024 - INFO  - Start to prepare the test environment.
+Tue Sep 24 18:33:16 2024 - INFO  - pkgs:(git) is already installed
+Tue Sep 24 18:33:16 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:33:16 2024 - INFO  - Start to run test.
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /root/Shea/mugen-riscv/testcases/system-test/system-integration/os-basic/oe_test_server_git_install/test_openEuler/.git/
+	new file:   my.txt
+[master (root-commit) 7bd2905] add the redme file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 my.txt
+nothing to commit, working tree clean
+    add the redme file
+	modified:   my.txt
+[master 2dc95d9] added a line of words
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+nothing to commit, working tree clean
+    added a line of words
+/root/Shea/mugen-riscv/testcases/system-test/system-integration/os-basic/oe_test_server_git_install
+Tue Sep 24 18:33:16 2024 - INFO  - End to run test.
+Tue Sep 24 18:33:16 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:33:17 2024 - INFO  - Start to restore the test environment.
+Tue Sep 24 18:33:17 2024 - WARN  - no thing to do.
+Tue Sep 24 18:33:17 2024 - INFO  - End to restore the test environment.

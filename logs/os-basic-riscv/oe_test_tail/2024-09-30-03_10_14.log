@@ -1,0 +1,10 @@
+Mon Sep 30 03:10:15 2024 - INFO  - Start to prepare the test environment.
+Mon Sep 30 03:10:31 2024 - INFO  - End to prepare the test environment.
+Mon Sep 30 03:10:31 2024 - INFO  - Start to run test.
+oe_test_tail.sh: line 32: 2024-09-30T03:10:30+0800: command not found
+oe_test_tail.sh: line 33: 2024-09-30T03:10:30+0800: command not found
+Usage: tail [OPTION]... [FILE]...
+Mon Sep 30 03:10:31 2024 - INFO  - End to run test.
+Mon Sep 30 03:10:31 2024 - INFO  - succeed to execute the case.
+Mon Sep 30 03:10:31 2024 - INFO  - start environment cleanup.
+Mon Sep 30 03:10:36 2024 - INFO  - Finish environment cleanup!

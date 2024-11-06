@@ -1,0 +1,33 @@
+Wed Sep 25 15:13:41 2024 - INFO  - Start to prepare the test environment.
+Wed Sep 25 15:13:45 2024 - INFO  - pkgs:(at) is already installed
+Wed Sep 25 15:13:45 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 15:13:45 2024 - INFO  - Start to run test.
+warning: commands will be executed using /bin/sh
+job 8 at Wed Sep 25 23:30:00 2024
+warning: commands will be executed using /bin/sh
+job 9 at Wed Sep 25 16:35:00 2024
+warning: commands will be executed using /bin/sh
+job 10 at Wed Sep 25 19:13:00 2024
+warning: commands will be executed using /bin/sh
+job 11 at Wed Sep 25 19:13:00 2024
+warning: commands will be executed using /bin/sh
+job 12 at Wed Dec 12 16:30:00 2029
+warning: commands will be executed using /bin/sh
+job 13 at Wed Dec 12 16:30:00 2029
+warning: commands will be executed using /bin/sh
+job 14 at Thu Dec 12 16:30:00 2024
+Wed Sep 25 23:29:30 CST 2024
+hello1
+Wed Sep 25 23:30:30 2024 - INFO  - End to run test.
+Wed Sep 25 23:30:30 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 23:30:30 2024 - INFO  - Start to restore the test environment.
+Cannot find jobid 1
+Cannot find jobid 2
+Cannot find jobid 3
+Cannot find jobid 4
+Cannot find jobid 5
+Cannot find jobid 6
+Cannot find jobid 7
+Wed Sep 25 15:14:45 CST 2024
+Wed Sep 25 15:14:45 2024 - WARN  - no thing to do.
+Wed Sep 25 15:14:45 2024 - INFO  - End to restore the test environment.

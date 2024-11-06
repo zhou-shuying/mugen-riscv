@@ -1,0 +1,862 @@
+[
+    {
+        "name": "git-riscv",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_socket_git",
+                "logname": "2024-09-24-18_52_45.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "util-linux-riscv",
+        "caseNum": 3,
+        "passedCaseNum": 2,
+        "failedCaseNum": 1,
+        "passedCases": [
+            {
+                "name": "oe_test_service_fstrim",
+                "logname": "2024-09-24-18_55_56.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_uuidd",
+                "logname": "2024-09-24-18_56_17.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_socket_uuidd",
+                "logname": "2024-09-24-18_56_58.log",
+                "cause": [
+                    "Broken testcase",
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "openslp-riscv",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_slpd",
+                "logname": "2024-09-24-18_55_09.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "NetworkManager-riscv",
+        "caseNum": 4,
+        "passedCaseNum": 1,
+        "failedCaseNum": 3,
+        "passedCases": [
+            {
+                "name": "oe_test_service_nm-cloud-setup",
+                "logname": "2024-09-24-18_55_05.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_service_NetworkManager-dispatcher",
+                "logname": "2024-09-24-18_53_55.log",
+                "cause": [
+                    "Broken testcase",
+                    "preinstall absent",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_NetworkManager-wait-online",
+                "logname": "2024-09-24-18_54_43.log",
+                "cause": [
+                    "Broken testcase",
+                    "preinstall absent",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_service_NetworkManager",
+                "logname": "2024-09-24-18_54_17.log",
+                "cause": [
+                    "Broken testcase",
+                    "preinstall absent",
+                    "systemd unit enable failure"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "cpio-riscv",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_cpio",
+                "logname": "2024-09-24-18_52_35.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    },
+    {
+        "name": "os-basic-riscv",
+        "caseNum": 83,
+        "passedCaseNum": 76,
+        "failedCaseNum": 7,
+        "passedCases": [
+            {
+                "name": "oe_test_power_powertop_startup",
+                "logname": "2024-09-24-18_33_18.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_json-c",
+                "logname": "2024-09-24-18_51_48.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_cmd_su_user",
+                "logname": "2024-09-24-18_41_28.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_who",
+                "logname": "2024-09-30-03_10_04.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_mariadb_dump",
+                "logname": "2024-09-24-18_18_06.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_mariadb_backupDB",
+                "logname": "2024-09-24-18_23_35.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ProcMgmt_vmstat",
+                "logname": "2024-09-24-18_35_42.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_man",
+                "logname": "2024-09-24-18_50_35.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_vsftpd_restart",
+                "logname": "2024-09-24-18_01_06.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_httpd_port",
+                "logname": "systemctl_for_2024-09-24-18_32_31.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_mariadb_stop",
+                "logname": "2024-09-24-18_09_36.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_basic_modify_user",
+                "logname": "2024-09-24-18_41_43.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_brotli",
+                "logname": "2024-09-24-18_52_31.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_mariadb_onlinebackup",
+                "logname": "2024-09-24-18_12_33.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ProcMgmt_pgrep",
+                "logname": "2024-09-24-18_37_41.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_system_monitor_process",
+                "logname": "2024-09-30-03_10_40.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_system_log_device",
+                "logname": "2024-09-24-18_00_55.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_mariadb_dumpMulDB",
+                "logname": "2024-09-24-18_16_18.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_basic_UserMgmt_permission",
+                "logname": "2024-09-24-18_50_58.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_kernel_cgroup",
+                "logname": "2024-09-24-18_49_13.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_mysql",
+                "logname": "2024-09-24-18_05_18.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_whoami",
+                "logname": "2024-09-24-18_51_57.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_power_output_HTML",
+                "logname": "2024-09-24-18_33_51.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_uname",
+                "logname": "2024-09-30-03_10_10.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_password_blank",
+                "logname": "2024-09-24-18_35_14.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_chrony_chronyc_cmd",
+                "logname": "2024-09-24-18_41_48.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_lz4",
+                "logname": "2024-09-24-18_52_01.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_mariadb_backup",
+                "logname": "2024-09-24-18_25_27.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ProcMgmt_iostat",
+                "logname": "2024-09-24-18_37_45.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ProcMgmt_crontab_cronfile",
+                "logname": "2024-09-24-18_38_13.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_mariadb_copy",
+                "logname": "2024-09-24-18_19_56.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_USBinfo",
+                "logname": "2024-09-24-18_35_20.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_system_log_basic",
+                "logname": "2024-09-24-18_00_59.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_chrony_chronyd",
+                "logname": "2024-09-24-18_42_50.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_git_install",
+                "logname": "2024-09-24-18_33_10.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_httpd_recover",
+                "logname": "systemctl_for_2024-09-24-18_31_35.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_mariadb_loadfile",
+                "logname": "2024-09-24-18_14_26.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_patch",
+                "logname": "2024-09-24-18_51_16.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_mariadb_backuptable",
+                "logname": "2024-09-24-18_21_46.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_groupdel",
+                "logname": "2024-09-24-18_50_27.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_httpd_restart",
+                "logname": "2024-09-24-18_28_04.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_password_change",
+                "logname": "2024-09-24-18_35_08.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_power_measurement_internal",
+                "logname": "2024-09-24-18_34_21.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_zlib",
+                "logname": "2024-09-24-18_52_09.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_cmd_sudo",
+                "logname": "2024-09-24-18_43_25.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_power_powertop_powerup",
+                "logname": "2024-09-24-18_33_30.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_chrony_chronyc_ntpstat",
+                "logname": "2024-09-24-18_42_19.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_chrony_chronyc_hardwaretime",
+                "logname": "2024-09-24-18_41_56.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_home_directory",
+                "logname": "2024-09-24-18_50_22.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_tail",
+                "logname": "2024-09-30-03_10_14.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_system_log_security",
+                "logname": "2024-09-24-18_00_40.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ProcMgmt_at",
+                "logname": "2024-09-24-18_40_18.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_exiv2",
+                "logname": "2024-09-24-18_51_25.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_cmd_id",
+                "logname": "2024-09-24-18_43_21.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_versioninfo",
+                "logname": "2024-09-30-03_10_07.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_basic_set_account_expiration_time",
+                "logname": "2024-09-24-18_51_08.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_kernel_module_operation",
+                "logname": "2024-09-24-18_48_46.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ProcMgmt_top",
+                "logname": "2024-09-24-18_36_09.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_IOaccess_100Mfile",
+                "logname": "2024-09-24-18_49_17.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_system_log_process",
+                "logname": "2024-09-24-18_00_48.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_httpd_tls",
+                "logname": "2024-09-24-18_27_20.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_basic_modify_group",
+                "logname": "2024-09-24-18_41_38.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_openssh_restart",
+                "logname": "2024-09-24-18_04_20.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_power_powertop_calibrate",
+                "logname": "2024-09-24-18_33_40.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_chrony_Manuall",
+                "logname": "2024-09-24-18_42_58.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ProcMgmt_ps",
+                "logname": "2024-09-24-18_37_36.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ProcMgmt_start_kill",
+                "logname": "2024-09-24-18_36_13.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_localectl",
+                "logname": "2024-09-24-18_50_31.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_performance_monitor_pcp",
+                "logname": "2024-09-24-18_34_32.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ProcMgmt_sar",
+                "logname": "2024-09-24-18_36_23.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_IOaccess_500Mfile",
+                "logname": "2024-09-24-18_43_33.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_basic_set_permissions",
+                "logname": "2024-09-24-18_51_12.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_system_log_view",
+                "logname": "2024-09-24-18_00_25.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_kernel_sysctl",
+                "logname": "2024-09-24-18_48_42.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_group_access",
+                "logname": "2024-09-24-18_48_37.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_basic_create_group",
+                "logname": "2024-09-24-18_41_34.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": [
+            {
+                "name": "oe_test_timedatectl",
+                "logname": "2024-09-30-03_10_38.log",
+                "cause": [
+                    "Broken testcase"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_system_log_dmesg",
+                "logname": "2024-09-24-18_00_51.log",
+                "cause": [
+                    "Broken testcase"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_ProcMgmt_crontab_cmd",
+                "logname": "2024-09-24-18_39_15.log",
+                "cause": [
+                    "Broken testcase",
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_hwclock",
+                "logname": "2024-09-24-18_43_30.log",
+                "cause": [
+                    "Broken testcase"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_date",
+                "logname": "2024-09-24-18_41_25.log",
+                "cause": [
+                    "Broken testcase"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_system_log_recorded",
+                "logname": "2024-09-24-18_00_43.log",
+                "cause": [
+                    "Broken testcase",
+                    "preinstall absent"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            },
+            {
+                "name": "oe_test_server_postgresql",
+                "logname": "2024-09-24-18_03_44.log",
+                "cause": [
+                    "Broken testcase"
+                ],
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ]
+    },
+    {
+        "name": "net-tools-riscv",
+        "caseNum": 1,
+        "passedCaseNum": 1,
+        "failedCaseNum": 0,
+        "passedCases": [
+            {
+                "name": "oe_test_service_arp-ethers",
+                "logname": "2024-09-24-18_53_28.log",
+                "trim": 0,
+                "addDisk": 0,
+                "multiMachine": 0,
+                "addNic": 0
+            }
+        ],
+        "failedCases": []
+    }
+]

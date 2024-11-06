@@ -1,0 +1,20 @@
+Sat Oct 12 18:45:09 2024 - INFO  - Start to prepare the test environment.
+Sat Oct 12 18:45:09 2024 - INFO  - End to prepare the environment
+Sat Oct 12 18:45:10 2024 - INFO  - Start to run test.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+No rules
+Error detecting machine type
+Sat Oct 12 18:45:12 2024 - ERROR - add rule failed
+Sat Oct 12 18:45:12 2024 - ERROR - oe_test_audit_monitor_system_use.sh line 35
+Sat Oct 12 18:45:12 2024 - ERROR - grep failed
+Sat Oct 12 18:45:13 2024 - ERROR - oe_test_audit_monitor_system_use.sh line 37
+/home/Jevons
+<no matches>
+Sat Oct 12 18:45:14 2024 - ERROR - grep failed
+Sat Oct 12 18:45:14 2024 - ERROR - oe_test_audit_monitor_system_use.sh line 43
+Sat Oct 12 18:45:14 2024 - INFO  - End to run test.
+Sat Oct 12 18:45:14 2024 - ERROR - failed to execute the case.
+Sat Oct 12 18:45:14 2024 - INFO  - Start to restore the test environment.
+No rules
+Sat Oct 12 18:45:15 2024 - INFO  - End to restore the test environment.

@@ -1,0 +1,12 @@
+Wed Oct  9 18:31:34 2024 - INFO  - Start environmental preparation.
+0022
+Wed Oct  9 18:31:34 2024 - INFO  - End of environmental preparation!
+Wed Oct  9 18:31:34 2024 - INFO  - Start executing testcase.
+New password: Retype new password: Changing password for user example.
+passwd: all authentication tokens updated successfully.
+getfacl: Removing leading '/' from absolute path names
+getfacl: Removing leading '/' from absolute path names
+Wed Oct  9 18:31:34 2024 - INFO  - Finish testcase execution.
+Wed Oct  9 18:31:34 2024 - INFO  - succeed to execute the case.
+Wed Oct  9 18:31:35 2024 - INFO  - start environment cleanup.
+Wed Oct  9 18:31:35 2024 - INFO  - Finish environment cleanup!

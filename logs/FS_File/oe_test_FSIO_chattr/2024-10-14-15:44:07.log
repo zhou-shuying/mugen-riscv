@@ -1,0 +1,7 @@
+Mon Oct 14 15:44:09 2024 - INFO  - Start environment preparation.
+Mon Oct 14 15:44:09 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 15:44:10 2024 - INFO  - Start to run test.
+rm: cannot remove '/mnt/testFile20241014154409': Operation not permitted
+Mon Oct 14 15:44:10 2024 - INFO  - End to run test.
+Mon Oct 14 15:44:10 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 15:44:10 2024 - INFO  - oe_test_FSIO_chattr.sh post_test

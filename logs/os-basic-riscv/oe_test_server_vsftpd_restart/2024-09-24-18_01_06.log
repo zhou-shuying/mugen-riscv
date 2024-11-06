@@ -1,0 +1,557 @@
+Tue Sep 24 18:01:08 2024 - INFO  - Start to prepare the test environment.
+Tue Sep 24 18:01:24 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:01:24 2024 - INFO  - Start to run test.
+     Active: active (running) since Tue 2024-09-24 18:01:25 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1009998/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:25 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:27 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010030/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:27 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:30 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010059/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:30 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:32 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010084/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:33 CST; 29ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:35 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010107/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:35 CST; 29ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:38 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010138/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:38 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:40 CST; 43ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010163/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:41 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:43 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010184/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:43 CST; 33ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:46 CST; 45ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010207/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:46 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:48 CST; 44ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010230/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:49 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:51 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010254/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:51 CST; 33ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:54 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010277/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:54 CST; 29ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:56 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010300/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:57 CST; 33ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:01:59 CST; 45ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010323/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:01:59 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:02 CST; 44ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010346/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:02 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:04 CST; 45ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010367/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:05 CST; 33ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:07 CST; 45ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010390/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:07 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:10 CST; 45ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010413/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:10 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:12 CST; 45ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010436/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:12 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:15 CST; 44ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010460/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:15 CST; 29ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:18 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010483/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:18 CST; 33ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:20 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010506/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:20 CST; 29ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:23 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010529/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:23 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:25 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010550/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:26 CST; 33ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:28 CST; 45ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010573/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:28 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:31 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010596/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:31 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:33 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010621/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:34 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:36 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010645/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:36 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:39 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010668/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:39 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:41 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010691/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:42 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:44 CST; 43ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010719/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:44 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:47 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010742/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:47 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:49 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010765/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:50 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:52 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010788/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:52 CST; 29ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:55 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010814/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:55 CST; 29ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:02:57 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010837/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:02:57 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:00 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010860/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:00 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:02 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010884/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:03 CST; 29ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:05 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010905/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:05 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:08 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010928/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:08 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:10 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010958/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:11 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:13 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1010983/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:13 CST; 31ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:16 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1011007/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:16 CST; 29ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:18 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1011032/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:19 CST; 29ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:21 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1011057/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:21 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:24 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1011080/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:24 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:26 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1011101/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:27 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:29 CST; 41ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1011126/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:29 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:32 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1011149/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:32 CST; 30ms ago
+     Active: inactive (dead)
+     Active: active (running) since Tue 2024-09-24 18:03:34 CST; 42ms ago
+tcp        0      0 192.168.20.70:5437      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5433      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 192.168.20.70:5432      0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5433          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp        0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      21244/gaussdb       
+tcp6       0      0 :::21                   :::*                    LISTEN      1011178/vsftpd      
+tcp6       0      0 ::1:5433                :::*                    LISTEN      21244/gaussdb       
+tcp6       0      0 ::1:5432                :::*                    LISTEN      21244/gaussdb       
+     Active: active (running) since Tue 2024-09-24 18:03:34 CST; 30ms ago
+     Active: inactive (dead)
+Tue Sep 24 18:03:37 2024 - INFO  - End to run test.
+Tue Sep 24 18:03:37 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:03:37 2024 - INFO  - Start to restore the test environment.
+Tue Sep 24 18:03:43 2024 - INFO  - End to restore the test environment.

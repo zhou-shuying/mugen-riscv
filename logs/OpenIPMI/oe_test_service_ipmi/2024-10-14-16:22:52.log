@@ -1,0 +1,37 @@
+Mon Oct 14 16:22:55 2024 - INFO  - Start environmental preparation.
+Mon Oct 14 16:23:13 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 16:23:13 2024 - INFO  - Start testing...
+Job for ipmi.service failed because the control process exited with error code.
+See "systemctl status ipmi.service" and "journalctl -xeu ipmi.service" for details.
+Mon Oct 14 16:23:13 2024 - ERROR - ipmi.service restart failed
+Mon Oct 14 16:23:14 2024 - ERROR - ../common/common_lib.sh line 34
+Mon Oct 14 16:23:19 2024 - ERROR - ipmi.service restart failed
+Mon Oct 14 16:23:19 2024 - ERROR - ../common/common_lib.sh line 37
+Mon Oct 14 16:23:25 2024 - ERROR - ipmi.service stop failed
+Mon Oct 14 16:23:25 2024 - ERROR - ../common/common_lib.sh line 42
+Job for ipmi.service failed because the control process exited with error code.
+See "systemctl status ipmi.service" and "journalctl -xeu ipmi.service" for details.
+Mon Oct 14 16:23:25 2024 - ERROR - ipmi.service start failed
+Mon Oct 14 16:23:25 2024 - ERROR - ../common/common_lib.sh line 44
+Mon Oct 14 16:23:31 2024 - ERROR - ipmi.service start failed
+Mon Oct 14 16:23:31 2024 - ERROR - ../common/common_lib.sh line 47
+/etc/systemd/system/multi-user.target.wants/ipmi.service
+Removed "/etc/systemd/system/multi-user.target.wants/ipmi.service".
+find: ‘/etc/systemd/system/multi-user.target.wants/ipmi.service’: No such file or directory
+Oct 14 16:23:13 openeuler-riscv64 openipmi-helper[167869]: Startup failed.
+Oct 14 16:23:13 openeuler-riscv64 systemd[1]: ipmi.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 16:23:13 openeuler-riscv64 systemd[1]: ipmi.service: Failed with result 'exit-code'.
+Oct 14 16:23:13 openeuler-riscv64 systemd[1]: Failed to start IPMI Driver.
+Oct 14 16:23:25 openeuler-riscv64 openipmi-helper[167977]: Startup failed.
+Oct 14 16:23:25 openeuler-riscv64 systemd[1]: ipmi.service: Main process exited, code=exited, status=1/FAILURE
+Oct 14 16:23:25 openeuler-riscv64 systemd[1]: ipmi.service: Failed with result 'exit-code'.
+Oct 14 16:23:25 openeuler-riscv64 systemd[1]: Failed to start IPMI Driver.
+Mon Oct 14 16:23:33 2024 - ERROR - There is an error message for the log of ipmi.service
+Mon Oct 14 16:23:33 2024 - ERROR - ../common/common_lib.sh line 28
+Job for ipmi.service failed because the control process exited with error code.
+See "systemctl status ipmi.service" and "journalctl -xeu ipmi.service" for details.
+Failed to reload ipmi.service: Job type reload is not applicable for unit ipmi.service.
+Mon Oct 14 16:23:34 2024 - INFO  - Finish test!
+Mon Oct 14 16:23:34 2024 - ERROR - failed to execute the case.
+Mon Oct 14 16:23:34 2024 - INFO  - start environment cleanup.
+Mon Oct 14 16:23:41 2024 - INFO  - Finish environment cleanup!

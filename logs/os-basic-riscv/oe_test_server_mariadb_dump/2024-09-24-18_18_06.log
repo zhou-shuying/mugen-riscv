@@ -1,0 +1,11 @@
+Tue Sep 24 18:18:08 2024 - INFO  - Start to prepare the test environment.
+     Active: active (running) since Tue 2024-09-24 18:19:17 CST; 30ms ago
+Tue Sep 24 18:19:17 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:19:17 2024 - INFO  - Start to run test.
+spawn mysqldump -u root -p --all-databases -r /home/all_databases.sql
+Enter password: 
+-rw-r--r-- 1 root root 2083942 Sep 24 18:19 /home/all_databases.sql
+Tue Sep 24 18:19:18 2024 - INFO  - End to run test.
+Tue Sep 24 18:19:18 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:19:18 2024 - INFO  - Start to restore the test environment.
+Tue Sep 24 18:19:55 2024 - INFO  - End to restore the test environment.

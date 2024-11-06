@@ -1,0 +1,13 @@
+Sat Oct 12 19:10:56 2024 - INFO  - Start testing...
+     Active: active (exited) since Sat 2024-10-12 19:10:56 CST; 5s ago
+     Active: inactive (dead)
+     Active: active (exited) since Sat 2024-10-12 19:11:07 CST; 5s ago
+/etc/systemd/system/multi-user.target.wants/chrony-wait.service
+Removed "/etc/systemd/system/multi-user.target.wants/chrony-wait.service".
+find: ‘/etc/systemd/system/multi-user.target.wants/chrony-wait.service’: No such file or directory
+Failed to reload chrony-wait.service: Job type reload is not applicable for unit chrony-wait.service.
+     Active: active (exited) since Sat 2024-10-12 19:11:07 CST; 7s ago
+Sat Oct 12 19:11:14 2024 - INFO  - Finish test!
+Sat Oct 12 19:11:15 2024 - INFO  - succeed to execute the case.
+Sat Oct 12 19:11:15 2024 - INFO  - start environment cleanup.
+Sat Oct 12 19:11:15 2024 - INFO  - Finish environment cleanup!

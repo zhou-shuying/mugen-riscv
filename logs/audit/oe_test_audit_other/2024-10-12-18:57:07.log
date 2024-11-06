@@ -1,0 +1,44 @@
+Sat Oct 12 18:57:10 2024 - INFO  - Start executing testcase.
+Redirecting to /bin/systemctl start auditd.service
+Stopping logging: 
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+Reconfiguring: /sbin/augenrules: No change
+arch elf mapping not found
+No rules
+enabled 1
+failure 1
+pid 203010
+rate_limit 0
+backlog_limit 8192
+lost 0
+backlog 0
+backlog_wait_time 60000
+backlog_wait_time_actual 0
+enabled 1
+failure 1
+pid 203010
+rate_limit 0
+backlog_limit 8192
+lost 0
+backlog 0
+backlog_wait_time 60000
+backlog_wait_time_actual 0
+enabled 1
+failure 1
+pid 203010
+rate_limit 0
+backlog_limit 8192
+lost 0
+backlog 0
+backlog_wait_time 60000
+backlog_wait_time_actual 0
+
+Rotating logs: 
+Resuming logging: 
+Redirecting to /bin/systemctl status auditd.service
+/usr/libexec/initscripts/legacy-actions/auditd/condrestart: line 6: [: =: unary operator expected
+     Active: active (running) since Sat 2024-10-12 18:57:13 CST; 318ms ago
+Sat Oct 12 18:57:13 2024 - INFO  - Finish testcase execution.
+Sat Oct 12 18:57:13 2024 - INFO  - succeed to execute the case.
+Sat Oct 12 18:57:13 2024 - INFO  - oe_test_audit_other.sh post_test

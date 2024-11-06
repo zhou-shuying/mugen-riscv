@@ -1,0 +1,16 @@
+Tue Sep 24 18:43:26 2024 - INFO  - Start to prepare the test environment.
+Changing password for user test.
+passwd: all authentication tokens updated successfully.
+Tue Sep 24 18:43:27 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:43:27 2024 - INFO  - Start to run test.
+User root may run the following commands on openeuler-riscv64:
+User test may run the following commands on openeuler-riscv64:
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-ABkNnS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-ABkNnS] [-g group] [-h host] [-p prompt] [-U user]
+usage: sudo [-ABbEHkNnPS] [-r role] [-t type] [-C num] [-D directory]
+usage: sudo -e [-ABkNnS] [-r role] [-t type] [-C num] [-D directory]
+Tue Sep 24 18:43:28 2024 - INFO  - End to run test.
+Tue Sep 24 18:43:28 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:43:28 2024 - INFO  - Start to restore the test environment.
+Tue Sep 24 18:43:29 2024 - INFO  - End to restore the test environment.

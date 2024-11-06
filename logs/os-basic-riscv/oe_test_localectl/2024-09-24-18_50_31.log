@@ -1,0 +1,38 @@
+Tue Sep 24 18:50:33 2024 - INFO  - Start to prepare the test environment.
+Tue Sep 24 18:50:33 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:50:33 2024 - INFO  - Start to run test.
+at-nodeadkeys
+be-nodeadkeys
+br-nodeadkeys
+ch-de_nodeadkeys
+ch-fr_nodeadkeys
+de-latin1-nodeadkeys
+de-mac_nodeadkeys
+de-nodeadkeys
+de-ro_nodeadkeys
+dk-mac_nodeadkeys
+dk-nodeadkeys
+ee-nodeadkeys
+es-nodeadkeys
+et-nodeadkeys
+fi-nodeadkeys
+fo-nodeadkeys
+fr-latin9_nodeadkeys
+fr-nodeadkeys
+fr-oss_nodeadkeys
+hu-nodeadkeys
+it-nodeadkeys
+latam-nodeadkeys
+mac-de-latin1-nodeadkeys
+no-mac_nodeadkeys
+no-nodeadkeys
+no-smi_nodeadkeys
+pt-mac_nodeadkeys
+pt-nodeadkeys
+se-nodeadkeys
+be-oss
+Tue Sep 24 18:50:33 2024 - INFO  - End to run test.
+Tue Sep 24 18:50:34 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:50:34 2024 - INFO  - Start to restore the test environment.
+Failed to set keymap: Keymap (unset) is not installed.
+Tue Sep 24 18:50:34 2024 - INFO  - End to restore the test environment.

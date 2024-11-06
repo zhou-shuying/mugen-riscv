@@ -1,0 +1,10 @@
+Wed Sep 25 15:23:55 2024 - INFO  - Start to pre test.
+mkdir: cannot create directory ‘/sys/fs/cgroup/memory/example’: File exists
+Wed Sep 25 15:23:56 2024 - INFO  - Start to pre test.
+Wed Sep 25 15:23:56 2024 - INFO  - Start executing testcase.
+7:devices:/user.slice,6:pids:/user.slice/user-0.slice/session-244.scope,5:freezer:/user.slice,4:memory:/example,3:blkio:/user.slice,2:cpu,cpuacct:/user.slice/user-0.slice/session-244.scope,1:name=systemd:/user.slice/user-0.slice/session-244.scope
+Wed Sep 25 15:23:56 2024 - INFO  - End of testcase execution.
+Wed Sep 25 15:23:56 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:23:56 2024 - INFO  - start environment cleanup.
+oe_test_kernel_cgroup.sh: line 45: 2210073 Killed                  sh testcgroup.sh
+Wed Sep 25 15:23:57 2024 - INFO  - Finish environment cleanup.

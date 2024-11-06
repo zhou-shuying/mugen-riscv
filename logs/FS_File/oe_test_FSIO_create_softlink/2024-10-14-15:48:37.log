@@ -1,0 +1,11 @@
+Mon Oct 14 15:48:39 2024 - INFO  - Start parameters preparation.
+Mon Oct 14 15:48:40 2024 - INFO  - End of parameters preparation!
+Mon Oct 14 15:48:40 2024 - INFO  - Start to run test.
+cat: /tmp/softFile20241014154839: No such file or directory
+cat: /tmp/softDir20241014154839: No such file or directory
+test file
+testdir
+Mon Oct 14 15:48:40 2024 - INFO  - End to run test.
+Mon Oct 14 15:48:40 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 15:48:40 2024 - INFO  - Start to restore the test environment.
+Mon Oct 14 15:48:40 2024 - INFO  - End to restore the test environment.

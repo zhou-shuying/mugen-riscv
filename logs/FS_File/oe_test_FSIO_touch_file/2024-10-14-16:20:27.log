@@ -1,0 +1,9 @@
+Mon Oct 14 16:20:30 2024 - INFO  - Start environment preparation.
+Mon Oct 14 16:20:30 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 16:20:30 2024 - INFO  - Start to run test.
+touch: missing file operand
+touch: cannot touch 'testaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa20241014162030': File name too long
+Mon Oct 14 16:20:30 2024 - INFO  - End to run test.
+Mon Oct 14 16:20:30 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 16:20:30 2024 - INFO  - Start to restore the test environment.
+Mon Oct 14 16:20:31 2024 - INFO  - End to restore the test environment.

@@ -1,0 +1,15 @@
+Wed Sep 25 15:30:53 2024 - INFO  - Start environmental preparation.
+Wed Sep 25 15:31:12 2024 - INFO  - End of environmental preparation!
+Wed Sep 25 15:31:13 2024 - INFO  - Start testing...
+     Active: active (running) since Wed 2024-09-25 15:31:14 CST; 5s ago
+     Active: inactive (dead)
+     Active: active (running) since Wed 2024-09-25 15:31:26 CST; 5s ago
+/etc/systemd/system/multi-user.target.wants/slpd.service
+Removed "/etc/systemd/system/multi-user.target.wants/slpd.service".
+find: ‘/etc/systemd/system/multi-user.target.wants/slpd.service’: No such file or directory
+Failed to reload slpd.service: Job type reload is not applicable for unit slpd.service.
+     Active: active (running) since Wed 2024-09-25 15:31:26 CST; 8s ago
+Wed Sep 25 15:31:35 2024 - INFO  - Finish test!
+Wed Sep 25 15:31:35 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:31:36 2024 - INFO  - start environment cleanup.
+Wed Sep 25 15:31:44 2024 - INFO  - Finish environment cleanup!

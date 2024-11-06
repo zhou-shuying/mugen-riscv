@@ -1,0 +1,19 @@
+Mon Oct 14 16:58:53 2024 - INFO  - Start environmental preparation.
+Mon Oct 14 16:58:57 2024 - INFO  - pkgs:(avahi) is already installed
+Mon Oct 14 16:58:57 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 16:58:57 2024 - INFO  - Start to run test.
+     Active: active (running) since Mon 2024-10-14 16:58:57 CST; 5s ago
+     Active: inactive (dead) since Mon 2024-10-14 16:59:03 CST; 5s ago
+     Active: active (listening) since Mon 2024-10-14 16:59:08 CST; 5s ago
+find: ‘"/etc/systemd/system/sockets.target.wants/avahi-daemon.socket"’: No such file or directory
+Created symlink /etc/systemd/system/sockets.target.wants/avahi-daemon.socket → /usr/lib/systemd/system/avahi-daemon.socket.
+find: ‘"/etc/systemd/system/sockets.target.wants/avahi-daemon.socket"’: No such file or directory
+Mon Oct 14 16:59:15 2024 - ERROR - avahi-daemon.socket enable failed
+Mon Oct 14 16:59:16 2024 - ERROR - ../common/common_lib.sh line 70
+Failed to reload avahi-daemon.socket: Job type reload is not applicable for unit avahi-daemon.socket.
+     Active: active (listening) since Mon 2024-10-14 16:59:08 CST; 7s ago
+Mon Oct 14 16:59:16 2024 - INFO  - End of the test.
+Mon Oct 14 16:59:16 2024 - ERROR - failed to execute the case.
+Mon Oct 14 16:59:16 2024 - INFO  - start environment cleanup.
+Mon Oct 14 16:59:16 2024 - WARN  - no thing to do.
+Mon Oct 14 16:59:16 2024 - INFO  - Finish environment cleanup!

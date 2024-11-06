@@ -1,0 +1,8 @@
+Mon Oct 14 16:40:03 2024 - INFO  - Start environmental preparation.
+Mon Oct 14 16:40:34 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 16:40:34 2024 - INFO  - Start to run test.
+oe_test_target_anaconda.sh: line 30: test_oneshot: command not found
+Mon Oct 14 16:40:34 2024 - INFO  - End of the test.
+Mon Oct 14 16:40:34 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 16:40:35 2024 - INFO  - start environment cleanup.
+Mon Oct 14 16:40:47 2024 - INFO  - Finish environment cleanup!

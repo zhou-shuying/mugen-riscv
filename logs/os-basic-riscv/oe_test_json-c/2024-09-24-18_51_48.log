@@ -1,0 +1,10 @@
+Tue Sep 24 18:51:50 2024 - INFO  - Start environmental preparation.
+Tue Sep 24 18:51:54 2024 - INFO  - pkgs:(json-c json-c-devel make gcc) is already installed
+Tue Sep 24 18:51:54 2024 - INFO  - End of environmental preparation!
+Tue Sep 24 18:51:55 2024 - INFO  - Start to run test.
+{ "Lon": "121.42205", "Lat": "31.32118" }
+Tue Sep 24 18:51:55 2024 - INFO  - End to run test.
+Tue Sep 24 18:51:55 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:51:55 2024 - INFO  - start environment cleanup.
+Tue Sep 24 18:51:55 2024 - WARN  - no thing to do.
+Tue Sep 24 18:51:56 2024 - INFO  - Finish environment cleanup!

@@ -1,0 +1,17 @@
+Mon Oct 14 17:12:32 2024 - INFO  - Start environmental preparation.
+Mon Oct 14 17:13:03 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 17:13:03 2024 - INFO  - Start testing...
+     Active: active (exited) since Mon 2024-10-14 17:13:21 CST; 5s ago
+     Active: inactive (dead) since Mon 2024-10-14 17:13:27 CST; 5s ago
+     Active: active (exited) since Mon 2024-10-14 17:13:34 CST; 5s ago
+find: ‘"/etc/systemd/system/cloud-init.target.wants/cloud-config.service"’: No such file or directory
+Created symlink /etc/systemd/system/cloud-init.target.wants/cloud-config.service → /usr/lib/systemd/system/cloud-config.service.
+find: ‘"/etc/systemd/system/cloud-init.target.wants/cloud-config.service"’: No such file or directory
+Mon Oct 14 17:13:42 2024 - ERROR - cloud-config.service enable failed
+Mon Oct 14 17:13:42 2024 - ERROR - ../common/common_lib.sh line 70
+Failed to reload cloud-config.service: Job type reload is not applicable for unit cloud-config.service.
+     Active: active (exited) since Mon 2024-10-14 17:13:34 CST; 7s ago
+Mon Oct 14 17:13:42 2024 - INFO  - Finish test!
+Mon Oct 14 17:13:42 2024 - ERROR - failed to execute the case.
+Mon Oct 14 17:13:42 2024 - INFO  - start environment cleanup.
+Mon Oct 14 17:13:51 2024 - INFO  - Finish environment cleanup!

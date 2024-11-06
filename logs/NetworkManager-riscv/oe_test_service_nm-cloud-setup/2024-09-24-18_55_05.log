@@ -1,0 +1,9 @@
+Tue Sep 24 18:55:07 2024 - INFO  - Start environmental preparation.
+Failed to start nm-cloud-setup.service: Unit nm-cloud-setup.service not found.
+Tue Sep 24 18:55:07 2024 - INFO  - End of environmental preparation!
+Tue Sep 24 18:55:07 2024 - INFO  - Start testing...
+Unit nm-cloud-setup.service could not be found.
+Tue Sep 24 18:55:07 2024 - INFO  - Unit is indirect, ignoring.
+Tue Sep 24 18:55:08 2024 - INFO  - Finish test!
+Tue Sep 24 18:55:08 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:55:08 2024 - INFO  - oe_test_service_nm-cloud-setup.sh post_test

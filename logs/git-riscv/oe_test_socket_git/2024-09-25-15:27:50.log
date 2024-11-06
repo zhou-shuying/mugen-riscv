@@ -1,0 +1,15 @@
+Wed Sep 25 15:27:51 2024 - INFO  - Start environmental preparation.
+Wed Sep 25 15:28:08 2024 - INFO  - End of environmental preparation!
+Wed Sep 25 15:28:08 2024 - INFO  - Start to run test.
+     Active: active (listening) since Wed 2024-09-25 15:28:08 CST; 6s ago
+     Active: inactive (dead)
+     Active: active (listening) since Wed 2024-09-25 15:28:21 CST; 5s ago
+/etc/systemd/system/sockets.target.wants/git.socket
+Removed "/etc/systemd/system/sockets.target.wants/git.socket".
+find: ‘/etc/systemd/system/sockets.target.wants/git.socket’: No such file or directory
+Failed to reload git.socket: Job type reload is not applicable for unit git.socket.
+     Active: active (listening) since Wed 2024-09-25 15:28:21 CST; 8s ago
+Wed Sep 25 15:28:30 2024 - INFO  - End of the test.
+Wed Sep 25 15:28:30 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:28:30 2024 - INFO  - start environment cleanup.
+Wed Sep 25 15:28:36 2024 - INFO  - Finish environment cleanup!

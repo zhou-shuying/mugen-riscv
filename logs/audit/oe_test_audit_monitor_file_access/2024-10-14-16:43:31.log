@@ -1,0 +1,31 @@
+Mon Oct 14 16:43:34 2024 - INFO  - Start to run test.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+No rules
+-w /etc/passwd -p wa -k passwd_changes
+----
+time->Mon Oct 14 16:43:36 2024
+type=PROCTITLE msg=audit(1728895416.644:1468): proctitle=617564697463746C002D77002F6574632F706173737764002D70007761002D6B007061737377645F6368616E676573
+type=SYSCALL msg=audit(1728895416.644:1468): arch=c00000f3 syscall=206 success=yes exit=1084 a0=4 a1=3feba139c0 a2=43c a3=0 items=0 ppid=182732 pid=182814 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts4 ses=16 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728895416.644:1468): auid=0 ses=16 subj=unconfined op=add_rule key="passwd_changes" list=4 res=1
+----
+time->Mon Oct 14 16:43:36 2024
+type=PROCTITLE msg=audit(1728895416.676:1469): proctitle=75736572616464004A65766F6E73
+type=PATH msg=audit(1728895416.676:1469): item=0 name="/etc/passwd" inode=269081 dev=103:03 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728895416.676:1469): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_monitor_file_access"
+type=SYSCALL msg=audit(1728895416.676:1469): arch=c00000f3 syscall=56 success=yes exit=5 a0=ffffffffffffff9c a1=2ad4799ec8 a2=20902 a3=0 items=1 ppid=182732 pid=182820 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts4 ses=16 comm="useradd" exe="/usr/sbin/useradd" subj=unconfined key="passwd_changes"
+----
+time->Mon Oct 14 16:43:36 2024
+type=PROCTITLE msg=audit(1728895416.700:1472): proctitle=75736572616464004A65766F6E73
+type=PATH msg=audit(1728895416.700:1472): item=4 name="/etc/passwd" inode=269080 dev=103:03 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728895416.700:1472): item=3 name="/etc/passwd" inode=269081 dev=103:03 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728895416.700:1472): item=2 name="/etc/passwd+" inode=269080 dev=103:03 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728895416.700:1472): item=1 name="/etc/" inode=262145 dev=103:03 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728895416.700:1472): item=0 name="/etc/" inode=262145 dev=103:03 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728895416.700:1472): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_monitor_file_access"
+type=SYSCALL msg=audit(1728895416.700:1472): arch=c00000f3 syscall=276 success=yes exit=0 a0=ffffffffffffff9c a1=3fc53b6a08 a2=ffffffffffffff9c a3=2ad4799ec8 items=5 ppid=182732 pid=182820 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts4 ses=16 comm="useradd" exe="/usr/sbin/useradd" subj=unconfined key="passwd_changes"
+Mon Oct 14 16:43:36 2024 - INFO  - End to run test.
+Mon Oct 14 16:43:37 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 16:43:37 2024 - INFO  - Start to restore the test environment.
+No rules
+Mon Oct 14 16:43:37 2024 - INFO  - End to restore the test environment.

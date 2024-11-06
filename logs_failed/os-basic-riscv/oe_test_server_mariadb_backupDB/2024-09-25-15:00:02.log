@@ -1,0 +1,19 @@
+Wed Sep 25 15:00:04 2024 - INFO  - Start to prepare the test environment.
+Wed Sep 25 15:00:08 2024 - INFO  - pkgs:(mariadb-server mariadb) is already installed
+     Active: active (running) since Wed 2024-09-25 14:59:46 CST; 21s ago
+mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)'
+Check that mysqld is running and that the socket: '/var/lib/mysql/mysql.sock' exists!
+Wed Sep 25 15:00:08 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 15:00:08 2024 - INFO  - Start to run test.
+spawn mysqldump -u root -p mysql -r /home/mysql.sql
+Enter password: 
+mysqldump: Got error: 2002: "Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)" when trying to connect
+mysqldump: Got error: 2002: "Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)" when trying to connect
+Wed Sep 25 15:00:09 2024 - ERROR - oe_test_server_mariadb_backupDB.sh line 43
+/home/mysql.sql
+Wed Sep 25 15:00:09 2024 - INFO  - End to run test.
+Wed Sep 25 15:00:09 2024 - ERROR - failed to execute the case.
+Wed Sep 25 15:00:09 2024 - INFO  - Start to restore the test environment.
+Wed Sep 25 15:00:09 2024 - WARN  - no thing to do.
+Wed Sep 25 15:00:09 2024 - INFO  - End to restore the test environment.

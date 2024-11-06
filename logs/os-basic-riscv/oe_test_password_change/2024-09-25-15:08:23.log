@@ -1,0 +1,25 @@
+Wed Sep 25 15:08:24 2024 - INFO  - Start to prepare the test environment.
+groupdel: group 'testuser' does not exist
+useradd: warning: the home directory /home/testuser already exists.
+useradd: Not copying any file from skel directory into it.
+Creating mailbox file: File exists
+Wed Sep 25 15:08:25 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 15:08:25 2024 - INFO  - Start to run test.
+Wed Sep 25 15:08:25 2024 - WARN  - the remote password uses the default configuration.
+Wed Sep 25 15:08:25 2024 - WARN  - the connect port using the default configuration
+spawn scp -P 22 -r /home/testfile testuser@192.168.20.70:/home/testuser/testfile
+The authenticity of host '192.168.20.70 (192.168.20.70)' can't be established.
+ED25519 key fingerprint is SHA256:kqZajvP51wFi4i6GSxbSeQ/y9WixlCAeZneVa5TUoTI.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.20.70' (ED25519) to the list of known hosts.
+
+Authorized users only. All activities may be monitored and reported.
+testuser@192.168.20.70's password: 
+testfile                                                                                                                                                                              0%    0     0.0KB/s   --:-- ETAtestfile                                                                                                                                                                            100%    5     3.6KB/s   00:00    
+test
+Wed Sep 25 15:08:27 2024 - INFO  - End to run test.
+Wed Sep 25 15:08:27 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:08:27 2024 - INFO  - Start to restore the test environment.
+userdel: user testuser is currently used by process 2192099
+Wed Sep 25 15:08:28 2024 - INFO  - End to restore the test environment.

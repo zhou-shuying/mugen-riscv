@@ -1,0 +1,14 @@
+Mon Oct 14 16:55:41 2024 - INFO  - Start environmental preparation.
+No rules
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+Mon Oct 14 16:55:44 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 16:55:44 2024 - INFO  - Start executing testcase.
+type=CONFIG_CHANGE msg=audit(1728896144.279:47276): auid=0 ses=16 subj=unconfined op=add_rule key="sshd_config" list=4 res=1AUID="root"
+Mon Oct 14 16:55:44 2024 - INFO  - Finish testcase execution.
+Mon Oct 14 16:55:44 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 16:55:44 2024 - INFO  - start environment cleanup.
+No rules
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+Mon Oct 14 16:55:47 2024 - INFO  - Finish environment cleanup!

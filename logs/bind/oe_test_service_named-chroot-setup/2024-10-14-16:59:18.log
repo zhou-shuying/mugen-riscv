@@ -1,0 +1,13 @@
+Mon Oct 14 16:59:20 2024 - INFO  - Start environmental preparation.
+Mon Oct 14 16:59:47 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 16:59:47 2024 - INFO  - Start testing...
+     Active: active (exited) since Mon 2024-10-14 16:59:47 CST; 5s ago
+     Active: inactive (dead)
+     Active: active (exited) since Mon 2024-10-14 16:59:59 CST; 5s ago
+Mon Oct 14 17:00:05 2024 - INFO  - The unit files have no installation config,This means they are not meant to be enabled using systemctl.
+Failed to reload named-chroot-setup.service: Job type reload is not applicable for unit named-chroot-setup.service.
+     Active: active (exited) since Mon 2024-10-14 16:59:59 CST; 5s ago
+Mon Oct 14 17:00:05 2024 - INFO  - Finish test!
+Mon Oct 14 17:00:05 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 17:00:05 2024 - INFO  - start environment cleanup.
+Mon Oct 14 17:00:14 2024 - INFO  - Finish environment cleanup!

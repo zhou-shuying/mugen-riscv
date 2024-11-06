@@ -1,0 +1,11 @@
+Sat Oct 12 18:50:24 2024 - INFO  - Start to prepare the test environment.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+Sat Oct 12 18:50:27 2024 - INFO  - End to prepare the environment
+Sat Oct 12 18:50:27 2024 - INFO  - Start to run test.
+Sat Oct 12 18:51:06 2024 - INFO  - End to run test.
+Sat Oct 12 18:51:06 2024 - INFO  - succeed to execute the case.
+Sat Oct 12 18:51:06 2024 - INFO  - Start to restore the test environment.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+Sat Oct 12 18:51:08 2024 - INFO  - End to restore the test environment.

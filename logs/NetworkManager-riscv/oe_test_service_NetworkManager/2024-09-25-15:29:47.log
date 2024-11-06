@@ -1,0 +1,22 @@
+Wed Sep 25 15:29:49 2024 - INFO  - Start environmental preparation.
+Wed Sep 25 15:29:49 2024 - INFO  - End of environmental preparation!
+Wed Sep 25 15:29:49 2024 - INFO  - Start testing...
+     Active: active (running) since Wed 2024-09-25 15:29:51 CST; 5s ago
+     Active: inactive (dead) since Wed 2024-09-25 15:29:56 CST; 6s ago
+     Active: active (running) since Wed 2024-09-25 15:30:06 CST; 5s ago
+find: ‘"/etc/systemd/system/multi-user.target.wants/NetworkManager.service"’: No such file or directory
+find: ‘"/etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service"’: No such file or directory
+find: ‘"/etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service"’: No such file or directory
+Created symlink /etc/systemd/system/multi-user.target.wants/NetworkManager.service → /usr/lib/systemd/system/NetworkManager.service.
+Created symlink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service → /usr/lib/systemd/system/NetworkManager-dispatcher.service.
+Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service → /usr/lib/systemd/system/NetworkManager-wait-online.service.
+find: ‘"/etc/systemd/system/multi-user.target.wants/NetworkManager.service"’: No such file or directory
+find: ‘"/etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service"’: No such file or directory
+find: ‘"/etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service"’: No such file or directory
+Wed Sep 25 15:30:14 2024 - ERROR - NetworkManager.service enable failed
+Wed Sep 25 15:30:14 2024 - ERROR - ../common/common_lib.sh line 70
+     Active: active (running) since Wed 2024-09-25 15:30:06 CST; 11s ago
+Wed Sep 25 15:30:18 2024 - INFO  - Finish test!
+Wed Sep 25 15:30:18 2024 - ERROR - failed to execute the case.
+Wed Sep 25 15:30:18 2024 - INFO  - start environment cleanup.
+Wed Sep 25 15:30:20 2024 - INFO  - Finish environment cleanup!

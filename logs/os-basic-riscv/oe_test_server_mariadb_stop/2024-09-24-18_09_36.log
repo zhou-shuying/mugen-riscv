@@ -1,0 +1,101 @@
+Tue Sep 24 18:09:37 2024 - INFO  - Start to prepare the test environment.
+     Active: active (running) since Tue 2024-09-24 18:10:46 CST; 30ms ago
+Tue Sep 24 18:10:46 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:10:47 2024 - INFO  - Start to run test.
+Created symlink /etc/systemd/system/mysql.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /usr/lib/systemd/system/mariadb.service.
+Removed "/etc/systemd/system/mysqld.service".
+Removed "/etc/systemd/system/multi-user.target.wants/mariadb.service".
+Removed "/etc/systemd/system/mysql.service".
+Created symlink /etc/systemd/system/mysql.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /usr/lib/systemd/system/mariadb.service.
+Removed "/etc/systemd/system/mysqld.service".
+Removed "/etc/systemd/system/multi-user.target.wants/mariadb.service".
+Removed "/etc/systemd/system/mysql.service".
+Created symlink /etc/systemd/system/mysql.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /usr/lib/systemd/system/mariadb.service.
+Removed "/etc/systemd/system/mysqld.service".
+Removed "/etc/systemd/system/multi-user.target.wants/mariadb.service".
+Removed "/etc/systemd/system/mysql.service".
+Created symlink /etc/systemd/system/mysql.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /usr/lib/systemd/system/mariadb.service.
+Removed "/etc/systemd/system/mysqld.service".
+Removed "/etc/systemd/system/multi-user.target.wants/mariadb.service".
+Removed "/etc/systemd/system/mysql.service".
+Created symlink /etc/systemd/system/mysql.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /usr/lib/systemd/system/mariadb.service.
+Removed "/etc/systemd/system/mysqld.service".
+Removed "/etc/systemd/system/multi-user.target.wants/mariadb.service".
+Removed "/etc/systemd/system/mysql.service".
+Created symlink /etc/systemd/system/mysql.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /usr/lib/systemd/system/mariadb.service.
+Removed "/etc/systemd/system/mysqld.service".
+Removed "/etc/systemd/system/multi-user.target.wants/mariadb.service".
+Removed "/etc/systemd/system/mysql.service".
+Created symlink /etc/systemd/system/mysql.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /usr/lib/systemd/system/mariadb.service.
+Removed "/etc/systemd/system/mysqld.service".
+Removed "/etc/systemd/system/multi-user.target.wants/mariadb.service".
+Removed "/etc/systemd/system/mysql.service".
+Created symlink /etc/systemd/system/mysql.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /usr/lib/systemd/system/mariadb.service.
+Removed "/etc/systemd/system/mysqld.service".
+Removed "/etc/systemd/system/multi-user.target.wants/mariadb.service".
+Removed "/etc/systemd/system/mysql.service".
+Created symlink /etc/systemd/system/mysql.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /usr/lib/systemd/system/mariadb.service.
+Removed "/etc/systemd/system/mysqld.service".
+Removed "/etc/systemd/system/multi-user.target.wants/mariadb.service".
+Removed "/etc/systemd/system/mysql.service".
+Created symlink /etc/systemd/system/mysql.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /usr/lib/systemd/system/mariadb.service.
+Removed "/etc/systemd/system/mysqld.service".
+Removed "/etc/systemd/system/multi-user.target.wants/mariadb.service".
+Removed "/etc/systemd/system/mysql.service".
+Created symlink /etc/systemd/system/mysql.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /usr/lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /usr/lib/systemd/system/mariadb.service.
+spawn mysql -u root -p
+Enter password: 
+(B[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \g.
+CREATE DATABASE databaseexample;
+(B[m(B[0;1mYour MariaDB connection id is 3
+Server version: 10.5.22-MariaDB MariaDB Server
+
+(B[m(B[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+show databases;
+(B[m(B[0;1mType 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+(B[mMariaDB [(none)]> CREATE DATABASE databaseexample;
+(B[0;1mQuery OK, 1 row affected (0.001 sec)
+(B[m(B[0;1m
+(B[mMariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| databaseexample    |
+| information_schema |
+| mysql              |
+| performance_schema |
++--------------------+
+(B[0;1m4 rows in set (0.001 sec)
+(B[m(B[0;1m
+(B[mMariaDB [(none)]> exit
+(B[0;1mBye
+(B[m(B[mMariaDB [(none)]> CREATE DATABASE databaseexample;
+| databaseexample    |
+Tue Sep 24 18:11:56 2024 - INFO  - End to run test.
+Tue Sep 24 18:11:56 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:11:56 2024 - INFO  - Start to restore the test environment.
+Tue Sep 24 18:12:32 2024 - INFO  - End to restore the test environment.

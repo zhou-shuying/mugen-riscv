@@ -1,0 +1,15 @@
+Wed Oct  9 17:50:23 2024 - INFO  - Start environment preparation.
+Changing password for user test20241009175023.
+passwd: all authentication tokens updated successfully.
+Wed Oct  9 17:50:23 2024 - INFO  - End of environmental preparation!
+Wed Oct  9 17:50:24 2024 - INFO  - Start testing...
+root
+root
+test20241009175023
+test20241009175023
+test20241009175023
+test20241009175023
+Wed Oct  9 17:50:24 2024 - INFO  - Finish test!
+Wed Oct  9 17:50:24 2024 - INFO  - succeed to execute the case.
+Wed Oct  9 17:50:24 2024 - INFO  - start environment cleanup.
+Wed Oct  9 17:50:25 2024 - INFO  - Finish environment cleanup!

@@ -1,0 +1,16 @@
+Wed Sep 25 15:14:48 2024 - INFO  - Start to prepare the test environment.
+Wed Sep 25 15:14:48 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 15:14:48 2024 - INFO  - Start to run test.
+Wed Jan  1 00:00:00 CST 2020
+Wed Sep 25 09:30:00 CST 2024
+Wed Feb  4 09:30:00 CST 2015
+hwclock: Cannot access the Hardware Clock via any known method.
+hwclock: Use the --verbose option to see the details of our search for an access method.
+Wed Feb  4 09:30:01 2015 - ERROR - oe_test_date.sh line 40
+Wed Feb  4 09:30:02 2015 - INFO  - End to run test.
+Wed Feb  4 09:30:02 2015 - ERROR - failed to execute the case.
+Wed Feb  4 09:30:02 2015 - INFO  - Start to restore the test environment.
+Wed Sep 25 15:14:48 CST 2024
+hwclock: Cannot access the Hardware Clock via any known method.
+hwclock: Use the --verbose option to see the details of our search for an access method.
+Wed Sep 25 15:14:48 2024 - INFO  - Finish restoring the test environment.

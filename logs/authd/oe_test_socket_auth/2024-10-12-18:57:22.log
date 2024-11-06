@@ -1,0 +1,15 @@
+Sat Oct 12 18:57:24 2024 - INFO  - Start environmental preparation.
+Sat Oct 12 18:57:42 2024 - INFO  - End of environmental preparation!
+Sat Oct 12 18:57:42 2024 - INFO  - Start to run test.
+     Active: active (listening) since Sat 2024-10-12 18:57:42 CST; 5s ago
+     Active: inactive (dead)
+     Active: active (listening) since Sat 2024-10-12 18:57:53 CST; 5s ago
+/etc/systemd/system/sockets.target.wants/auth.socket
+Removed "/etc/systemd/system/sockets.target.wants/auth.socket".
+find: ‘/etc/systemd/system/sockets.target.wants/auth.socket’: No such file or directory
+Failed to reload auth.socket: Job type reload is not applicable for unit auth.socket.
+     Active: active (listening) since Sat 2024-10-12 18:57:53 CST; 7s ago
+Sat Oct 12 18:58:00 2024 - INFO  - End of the test.
+Sat Oct 12 18:58:01 2024 - INFO  - succeed to execute the case.
+Sat Oct 12 18:58:01 2024 - INFO  - start environment cleanup.
+Sat Oct 12 18:58:07 2024 - INFO  - Finish environment cleanup!

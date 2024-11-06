@@ -1,0 +1,7 @@
+Wed Sep 25 15:27:01 2024 - INFO  - env configure
+Changing password for user tester.
+passwd: all authentication tokens updated successfully.
+root
+tester
+Wed Sep 25 15:27:02 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:27:02 2024 - INFO  - start environment cleanup.

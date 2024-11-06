@@ -1,0 +1,44 @@
+Wed Oct  9 18:51:20 2024 - INFO  - Start to prepare the test environment.
+Wed Oct  9 18:51:36 2024 - INFO  - End to prepare the environment
+Wed Oct  9 18:51:36 2024 - INFO  - Start to run test.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+No rules
+arch elf mapping not found
+No rules
+enabled 1
+failure 1
+pid 3900123
+rate_limit 0
+backlog_limit 8192
+lost 0
+backlog 0
+backlog_wait_time 15000
+backlog_wait_time_actual 3
+enabled 1
+failure 1
+pid 3900123
+rate_limit 0
+backlog_limit 8192
+lost 0
+backlog 1
+backlog_wait_time 15000
+backlog_wait_time_actual 3
+enabled 1
+failure 1
+pid 3900123
+rate_limit 0
+backlog_limit 8192
+lost 0
+backlog 0
+backlog_wait_time 60000
+backlog_wait_time_actual 3
+Wed Oct  9 18:51:40 2024 - ERROR - load failed
+Wed Oct  9 18:51:40 2024 - ERROR - oe_test_audit_fetch_file_in_order.sh line 37
+Wed Oct  9 18:51:40 2024 - ERROR - add failed
+Wed Oct  9 18:51:40 2024 - ERROR - oe_test_audit_fetch_file_in_order.sh line 39
+Wed Oct  9 18:51:40 2024 - INFO  - End to run test.
+Wed Oct  9 18:51:41 2024 - ERROR - failed to execute the case.
+Wed Oct  9 18:51:41 2024 - INFO  - Start to restore the test environment.
+No rules
+Wed Oct  9 18:51:46 2024 - INFO  - End to restore the test environment.

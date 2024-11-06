@@ -1,0 +1,17 @@
+Wed Oct  9 19:30:57 2024 - INFO  - Start to prepare the test environment.
+Wed Oct  9 19:31:08 2024 - INFO  - Finish preparing the test environment.
+Wed Oct  9 19:31:08 2024 - INFO  - Start to run test.
+Wed Oct  9 19:31:09 2024 - INFO  - test cpio -o option
+3 blocks
+Wed Oct  9 19:31:09 2024 - INFO  - test cpio -t option
+3 blocks
+Wed Oct  9 19:31:09 2024 - INFO  - test cpio -I option
+3 blocks
+Wed Oct  9 19:31:09 2024 - INFO  - test cpio -i option
+3 blocks
+Wed Oct  9 19:31:09 2024 - INFO  - test cpio -u option
+3 blocks
+Wed Oct  9 19:31:09 2024 - INFO  - End of the test.
+Wed Oct  9 19:31:10 2024 - INFO  - succeed to execute the case.
+Wed Oct  9 19:31:10 2024 - INFO  - Start to restore the test environment.
+Wed Oct  9 19:31:10 2024 - INFO  - Finish restoring the test environment.

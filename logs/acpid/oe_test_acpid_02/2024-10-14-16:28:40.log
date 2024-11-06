@@ -1,0 +1,65 @@
+Mon Oct 14 16:28:42 2024 - INFO  - Start to prepare the test environment.
+Mon Oct 14 16:28:59 2024 - INFO  - End to prepare the test environment.
+Mon Oct 14 16:28:59 2024 - INFO  - Start to run test.
+acpid-2.0.34
+Usage: acpid [OPTIONS]
+spawn acpid --foreground
+RTNETLINK1 answers: No such file or directory
+acpid: error talking to the kernel via netlink
+starting up with netlink and the input layer
+^Cexiting
+spawn acpid --foreground --logevents
+RTNETLINK1 answers: No such file or directory
+acpid: error talking to the kernel via netlink
+starting up with netlink and the input layer
+1 rule loaded
+waiting for events: event logging is on
+^Cexiting
+spawn acpid --foreground --debug
+Deprecated /proc/acpi/event was not found.  Trying netlink and the input layer...
+inotify fd: 3
+inotify wd: 1
+input layer /dev/input/event0 (soc:gpio-poweroff) opened successfully, fd 4
+input layer /dev/input/event1 (soc:gpio-restart) opened successfully, fd 5
+input layer /dev/input/event2 (HDA ATI HDMI HDMI/DP,pcm=3) opened successfully, fd 6
+input layer /dev/input/event3 (Logitech Wireless Keyboard PID:4023) opened successfully, fd 7
+RTNETLINK1 answers: No such file or directory
+acpid: error talking to the kernel via netlink
+netlink opened successfully
+starting up with netlink and the input layer
+^Cparsing conf file /etc/acpi/events/powerconf
+exiting
+spawn acpid --foreground --debug --netlink
+inotify fd: 3
+inotify wd: 1
+input layer /dev/input/event0 (soc:gpio-poweroff) opened successfully, fd 4
+input layer /dev/input/event1 (soc:gpio-restart) opened successfully, fd 5
+input layer /dev/input/event2 (HDA ATI HDMI HDMI/DP,pcm=3) opened successfully, fd 6
+input layer /dev/input/event3 (Logitech Wireless Keyboard PID:4023) opened successfully, fd 7
+RTNETLINK1 answers: No such file or directory
+acpid: error talking to the kernel via netlink
+netlink opened successfully
+starting up with netlink and the input layer
+^Cparsing conf file /etc/acpi/events/powerconf
+exiting
+srw-rw-rw-  1 root    root              0 Oct 14 16:29 acpid.socket
+RTNETLINK1 answers: No such file or directory
+acpid: error talking to the kernel via netlink
+srw-rw-rw-  1 root    test              0 Oct 14 16:29 acpid.socket
+RTNETLINK1 answers: No such file or directory
+acpid: error talking to the kernel via netlink
+srw-rw-rw-  1 root    root              0 Oct 14 16:29 acpid.socket
+RTNETLINK1 answers: No such file or directory
+acpid: error talking to the kernel via netlink
+srwxrwxrwx  1 root    root              0 Oct 14 16:29 acpid.socket
+RTNETLINK1 answers: No such file or directory
+acpid: error talking to the kernel via netlink
+RTNETLINK1 answers: No such file or directory
+acpid: error talking to the kernel via netlink
+-rw-r--r--  1 root    root              7 Oct 14 16:29 acpid.test.pid
+RTNETLINK1 answers: No such file or directory
+acpid: error talking to the kernel via netlink
+Mon Oct 14 16:29:08 2024 - INFO  - End to run test.
+Mon Oct 14 16:29:08 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 16:29:08 2024 - INFO  - Start to restore the test environment.
+Mon Oct 14 16:29:14 2024 - INFO  - End to restore the test environment.

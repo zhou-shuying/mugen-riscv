@@ -1,0 +1,12 @@
+Wed Sep 25 15:15:03 2024 - INFO  - Start environment preparation.
+Wed Sep 25 15:15:03 2024 - INFO  - Environmental preparation is over.
+Wed Sep 25 15:15:04 2024 - INFO  - Start executing testcase!
+testgroup1:x:6666:
+testgroup1:x:8888:
+testgroup2:x:8888:
+testgroup2:x:8888:testuser1
+Usage: groupmod [options] GROUP
+Wed Sep 25 15:15:04 2024 - INFO  - End of testcase execution!
+Wed Sep 25 15:15:04 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:15:04 2024 - INFO  - start environment cleanup.
+Wed Sep 25 15:15:05 2024 - INFO  - Finish environment cleanup.

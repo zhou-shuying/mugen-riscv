@@ -1,0 +1,9 @@
+Sat Oct 12 17:45:02 2024 - INFO  - Start environment preparation.
+ls: cannot access '/tmp/test0120241012174502': No such file or directory
+Sat Oct 12 17:45:02 2024 - INFO  - End of environmental preparation!
+Sat Oct 12 17:45:02 2024 - INFO  - Start to test.
+Usage: chmod [OPTION]... MODE[,MODE]... FILE...
+Sat Oct 12 17:45:02 2024 - INFO  - End to test!
+Sat Oct 12 17:45:03 2024 - INFO  - succeed to execute the case.
+Sat Oct 12 17:45:03 2024 - INFO  - start environment cleanup.
+Sat Oct 12 17:45:03 2024 - INFO  - Finish environment cleanup!

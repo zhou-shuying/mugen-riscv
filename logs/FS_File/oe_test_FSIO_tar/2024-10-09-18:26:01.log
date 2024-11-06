@@ -1,0 +1,77 @@
+Wed Oct  9 18:26:03 2024 - INFO  - Start environment preparation.
+Wed Oct  9 18:26:07 2024 - INFO  - pkgs:(tar) is already installed
+printf: usage: printf [-v var] format [arguments]
+  No command with matching syntax recognised.  Run 'lvcreate --help' for more information.
+  Nearest similar command has syntax:
+mke2fs 1.47.0 (5-Feb-2023)
+The file /dev//test_lv120241009182608 does not exist and no size was specified.
+mount: /tmp/point120241009182608: special device /dev//test_lv120241009182608 does not exist.
+       dmesg(1) may have more information after failed mount system call.
+  No command with matching syntax recognised.  Run 'lvcreate --help' for more information.
+  Nearest similar command has syntax:
+mke2fs 1.47.0 (5-Feb-2023)
+The file /dev//test_lv220241009182608 does not exist and no size was specified.
+mount: /tmp/point220241009182608: special device /dev//test_lv220241009182608 does not exist.
+       dmesg(1) may have more information after failed mount system call.
+  No command with matching syntax recognised.  Run 'lvcreate --help' for more information.
+  Nearest similar command has syntax:
+Error accessing specified device /dev//test_lv320241009182608: No such file or directory
+Usage: mkfs.xfs
+/* blocksize */		[-b size=num]
+/* config file */	[-c options=xxx]
+/* metadata */		[-m crc=0|1,finobt=0|1,uuid=xxx,rmapbt=0|1,reflink=0|1,
+			    inobtcount=0|1,bigtime=0|1]
+/* data subvol */	[-d agcount=n,agsize=n,file,name=xxx,size=num,
+			    (sunit=value,swidth=value|su=num,sw=num|noalign),
+			    sectsize=num
+/* force overwrite */	[-f]
+/* inode size */	[-i perblock=n|size=num,maxpct=n,attr=0|1|2,
+			    projid32bit=0|1,sparse=0|1,nrext64=0|1]
+/* no discard */	[-K]
+/* log subvol */	[-l agnum=n,internal,size=num,logdev=xxx,version=n
+			    sunit=value|su=num,sectsize=num,lazy-count=0|1]
+/* label */		[-L label (maximum 12 characters)]
+/* naming */		[-n size=num,version=2|ci,ftype=0|1]
+/* no-op info only */	[-N]
+/* prototype file */	[-p fname]
+/* quiet */		[-q]
+/* realtime subvol */	[-r extsize=num,size=num,rtdev=xxx]
+/* sectorsize */	[-s size=num]
+/* version */		[-V]
+			devicename
+<devicename> is required unless -d name=xxx is given.
+<num> is xxx (bytes), xxxs (sectors), xxxb (fs blocks), xxxk (xxx KiB),
+      xxxm (xxx MiB), xxxg (xxx GiB), xxxt (xxx TiB) or xxxp (xxx PiB).
+<value> is xxx (512 byte blocks).
+mount: /tmp/point320241009182608: special device /dev//test_lv320241009182608 does not exist.
+       dmesg(1) may have more information after failed mount system call.
+Wed Oct  9 18:26:08 2024 - INFO  - End of environmental preparation!
+Wed Oct  9 18:26:08 2024 - INFO  - Start to run test.
+-rw-r--r-- root/root        12 2024-10-09 18:26 /tmp/point220241009182608/testFile120241009182608
+/tmp/point220241009182608/testFile120241009182608
+/tmp/point220241009182608/testFile220241009182608
+/tmp/point220241009182608/testFile320241009182608
+-rw-r--r-- root/root        12 2024-10-09 18:26 /tmp/point320241009182608/testFile120241009182608
+/tmp/point320241009182608/testFile120241009182608
+/tmp/point320241009182608/testFile220241009182608
+/tmp/point320241009182608/testFile320241009182608
+Wed Oct  9 18:26:09 2024 - INFO  - End to run test.
+Wed Oct  9 18:26:09 2024 - INFO  - succeed to execute the case.
+Wed Oct  9 18:26:09 2024 - INFO  - Start to restore the test environment.
+umount: /tmp/point120241009182608: not mounted.
+  No command with matching syntax recognised.  Run 'lvremove --help' for more information.
+  Correct command syntax is:
+  lvremove VG|LV|Tag|Select ...
+
+umount: /tmp/point220241009182608: not mounted.
+  No command with matching syntax recognised.  Run 'lvremove --help' for more information.
+  Correct command syntax is:
+  lvremove VG|LV|Tag|Select ...
+
+umount: /tmp/point320241009182608: not mounted.
+  No command with matching syntax recognised.  Run 'lvremove --help' for more information.
+  Correct command syntax is:
+  lvremove VG|LV|Tag|Select ...
+
+Wed Oct  9 18:26:09 2024 - WARN  - no thing to do.
+Wed Oct  9 18:26:09 2024 - INFO  - End to restore the test environment.

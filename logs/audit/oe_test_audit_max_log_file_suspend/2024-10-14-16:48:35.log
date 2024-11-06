@@ -1,0 +1,23 @@
+Mon Oct 14 16:48:38 2024 - INFO  - Start to prepare the test environment.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+Mon Oct 14 16:48:40 2024 - INFO  - End to prepare the environment
+Mon Oct 14 16:48:41 2024 - INFO  - Start to run test.
+Redirecting to /bin/systemctl status auditd.service
+     Active: active (running) since Mon 2024-10-14 16:48:40 CST; 405ms ago
+<no matches>
+<no matches>
+<no matches>
+<no matches>
+<no matches>
+<no matches>
+<no matches>
+<no matches>
+<no matches>
+<no matches>
+Mon Oct 14 16:48:53 2024 - INFO  - End to run test.
+Mon Oct 14 16:48:53 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 16:48:53 2024 - INFO  - Start to restore the test environment.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+Mon Oct 14 16:48:56 2024 - INFO  - End to restore the test environment.

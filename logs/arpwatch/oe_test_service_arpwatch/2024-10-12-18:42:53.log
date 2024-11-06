@@ -1,0 +1,15 @@
+Sat Oct 12 18:42:56 2024 - INFO  - Start environmental preparation.
+Sat Oct 12 18:44:16 2024 - INFO  - End of environmental preparation!
+Sat Oct 12 18:44:17 2024 - INFO  - Start testing...
+     Active: active (running) since Sat 2024-10-12 18:44:17 CST; 5s ago
+     Active: inactive (dead)
+     Active: active (running) since Sat 2024-10-12 18:44:28 CST; 5s ago
+/etc/systemd/system/multi-user.target.wants/arpwatch.service
+Removed "/etc/systemd/system/multi-user.target.wants/arpwatch.service".
+find: ‘/etc/systemd/system/multi-user.target.wants/arpwatch.service’: No such file or directory
+Failed to reload arpwatch.service: Job type reload is not applicable for unit arpwatch.service.
+     Active: active (running) since Sat 2024-10-12 18:44:28 CST; 7s ago
+Sat Oct 12 18:44:36 2024 - INFO  - Finish test!
+Sat Oct 12 18:44:36 2024 - INFO  - succeed to execute the case.
+Sat Oct 12 18:44:36 2024 - INFO  - start environment cleanup.
+Sat Oct 12 18:44:44 2024 - INFO  - Finish environment cleanup!

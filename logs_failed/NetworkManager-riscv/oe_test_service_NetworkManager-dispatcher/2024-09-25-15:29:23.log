@@ -1,0 +1,14 @@
+Wed Sep 25 15:29:25 2024 - INFO  - Start testing...
+     Active: active (running) since Wed 2024-09-25 15:29:25 CST; 5s ago
+     Active: inactive (dead)
+     Active: active (running) since Wed 2024-09-25 15:29:36 CST; 5s ago
+find: ‘"/etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service"’: No such file or directory
+Created symlink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service → /usr/lib/systemd/system/NetworkManager-dispatcher.service.
+find: ‘"/etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service"’: No such file or directory
+Wed Sep 25 15:29:44 2024 - ERROR - NetworkManager-dispatcher.service enable failed
+Wed Sep 25 15:29:45 2024 - ERROR - ../common/common_lib.sh line 70
+Failed to reload NetworkManager-dispatcher.service: Job type reload is not applicable for unit NetworkManager-dispatcher.service.
+     Active: active (running) since Wed 2024-09-25 15:29:36 CST; 9s ago
+Wed Sep 25 15:29:45 2024 - INFO  - Finish test!
+Wed Sep 25 15:29:45 2024 - ERROR - failed to execute the case.
+Wed Sep 25 15:29:45 2024 - INFO  - oe_test_service_NetworkManager-dispatcher.sh post_test

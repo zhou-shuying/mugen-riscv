@@ -1,0 +1,19 @@
+Mon Oct 14 16:20:13 2024 - INFO  - Start environment preparation.
+printf: usage: printf [-v var] format [arguments]
+  No command with matching syntax recognised.  Run 'lvcreate --help' for more information.
+  Nearest similar command has syntax:
+mke2fs 1.47.0 (5-Feb-2023)
+The file /dev//test_lv120241014162013 does not exist and no size was specified.
+Mon Oct 14 16:20:13 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 16:20:13 2024 - INFO  - Start to run test.
+mount: /tmp/ext420241014162013: special device /dev//test_lv120241014162013 does not exist.
+       dmesg(1) may have more information after failed mount system call.
+Mon Oct 14 16:20:14 2024 - ERROR - Mount failed.
+Mon Oct 14 16:20:14 2024 - ERROR - oe_test_FSIO_sys_fs_check.sh line 36
+Mon Oct 14 16:20:14 2024 - ERROR - Check change failed.
+Mon Oct 14 16:20:14 2024 - ERROR - oe_test_FSIO_sys_fs_check.sh line 39
+Mon Oct 14 16:20:14 2024 - INFO  - End to run test.
+Mon Oct 14 16:20:14 2024 - ERROR - failed to execute the case.
+Mon Oct 14 16:20:15 2024 - INFO  - Start to restore the test environment.
+umount: /tmp/ext420241014162013: not mounted.
+Mon Oct 14 16:20:15 2024 - INFO  - End to restore the test environment.

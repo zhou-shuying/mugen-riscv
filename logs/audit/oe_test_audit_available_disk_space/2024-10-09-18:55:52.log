@@ -1,0 +1,297 @@
+Wed Oct  9 18:55:55 2024 - INFO  - Start to prepare the test environment.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+Wed Oct  9 18:55:58 2024 - INFO  - End to prepare the test environment.
+Wed Oct  9 18:55:58 2024 - INFO  - Start to run test.
+64084+0 records in
+64084+0 records out
+67196944384 bytes (67 GB, 63 GiB) copied, 90.1035 s, 746 MB/s
+----
+time->Wed Oct  9 18:57:30 2024
+type=PROCTITLE msg=audit(1728471450.218:22757): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1728471450.218:22757): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fcf6da9c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917210 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471450.218:22757): auid=0 ses=51 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:30 2024
+type=PROCTITLE msg=audit(1728471450.230:22758): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471450.230:22758): item=1 name="/tmp/available_disk_space" inode=608689 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471450.230:22758): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471450.230:22758): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471450.230:22758): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fcc8395c9 a2=941 a3=1b6 items=2 ppid=3917073 pid=3917213 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:30 2024
+type=PROCTITLE msg=audit(1728471450.234:22759): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471450.234:22759): item=1 name="/tmp/available_disk_space" inode=608689 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471450.234:22759): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471450.234:22759): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471450.234:22759): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2b09081bf0 a2=0 a3=0 items=2 ppid=3917073 pid=3917214 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:30 2024
+type=PROCTITLE msg=audit(1728471450.246:22760): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1728471450.246:22760): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1728471450.246:22760): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fdd6489c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917216 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471450.246:22760): auid=0 ses=51 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:31 2024
+type=PROCTITLE msg=audit(1728471451.478:22761): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1728471451.478:22761): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fda40c9c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917223 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471451.478:22761): auid=0 ses=51 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:31 2024
+type=PROCTITLE msg=audit(1728471451.490:22762): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471451.490:22762): item=1 name="/tmp/available_disk_space" inode=608690 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471451.490:22762): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471451.490:22762): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471451.490:22762): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fcb8c05c9 a2=941 a3=1b6 items=2 ppid=3917073 pid=3917226 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:31 2024
+type=PROCTITLE msg=audit(1728471451.494:22763): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471451.494:22763): item=1 name="/tmp/available_disk_space" inode=608690 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471451.494:22763): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471451.494:22763): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471451.494:22763): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2ad0af2bf0 a2=0 a3=0 items=2 ppid=3917073 pid=3917227 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:31 2024
+type=PROCTITLE msg=audit(1728471451.506:22764): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1728471451.506:22764): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1728471451.506:22764): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fc90969c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917229 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471451.506:22764): auid=0 ses=51 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:32 2024
+type=PROCTITLE msg=audit(1728471452.734:22765): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1728471452.734:22765): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3ff5a9c9c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917235 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471452.734:22765): auid=0 ses=51 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:32 2024
+type=PROCTITLE msg=audit(1728471452.746:22766): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471452.746:22766): item=1 name="/tmp/available_disk_space" inode=608691 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471452.746:22766): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471452.746:22766): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471452.746:22766): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fc8e735c9 a2=941 a3=1b6 items=2 ppid=3917073 pid=3917238 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:32 2024
+type=PROCTITLE msg=audit(1728471452.750:22767): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471452.750:22767): item=1 name="/tmp/available_disk_space" inode=608691 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471452.750:22767): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471452.750:22767): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471452.750:22767): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2aefc61bf0 a2=0 a3=0 items=2 ppid=3917073 pid=3917239 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:32 2024
+type=PROCTITLE msg=audit(1728471452.762:22768): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1728471452.762:22768): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1728471452.762:22768): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3ff85659c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917241 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471452.762:22768): auid=0 ses=51 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:33 2024
+type=PROCTITLE msg=audit(1728471453.990:22769): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1728471453.990:22769): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fcdf4e9c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917245 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471453.990:22769): auid=0 ses=51 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:33 2024
+type=PROCTITLE msg=audit(1728471453.998:22770): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471453.998:22770): item=1 name="/tmp/available_disk_space" inode=608692 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471453.998:22770): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471453.998:22770): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471453.998:22770): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fcc35e5c9 a2=941 a3=1b6 items=2 ppid=3917073 pid=3917248 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:34 2024
+type=PROCTITLE msg=audit(1728471454.006:22771): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471454.006:22771): item=1 name="/tmp/available_disk_space" inode=608692 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471454.006:22771): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471454.006:22771): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471454.006:22771): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2abbf5dbf0 a2=0 a3=0 items=2 ppid=3917073 pid=3917249 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:34 2024
+type=PROCTITLE msg=audit(1728471454.014:22772): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1728471454.014:22772): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1728471454.014:22772): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fcd2e09c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917251 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471454.014:22772): auid=0 ses=51 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:35 2024
+type=PROCTITLE msg=audit(1728471455.250:22773): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1728471455.250:22773): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fee6cc9c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917257 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471455.250:22773): auid=0 ses=51 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:35 2024
+type=PROCTITLE msg=audit(1728471455.262:22774): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471455.262:22774): item=1 name="/tmp/available_disk_space" inode=608693 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471455.262:22774): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471455.262:22774): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471455.262:22774): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3ff69cc5c9 a2=941 a3=1b6 items=2 ppid=3917073 pid=3917260 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:35 2024
+type=PROCTITLE msg=audit(1728471455.266:22775): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471455.266:22775): item=1 name="/tmp/available_disk_space" inode=608693 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471455.266:22775): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471455.266:22775): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471455.266:22775): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2ac1c16bf0 a2=0 a3=0 items=2 ppid=3917073 pid=3917261 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:35 2024
+type=PROCTITLE msg=audit(1728471455.278:22776): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1728471455.278:22776): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1728471455.278:22776): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fe84449c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917263 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471455.278:22776): auid=0 ses=51 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:36 2024
+type=PROCTITLE msg=audit(1728471456.506:22777): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1728471456.506:22777): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3ffae159c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917267 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471456.506:22777): auid=0 ses=51 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:36 2024
+type=PROCTITLE msg=audit(1728471456.514:22778): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471456.514:22778): item=1 name="/tmp/available_disk_space" inode=608694 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471456.514:22778): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471456.514:22778): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471456.514:22778): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fc13c15c9 a2=941 a3=1b6 items=2 ppid=3917073 pid=3917270 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:36 2024
+type=PROCTITLE msg=audit(1728471456.522:22779): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471456.522:22779): item=1 name="/tmp/available_disk_space" inode=608694 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471456.522:22779): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471456.522:22779): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471456.522:22779): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2ae048abf0 a2=0 a3=0 items=2 ppid=3917073 pid=3917271 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:36 2024
+type=PROCTITLE msg=audit(1728471456.530:22780): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1728471456.530:22780): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1728471456.530:22780): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fdc99f9c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917273 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471456.530:22780): auid=0 ses=51 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:37 2024
+type=PROCTITLE msg=audit(1728471457.758:22781): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1728471457.758:22781): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fd89149c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917277 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471457.758:22781): auid=0 ses=51 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:37 2024
+type=PROCTITLE msg=audit(1728471457.766:22782): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471457.766:22782): item=1 name="/tmp/available_disk_space" inode=608695 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471457.766:22782): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471457.766:22782): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471457.766:22782): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3ffd20f5c9 a2=941 a3=1b6 items=2 ppid=3917073 pid=3917280 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:37 2024
+type=PROCTITLE msg=audit(1728471457.770:22783): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471457.770:22783): item=1 name="/tmp/available_disk_space" inode=608695 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471457.770:22783): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471457.770:22783): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471457.770:22783): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2ae45ccbf0 a2=0 a3=0 items=2 ppid=3917073 pid=3917281 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:37 2024
+type=PROCTITLE msg=audit(1728471457.782:22784): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1728471457.782:22784): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1728471457.782:22784): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fd58609c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917283 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471457.782:22784): auid=0 ses=51 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:39 2024
+type=PROCTITLE msg=audit(1728471459.014:22785): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1728471459.014:22785): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fc948b9c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917289 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471459.014:22785): auid=0 ses=51 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:39 2024
+type=PROCTITLE msg=audit(1728471459.026:22786): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471459.026:22786): item=1 name="/tmp/available_disk_space" inode=608696 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471459.026:22786): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471459.026:22786): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471459.026:22786): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3ff4f5d5c9 a2=941 a3=1b6 items=2 ppid=3917073 pid=3917292 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:39 2024
+type=PROCTITLE msg=audit(1728471459.030:22787): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471459.030:22787): item=1 name="/tmp/available_disk_space" inode=608696 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471459.030:22787): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471459.030:22787): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471459.030:22787): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2af8c34bf0 a2=0 a3=0 items=2 ppid=3917073 pid=3917293 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:39 2024
+type=PROCTITLE msg=audit(1728471459.042:22788): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1728471459.042:22788): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1728471459.042:22788): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3ff9e189c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917295 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471459.042:22788): auid=0 ses=51 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:40 2024
+type=PROCTITLE msg=audit(1728471460.270:22789): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1728471460.270:22789): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fd1c1f9c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917299 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471460.270:22789): auid=0 ses=51 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:40 2024
+type=PROCTITLE msg=audit(1728471460.282:22790): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471460.282:22790): item=1 name="/tmp/available_disk_space" inode=608697 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471460.282:22790): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471460.282:22790): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471460.282:22790): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3ff94a35c9 a2=941 a3=1b6 items=2 ppid=3917073 pid=3917302 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:40 2024
+type=PROCTITLE msg=audit(1728471460.286:22791): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471460.286:22791): item=1 name="/tmp/available_disk_space" inode=608697 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471460.286:22791): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471460.286:22791): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471460.286:22791): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2aebc71bf0 a2=0 a3=0 items=2 ppid=3917073 pid=3917303 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:40 2024
+type=PROCTITLE msg=audit(1728471460.298:22792): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1728471460.298:22792): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1728471460.298:22792): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3ff23249c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917305 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471460.298:22792): auid=0 ses=51 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:41 2024
+type=PROCTITLE msg=audit(1728471461.526:22793): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1728471461.526:22793): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fe437c9c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917311 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471461.526:22793): auid=0 ses=51 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:57:41 2024
+type=PROCTITLE msg=audit(1728471461.538:22794): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471461.538:22794): item=1 name="/tmp/available_disk_space" inode=608698 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471461.538:22794): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471461.538:22794): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471461.538:22794): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fe0c835c9 a2=941 a3=1b6 items=2 ppid=3917073 pid=3917314 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:41 2024
+type=PROCTITLE msg=audit(1728471461.542:22795): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471461.542:22795): item=1 name="/tmp/available_disk_space" inode=608698 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471461.542:22795): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471461.542:22795): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471461.542:22795): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2abce04bf0 a2=0 a3=0 items=2 ppid=3917073 pid=3917315 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:57:41 2024
+type=PROCTITLE msg=audit(1728471461.554:22796): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1728471461.554:22796): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1728471461.554:22796): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fe629a9c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917317 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471461.554:22796): auid=0 ses=51 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
+grep: /var/log/messages: binary file matches
+25+0 records in
+25+0 records out
+26214400 bytes (26 MB, 25 MiB) copied, 0.0396099 s, 662 MB/s
+----
+time->Wed Oct  9 18:58:11 2024
+type=PROCTITLE msg=audit(1728471491.598:22797): proctitle=617564697463746C002D77002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SYSCALL msg=audit(1728471491.598:22797): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fff4719c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917347 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471491.598:22797): auid=0 ses=51 subj=unconfined op=add_rule key="available_disk_space" list=4 res=1
+----
+time->Wed Oct  9 18:58:11 2024
+type=PROCTITLE msg=audit(1728471491.610:22798): proctitle=746F756368002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471491.610:22798): item=1 name="/tmp/available_disk_space" inode=608699 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471491.610:22798): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471491.610:22798): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471491.610:22798): arch=c00000f3 syscall=56 success=yes exit=3 a0=ffffffffffffff9c a1=3fdfae15c9 a2=941 a3=1b6 items=2 ppid=3917073 pid=3917350 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="touch" exe="/usr/bin/touch" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:58:11 2024
+type=PROCTITLE msg=audit(1728471491.614:22799): proctitle=726D002D7266002F746D702F617661696C61626C655F6469736B5F7370616365
+type=PATH msg=audit(1728471491.614:22799): item=1 name="/tmp/available_disk_space" inode=608699 dev=00:2b mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1728471491.614:22799): item=0 name="/tmp/" inode=1 dev=00:2b mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1728471491.614:22799): cwd="/root/Shea/mugen-riscv/testcases/cli-test/audit/oe_test_audit_available_disk_space"
+type=SYSCALL msg=audit(1728471491.614:22799): arch=c00000f3 syscall=35 success=yes exit=0 a0=ffffffffffffff9c a1=2af6c8cbf0 a2=0 a3=0 items=2 ppid=3917073 pid=3917352 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="rm" exe="/usr/bin/rm" subj=unconfined key="available_disk_space"
+----
+time->Wed Oct  9 18:58:11 2024
+type=PROCTITLE msg=audit(1728471491.626:22800): proctitle=617564697463746C002D57002F746D702F617661696C61626C655F6469736B5F7370616365002D700072777861002D6B00617661696C61626C655F6469736B5F7370616365
+type=SOCKADDR msg=audit(1728471491.626:22800): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1728471491.626:22800): arch=c00000f3 syscall=206 success=yes exit=1104 a0=4 a1=3fe74a99c0 a2=450 a3=0 items=0 ppid=3917073 pid=3917354 auid=0 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=51 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1728471491.626:22800): auid=0 ses=51 subj=unconfined op=remove_rule key="available_disk_space" list=4 res=1
+Redirecting to /bin/systemctl status auditd.service
+     Active: active (running) since Wed 2024-10-09 18:55:58 CST; 2min 18s ago
+Redirecting to /bin/systemctl status auditd.service
+Oct 09 18:57:30 openeuler-riscv64 auditd[3917106]: Audit daemon is low on disk space for logging
+Wed Oct  9 18:58:22 2024 - INFO  - End to run test.
+Wed Oct  9 18:58:22 2024 - INFO  - succeed to execute the case.
+Wed Oct  9 18:58:22 2024 - INFO  - Start to restore the test environment.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+Wed Oct  9 18:58:25 2024 - INFO  - End to restore the test environment.

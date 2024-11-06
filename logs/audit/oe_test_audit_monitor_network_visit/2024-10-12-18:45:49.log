@@ -1,0 +1,20 @@
+Sat Oct 12 18:45:51 2024 - INFO  - Start to prepare the test environment.
+useradd: warning: the home directory /home/Jevons already exists.
+useradd: Not copying any file from skel directory into it.
+Creating mailbox file: File exists
+Changing password for user Jevons.
+passwd: all authentication tokens updated successfully.
+Sat Oct 12 18:45:52 2024 - INFO  - End to prepare the test environment.
+Sat Oct 12 18:45:52 2024 - INFO  - Start to run test.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+No rules
+spawn ssh Jevons@localhost
+invalid command name "expect{"
+    while executing
+"expect{"
+<no matches>
+Sat Oct 12 18:45:54 2024 - INFO  - End to run test.
+Sat Oct 12 18:45:55 2024 - INFO  - succeed to execute the case.
+Sat Oct 12 18:45:55 2024 - INFO  - Start to restore the test environment.
+Sat Oct 12 18:45:55 2024 - INFO  - End to restore the test environment.

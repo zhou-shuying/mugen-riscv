@@ -1,0 +1,81 @@
+Tue Sep 24 18:27:21 2024 - INFO  - Start to prepare the test environment.
+Tue Sep 24 18:27:40 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:27:40 2024 - INFO  - Start to run test.
+Created symlink /etc/systemd/system/multi-user.target.wants/httpd.service → /usr/lib/systemd/system/httpd.service.
+     Active: active (running) since Tue 2024-09-24 18:27:52 CST; 1s ago
+SSLProtocol -all +TLSv1.3
+Can't use SSL_get_servername
+depth=1 C = US, O = Unspecified, OU = ca-2678303093780486809, CN = openeuler-riscv64, emailAddress = root@openeuler-riscv64
+verify error:num=19:self-signed certificate in certificate chain
+verify return:1
+depth=1 C = US, O = Unspecified, OU = ca-2678303093780486809, CN = openeuler-riscv64, emailAddress = root@openeuler-riscv64
+verify return:1
+depth=0 C = US, O = Unspecified, CN = openeuler-riscv64, emailAddress = root@openeuler-riscv64
+verify return:1
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:C = US, O = Unspecified, CN = openeuler-riscv64, emailAddress = root@openeuler-riscv64
+   i:C = US, O = Unspecified, OU = ca-2678303093780486809, CN = openeuler-riscv64, emailAddress = root@openeuler-riscv64
+   a:PKEY: rsaEncryption, 2048 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Sep 24 10:27:51 2024 GMT; NotAfter: Sep 24 10:27:51 2025 GMT
+ 1 s:C = US, O = Unspecified, OU = ca-2678303093780486809, CN = openeuler-riscv64, emailAddress = root@openeuler-riscv64
+   i:C = US, O = Unspecified, OU = ca-2678303093780486809, CN = openeuler-riscv64, emailAddress = root@openeuler-riscv64
+   a:PKEY: rsaEncryption, 4096 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Sep 24 10:27:48 2024 GMT; NotAfter: Sep 24 10:27:48 2025 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIE4TCCAsmgAwIBAgIIauWEWckbccswDQYJKoZIhvcNAQELBQAwgYcxCzAJBgNV
+BAYTAlVTMRQwEgYDVQQKDAtVbnNwZWNpZmllZDEfMB0GA1UECwwWY2EtMjY3ODMw
+MzA5Mzc4MDQ4NjgwOTEaMBgGA1UEAwwRb3BlbmV1bGVyLXJpc2N2NjQxJTAjBgkq
+hkiG9w0BCQEWFnJvb3RAb3BlbmV1bGVyLXJpc2N2NjQwHhcNMjQwOTI0MTAyNzUx
+WhcNMjUwOTI0MTAyNzUxWjBmMQswCQYDVQQGEwJVUzEUMBIGA1UECgwLVW5zcGVj
+aWZpZWQxGjAYBgNVBAMMEW9wZW5ldWxlci1yaXNjdjY0MSUwIwYJKoZIhvcNAQkB
+FhZyb290QG9wZW5ldWxlci1yaXNjdjY0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAxHL1bNTlYssd6uVGx6TmdbehoEC/FsYK/ix8uWpG220wWhc6k7jG
+UsqGCyp+vZg3lSIijURuHsP3hF6WpU02BwuVqUUS3s22GIZ4+S5uq+Ad1nobpUY0
+CGKSquKv/x1bf5x/4znjJ972VcTXkOc9tbwePID62Y0kCItyg8B+dbTkbM0Oo/n+
+68hcgHPpD53V+RPUrkccTgbnFRm+jgG1dAYbjI03ZkzCfvXZBXZfcRJ3YpJaAwmp
+M5OXA2/llkWiSnXyDW7fpdyzLqNsCvbuwZBrzz/+FqmbkaaddEnQhYQ3OVTn3fll
+8pFMTcJ36Iq77S7O71t+qa7jsM5RVDN2FwIDAQABo3EwbzAOBgNVHQ8BAf8EBAMC
+BaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCQYDVR0TBAIwADAcBgNVHREEFTATghFv
+cGVuZXVsZXItcmlzY3Y2NDAfBgNVHSMEGDAWgBQk1lzXwbe0Q0F6zhU1cn+KI+cd
+hzANBgkqhkiG9w0BAQsFAAOCAgEAhlTBOFZv2gPIETI2lpK97vdjleXR1cfsvHAb
++l9i1tmLGRoNzY0J7GbcGDy69s8MxcDTzgrckO0QI3B/EggjU1lB3BvNBSI7FrCV
+sirU+Jevn3oSV63Tz7hFBvgAWcaXeB74cZIV5cuzkZu82nGfuZ/1D7RA8HlNo0o1
+SEwkNV3rloHIW2CyEqhUqLSMdIxiEbR0dwfnNxK3a99gtmskL6zYSp+bNAeKyPEl
+gZl5yXOKSjTgeL7+QWJPx8KeN+eumsYbauo1g7j75hj+Ni2SE1gUeEi01Y+s0r6R
+7VZqh2+WOnkg2i+qOEczZkoMdzxpcw/D942Oo6o7kKJJYiP2sGcH4kw94qgqWKPN
+07RUu+3/lvlDiZOwkOvY3rFW+iNAYeOVbrN2KJhZfT7GzrFCvAFiLtsbajFREU6z
+PDEj7ieo/ZbFXsXVTiMY2bG+Diz+vbWS/y79EXrfKLPPdfPgqnDTptVoDlf2k4Ot
+MRf30xiQbdJvf7Jx837/RhTp2kZ/c3pPZH+9aVBFKuZ2bImFHUGsCkOIrMdWE4Hq
+xU7gNrPRY2ujJ923OORrNyXcCDN8ufBuGwEDZapdu6qt0SkZuzE4YRqaeElnlXfo
+Kg46E4e76laUW0r5ku6Y92jbhFzDbg1E/lCC/kEmOBMtdLkFZl03NWjuMApyaMFm
+O/iDYBI=
+-----END CERTIFICATE-----
+subject=C = US, O = Unspecified, CN = openeuler-riscv64, emailAddress = root@openeuler-riscv64
+issuer=C = US, O = Unspecified, OU = ca-2678303093780486809, CN = openeuler-riscv64, emailAddress = root@openeuler-riscv64
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 3371 bytes and written 305 bytes
+Verification error: self-signed certificate in certificate chain
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 19 (self-signed certificate in certificate chain)
+---
+DONE
+Tue Sep 24 18:27:55 2024 - INFO  - End to run test.
+Tue Sep 24 18:27:55 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:27:55 2024 - INFO  - Start to restore the test environment.
+Tue Sep 24 18:28:03 2024 - INFO  - End to restore the test environment.

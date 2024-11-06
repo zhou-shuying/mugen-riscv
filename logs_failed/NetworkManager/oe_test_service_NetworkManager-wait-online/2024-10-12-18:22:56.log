@@ -1,0 +1,14 @@
+Sat Oct 12 18:22:59 2024 - INFO  - Start testing...
+     Active: active (exited) since Sat 2024-10-12 18:22:59 CST; 5s ago
+     Active: inactive (dead) since Sat 2024-10-12 18:23:04 CST; 5s ago
+     Active: active (exited) since Sat 2024-10-12 18:23:10 CST; 5s ago
+find: ‘"/etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service"’: No such file or directory
+Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service → /usr/lib/systemd/system/NetworkManager-wait-online.service.
+find: ‘"/etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service"’: No such file or directory
+Sat Oct 12 18:23:17 2024 - ERROR - NetworkManager-wait-online.service enable failed
+Sat Oct 12 18:23:17 2024 - ERROR - ../common/common_lib.sh line 70
+Failed to reload NetworkManager-wait-online.service: Job type reload is not applicable for unit NetworkManager-wait-online.service.
+     Active: active (exited) since Sat 2024-10-12 18:23:10 CST; 7s ago
+Sat Oct 12 18:23:18 2024 - INFO  - Finish test!
+Sat Oct 12 18:23:18 2024 - ERROR - failed to execute the case.
+Sat Oct 12 18:23:18 2024 - INFO  - oe_test_service_NetworkManager-wait-online.sh post_test

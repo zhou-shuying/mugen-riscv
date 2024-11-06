@@ -1,0 +1,35 @@
+Wed Sep 25 14:50:10 2024 - INFO  - Start to prepare the test environment.
+     Active: active (running) since Wed 2024-09-25 14:51:29 CST; 32ms ago
+Wed Sep 25 14:51:30 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 14:51:30 2024 - INFO  - Start to run test.
+spawn mysqldump -u root -p mysql -r /home/mysql.sql
+Enter password: 
+/home/mysql.sql
+spawn mysql -u root -p
+Enter password: 
+(B[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \g.
+show databases;
+(B[m(B[0;1mYour MariaDB connection id is 6
+Server version: 10.5.22-MariaDB MariaDB Server
+
+(B[m(B[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+exit
+(B[m(B[0;1mType 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+(B[mMariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
++--------------------+
+(B[0;1m3 rows in set (0.001 sec)
+(B[m(B[0;1m
+(B[mMariaDB [(none)]> exit
+(B[0;1mBye
+(B[mWed Sep 25 14:51:31 2024 - INFO  - End to run test.
+Wed Sep 25 14:51:31 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 14:51:31 2024 - INFO  - Start to restore the test environment.
+Wed Sep 25 14:52:12 2024 - INFO  - End to restore the test environment.

@@ -1,0 +1,16 @@
+Tue Sep 24 18:03:46 2024 - INFO  - Start environment preparation.
+userdel: user 'postgres' does not exist
+Tue Sep 24 18:03:46 2024 - WARN  - no thing to do.
+Tue Sep 24 18:04:06 2024 - INFO  - Environmental preparation is over.
+Tue Sep 24 18:04:07 2024 - INFO  - Start executing testcase.
+ * Initializing database in '/var/lib/pgsql/data'
+ * Initialized, logs are in /var/lib/pgsql/initdb_postgresql.log
+Job for postgresql.service failed because the control process exited with error code.
+See "systemctl status postgresql.service" and "journalctl -xeu postgresql.service" for details.
+Tue Sep 24 18:04:12 2024 - ERROR - oe_test_server_postgresql.sh line 36
+Tue Sep 24 18:04:12 2024 - ERROR - oe_test_server_postgresql.sh line 38
+Tue Sep 24 18:04:12 2024 - INFO  - End of testcase execution.
+Tue Sep 24 18:04:12 2024 - ERROR - failed to execute the case.
+Tue Sep 24 18:04:13 2024 - INFO  - start environment cleanup.
+userdel: postgres mail spool (/var/spool/mail/postgres) not found
+Tue Sep 24 18:04:19 2024 - INFO  - Finish environment cleanup.

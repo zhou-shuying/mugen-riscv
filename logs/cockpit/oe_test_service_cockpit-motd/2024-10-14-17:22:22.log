@@ -1,0 +1,18 @@
+Mon Oct 14 17:22:25 2024 - INFO  - Start environmental preparation.
+Failed to start cockpit-motd.service: Unit cockpit-motd.service not found.
+Mon Oct 14 17:22:38 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 17:22:38 2024 - INFO  - Start testing...
+Unit cockpit-motd.service could not be found.
+Mon Oct 14 17:22:38 2024 - INFO  - Unit is indirect, ignoring.
+Mon Oct 14 17:22:38 2024 - INFO  - Finish test!
+Mon Oct 14 17:22:38 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 17:22:38 2024 - INFO  - start environment cleanup.
+Traceback (most recent call last):
+  File "/root/Shea/mugen-riscv/libs/locallibs/rpm_manage.py", line 181, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/Shea/mugen-riscv/libs/locallibs/rpm_manage.py", line 152, in rpm_remove
+    with open(tmpfile, "r") as f:
+         ^^^^^^^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: "Last metadata expiration check: 1:27:30 ago on Mon Oct 14 15:55:06 2024.\nError: \n Problem: cannot install the best candidate for the job\n  - nothing provides kexec-tools needed by cockpit-285-2.oe2309.riscv64 from OS\n(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)"
+Mon Oct 14 17:22:39 2024 - INFO  - Finish environment cleanup!

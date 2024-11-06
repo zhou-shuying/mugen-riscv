@@ -1,0 +1,11 @@
+Tue Sep 24 18:38:14 2024 - INFO  - Start to prepare the test environment.
+Tue Sep 24 18:38:14 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:38:15 2024 - INFO  - Start to run test.
+no crontab for root
+Tue Sep 24 23:59:50 CST 2024
+hello world
+Wed Sep 25 00:00:50 2024 - INFO  - End to run test.
+Wed Sep 25 00:00:50 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 00:00:50 2024 - INFO  - Start to restore the test environment.
+Tue Sep 24 18:39:14 CST 2024
+Tue Sep 24 18:39:14 2024 - INFO  - End to restore the test environment.

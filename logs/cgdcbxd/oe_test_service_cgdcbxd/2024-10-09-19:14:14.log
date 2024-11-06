@@ -1,0 +1,15 @@
+Wed Oct  9 19:14:17 2024 - INFO  - Start environmental preparation.
+Wed Oct  9 19:14:34 2024 - INFO  - End of environmental preparation!
+Wed Oct  9 19:14:34 2024 - INFO  - Start testing...
+     Active: active (running) since Wed 2024-10-09 19:14:35 CST; 5s ago
+     Active: inactive (dead)
+     Active: active (running) since Wed 2024-10-09 19:14:45 CST; 5s ago
+/etc/systemd/system/multi-user.target.wants/cgdcbxd.service
+Removed "/etc/systemd/system/multi-user.target.wants/cgdcbxd.service".
+find: ‘/etc/systemd/system/multi-user.target.wants/cgdcbxd.service’: No such file or directory
+Failed to reload cgdcbxd.service: Job type reload is not applicable for unit cgdcbxd.service.
+     Active: active (running) since Wed 2024-10-09 19:14:45 CST; 7s ago
+Wed Oct  9 19:14:53 2024 - INFO  - Finish test!
+Wed Oct  9 19:14:53 2024 - INFO  - succeed to execute the case.
+Wed Oct  9 19:14:53 2024 - INFO  - start environment cleanup.
+Wed Oct  9 19:15:00 2024 - INFO  - Finish environment cleanup!

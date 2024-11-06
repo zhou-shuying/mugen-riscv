@@ -1,0 +1,10 @@
+Wed Oct  9 18:25:42 2024 - INFO  - Start environment preparation.
+Wed Oct  9 18:25:43 2024 - INFO  - End of environmental preparation!
+Wed Oct  9 18:25:43 2024 - INFO  - Start to run test.
+rm: cannot remove '/mnt/accessfile20241009182542': Operation not permitted
+Wed Oct  9 18:25:43 2024 - ERROR - The msg of remove non-exist file is error.
+Wed Oct  9 18:25:43 2024 - ERROR - oe_test_FSIO_rm_file.sh line 39
+Wed Oct  9 18:25:43 2024 - INFO  - End to run test.
+Wed Oct  9 18:25:43 2024 - ERROR - failed to execute the case.
+Wed Oct  9 18:25:44 2024 - INFO  - Start to restore the test environment.
+Wed Oct  9 18:25:44 2024 - INFO  - End to restore the test environment.

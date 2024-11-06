@@ -1,0 +1,23 @@
+Tue Sep 24 18:43:32 2024 - INFO  - Start to pre test.
+Tue Sep 24 18:43:32 2024 - INFO  - End to pre test.
+Tue Sep 24 18:43:32 2024 - INFO  - Start to run test.
+hwclock: Cannot access the Hardware Clock via any known method.
+hwclock: Use the --verbose option to see the details of our search for an access method.
+Tue Sep 24 18:43:32 2024 - ERROR - oe_test_hwclock.sh line 32
+hwclock: Cannot access the Hardware Clock via any known method.
+hwclock: Use the --verbose option to see the details of our search for an access method.
+Tue Sep 24 18:43:32 2024 - ERROR - oe_test_hwclock.sh line 34
+hwclock: Cannot access the Hardware Clock via any known method.
+hwclock: Use the --verbose option to see the details of our search for an access method.
+hwclock: Cannot access the Hardware Clock via any known method.
+hwclock: Use the --verbose option to see the details of our search for an access method.
+Tue Sep 24 18:43:34 2024 - ERROR - oe_test_hwclock.sh line 38
+Tue Sep 24 18:43:34 2024 - INFO  - End to run test.
+Tue Sep 24 18:43:34 2024 - ERROR - failed to execute the case.
+Tue Sep 24 18:43:34 2024 - INFO  - Start to restore the test environment.
+hwclock: Cannot access the Hardware Clock via any known method.
+hwclock: Use the --verbose option to see the details of our search for an access method.
+Tue Sep 24 18:43:32 CST 2024
+hwclock: Cannot access the Hardware Clock via any known method.
+hwclock: Use the --verbose option to see the details of our search for an access method.
+Tue Sep 24 18:43:32 2024 - INFO  - End to restore the test environment.

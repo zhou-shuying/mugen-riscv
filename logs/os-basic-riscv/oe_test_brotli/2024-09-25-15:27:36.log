@@ -1,0 +1,9 @@
+Wed Sep 25 15:27:37 2024 - INFO  - Start environmental preparation.
+Wed Sep 25 15:27:38 2024 - INFO  - End of environmental preparation!
+Wed Sep 25 15:27:38 2024 - INFO  - Start to run test.
+test.tar
+test.tar.br
+Wed Sep 25 15:27:38 2024 - INFO  - End to run test.
+Wed Sep 25 15:27:38 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:27:38 2024 - INFO  - start environment cleanup.
+Wed Sep 25 15:27:38 2024 - INFO  - Finish environment cleanup!

@@ -1,0 +1,621 @@
+Wed Sep 25 14:56:23 2024 - INFO  - Start to prepare the test environment.
+     Active: active (running) since Wed 2024-09-25 14:57:42 CST; 36ms ago
+Wed Sep 25 14:57:42 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 14:57:42 2024 - INFO  - Start to run test.
+spawn mysqldump -u root -p --databases mysql -r /home/mysql.sql
+Enter password: 
+/home/mysql.sql
+spawn mysql -u root -p
+Enter password: 
+(B[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \g.
+create database target_db;
+(B[m(B[0;1mYour MariaDB connection id is 5
+Server version: 10.5.22-MariaDB MariaDB Server
+
+(B[m(B[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+use target_db;
+source /home/mysql.sql;
+(B[m(B[0;1mType 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+(B[mMariaDB [(none)]> create database target_db;
+(B[0;1mQuery OK, 1 row affected (0.001 sec)
+(B[m(B[0;1m
+(B[mMariaDB [(none)]> use target_db;
+(B[0;1mDatabase changed
+(B[mMariaDB [target_db]> source /home/mysql.sql;
+(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[mReading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+(B[0;1mDatabase changed
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.008 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.008 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.010 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.008 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.011 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.004 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.007 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.011 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.007 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 3 rows affected (0.001 sec)
+(B[m(B[0;1mRecords: 3  Duplicates: 0  Warnings: 0
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.005 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.010 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.004 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 50 rows affected (0.002 sec)
+(B[m(B[0;1mRecords: 50  Duplicates: 0  Warnings: 0
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.003 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 106 rows affected (0.003 sec)
+(B[m(B[0;1mRecords: 106  Duplicates: 0  Warnings: 0
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.003 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 201 rows affected (0.002 sec)
+(B[m(B[0;1mRecords: 201  Duplicates: 0  Warnings: 0
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.004 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.003 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 451 rows affected (0.101 sec)
+(B[m(B[0;1mRecords: 451  Duplicates: 0  Warnings: 0
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 366 rows affected (0.096 sec)
+(B[m(B[0;1mRecords: 366  Duplicates: 0  Warnings: 0
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.016 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.007 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.006 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.007 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.006 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.007 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.007 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.008 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.010 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 2 rows affected (0.001 sec)
+(B[m(B[0;1mRecords: 2  Duplicates: 0  Warnings: 0
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.005 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.007 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.010 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.005 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.010 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 2 rows affected (0.001 sec)
+(B[m(B[0;1mRecords: 2  Duplicates: 0  Warnings: 0
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.003 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.008 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.010 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.007 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.010 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.005 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.008 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.010 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 1 row affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.003 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.008 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.008 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.007 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.007 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.008 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.009 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.002 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.008 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mDatabase changed
+(B[m(B[0;1mQuery OK, 0 rows affected (0.001 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.006 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[m(B[0;1mQuery OK, 0 rows affected (0.000 sec)
+(B[m(B[0;1m
+(B[mMariaDB [mysql]> exit
+(B[0;1mBye
+(B[mWed Sep 25 14:57:44 2024 - INFO  - End to run test.
+Wed Sep 25 14:57:44 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 14:57:44 2024 - INFO  - Start to restore the test environment.
+Wed Sep 25 14:58:23 2024 - INFO  - End to restore the test environment.

@@ -1,0 +1,15 @@
+Mon Oct 14 16:58:07 2024 - INFO  - Start environmental preparation.
+Mon Oct 14 16:58:23 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 16:58:24 2024 - INFO  - Start testing...
+     Active: active (running) since Mon 2024-10-14 16:58:24 CST; 5s ago
+     Active: inactive (dead)
+     Active: active (running) since Mon 2024-10-14 16:58:34 CST; 5s ago
+/etc/systemd/system/multi-user.target.wants/avahi-dnsconfd.service
+Removed "/etc/systemd/system/multi-user.target.wants/avahi-dnsconfd.service".
+find: ‘/etc/systemd/system/multi-user.target.wants/avahi-dnsconfd.service’: No such file or directory
+Failed to reload avahi-dnsconfd.service: Job type reload is not applicable for unit avahi-dnsconfd.service.
+     Active: active (running) since Mon 2024-10-14 16:58:34 CST; 7s ago
+Mon Oct 14 16:58:42 2024 - INFO  - Finish test!
+Mon Oct 14 16:58:42 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 16:58:42 2024 - INFO  - start environment cleanup.
+Mon Oct 14 16:58:49 2024 - INFO  - Finish environment cleanup!

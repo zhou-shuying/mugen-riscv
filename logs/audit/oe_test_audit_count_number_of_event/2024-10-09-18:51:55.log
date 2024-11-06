@@ -1,0 +1,7 @@
+Wed Oct  9 18:51:58 2024 - INFO  - Start to run test.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+Event Summary Report
+Wed Oct  9 18:52:01 2024 - INFO  - End to run test.
+Wed Oct  9 18:52:01 2024 - INFO  - succeed to execute the case.
+Wed Oct  9 18:52:01 2024 - INFO  - oe_test_audit_count_number_of_event.sh post_test

@@ -1,0 +1,15 @@
+Wed Sep 25 15:28:39 2024 - INFO  - Start environmental preparation.
+Wed Sep 25 15:28:56 2024 - INFO  - End of environmental preparation!
+Wed Sep 25 15:28:56 2024 - INFO  - Start testing...
+     Active: active (exited) since Wed 2024-09-25 15:28:57 CST; 5s ago
+     Active: inactive (dead)
+     Active: active (exited) since Wed 2024-09-25 15:29:07 CST; 5s ago
+/etc/systemd/system/multi-user.target.wants/arp-ethers.service
+Removed "/etc/systemd/system/multi-user.target.wants/arp-ethers.service".
+find: ‘/etc/systemd/system/multi-user.target.wants/arp-ethers.service’: No such file or directory
+Failed to reload arp-ethers.service: Job type reload is not applicable for unit arp-ethers.service.
+     Active: active (exited) since Wed 2024-09-25 15:29:07 CST; 8s ago
+Wed Sep 25 15:29:16 2024 - INFO  - Finish test!
+Wed Sep 25 15:29:16 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:29:16 2024 - INFO  - start environment cleanup.
+Wed Sep 25 15:29:22 2024 - INFO  - Finish environment cleanup!

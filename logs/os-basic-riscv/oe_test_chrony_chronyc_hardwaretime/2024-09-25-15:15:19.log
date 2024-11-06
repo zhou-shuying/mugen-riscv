@@ -1,0 +1,11 @@
+Wed Sep 25 15:15:21 2024 - INFO  - Start to prepare the test environment.
+Wed Sep 25 15:15:37 2024 - INFO  - End to prepare the test environment.
+Wed Sep 25 15:15:37 2024 - INFO  - Start to run test.
+     Active: active (running) since Wed 2024-09-25 15:15:37 CST; 350ms ago
+Local address   : 192.168.20.70 (C0A81446)
+Local address   : 192.168.20.70 (C0A81446)
+Name/IP Address            NP  NR  Span  Frequency  Freq Skew  Offset  Std Dev
+Wed Sep 25 15:15:38 2024 - INFO  - End to run test.
+Wed Sep 25 15:15:38 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:15:38 2024 - INFO  - Start to restore the test environment.
+Wed Sep 25 15:15:42 2024 - INFO  - End to restore the test environment.

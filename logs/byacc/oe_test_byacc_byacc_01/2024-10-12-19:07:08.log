@@ -1,0 +1,11 @@
+Sat Oct 12 19:07:11 2024 - INFO  - Start environmental preparation.
+Sat Oct 12 19:07:27 2024 - INFO  - End of environmental preparation!
+Sat Oct 12 19:07:27 2024 - INFO  - Start testing...
+byacc - 2.0 20230219
+#define yyparse    test_pparse
+/root/Shea/mugen-riscv/libs/locallibs/common_lib.sh: line 37: [: too many arguments
+/root/Shea/mugen-riscv/libs/locallibs/common_lib.sh: line 37: [: too many arguments
+Sat Oct 12 19:07:28 2024 - INFO  - Finish test!
+Sat Oct 12 19:07:28 2024 - INFO  - succeed to execute the case.
+Sat Oct 12 19:07:28 2024 - INFO  - start environment cleanup.
+Sat Oct 12 19:07:33 2024 - INFO  - Finish environment cleanup!

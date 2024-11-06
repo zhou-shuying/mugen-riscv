@@ -1,0 +1,32 @@
+测试套/软件包名,测试用例名,日志文件,原因,Broken testcase,pkg not found,preinstall absent,kernel module absent,file missing,systemd unit restart failure,systemd unit runtime error,systemd unit enable failure,timeout
+util-linux-riscv,oe_test_socket_uuidd,2024-09-24-18_56_58.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+NetworkManager-riscv,oe_test_service_NetworkManager-dispatcher,2024-09-24-18_53_55.log,"Broken testcase
+preinstall absent
+systemd unit enable failure
+",1,0,1,0,0,0,0,1,0
+NetworkManager-riscv,oe_test_service_NetworkManager-wait-online,2024-09-24-18_54_43.log,"Broken testcase
+preinstall absent
+systemd unit enable failure
+",1,0,1,0,0,0,0,1,0
+NetworkManager-riscv,oe_test_service_NetworkManager,2024-09-24-18_54_17.log,"Broken testcase
+preinstall absent
+systemd unit enable failure
+",1,0,1,0,0,0,0,1,0
+os-basic-riscv,oe_test_timedatectl,2024-09-30-03_10_38.log,"Broken testcase
+",1,0,0,0,0,0,0,0,0
+os-basic-riscv,oe_test_system_log_dmesg,2024-09-24-18_00_51.log,"Broken testcase
+",1,0,0,0,0,0,0,0,0
+os-basic-riscv,oe_test_ProcMgmt_crontab_cmd,2024-09-24-18_39_15.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+os-basic-riscv,oe_test_hwclock,2024-09-24-18_43_30.log,"Broken testcase
+",1,0,0,0,0,0,0,0,0
+os-basic-riscv,oe_test_date,2024-09-24-18_41_25.log,"Broken testcase
+",1,0,0,0,0,0,0,0,0
+os-basic-riscv,oe_test_system_log_recorded,2024-09-24-18_00_43.log,"Broken testcase
+preinstall absent
+",1,0,1,0,0,0,0,0,0
+os-basic-riscv,oe_test_server_postgresql,2024-09-24-18_03_44.log,"Broken testcase
+",1,0,0,0,0,0,0,0,0

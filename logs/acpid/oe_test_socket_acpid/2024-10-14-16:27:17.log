@@ -1,0 +1,17 @@
+Mon Oct 14 16:27:20 2024 - INFO  - Start environmental preparation.
+Mon Oct 14 16:27:37 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 16:27:37 2024 - INFO  - Start to run test.
+     Active: active (listening) since Mon 2024-10-14 16:27:37 CST; 5s ago
+     Active: inactive (dead) since Mon 2024-10-14 16:27:42 CST; 5s ago
+     Active: active (listening) since Mon 2024-10-14 16:27:48 CST; 5s ago
+find: ‘"/etc/systemd/system/sockets.target.wants/acpid.socket"’: No such file or directory
+Created symlink /etc/systemd/system/sockets.target.wants/acpid.socket → /usr/lib/systemd/system/acpid.socket.
+find: ‘"/etc/systemd/system/sockets.target.wants/acpid.socket"’: No such file or directory
+Mon Oct 14 16:27:55 2024 - ERROR - acpid.socket enable failed
+Mon Oct 14 16:27:55 2024 - ERROR - ../common/common_lib.sh line 70
+Failed to reload acpid.socket: Job type reload is not applicable for unit acpid.socket.
+     Active: active (listening) since Mon 2024-10-14 16:27:48 CST; 7s ago
+Mon Oct 14 16:27:56 2024 - INFO  - End of the test.
+Mon Oct 14 16:27:56 2024 - ERROR - failed to execute the case.
+Mon Oct 14 16:27:56 2024 - INFO  - start environment cleanup.
+Mon Oct 14 16:28:02 2024 - INFO  - Finish environment cleanup!

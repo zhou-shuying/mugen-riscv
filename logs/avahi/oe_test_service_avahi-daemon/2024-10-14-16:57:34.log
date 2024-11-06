@@ -1,0 +1,26 @@
+Mon Oct 14 16:57:36 2024 - INFO  - Start environmental preparation.
+Mon Oct 14 16:57:41 2024 - INFO  - pkgs:(avahi) is already installed
+Mon Oct 14 16:57:41 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 16:57:41 2024 - INFO  - Start testing...
+     Active: active (running) since Mon 2024-10-14 16:57:41 CST; 5s ago
+Warning: Stopping avahi-daemon.service, but it can still be activated by:
+  avahi-daemon.socket
+     Active: inactive (dead) since Mon 2024-10-14 16:57:47 CST; 5s ago
+     Active: active (running) since Mon 2024-10-14 16:57:52 CST; 5s ago
+find: ‘"/etc/systemd/system/dbus-org.freedesktop.Avahi.service"’: No such file or directory
+find: ‘"/etc/systemd/system/multi-user.target.wants/avahi-daemon.service"’: No such file or directory
+find: ‘"/etc/systemd/system/sockets.target.wants/avahi-daemon.socket"’: No such file or directory
+Created symlink /etc/systemd/system/dbus-org.freedesktop.Avahi.service → /usr/lib/systemd/system/avahi-daemon.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/avahi-daemon.service → /usr/lib/systemd/system/avahi-daemon.service.
+Created symlink /etc/systemd/system/sockets.target.wants/avahi-daemon.socket → /usr/lib/systemd/system/avahi-daemon.socket.
+find: ‘"/etc/systemd/system/dbus-org.freedesktop.Avahi.service"’: No such file or directory
+find: ‘"/etc/systemd/system/multi-user.target.wants/avahi-daemon.service"’: No such file or directory
+find: ‘"/etc/systemd/system/sockets.target.wants/avahi-daemon.socket"’: No such file or directory
+Mon Oct 14 16:57:59 2024 - ERROR - avahi-daemon.service enable failed
+Mon Oct 14 16:58:00 2024 - ERROR - ../common/common_lib.sh line 70
+     Active: active (running) since Mon 2024-10-14 16:57:52 CST; 8s ago
+Mon Oct 14 16:58:01 2024 - INFO  - Finish test!
+Mon Oct 14 16:58:01 2024 - ERROR - failed to execute the case.
+Mon Oct 14 16:58:01 2024 - INFO  - start environment cleanup.
+Mon Oct 14 16:58:02 2024 - WARN  - no thing to do.
+Mon Oct 14 16:58:03 2024 - INFO  - Finish environment cleanup!

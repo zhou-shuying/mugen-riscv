@@ -1,0 +1,5 @@
+Wed Sep 25 14:35:11 2024 - INFO  - Start executing testcase.
+Wed Sep 25 14:35:11 2024 - ERROR - oe_test_system_log_dmesg.sh line 24
+Wed Sep 25 14:35:11 2024 - INFO  - End of testcase execution.
+Wed Sep 25 14:35:12 2024 - ERROR - failed to execute the case.
+Wed Sep 25 14:35:12 2024 - INFO  - oe_test_system_log_dmesg.sh post_test

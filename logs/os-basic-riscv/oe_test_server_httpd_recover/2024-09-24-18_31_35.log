@@ -1,0 +1,11 @@
+Tue Sep 24 18:31:37 2024 - INFO  - Start to prepare the test environment.
+Tue Sep 24 18:31:55 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:31:56 2024 - INFO  - Start to run test.
+     Active: active (running) since Tue 2024-09-24 18:31:56 CST; 9s ago
+Job for httpd.service failed because the control process exited with error code.
+See "systemctl status httpd.service" and "journalctl -xeu httpd.service" for details.
+     Active: active (running) since Tue 2024-09-24 18:32:07 CST; 14s ago
+Tue Sep 24 18:32:21 2024 - INFO  - End to run test.
+Tue Sep 24 18:32:21 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:32:22 2024 - INFO  - Start to restore the test environment.
+Tue Sep 24 18:32:29 2024 - INFO  - End to restore the test environment.

@@ -1,0 +1,13 @@
+Tue Sep 24 18:51:18 2024 - INFO  - Start environmental preparation.
+Tue Sep 24 18:51:22 2024 - INFO  - pkgs:(patch) is already installed
+Tue Sep 24 18:51:23 2024 - INFO  - End of environmental preparation!
+Tue Sep 24 18:51:23 2024 - INFO  - Start to run test.
+patching file patch_test_old.txt
+new_line_1
+new_line_2
+patching file patch_test_old.txt
+Tue Sep 24 18:51:23 2024 - INFO  - End to run test.
+Tue Sep 24 18:51:23 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:51:23 2024 - INFO  - start environment cleanup.
+Tue Sep 24 18:51:23 2024 - WARN  - no thing to do.
+Tue Sep 24 18:51:24 2024 - INFO  - Finish environment cleanup!

@@ -1,0 +1,22 @@
+Sat Oct 12 18:27:09 2024 - INFO  - Start environmental preparation.
+Sat Oct 12 18:27:26 2024 - INFO  - End of environmental preparation!
+Sat Oct 12 18:27:27 2024 - INFO  - Start testing...
+     Active: active (running) since Sat 2024-10-12 18:27:27 CST; 5s ago
+Warning: Stopping acpid.service, but it can still be activated by:
+  acpid.socket
+     Active: inactive (dead) since Sat 2024-10-12 18:27:32 CST; 5s ago
+     Active: active (running) since Sat 2024-10-12 18:27:37 CST; 5s ago
+find: ‘"/etc/systemd/system/multi-user.target.wants/acpid.service"’: No such file or directory
+find: ‘"/etc/systemd/system/sockets.target.wants/acpid.socket"’: No such file or directory
+Created symlink /etc/systemd/system/multi-user.target.wants/acpid.service → /usr/lib/systemd/system/acpid.service.
+Created symlink /etc/systemd/system/sockets.target.wants/acpid.socket → /usr/lib/systemd/system/acpid.socket.
+find: ‘"/etc/systemd/system/multi-user.target.wants/acpid.service"’: No such file or directory
+find: ‘"/etc/systemd/system/sockets.target.wants/acpid.socket"’: No such file or directory
+Sat Oct 12 18:27:45 2024 - ERROR - acpid.service enable failed
+Sat Oct 12 18:27:45 2024 - ERROR - ../common/common_lib.sh line 70
+Failed to reload acpid.service: Job type reload is not applicable for unit acpid.service.
+     Active: active (running) since Sat 2024-10-12 18:27:37 CST; 7s ago
+Sat Oct 12 18:27:45 2024 - INFO  - Finish test!
+Sat Oct 12 18:27:46 2024 - ERROR - failed to execute the case.
+Sat Oct 12 18:27:46 2024 - INFO  - start environment cleanup.
+Sat Oct 12 18:27:52 2024 - INFO  - Finish environment cleanup!

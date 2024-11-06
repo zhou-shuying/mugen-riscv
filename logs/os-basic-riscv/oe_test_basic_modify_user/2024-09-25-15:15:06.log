@@ -1,0 +1,14 @@
+Wed Sep 25 15:15:08 2024 - INFO  - Start environment preparation.
+useradd warning: testuser's uid 555 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+groupadd: GID '72' already exists
+Wed Sep 25 15:15:08 2024 - INFO  - Environmental preparation is over.
+Wed Sep 25 15:15:08 2024 - INFO  - Start executing testcase!
+666
+72
+Usage: usermod [options] LOGIN
+Wed Sep 25 15:15:08 2024 - INFO  - End of testcase execution!
+Wed Sep 25 15:15:09 2024 - INFO  - succeed to execute the case.
+Wed Sep 25 15:15:09 2024 - INFO  - start environment cleanup.
+userdel: group testuser not removed because it is not the primary group of user testuser.
+groupdel: group 'testgroup1' does not exist
+Wed Sep 25 15:15:09 2024 - INFO  - Finish environment cleanup.

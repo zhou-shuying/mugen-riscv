@@ -1,0 +1,19 @@
+Mon Oct 14 16:45:09 2024 - INFO  - Start to prepare the test environment.
+Mon Oct 14 16:45:09 2024 - INFO  - End to prepare the environment
+Mon Oct 14 16:45:10 2024 - INFO  - Start to run test.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+No rules
+Error detecting machine type
+Mon Oct 14 16:45:12 2024 - ERROR - add failed
+Mon Oct 14 16:45:12 2024 - ERROR - oe_test_audit_rule_conflict_strategy.sh line 36
+Mon Oct 14 16:45:13 2024 - ERROR - grep failed
+Mon Oct 14 16:45:13 2024 - ERROR - oe_test_audit_rule_conflict_strategy.sh line 38
+-a never,task
+/home/Jevons
+<no matches>
+Mon Oct 14 16:45:14 2024 - INFO  - End to run test.
+Mon Oct 14 16:45:14 2024 - ERROR - failed to execute the case.
+Mon Oct 14 16:45:14 2024 - INFO  - Start to restore the test environment.
+No rules
+Mon Oct 14 16:45:14 2024 - INFO  - End to restore the test environment.

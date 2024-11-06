@@ -1,0 +1,9 @@
+Mon Oct 14 15:44:04 2024 - INFO  - Start environment preparation.
+Mon Oct 14 15:44:04 2024 - INFO  - End of environmental preparation!
+Mon Oct 14 15:44:05 2024 - INFO  - Start to run test.
+65536
+oe_test_FSIO_change_proc.sh: line 32: /proc/sys/fs/file-nr: Permission denied
+Mon Oct 14 15:44:05 2024 - INFO  - End to run test.
+Mon Oct 14 15:44:05 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 15:44:05 2024 - INFO  - Start to restore the test environment.
+Mon Oct 14 15:44:05 2024 - INFO  - End to restore the test environment.

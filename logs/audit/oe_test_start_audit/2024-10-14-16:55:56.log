@@ -1,0 +1,12 @@
+Mon Oct 14 16:55:58 2024 - INFO  - Start executing testcase.
+Note: Forwarding request to 'systemctl is-enabled auditd.service'.
+enabled
+Removed "/etc/systemd/system/multi-user.target.wants/auditd.service".
+Note: Forwarding request to 'systemctl is-enabled auditd.service'.
+disabled
+Created symlink /etc/systemd/system/multi-user.target.wants/auditd.service → /usr/lib/systemd/system/auditd.service.
+Note: Forwarding request to 'systemctl is-enabled auditd.service'.
+enabled
+Mon Oct 14 16:56:01 2024 - INFO  - Finish testcase execution.
+Mon Oct 14 16:56:01 2024 - INFO  - succeed to execute the case.
+Mon Oct 14 16:56:01 2024 - INFO  - oe_test_start_audit.sh post_test

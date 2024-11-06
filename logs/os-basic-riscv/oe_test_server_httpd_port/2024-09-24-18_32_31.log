@@ -1,0 +1,11 @@
+Tue Sep 24 18:32:32 2024 - INFO  - Start to prepare the test environment.
+Tue Sep 24 18:32:51 2024 - INFO  - End to prepare the test environment.
+Tue Sep 24 18:32:51 2024 - INFO  - Start to run test.
+Job for httpd.service failed because the control process exited with error code.
+See "systemctl status httpd.service" and "journalctl -xeu httpd.service" for details.
+oe_test_server_httpd_port.sh: line 27: 1034098 Killed                  nc -l 80
+     Active: active (running) since Tue 2024-09-24 18:32:53 CST; 7s ago
+Tue Sep 24 18:33:00 2024 - INFO  - End to run test.
+Tue Sep 24 18:33:01 2024 - INFO  - succeed to execute the case.
+Tue Sep 24 18:33:01 2024 - INFO  - Start to restore the test environment.
+Tue Sep 24 18:33:08 2024 - INFO  - End to restore the test environment.

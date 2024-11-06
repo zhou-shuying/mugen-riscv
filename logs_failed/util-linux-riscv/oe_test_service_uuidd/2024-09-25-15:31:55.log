@@ -1,0 +1,24 @@
+Wed Sep 25 15:31:57 2024 - INFO  - Start environmental preparation.
+Wed Sep 25 15:32:17 2024 - INFO  - End of environmental preparation!
+Wed Sep 25 15:32:17 2024 - INFO  - Start testing...
+Wed Sep 25 15:32:23 2024 - ERROR - uuidd.service restart failed
+Wed Sep 25 15:32:23 2024 - ERROR - ../common/common_lib.sh line 37
+Warning: Stopping uuidd.service, but it can still be activated by:
+  uuidd.socket
+Wed Sep 25 15:32:29 2024 - ERROR - uuidd.service stop failed
+Wed Sep 25 15:32:29 2024 - ERROR - ../common/common_lib.sh line 42
+Wed Sep 25 15:32:35 2024 - ERROR - uuidd.service start failed
+Wed Sep 25 15:32:35 2024 - ERROR - ../common/common_lib.sh line 47
+Wed Sep 25 15:32:35 2024 - INFO  - Unit is indirect, ignoring.
+Sep 25 15:32:18 openeuler-riscv64 systemd[1]: uuidd.service: Main process exited, code=exited, status=1/FAILURE
+Sep 25 15:32:18 openeuler-riscv64 systemd[1]: uuidd.service: Failed with result 'exit-code'.
+Sep 25 15:32:30 openeuler-riscv64 systemd[1]: uuidd.service: Main process exited, code=exited, status=1/FAILURE
+Sep 25 15:32:30 openeuler-riscv64 systemd[1]: uuidd.service: Failed with result 'exit-code'.
+Wed Sep 25 15:32:36 2024 - ERROR - There is an error message for the log of uuidd.service
+Wed Sep 25 15:32:36 2024 - ERROR - ../common/common_lib.sh line 28
+Failed to reload uuidd.service: Job type reload is not applicable for unit uuidd.service.
+     Active: active (running) since Wed 2024-09-25 15:32:36 CST; 115ms ago
+Wed Sep 25 15:32:37 2024 - INFO  - Finish test!
+Wed Sep 25 15:32:37 2024 - ERROR - failed to execute the case.
+Wed Sep 25 15:32:37 2024 - INFO  - start environment cleanup.
+Wed Sep 25 15:32:44 2024 - INFO  - Finish environment cleanup!

@@ -1,0 +1,15 @@
+Wed Oct  9 18:50:42 2024 - INFO  - Start to run test.
+Stopping logging: 
+Redirecting start to /bin/systemctl start auditd.service
+No rules
+arch elf mapping not found
+Wed Oct  9 18:50:44 2024 - ERROR - add failed
+Wed Oct  9 18:50:44 2024 - ERROR - oe_test_audit_use_d_audit.sh line 29
+Wed Oct  9 18:50:44 2024 - ERROR - grep failed
+Wed Oct  9 18:50:45 2024 - ERROR - oe_test_audit_use_d_audit.sh line 31
+arch elf mapping not found
+Wed Oct  9 18:50:45 2024 - ERROR - delete failed
+Wed Oct  9 18:50:45 2024 - ERROR - oe_test_audit_use_d_audit.sh line 33
+Wed Oct  9 18:50:45 2024 - INFO  - End to run test.
+Wed Oct  9 18:50:45 2024 - ERROR - failed to execute the case.
+Wed Oct  9 18:50:45 2024 - INFO  - oe_test_audit_use_d_audit.sh post_test
