@@ -1,9 +1,0 @@
-[manpage_begin NAME SECTION VERSION]
-[copyright {YEAR AUTHOR}]
-[titledesc TITLE]
-[moddesc   MODULE_TITLE]
-[require   PACKAGE VERSION]
-[require   PACKAGE]
-[description]
-[manpage_end]
-
